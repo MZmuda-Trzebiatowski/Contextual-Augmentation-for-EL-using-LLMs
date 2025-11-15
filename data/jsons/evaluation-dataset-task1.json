@@ -1,0 +1,4491 @@
+[
+    {
+        "corpus": "Mario Capecchi was born in the city of Verona as the only child of Luciano Capecchi, an airman, and Lucy Ramberg, an American-born daughter of Impressionist painter Lucy Dodd Ramberg and German archaeologist Walter Ramberg.",
+        "tags": [
+            {
+                "text": "Luciano Capecchi",
+                "beginIndex": 67,
+                "endIndex": 83,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Luciano_Capecchi"
+            },
+            {
+                "text": "Lucy Dodd Ramberg",
+                "beginIndex": 165,
+                "endIndex": 182,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Lucy_Dodd_Ramberg"
+            },
+            {
+                "text": "Impressionist painter",
+                "beginIndex": 143,
+                "endIndex": 164,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Impressionist_painter"
+            },
+            {
+                "text": "German",
+                "beginIndex": 187,
+                "endIndex": 193,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Germans"
+            },
+            {
+                "text": "archaeologist",
+                "beginIndex": 194,
+                "endIndex": 207,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Archaeology"
+            },
+            {
+                "text": "American-born",
+                "beginIndex": 117,
+                "endIndex": 130,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Americans"
+            },
+            {
+                "text": "Mario Capecchi",
+                "beginIndex": 0,
+                "endIndex": 14,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Mario_Capecchi"
+            },
+            {
+                "text": "daughter",
+                "beginIndex": 131,
+                "endIndex": 139,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Daughter"
+            },
+            {
+                "text": "airman",
+                "beginIndex": 88,
+                "endIndex": 94,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Airman"
+            },
+            {
+                "text": "Walter Ramberg",
+                "beginIndex": 208,
+                "endIndex": 222,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Walter_Ramberg"
+            },
+            {
+                "text": "Verona",
+                "beginIndex": 39,
+                "endIndex": 45,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Verona"
+            },
+            {
+                "text": "Lucy Ramberg",
+                "beginIndex": 100,
+                "endIndex": 112,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Lucy_Ramberg"
+            }
+        ]
+    },
+    {
+        "corpus": "John started with high expectations and enthusiasm to study chemistry at the famous Swiss Federal Institute of Technology in Zurich.",
+        "tags": [
+            {
+                "text": "Zurich",
+                "beginIndex": 125,
+                "endIndex": 131,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Z\u00fcrich"
+            },
+            {
+                "text": "Swiss Federal Institute of Technology",
+                "beginIndex": 84,
+                "endIndex": 121,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-ETH_Zurich"
+            },
+            {
+                "text": "John",
+                "beginIndex": 0,
+                "endIndex": 4,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-John_1"
+            }
+        ]
+    },
+    {
+        "corpus": "Mandela served 27 years in prison, initially on Robben Island, and later in Pollsmoor Prison and Victor Verster Prison.",
+        "tags": [
+            {
+                "text": "Robben Island",
+                "beginIndex": 48,
+                "endIndex": 61,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Robben_Island"
+            },
+            {
+                "text": "Pollsmoor Prison",
+                "beginIndex": 76,
+                "endIndex": 92,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Pollsmoor_Prison"
+            },
+            {
+                "text": "Mandela",
+                "beginIndex": 0,
+                "endIndex": 7,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Mandela"
+            },
+            {
+                "text": "Victor Verster Prison",
+                "beginIndex": 97,
+                "endIndex": 118,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Victor_Verster_Prison"
+            }
+        ]
+    },
+    {
+        "corpus": "In 2001 he became a professor of physics at the University of Manchester, and was appointed director of the Manchester Centre for Mesoscience and Nanotechnology in 2002.",
+        "tags": [
+            {
+                "text": "director",
+                "beginIndex": 92,
+                "endIndex": 100,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Director_(business)"
+            },
+            {
+                "text": "he",
+                "beginIndex": 8,
+                "endIndex": 10,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-He_8"
+            },
+            {
+                "text": "Manchester Centre for Mesoscience and Nanotechnology",
+                "beginIndex": 108,
+                "endIndex": 160,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Manchester_Centre_for_Mesoscience_and_Nanotechnology"
+            },
+            {
+                "text": "University of Manchester",
+                "beginIndex": 48,
+                "endIndex": 72,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_Manchester"
+            },
+            {
+                "text": "professor",
+                "beginIndex": 20,
+                "endIndex": 29,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Professor"
+            }
+        ]
+    },
+    {
+        "corpus": "Gordimer studied for a year at the University of the Witwatersrand, where she mixed for the first time with fellow professionals across the colour bar.",
+        "tags": [
+            {
+                "text": "University of the Witwatersrand",
+                "beginIndex": 35,
+                "endIndex": 66,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_the_Witwatersrand"
+            },
+            {
+                "text": "she",
+                "beginIndex": 74,
+                "endIndex": 77,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Nadine_Gordimer"
+            },
+            {
+                "text": "Gordimer",
+                "beginIndex": 0,
+                "endIndex": 8,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Nadine_Gordimer"
+            },
+            {
+                "text": "fellow",
+                "beginIndex": 108,
+                "endIndex": 114,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Fellow"
+            }
+        ]
+    },
+    {
+        "corpus": "Prelog attended elementary school in Sarajevo, but in 1915, moved to Zagreb where he graduated from elementary school. At first, Prelog attended gymnasium in Zagreb, but soon afterwards, his father got a job in Osijek.",
+        "tags": [
+            {
+                "text": "elementary school",
+                "beginIndex": 16,
+                "endIndex": 33,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Elementary_School"
+            },
+            {
+                "text": "Sarajevo",
+                "beginIndex": 37,
+                "endIndex": 45,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Sarajevo"
+            },
+            {
+                "text": "father",
+                "beginIndex": 191,
+                "endIndex": 197,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Father"
+            },
+            {
+                "text": "Prelog",
+                "beginIndex": 129,
+                "endIndex": 135,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Vladimir_Prelog"
+            },
+            {
+                "text": "Zagreb",
+                "beginIndex": 158,
+                "endIndex": 164,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Zagreb"
+            },
+            {
+                "text": "his",
+                "beginIndex": 187,
+                "endIndex": 190,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Vladimir_Prelog"
+            },
+            {
+                "text": "he",
+                "beginIndex": 82,
+                "endIndex": 84,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Vladimir_Prelog"
+            },
+            {
+                "text": "Zagreb",
+                "beginIndex": 69,
+                "endIndex": 75,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Zagreb"
+            },
+            {
+                "text": "gymnasium",
+                "beginIndex": 145,
+                "endIndex": 154,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Gymnasium"
+            },
+            {
+                "text": "Osijek",
+                "beginIndex": 211,
+                "endIndex": 217,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Osijek"
+            },
+            {
+                "text": "Prelog",
+                "beginIndex": 0,
+                "endIndex": 6,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Vladimir_Prelog"
+            },
+            {
+                "text": "elementary school",
+                "beginIndex": 100,
+                "endIndex": 117,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Elementary_School"
+            }
+        ]
+    },
+    {
+        "corpus": "Strict rules against nepotism prevented Johns Hopkins University from taking Goeppert Mayer on as a faculty member, but she was given a job as an assistant and published a landmark paper on double beta decay in 1935.",
+        "tags": [
+            {
+                "text": "faculty member",
+                "beginIndex": 100,
+                "endIndex": 114,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Faculty_(academic_staff)"
+            },
+            {
+                "text": "Johns Hopkins University",
+                "beginIndex": 40,
+                "endIndex": 64,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Johns_Hopkins_University"
+            },
+            {
+                "text": "she",
+                "beginIndex": 120,
+                "endIndex": 123,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Maria_Goeppert-Mayer"
+            },
+            {
+                "text": "Goeppert Mayer",
+                "beginIndex": 77,
+                "endIndex": 91,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Maria_Goeppert-Mayer"
+            },
+            {
+                "text": "assistant",
+                "beginIndex": 146,
+                "endIndex": 155,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Research_assistant"
+            }
+        ]
+    },
+    {
+        "corpus": "Appointed Professor at the University of Rome, man's seminars there included Harlequin and the commedia dell'arte.",
+        "tags": [
+            {
+                "text": "Harlequin",
+                "beginIndex": 77,
+                "endIndex": 86,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Harlequin"
+            },
+            {
+                "text": "commedia dell'arte",
+                "beginIndex": 95,
+                "endIndex": 113,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Commedia_dell'arte"
+            },
+            {
+                "text": "University of Rome",
+                "beginIndex": 27,
+                "endIndex": 45,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_Rome"
+            },
+            {
+                "text": "Professor",
+                "beginIndex": 10,
+                "endIndex": 19,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Professor"
+            },
+            {
+                "text": "man",
+                "beginIndex": 47,
+                "endIndex": 50,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Man_2"
+            }
+        ]
+    },
+    {
+        "corpus": "Born on 22 April 1909 at Turin Rita Levi-Montalcini were the youngest of four children. Her parents were Adele Montalcini, a painter, and Adamo Levi, an electrical engineer and mathematician.",
+        "tags": [
+            {
+                "text": "Turin",
+                "beginIndex": 25,
+                "endIndex": 30,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Turin"
+            },
+            {
+                "text": "Rita Levi-Montalcini",
+                "beginIndex": 31,
+                "endIndex": 51,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Rita_Levi-Montalcini"
+            },
+            {
+                "text": "mathematician",
+                "beginIndex": 177,
+                "endIndex": 190,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Mathematician"
+            },
+            {
+                "text": "Her",
+                "beginIndex": 88,
+                "endIndex": 91,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Rita_Levi-Montalcini"
+            },
+            {
+                "text": "Adele Montalcini",
+                "beginIndex": 105,
+                "endIndex": 121,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Adele_Montalcini"
+            },
+            {
+                "text": "electrical engineer",
+                "beginIndex": 153,
+                "endIndex": 172,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Electrical_Engineer"
+            },
+            {
+                "text": "painter",
+                "beginIndex": 125,
+                "endIndex": 132,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Painter"
+            },
+            {
+                "text": "Adamo Levi",
+                "beginIndex": 138,
+                "endIndex": 148,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Adamo_Levi"
+            }
+        ]
+    },
+    {
+        "corpus": "Neruda derived his pen name from the Czech poet Jan Neruda and became known as a poet when he was 10 years old.",
+        "tags": [
+            {
+                "text": "he",
+                "beginIndex": 91,
+                "endIndex": 93,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Pablo_Neruda"
+            },
+            {
+                "text": "Neruda",
+                "beginIndex": 0,
+                "endIndex": 6,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Pablo_Neruda"
+            },
+            {
+                "text": "Czech",
+                "beginIndex": 37,
+                "endIndex": 42,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Czechs"
+            },
+            {
+                "text": "his",
+                "beginIndex": 15,
+                "endIndex": 18,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Pablo_Neruda"
+            },
+            {
+                "text": "poet",
+                "beginIndex": 43,
+                "endIndex": 47,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Poet"
+            },
+            {
+                "text": "Jan Neruda",
+                "beginIndex": 48,
+                "endIndex": 58,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Jan_Neruda"
+            },
+            {
+                "text": "poet",
+                "beginIndex": 81,
+                "endIndex": 85,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Poet"
+            }
+        ]
+    },
+    {
+        "corpus": "After World War II broke out, in 1941 Prelog was invited in Germany by Richard Kuhn as lecturer, and shortly afterwards, Lavoslav Ru\u017ei\u010dka, invited Prelog to visit him on his way to Germany.",
+        "tags": [
+            {
+                "text": "his",
+                "beginIndex": 170,
+                "endIndex": 173,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Leopold_Ru\u017ei\u010dka"
+            },
+            {
+                "text": "Prelog",
+                "beginIndex": 147,
+                "endIndex": 153,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Vladimir_Prelog"
+            },
+            {
+                "text": "Germany",
+                "beginIndex": 181,
+                "endIndex": 188,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Germany"
+            },
+            {
+                "text": "Richard Kuhn",
+                "beginIndex": 71,
+                "endIndex": 83,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Richard_Kuhn"
+            },
+            {
+                "text": "Prelog",
+                "beginIndex": 38,
+                "endIndex": 44,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Vladimir_Prelog"
+            },
+            {
+                "text": "Germany",
+                "beginIndex": 60,
+                "endIndex": 67,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Germany"
+            },
+            {
+                "text": "him",
+                "beginIndex": 163,
+                "endIndex": 166,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Leopold_Ru\u017ei\u010dka"
+            },
+            {
+                "text": "lecturer",
+                "beginIndex": 87,
+                "endIndex": 95,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Lecturer"
+            },
+            {
+                "text": "Lavoslav Ru\u017ei\u010dka",
+                "beginIndex": 121,
+                "endIndex": 137,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Leopold_Ru\u017ei\u010dka"
+            }
+        ]
+    },
+    {
+        "corpus": "Thomas Eliot was invited to study at the Institute for Advanced Study by Director Frank Aydelotte. Eliot was born into the Eliot family, a Boston Brahmin family with roots in England and New England.",
+        "tags": [
+            {
+                "text": "Director",
+                "beginIndex": 73,
+                "endIndex": 81,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Director_(business)"
+            },
+            {
+                "text": "New England",
+                "beginIndex": 187,
+                "endIndex": 198,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-New_England"
+            },
+            {
+                "text": "England",
+                "beginIndex": 175,
+                "endIndex": 182,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-England"
+            },
+            {
+                "text": "Thomas Eliot",
+                "beginIndex": 0,
+                "endIndex": 12,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-T._S._Eliot"
+            },
+            {
+                "text": "Boston Brahmin family",
+                "beginIndex": 139,
+                "endIndex": 160,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Boston_Brahmin"
+            },
+            {
+                "text": "Frank Aydelotte",
+                "beginIndex": 82,
+                "endIndex": 97,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Frank_Aydelotte"
+            },
+            {
+                "text": "Eliot family",
+                "beginIndex": 123,
+                "endIndex": 135,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Eliot_Family"
+            },
+            {
+                "text": "Institute for Advanced Study",
+                "beginIndex": 41,
+                "endIndex": 69,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Institute_for_Advanced_Study"
+            },
+            {
+                "text": "Eliot",
+                "beginIndex": 99,
+                "endIndex": 104,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-T._S._Eliot"
+            }
+        ]
+    },
+    {
+        "corpus": "In 1950 James Tobin moved to Yale University, where he remained for the rest of his career. James Tobin joined the Cowles Foundation, which moved to Yale in 1955, also serving as its president between 1955\u20131961 and 1964-1965.",
+        "tags": [
+            {
+                "text": "James Tobin",
+                "beginIndex": 8,
+                "endIndex": 19,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-James_Tobin"
+            },
+            {
+                "text": "president",
+                "beginIndex": 183,
+                "endIndex": 192,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-President"
+            },
+            {
+                "text": "Yale",
+                "beginIndex": 149,
+                "endIndex": 153,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Yale_University"
+            },
+            {
+                "text": "James Tobin",
+                "beginIndex": 92,
+                "endIndex": 103,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-James_Tobin"
+            },
+            {
+                "text": "he",
+                "beginIndex": 52,
+                "endIndex": 54,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-James_Tobin"
+            },
+            {
+                "text": "his",
+                "beginIndex": 80,
+                "endIndex": 83,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-James_Tobin"
+            },
+            {
+                "text": "Cowles Foundation",
+                "beginIndex": 115,
+                "endIndex": 132,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Cowles_Foundation"
+            },
+            {
+                "text": "Yale University",
+                "beginIndex": 29,
+                "endIndex": 44,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Yale_University"
+            }
+        ]
+    },
+    {
+        "corpus": "In 1949 Toni Morrison went to Howard University graduating in 1953 with a B.A. in English; she went on to earn a Master of Arts from Cornell University in 1955.",
+        "tags": [
+            {
+                "text": "Toni Morrison",
+                "beginIndex": 8,
+                "endIndex": 21,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Toni_Morrison"
+            },
+            {
+                "text": "Howard University",
+                "beginIndex": 30,
+                "endIndex": 47,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Howard_University"
+            },
+            {
+                "text": "Cornell University",
+                "beginIndex": 133,
+                "endIndex": 151,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Cornell_University"
+            },
+            {
+                "text": "she",
+                "beginIndex": 91,
+                "endIndex": 94,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Toni_Morrison"
+            }
+        ]
+    },
+    {
+        "corpus": "Beckett studied French, Italian, and English at Trinity College, Dublin from 1923 to 1927. Beckett graduated with a BA and, after teaching briefly at Campbell College in Belfast, took up the post of lecteur d'anglais in the \u00c9cole Normale Sup\u00e9rieure in Paris.",
+        "tags": [
+            {
+                "text": "\u00c9cole Normale Sup\u00e9rieure",
+                "beginIndex": 224,
+                "endIndex": 248,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-\u00c9cole_Normale_Sup\u00e9rieure"
+            },
+            {
+                "text": "Campbell College",
+                "beginIndex": 150,
+                "endIndex": 166,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Campbell_College"
+            },
+            {
+                "text": "Dublin",
+                "beginIndex": 65,
+                "endIndex": 71,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Dublin"
+            },
+            {
+                "text": "lecteur",
+                "beginIndex": 199,
+                "endIndex": 206,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Lecturer"
+            },
+            {
+                "text": "Paris",
+                "beginIndex": 252,
+                "endIndex": 257,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Paris"
+            },
+            {
+                "text": "Trinity College",
+                "beginIndex": 48,
+                "endIndex": 63,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Trinity_College,_Dublin"
+            },
+            {
+                "text": "Belfast",
+                "beginIndex": 170,
+                "endIndex": 177,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Belfast"
+            },
+            {
+                "text": "Beckett",
+                "beginIndex": 91,
+                "endIndex": 98,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Samuel_Beckett"
+            },
+            {
+                "text": "Beckett",
+                "beginIndex": 0,
+                "endIndex": 7,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Samuel_Beckett"
+            }
+        ]
+    },
+    {
+        "corpus": "After graduating from Magdalene College in 1921, Blackett spent ten years working at the Cavendish Laboratory as an experimental physicist with Professor Rutherford and in 1923 became a fellow of King's College, Cambridge, a position he held until 1933.",
+        "tags": [
+            {
+                "text": "Blackett",
+                "beginIndex": 49,
+                "endIndex": 57,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Patrick_Blackett,_Baron_Blackett"
+            },
+            {
+                "text": "Magdalene College",
+                "beginIndex": 22,
+                "endIndex": 39,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Magdalene_College,_Cambridge"
+            },
+            {
+                "text": "Rutherford",
+                "beginIndex": 154,
+                "endIndex": 164,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Ernest_Rutherford"
+            },
+            {
+                "text": "Professor",
+                "beginIndex": 144,
+                "endIndex": 153,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Professor"
+            },
+            {
+                "text": "he",
+                "beginIndex": 237,
+                "endIndex": 239,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Patrick_Blackett,_Baron_Blackett"
+            },
+            {
+                "text": "Cambridge",
+                "beginIndex": 212,
+                "endIndex": 221,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Cambridge"
+            },
+            {
+                "text": "Cavendish Laboratory",
+                "beginIndex": 89,
+                "endIndex": 109,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Cavendish_Laboratory"
+            },
+            {
+                "text": "fellow",
+                "beginIndex": 186,
+                "endIndex": 192,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Fellow"
+            },
+            {
+                "text": "King's College",
+                "beginIndex": 196,
+                "endIndex": 210,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-King's_College,_Cambridge"
+            },
+            {
+                "text": "physicist",
+                "beginIndex": 129,
+                "endIndex": 138,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Physicist"
+            }
+        ]
+    },
+    {
+        "corpus": "Rita Levi-Montalcini had been the oldest living Nobel laureate and was the first ever to reach a 100th birthday. On 22 April 2009, Rita Levi-Montalcini was feted with a 100th birthday party at Rome's city hall.",
+        "tags": [
+            {
+                "text": "Rita Levi-Montalcini",
+                "beginIndex": 0,
+                "endIndex": 20,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Rita_Levi-Montalcini"
+            },
+            {
+                "text": "Rome's city hall",
+                "beginIndex": 193,
+                "endIndex": 209,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Rome's_City_Hall"
+            },
+            {
+                "text": "Rita Levi-Montalcini",
+                "beginIndex": 131,
+                "endIndex": 151,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Rita_Levi-Montalcini"
+            },
+            {
+                "text": "Nobel laureate",
+                "beginIndex": 48,
+                "endIndex": 62,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Nobel_laureate"
+            }
+        ]
+    },
+    {
+        "corpus": "She was appointed as Senator for Life in Italy by the President Carlo Azeglio Ciampi.",
+        "tags": [
+            {
+                "text": "Italy",
+                "beginIndex": 41,
+                "endIndex": 46,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Italy"
+            },
+            {
+                "text": "Carlo Azeglio Ciampi",
+                "beginIndex": 64,
+                "endIndex": 84,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Carlo_Azeglio_Ciampi"
+            },
+            {
+                "text": "Senator for Life",
+                "beginIndex": 21,
+                "endIndex": 37,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Senator_for_Life"
+            },
+            {
+                "text": "She",
+                "beginIndex": 0,
+                "endIndex": 3,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-She_3"
+            },
+            {
+                "text": "President",
+                "beginIndex": 54,
+                "endIndex": 63,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-President"
+            }
+        ]
+    },
+    {
+        "corpus": "In 2009, Wiesel criticized the Vatican for lifting the excommunication of controversial bishop Richard Williamson, a member of the Society of Saint Pius X.",
+        "tags": [
+            {
+                "text": "bishop",
+                "beginIndex": 88,
+                "endIndex": 94,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Bishop"
+            },
+            {
+                "text": "member",
+                "beginIndex": 117,
+                "endIndex": 123,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Member"
+            },
+            {
+                "text": "Vatican",
+                "beginIndex": 31,
+                "endIndex": 38,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Holy_See"
+            },
+            {
+                "text": "Society of Saint Pius X",
+                "beginIndex": 131,
+                "endIndex": 154,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Society_of_Saint_Pius_X"
+            },
+            {
+                "text": "Wiesel",
+                "beginIndex": 9,
+                "endIndex": 15,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Elie_Wiesel"
+            },
+            {
+                "text": "Richard Williamson",
+                "beginIndex": 95,
+                "endIndex": 113,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Richard_Williamson_(bishop)"
+            }
+        ]
+    },
+    {
+        "corpus": "Dulbecco was born in Catanzaro (Southern Italy), but spent his childhood and grew up in Liguria, in the coastal city Imperia. Dulbecco graduated from high school at 16, then moved to the University of Turin.",
+        "tags": [
+            {
+                "text": "University of Turin",
+                "beginIndex": 187,
+                "endIndex": 206,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_Turin"
+            },
+            {
+                "text": "Imperia",
+                "beginIndex": 117,
+                "endIndex": 124,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Imperia"
+            },
+            {
+                "text": "Southern Italy",
+                "beginIndex": 32,
+                "endIndex": 46,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Southern_Italy"
+            },
+            {
+                "text": "Dulbecco",
+                "beginIndex": 0,
+                "endIndex": 8,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Renato_Dulbecco"
+            },
+            {
+                "text": "high school",
+                "beginIndex": 150,
+                "endIndex": 161,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-High_School"
+            },
+            {
+                "text": "Dulbecco",
+                "beginIndex": 126,
+                "endIndex": 134,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Renato_Dulbecco"
+            },
+            {
+                "text": "Catanzaro",
+                "beginIndex": 21,
+                "endIndex": 30,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Catanzaro"
+            },
+            {
+                "text": "Liguria",
+                "beginIndex": 88,
+                "endIndex": 95,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Liguria"
+            },
+            {
+                "text": "his",
+                "beginIndex": 59,
+                "endIndex": 62,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Renato_Dulbecco"
+            }
+        ]
+    },
+    {
+        "corpus": "A man from Japan received his bachelor's degree from Kyoto University in 1963. Such a man did post-doctoral work at the Salk Institute in San Diego in the laboratory of Renato Dulbecco, then worked at the Basel Institute for Immunology in Basel, Switzerland.",
+        "tags": [
+            {
+                "text": "Renato Dulbecco",
+                "beginIndex": 169,
+                "endIndex": 184,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Renato_Dulbecco"
+            },
+            {
+                "text": "San Diego",
+                "beginIndex": 138,
+                "endIndex": 147,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-San_Diego"
+            },
+            {
+                "text": "Basel Institute for Immunology",
+                "beginIndex": 205,
+                "endIndex": 235,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Basel_Institute_for_Immunology"
+            },
+            {
+                "text": "Basel, Switzerland",
+                "beginIndex": 239,
+                "endIndex": 244,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Basel"
+            },
+            {
+                "text": "Salk Institute",
+                "beginIndex": 120,
+                "endIndex": 134,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Salk_Institute"
+            },
+            {
+                "text": "man",
+                "beginIndex": 86,
+                "endIndex": 89,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Man_4"
+            },
+            {
+                "text": "his",
+                "beginIndex": 2,
+                "endIndex": 5,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-His_4"
+            },
+            {
+                "text": "Kyoto University",
+                "beginIndex": 53,
+                "endIndex": 69,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Kyoto_University"
+            },
+            {
+                "text": "Japan",
+                "beginIndex": 11,
+                "endIndex": 16,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Japan"
+            }
+        ]
+    },
+    {
+        "corpus": "The woman was awarded the Nobel Prize in Physics in 1963, which she shared with J. Hans D. Jensen and Eugene Wigner.",
+        "tags": [
+            {
+                "text": "Eugene Wigner",
+                "beginIndex": 102,
+                "endIndex": 115,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Eugene_Wigner"
+            },
+            {
+                "text": "J. Hans D. Jensen",
+                "beginIndex": 80,
+                "endIndex": 97,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-J._Hans_D._Jensen"
+            },
+            {
+                "text": "she",
+                "beginIndex": 64,
+                "endIndex": 67,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-She_1"
+            },
+            {
+                "text": "woman",
+                "beginIndex": 4,
+                "endIndex": 9,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Woman_2"
+            }
+        ]
+    },
+    {
+        "corpus": "After working as a assistant at Harvard from 1909 to 1910, Eliot moved to Paris, where from 1910 to 1911, he studied philosophy at the Sorbonne. Eliot attended lectures by Henri Bergson and read poetry with Alain-Fournier.",
+        "tags": [
+            {
+                "text": "Harvard",
+                "beginIndex": 32,
+                "endIndex": 39,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Harvard_University"
+            },
+            {
+                "text": "Alain-Fournier",
+                "beginIndex": 207,
+                "endIndex": 221,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Alain-Fournier"
+            },
+            {
+                "text": "Eliot",
+                "beginIndex": 59,
+                "endIndex": 64,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-T._S._Eliot"
+            },
+            {
+                "text": "Eliot",
+                "beginIndex": 145,
+                "endIndex": 150,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-T._S._Eliot"
+            },
+            {
+                "text": "Paris",
+                "beginIndex": 74,
+                "endIndex": 79,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Paris"
+            },
+            {
+                "text": "he",
+                "beginIndex": 106,
+                "endIndex": 108,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-T._S._Eliot"
+            },
+            {
+                "text": "Sorbonne",
+                "beginIndex": 135,
+                "endIndex": 143,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_Paris"
+            },
+            {
+                "text": "Henri Bergson",
+                "beginIndex": 172,
+                "endIndex": 185,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Henri_Bergson"
+            },
+            {
+                "text": "assistant",
+                "beginIndex": 19,
+                "endIndex": 28,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Research_assistant"
+            }
+        ]
+    },
+    {
+        "corpus": "In September 1946, Levi-Montalcini accepted an invitation to Washington University in St. Louis, under the supervision of Professor Viktor Hamburger. Although the initial invitation was for one semester, after she repeated the exciting results from her home laboratory, Hamburger offered her a research associate position.",
+        "tags": [
+            {
+                "text": "she",
+                "beginIndex": 210,
+                "endIndex": 213,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Rita_Levi-Montalcini"
+            },
+            {
+                "text": "Washington University",
+                "beginIndex": 61,
+                "endIndex": 82,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Washington_University_in_St._Louis"
+            },
+            {
+                "text": "Viktor Hamburger",
+                "beginIndex": 132,
+                "endIndex": 148,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Viktor_Hamburger"
+            },
+            {
+                "text": "her",
+                "beginIndex": 288,
+                "endIndex": 291,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Rita_Levi-Montalcini"
+            },
+            {
+                "text": "St. Louis",
+                "beginIndex": 86,
+                "endIndex": 95,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-St._Louis"
+            },
+            {
+                "text": "Levi-Montalcini",
+                "beginIndex": 19,
+                "endIndex": 34,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Rita_Levi-Montalcini"
+            },
+            {
+                "text": "Hamburger",
+                "beginIndex": 270,
+                "endIndex": 279,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Viktor_Hamburger"
+            },
+            {
+                "text": "research associate",
+                "beginIndex": 294,
+                "endIndex": 312,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Research_associate"
+            },
+            {
+                "text": "Professor",
+                "beginIndex": 122,
+                "endIndex": 131,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Professor"
+            },
+            {
+                "text": "her",
+                "beginIndex": 249,
+                "endIndex": 252,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Rita_Levi-Montalcini"
+            }
+        ]
+    },
+    {
+        "corpus": "In 1946 a woman from Ghana working at RCA sent a friend money to return to the United States.",
+        "tags": [
+            {
+                "text": "Ghana",
+                "beginIndex": 21,
+                "endIndex": 26,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Ghana"
+            },
+            {
+                "text": "RCA",
+                "beginIndex": 38,
+                "endIndex": 41,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-RCA"
+            },
+            {
+                "text": "friend",
+                "beginIndex": 49,
+                "endIndex": 55,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Friend"
+            },
+            {
+                "text": "United States",
+                "beginIndex": 79,
+                "endIndex": 92,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-United_States"
+            },
+            {
+                "text": "woman",
+                "beginIndex": 10,
+                "endIndex": 15,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Woman_3"
+            }
+        ]
+    },
+    {
+        "corpus": "In 1953, he moved to Trinity College, Cambridge, where he earned a second B.A. in Economics in 1955 with a first class topping the list. He was elected President of the Cambridge Majlis.",
+        "tags": [
+            {
+                "text": "Trinity College, Cambridge",
+                "beginIndex": 21,
+                "endIndex": 47,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Trinity_College,_Cambridge"
+            },
+            {
+                "text": "he",
+                "beginIndex": 55,
+                "endIndex": 57,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-He_9"
+            },
+            {
+                "text": "Cambridge Majlis",
+                "beginIndex": 169,
+                "endIndex": 185,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Cambridge_Majlis"
+            },
+            {
+                "text": "he",
+                "beginIndex": 9,
+                "endIndex": 11,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-He_9"
+            },
+            {
+                "text": "He",
+                "beginIndex": 137,
+                "endIndex": 139,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-He_9"
+            },
+            {
+                "text": "President",
+                "beginIndex": 152,
+                "endIndex": 161,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-President"
+            }
+        ]
+    },
+    {
+        "corpus": "Shuji Nakamura graduated from the University of Tokushima in 1977 with a B.Eng. degree in electronic engineering, and obtained an M.Eng. degree in the same subject two years later, after which he joined the Nichia Corporation, also based in Tokushima.",
+        "tags": [
+            {
+                "text": "he",
+                "beginIndex": 193,
+                "endIndex": 195,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Shuji_Nakamura"
+            },
+            {
+                "text": "University of Tokushima",
+                "beginIndex": 34,
+                "endIndex": 57,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_Tokushima"
+            },
+            {
+                "text": "Shuji Nakamura",
+                "beginIndex": 0,
+                "endIndex": 14,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Shuji_Nakamura"
+            },
+            {
+                "text": "Tokushima",
+                "beginIndex": 241,
+                "endIndex": 250,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Tokushima,_Tokushima"
+            },
+            {
+                "text": "Nichia Corporation",
+                "beginIndex": 207,
+                "endIndex": 225,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Nichia"
+            }
+        ]
+    },
+    {
+        "corpus": "One of the them was an eminent scholar at Berkeley.",
+        "tags": [
+            {
+                "text": "scholar",
+                "beginIndex": 31,
+                "endIndex": 38,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Scholar"
+            },
+            {
+                "text": "One of the them",
+                "beginIndex": 0,
+                "endIndex": 15,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-One_of_the_them"
+            },
+            {
+                "text": "Berkeley",
+                "beginIndex": 42,
+                "endIndex": 50,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_California,_Berkeley"
+            }
+        ]
+    },
+    {
+        "corpus": "Fert graduated in 1962 from the \u00c9cole Normale Sup\u00e9rieure in Paris. He received his Ph.D. (doctorat de troisi\u00e8me cycle) in 1963 and his Sc.D. (doctorat des sciences), both from the Orsay Faculty of Sciences of the University of Paris.",
+        "tags": [
+            {
+                "text": "University of Paris",
+                "beginIndex": 213,
+                "endIndex": 232,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_Paris"
+            },
+            {
+                "text": "\u00c9cole Normale Sup\u00e9rieure",
+                "beginIndex": 32,
+                "endIndex": 56,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-\u00c9cole_Normale_Sup\u00e9rieure"
+            },
+            {
+                "text": "his",
+                "beginIndex": 131,
+                "endIndex": 134,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Albert_Fert"
+            },
+            {
+                "text": "He",
+                "beginIndex": 67,
+                "endIndex": 69,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Albert_Fert"
+            },
+            {
+                "text": "Fert",
+                "beginIndex": 0,
+                "endIndex": 4,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Albert_Fert"
+            },
+            {
+                "text": "Paris",
+                "beginIndex": 60,
+                "endIndex": 65,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Paris"
+            },
+            {
+                "text": "Orsay Faculty of Sciences",
+                "beginIndex": 180,
+                "endIndex": 205,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Orsay_Faculty_of_Sciences"
+            },
+            {
+                "text": "his",
+                "beginIndex": 79,
+                "endIndex": 82,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Albert_Fert"
+            }
+        ]
+    },
+    {
+        "corpus": "During his lifetime, Neruda occupied many diplomatic positions and served a term as a Senator for the Chilean Communist Party. When President Gonz\u00e1lez Videla outlawed communism in Chile in 1948, a warrant was issued for Neruda's arrest. Friends hide him for months in the basement of a house in the port city of Valpara\u00edso. Later, Neruda escaped through a mountain pass near Maihue Lake into Argentina.",
+        "tags": [
+            {
+                "text": "Chile",
+                "beginIndex": 180,
+                "endIndex": 185,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Chile"
+            },
+            {
+                "text": "Maihue Lake",
+                "beginIndex": 375,
+                "endIndex": 386,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Maihue_Lake"
+            },
+            {
+                "text": "diplomatic positions",
+                "beginIndex": 42,
+                "endIndex": 62,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Diplomatic_rank"
+            },
+            {
+                "text": "him",
+                "beginIndex": 250,
+                "endIndex": 253,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Pablo_Neruda"
+            },
+            {
+                "text": "President",
+                "beginIndex": 132,
+                "endIndex": 141,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-President"
+            },
+            {
+                "text": "Senator",
+                "beginIndex": 86,
+                "endIndex": 93,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Senator"
+            },
+            {
+                "text": "Neruda",
+                "beginIndex": 331,
+                "endIndex": 337,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Pablo_Neruda"
+            },
+            {
+                "text": "mountain pass",
+                "beginIndex": 356,
+                "endIndex": 369,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Mountain_Pass"
+            },
+            {
+                "text": "his",
+                "beginIndex": 7,
+                "endIndex": 10,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Pablo_Neruda"
+            },
+            {
+                "text": "Gonz\u00e1lez Videla",
+                "beginIndex": 142,
+                "endIndex": 157,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Gabriel_Gonz\u00e1lez_Videla"
+            },
+            {
+                "text": "Chilean Communist Party",
+                "beginIndex": 102,
+                "endIndex": 125,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Communist_Party_of_Chile"
+            },
+            {
+                "text": "Argentina",
+                "beginIndex": 392,
+                "endIndex": 401,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Argentina"
+            },
+            {
+                "text": "Neruda",
+                "beginIndex": 220,
+                "endIndex": 226,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Pablo_Neruda"
+            },
+            {
+                "text": "house",
+                "beginIndex": 286,
+                "endIndex": 291,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-House"
+            },
+            {
+                "text": "Neruda",
+                "beginIndex": 21,
+                "endIndex": 27,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Pablo_Neruda"
+            },
+            {
+                "text": "Valpara\u00edso",
+                "beginIndex": 312,
+                "endIndex": 322,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Valpara\u00edso"
+            }
+        ]
+    },
+    {
+        "corpus": "Nelson Mandela publicly launched Umkhonto we Sizwe at the All In Conference, where delegates from several movements had convened to discuss cooperation.",
+        "tags": [
+            {
+                "text": "Umkhonto we Sizwe",
+                "beginIndex": 33,
+                "endIndex": 50,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Umkhonto_we_Sizwe"
+            },
+            {
+                "text": "Nelson Mandela",
+                "beginIndex": 0,
+                "endIndex": 14,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Nelson_Mandela"
+            }
+        ]
+    },
+    {
+        "corpus": "Munro began writing as a teenager, publishing her first story, \"The Dimensions of a Shadow\", in 1950 while studying English and journalism at the University of Western Ontario.",
+        "tags": [
+            {
+                "text": "Munro",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Alice_Munro"
+            },
+            {
+                "text": "University of Western Ontario",
+                "beginIndex": 146,
+                "endIndex": 175,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_Western_Ontario"
+            },
+            {
+                "text": "her",
+                "beginIndex": 46,
+                "endIndex": 49,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Alice_Munro"
+            }
+        ]
+    },
+    {
+        "corpus": "In 1944 Lutuli joined the African National Congress. In 1945 he was elected to the Committee of the KwaZulu Provincial Division of the African National Congress and in 1951 to the presidency of the Division.",
+        "tags": [
+            {
+                "text": "he",
+                "beginIndex": 61,
+                "endIndex": 63,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Albert_Lutuli"
+            },
+            {
+                "text": "Lutuli",
+                "beginIndex": 8,
+                "endIndex": 14,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Albert_Lutuli"
+            },
+            {
+                "text": "KwaZulu Provincial Division",
+                "beginIndex": 100,
+                "endIndex": 127,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-KwaZulu-Natal_Division"
+            },
+            {
+                "text": "Division",
+                "beginIndex": 198,
+                "endIndex": 206,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-KwaZulu-Natal_Division"
+            },
+            {
+                "text": "African National Congress",
+                "beginIndex": 26,
+                "endIndex": 51,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-African_National_Congress"
+            },
+            {
+                "text": "African National Congress",
+                "beginIndex": 135,
+                "endIndex": 160,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-African_National_Congress"
+            }
+        ]
+    },
+    {
+        "corpus": "The man served on various committees and spent time at the Royal Aircraft Establishment in Farnborough, where he made a major contribution to the design of the Mark XIV bomb sight which allowed bombs to be released without a level bombing run beforehand.",
+        "tags": [
+            {
+                "text": "man",
+                "beginIndex": 4,
+                "endIndex": 7,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Man_1"
+            },
+            {
+                "text": "he",
+                "beginIndex": 110,
+                "endIndex": 112,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-He_1"
+            },
+            {
+                "text": "Royal Aircraft Establishment",
+                "beginIndex": 59,
+                "endIndex": 87,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Royal_Aircraft_Establishment"
+            },
+            {
+                "text": "Farnborough",
+                "beginIndex": 91,
+                "endIndex": 102,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Farnborough,_Hampshire"
+            }
+        ]
+    },
+    {
+        "corpus": "William Golding was appointed Knight Bachelor by the Queen Elizabeth II in 1988.",
+        "tags": [
+            {
+                "text": "Queen",
+                "beginIndex": 53,
+                "endIndex": 58,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Queen_regnant"
+            },
+            {
+                "text": "William Golding",
+                "beginIndex": 0,
+                "endIndex": 15,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-William_Golding"
+            },
+            {
+                "text": "Knight Bachelor",
+                "beginIndex": 30,
+                "endIndex": 45,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Knight_Bachelor"
+            },
+            {
+                "text": "Elizabeth II",
+                "beginIndex": 59,
+                "endIndex": 71,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Elizabeth_II"
+            }
+        ]
+    },
+    {
+        "corpus": "Michael was born April 26, 1932, in Blackpool, Lancashire, England. He immigrated to Canada in 1956 and became a Canadian citizen in 1963. Michael married Helen Wood Christie on August 6, 1960, on Vancouver Island.",
+        "tags": [
+            {
+                "text": "Canada",
+                "beginIndex": 85,
+                "endIndex": 91,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Canada"
+            },
+            {
+                "text": "Michael",
+                "beginIndex": 139,
+                "endIndex": 146,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Michael"
+            },
+            {
+                "text": "Blackpool, Lancashire, England",
+                "beginIndex": 36,
+                "endIndex": 66,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Blackpool"
+            },
+            {
+                "text": "Vancouver Island",
+                "beginIndex": 197,
+                "endIndex": 213,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Vancouver_Island"
+            },
+            {
+                "text": "Helen Wood Christie",
+                "beginIndex": 155,
+                "endIndex": 174,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Helen_Wood_Christie"
+            },
+            {
+                "text": "Michael",
+                "beginIndex": 0,
+                "endIndex": 7,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Michael"
+            },
+            {
+                "text": "Canadian",
+                "beginIndex": 113,
+                "endIndex": 121,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Canadians"
+            },
+            {
+                "text": "citizen",
+                "beginIndex": 122,
+                "endIndex": 129,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Citizenship"
+            },
+            {
+                "text": "He",
+                "beginIndex": 68,
+                "endIndex": 70,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-He_6"
+            }
+        ]
+    },
+    {
+        "corpus": "Goeppert Mayer married Joseph Edward Mayer, and moved to the United States, where Goeppert Mayer was an associate professor at Johns Hopkins University.",
+        "tags": [
+            {
+                "text": "Goeppert Mayer",
+                "beginIndex": 82,
+                "endIndex": 96,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Maria_Goeppert-Mayer"
+            },
+            {
+                "text": "United States",
+                "beginIndex": 61,
+                "endIndex": 74,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-United_States"
+            },
+            {
+                "text": "Joseph Edward Mayer",
+                "beginIndex": 23,
+                "endIndex": 42,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Joseph_Edward_Mayer"
+            },
+            {
+                "text": "Goeppert Mayer",
+                "beginIndex": 0,
+                "endIndex": 14,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Maria_Goeppert-Mayer"
+            },
+            {
+                "text": "Johns Hopkins University",
+                "beginIndex": 127,
+                "endIndex": 151,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Johns_Hopkins_University"
+            },
+            {
+                "text": "associate professor",
+                "beginIndex": 104,
+                "endIndex": 123,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Professor"
+            }
+        ]
+    },
+    {
+        "corpus": "Mario Capecchi was a Fellow of the Society of Fellows at Harvard University from 1967 to 1969. In 1973 Capecchi joined the faculty at the University of Utah.",
+        "tags": [
+            {
+                "text": "Capecchi",
+                "beginIndex": 103,
+                "endIndex": 111,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Capecchi"
+            },
+            {
+                "text": "Mario Capecchi",
+                "beginIndex": 0,
+                "endIndex": 14,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Mario_Capecchi"
+            },
+            {
+                "text": "Society of Fellows",
+                "beginIndex": 35,
+                "endIndex": 53,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Society_of_Fellows"
+            },
+            {
+                "text": "faculty",
+                "beginIndex": 123,
+                "endIndex": 130,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Faculty"
+            },
+            {
+                "text": "University of Utah",
+                "beginIndex": 138,
+                "endIndex": 156,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_Utah"
+            },
+            {
+                "text": "Harvard University",
+                "beginIndex": 57,
+                "endIndex": 75,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Harvard_University"
+            },
+            {
+                "text": "Fellow",
+                "beginIndex": 21,
+                "endIndex": 27,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Fellow"
+            }
+        ]
+    },
+    {
+        "corpus": "From 1936 to 1938 he moved as a full professor and director of the Institute of Industrial Chemistry at the Polytechnic Institute of Turin.",
+        "tags": [
+            {
+                "text": "Polytechnic Institute of Turin",
+                "beginIndex": 108,
+                "endIndex": 138,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Polytechnic_University_of_Turin"
+            },
+            {
+                "text": "full professor",
+                "beginIndex": 32,
+                "endIndex": 46,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Professor"
+            },
+            {
+                "text": "he",
+                "beginIndex": 18,
+                "endIndex": 20,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-He_2"
+            },
+            {
+                "text": "Institute of Industrial Chemistry",
+                "beginIndex": 67,
+                "endIndex": 100,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Institute_of_Industrial_Chemistry"
+            },
+            {
+                "text": "director",
+                "beginIndex": 51,
+                "endIndex": 59,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Director_(business)"
+            }
+        ]
+    },
+    {
+        "corpus": "Eliot attended Milton Academy in Massachusetts for a preparatory year, where he met Scofield Thayer.",
+        "tags": [
+            {
+                "text": "Massachusetts",
+                "beginIndex": 33,
+                "endIndex": 46,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Massachusetts"
+            },
+            {
+                "text": "he",
+                "beginIndex": 77,
+                "endIndex": 79,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-T._S._Eliot"
+            },
+            {
+                "text": "Eliot",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-T._S._Eliot"
+            },
+            {
+                "text": "Milton Academy",
+                "beginIndex": 15,
+                "endIndex": 29,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Milton_Academy"
+            },
+            {
+                "text": "Scofield Thayer",
+                "beginIndex": 84,
+                "endIndex": 99,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Scofield_Thayer"
+            }
+        ]
+    },
+    {
+        "corpus": "During the early 2007 selection process for the Kadima candidate for President, Prime Minister Ehud Olmert reportedly offered Wiesel the nomination, but Wiesel was not very interested.",
+        "tags": [
+            {
+                "text": "Kadima",
+                "beginIndex": 48,
+                "endIndex": 54,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Kadima"
+            },
+            {
+                "text": "Prime Minister",
+                "beginIndex": 80,
+                "endIndex": 94,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Prime_Minister"
+            },
+            {
+                "text": "Wiesel",
+                "beginIndex": 126,
+                "endIndex": 132,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Elie_Wiesel"
+            },
+            {
+                "text": "President",
+                "beginIndex": 69,
+                "endIndex": 78,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-President"
+            },
+            {
+                "text": "Wiesel",
+                "beginIndex": 153,
+                "endIndex": 159,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Elie_Wiesel"
+            },
+            {
+                "text": "Ehud Olmert",
+                "beginIndex": 95,
+                "endIndex": 106,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Ehud_Olmert"
+            }
+        ]
+    },
+    {
+        "corpus": "Nicolaas Bloembergen received his Ph.D. degree from University of Leiden under Cor Gorter in 1948; while pursuing his PhD at Harvard, Nicolaas Bloembergen also worked part-time as a graduate research assistant for Edward Mills Purcell at the MIT Radiation Laboratory.",
+        "tags": [
+            {
+                "text": "his",
+                "beginIndex": 114,
+                "endIndex": 117,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Nicolaas_Bloembergen"
+            },
+            {
+                "text": "research assistant",
+                "beginIndex": 191,
+                "endIndex": 209,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Research_Assistant"
+            },
+            {
+                "text": "Nicolaas Bloembergen",
+                "beginIndex": 0,
+                "endIndex": 20,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Nicolaas_Bloembergen"
+            },
+            {
+                "text": "MIT Radiation Laboratory",
+                "beginIndex": 242,
+                "endIndex": 266,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Radiation_Laboratory_(MIT)"
+            },
+            {
+                "text": "Edward Mills Purcell",
+                "beginIndex": 214,
+                "endIndex": 234,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Edward_Mills_Purcell"
+            },
+            {
+                "text": "his",
+                "beginIndex": 30,
+                "endIndex": 33,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Nicolaas_Bloembergen"
+            },
+            {
+                "text": "Harvard",
+                "beginIndex": 125,
+                "endIndex": 132,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Harvard_University"
+            },
+            {
+                "text": "Cor Gorter",
+                "beginIndex": 79,
+                "endIndex": 89,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Cornelis_Jacobus_Gorter"
+            },
+            {
+                "text": "Nicolaas Bloembergen",
+                "beginIndex": 134,
+                "endIndex": 154,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Nicolaas_Bloembergen"
+            },
+            {
+                "text": "University of Leiden",
+                "beginIndex": 52,
+                "endIndex": 72,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Leiden_University"
+            }
+        ]
+    },
+    {
+        "corpus": "Hulse was born in New York City and attended Bronx High School of Science and the Cooper Union before moving to University of Massachusetts Amherst.",
+        "tags": [
+            {
+                "text": "New York City",
+                "beginIndex": 18,
+                "endIndex": 31,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-New_York_City"
+            },
+            {
+                "text": "Hulse",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Russell_Alan_Hulse"
+            },
+            {
+                "text": "Bronx High School of Science",
+                "beginIndex": 45,
+                "endIndex": 73,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-The_Bronx_High_School_of_Science"
+            },
+            {
+                "text": "Cooper Union",
+                "beginIndex": 82,
+                "endIndex": 94,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Cooper_Union"
+            },
+            {
+                "text": "University of Massachusetts Amherst",
+                "beginIndex": 112,
+                "endIndex": 147,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_Massachusetts_Amherst"
+            }
+        ]
+    },
+    {
+        "corpus": "William Golding was born in Newquay, Cornwall where he spent many childhood holidays. He grew up in Marlborough, Wiltshire, where his father was a science master at Marlborough Grammar School.",
+        "tags": [
+            {
+                "text": "William Golding",
+                "beginIndex": 0,
+                "endIndex": 15,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-William_Golding"
+            },
+            {
+                "text": "He",
+                "beginIndex": 86,
+                "endIndex": 88,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-William_Golding"
+            },
+            {
+                "text": "he",
+                "beginIndex": 52,
+                "endIndex": 54,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-William_Golding"
+            },
+            {
+                "text": "Cornwall",
+                "beginIndex": 37,
+                "endIndex": 45,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Cornwall"
+            },
+            {
+                "text": "father",
+                "beginIndex": 134,
+                "endIndex": 140,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Father"
+            },
+            {
+                "text": "Wiltshire",
+                "beginIndex": 113,
+                "endIndex": 122,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Wiltshire"
+            },
+            {
+                "text": "Newquay",
+                "beginIndex": 28,
+                "endIndex": 35,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Newquay"
+            },
+            {
+                "text": "Marlborough",
+                "beginIndex": 100,
+                "endIndex": 111,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Marlborough,_Wiltshire"
+            },
+            {
+                "text": "science master",
+                "beginIndex": 147,
+                "endIndex": 161,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Master_of_Science"
+            },
+            {
+                "text": "Marlborough Grammar School",
+                "beginIndex": 165,
+                "endIndex": 191,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Marlborough_Royal_Free_Grammar_School"
+            },
+            {
+                "text": "his",
+                "beginIndex": 130,
+                "endIndex": 133,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-William_Golding"
+            }
+        ]
+    },
+    {
+        "corpus": "Giulio Natta was born in Imperia, Italy. He earned his degree in chemical engineering from the Politecnico di Milano university in Milan in 1924. Natta won a Nobel Prize in Chemistry in 1963 with Karl Ziegler for work on high polymers.",
+        "tags": [
+            {
+                "text": "his",
+                "beginIndex": 51,
+                "endIndex": 54,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Giulio_Natta"
+            },
+            {
+                "text": "He",
+                "beginIndex": 41,
+                "endIndex": 43,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Giulio_Natta"
+            },
+            {
+                "text": "Natta",
+                "beginIndex": 146,
+                "endIndex": 151,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Giulio_Natta"
+            },
+            {
+                "text": "Giulio Natta",
+                "beginIndex": 0,
+                "endIndex": 12,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Giulio_Natta"
+            },
+            {
+                "text": "Politecnico di Milano",
+                "beginIndex": 95,
+                "endIndex": 116,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Polytechnic_University_of_Milan"
+            },
+            {
+                "text": "Imperia",
+                "beginIndex": 25,
+                "endIndex": 32,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Imperia"
+            },
+            {
+                "text": "Milan",
+                "beginIndex": 131,
+                "endIndex": 136,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Milan"
+            },
+            {
+                "text": "Italy",
+                "beginIndex": 34,
+                "endIndex": 39,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Italy"
+            },
+            {
+                "text": "Karl Ziegler",
+                "beginIndex": 196,
+                "endIndex": 208,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Karl_Ziegler"
+            }
+        ]
+    },
+    {
+        "corpus": "In recent years Elizabeth Blackburn and her colleagues have been investigating the effect of stress on telomerase and telomeres with particular emphasis on mindfulness meditation. She appeared in the 1995 science documentary Death by Design/The Life and Times of Life and Times in the US.",
+        "tags": [
+            {
+                "text": "US",
+                "beginIndex": 285,
+                "endIndex": 287,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-United_States"
+            },
+            {
+                "text": "her",
+                "beginIndex": 40,
+                "endIndex": 43,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Elizabeth_Blackburn"
+            },
+            {
+                "text": "Elizabeth Blackburn",
+                "beginIndex": 16,
+                "endIndex": 35,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Elizabeth_Blackburn"
+            },
+            {
+                "text": "She",
+                "beginIndex": 180,
+                "endIndex": 183,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Elizabeth_Blackburn"
+            }
+        ]
+    },
+    {
+        "corpus": "In June 1968, when Quasimodo was in Amalfi for a discourse and he was struck by a cerebral hemorrhage. The poet died a few days later in the hospital in Naples.",
+        "tags": [
+            {
+                "text": "he",
+                "beginIndex": 63,
+                "endIndex": 65,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Salvatore_Quasimodo"
+            },
+            {
+                "text": "Quasimodo",
+                "beginIndex": 19,
+                "endIndex": 28,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Salvatore_Quasimodo"
+            },
+            {
+                "text": "Amalfi",
+                "beginIndex": 36,
+                "endIndex": 42,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Amalfi"
+            },
+            {
+                "text": "hospital",
+                "beginIndex": 141,
+                "endIndex": 149,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Hospital"
+            },
+            {
+                "text": "Naples",
+                "beginIndex": 153,
+                "endIndex": 159,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Naples"
+            },
+            {
+                "text": "poet",
+                "beginIndex": 107,
+                "endIndex": 111,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Poet"
+            }
+        ]
+    },
+    {
+        "corpus": "After the war Frank returned to the University of Bologna, also taking up architectural studies at the local faculty of engineering.",
+        "tags": [
+            {
+                "text": "faculty of engineering",
+                "beginIndex": 109,
+                "endIndex": 131,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Faculty_Of_Engineering"
+            },
+            {
+                "text": "Frank",
+                "beginIndex": 14,
+                "endIndex": 19,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Frank"
+            },
+            {
+                "text": "University of Bologna",
+                "beginIndex": 36,
+                "endIndex": 57,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_Bologna"
+            }
+        ]
+    },
+    {
+        "corpus": "After graduating in 1936, she went to work as Giuseppe Levi's assistant, but her academic career was cut short by Benito Mussolini.",
+        "tags": [
+            {
+                "text": "her",
+                "beginIndex": 77,
+                "endIndex": 80,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Her_1"
+            },
+            {
+                "text": "Giuseppe Levi",
+                "beginIndex": 46,
+                "endIndex": 59,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Giuseppe_Levi"
+            },
+            {
+                "text": "Benito Mussolini",
+                "beginIndex": 114,
+                "endIndex": 130,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Benito_Mussolini"
+            },
+            {
+                "text": "she",
+                "beginIndex": 26,
+                "endIndex": 29,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-She_2"
+            },
+            {
+                "text": "assistant",
+                "beginIndex": 62,
+                "endIndex": 71,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Research_assistant"
+            }
+        ]
+    },
+    {
+        "corpus": "In 1940, Romania lost the town of Sighet to Hungary following the Second Vienna Award. In 1944, Wiesel, his family, and the rest of the town were placed in one of the two ghettos in Sighet. Wiesel and his family lived in the larger of the two, on Serpent Street.",
+        "tags": [
+            {
+                "text": "family",
+                "beginIndex": 108,
+                "endIndex": 114,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Family_2"
+            },
+            {
+                "text": "Wiesel",
+                "beginIndex": 190,
+                "endIndex": 196,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Elie_Wiesel"
+            },
+            {
+                "text": "his",
+                "beginIndex": 104,
+                "endIndex": 107,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Elie_Wiesel"
+            },
+            {
+                "text": "Sighet",
+                "beginIndex": 34,
+                "endIndex": 40,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Sighetu_Marma\u021biei"
+            },
+            {
+                "text": "Wiesel",
+                "beginIndex": 96,
+                "endIndex": 102,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Elie_Wiesel"
+            },
+            {
+                "text": "family",
+                "beginIndex": 205,
+                "endIndex": 211,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Family_2"
+            },
+            {
+                "text": "Romania",
+                "beginIndex": 9,
+                "endIndex": 16,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Romania"
+            },
+            {
+                "text": "ghettos",
+                "beginIndex": 171,
+                "endIndex": 178,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Ghettos"
+            },
+            {
+                "text": "his",
+                "beginIndex": 201,
+                "endIndex": 204,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Elie_Wiesel"
+            },
+            {
+                "text": "Sighet",
+                "beginIndex": 182,
+                "endIndex": 188,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Sighetu_Marma\u021biei"
+            },
+            {
+                "text": "Hungary",
+                "beginIndex": 44,
+                "endIndex": 51,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Hungary"
+            },
+            {
+                "text": "Serpent Street",
+                "beginIndex": 247,
+                "endIndex": 261,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Serpent_Street"
+            }
+        ]
+    },
+    {
+        "corpus": "In 1966, Albert Lutuli was visited by United States Senator Robert F. Kennedy, who was visiting South Africa at the time.",
+        "tags": [
+            {
+                "text": "Albert Lutuli",
+                "beginIndex": 9,
+                "endIndex": 22,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Albert_Lutuli"
+            },
+            {
+                "text": "Robert F. Kennedy",
+                "beginIndex": 60,
+                "endIndex": 77,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Robert_F._Kennedy"
+            },
+            {
+                "text": "United States",
+                "beginIndex": 38,
+                "endIndex": 51,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-United_States"
+            },
+            {
+                "text": "South Africa",
+                "beginIndex": 96,
+                "endIndex": 108,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-South_Africa"
+            },
+            {
+                "text": "Senator",
+                "beginIndex": 52,
+                "endIndex": 59,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Senator"
+            }
+        ]
+    },
+    {
+        "corpus": "During World War II, Imre was deported at the age of 14 with other Hungarian Jews to the Auschwitz concentration camp, and was later sent to Buchenwald.",
+        "tags": [
+            {
+                "text": "Auschwitz concentration camp",
+                "beginIndex": 89,
+                "endIndex": 117,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Auschwitz_concentration_camp"
+            },
+            {
+                "text": "Buchenwald",
+                "beginIndex": 141,
+                "endIndex": 151,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Buchenwald"
+            },
+            {
+                "text": "Imre",
+                "beginIndex": 21,
+                "endIndex": 25,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Imre"
+            },
+            {
+                "text": "Hungarian Jews",
+                "beginIndex": 67,
+                "endIndex": 81,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Hungarian_Jews"
+            }
+        ]
+    },
+    {
+        "corpus": "A french was born in Paris, France, and was home-schooled to the age of 12.",
+        "tags": [
+            {
+                "text": "France",
+                "beginIndex": 28,
+                "endIndex": 34,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-France"
+            },
+            {
+                "text": "Paris",
+                "beginIndex": 21,
+                "endIndex": 26,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Paris"
+            },
+            {
+                "text": "french",
+                "beginIndex": 2,
+                "endIndex": 8,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-French_people"
+            }
+        ]
+    },
+    {
+        "corpus": "Martin Luther King then began doctoral studies in systematic theology at Boston University and received his Ph.D. degree on June 5, 1955, with a dissertation on \"A Comparison of the Conceptions of God in the Thinking of Paul Tillich and Henry Nelson Wieman\".",
+        "tags": [
+            {
+                "text": "God",
+                "beginIndex": 197,
+                "endIndex": 200,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-God"
+            },
+            {
+                "text": "Paul Tillich",
+                "beginIndex": 220,
+                "endIndex": 232,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Paul_Tillich"
+            },
+            {
+                "text": "Henry Nelson Wieman",
+                "beginIndex": 237,
+                "endIndex": 256,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Henry_Nelson_Wieman"
+            },
+            {
+                "text": "Boston University",
+                "beginIndex": 73,
+                "endIndex": 90,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Boston_University"
+            },
+            {
+                "text": "Martin Luther King",
+                "beginIndex": 0,
+                "endIndex": 18,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Martin_Luther_King,_Jr."
+            },
+            {
+                "text": "his",
+                "beginIndex": 104,
+                "endIndex": 107,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Martin_Luther_King,_Jr."
+            }
+        ]
+    },
+    {
+        "corpus": "Neher and Sakmann were the first to record the currents of single ion channels on a live cell through their development of the patch-clamp technique.",
+        "tags": [
+            {
+                "text": "Neher",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Erwin_Neher"
+            },
+            {
+                "text": "Sakmann",
+                "beginIndex": 10,
+                "endIndex": 17,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Bert_Sakmann"
+            }
+        ]
+    },
+    {
+        "corpus": "The girl was born on 18 July 1918 in the village of Mvezo in Umtata, then a part of South Africa's Cape Province.",
+        "tags": [
+            {
+                "text": "girl",
+                "beginIndex": 4,
+                "endIndex": 8,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Girl_1"
+            },
+            {
+                "text": "Umtata",
+                "beginIndex": 61,
+                "endIndex": 67,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Mthatha"
+            },
+            {
+                "text": "Mvezo",
+                "beginIndex": 52,
+                "endIndex": 57,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Mvezo"
+            },
+            {
+                "text": "South Africa's Cape Province",
+                "beginIndex": 84,
+                "endIndex": 112,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Cape_Province"
+            }
+        ]
+    },
+    {
+        "corpus": "Michael Smith first attended St. Nicholas Church of England School, a state-run elementary school. At the time, few children from state schools in England went on to further academic education.",
+        "tags": [
+            {
+                "text": "Michael Smith",
+                "beginIndex": 0,
+                "endIndex": 13,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Michael_Smith_(chemist)"
+            },
+            {
+                "text": "St. Nicholas Church of England School",
+                "beginIndex": 29,
+                "endIndex": 66,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-St._Nicholas_Church_of_England_School"
+            },
+            {
+                "text": "England",
+                "beginIndex": 147,
+                "endIndex": 154,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-England"
+            }
+        ]
+    },
+    {
+        "corpus": "After receiving his PhD, Mullis left science to write fiction, but quit and became a biochemist at a medical school in Kansas City.",
+        "tags": [
+            {
+                "text": "Kansas City",
+                "beginIndex": 119,
+                "endIndex": 130,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Kansas_City_metropolitan_area"
+            },
+            {
+                "text": "biochemist",
+                "beginIndex": 85,
+                "endIndex": 95,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Biochemist"
+            },
+            {
+                "text": "medical school",
+                "beginIndex": 101,
+                "endIndex": 115,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Medical_School"
+            },
+            {
+                "text": "Mullis",
+                "beginIndex": 25,
+                "endIndex": 31,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Kary_Mullis"
+            },
+            {
+                "text": "his",
+                "beginIndex": 16,
+                "endIndex": 19,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Kary_Mullis"
+            }
+        ]
+    },
+    {
+        "corpus": "Kroto was educated at Bolton School and went to Sheffield University in 1958. At Sheffield, Kroto obtained a first class honours BSc degree in Chemistry and a PhD in Molecular Spectroscopy.",
+        "tags": [
+            {
+                "text": "Kroto",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Harry_Kroto"
+            },
+            {
+                "text": "Kroto",
+                "beginIndex": 92,
+                "endIndex": 97,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Harry_Kroto"
+            },
+            {
+                "text": "Sheffield University",
+                "beginIndex": 48,
+                "endIndex": 68,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_Sheffield"
+            },
+            {
+                "text": "Sheffiel",
+                "beginIndex": 81,
+                "endIndex": 89,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_Sheffield"
+            },
+            {
+                "text": "Bolton School",
+                "beginIndex": 22,
+                "endIndex": 35,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Bolton_School"
+            }
+        ]
+    },
+    {
+        "corpus": "He was a boy scout, with the Boy Scouts of America and became an Eagle Scout. He attended Washington University in St. Louis for undergraduate studies as an Alexander S. Langsdorf Fellow, and obtained three degrees.",
+        "tags": [
+            {
+                "text": "boy scout",
+                "beginIndex": 9,
+                "endIndex": 18,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Scout_(Scouting)"
+            },
+            {
+                "text": "Eagle Scout",
+                "beginIndex": 65,
+                "endIndex": 76,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Eagle_Scout_(Boy_Scouts_of_America)"
+            },
+            {
+                "text": "Washington University",
+                "beginIndex": 90,
+                "endIndex": 111,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Washington_University_in_St._Louis"
+            },
+            {
+                "text": "Boy Scouts of America",
+                "beginIndex": 29,
+                "endIndex": 50,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Boy_Scouts_of_America"
+            },
+            {
+                "text": "Fellow",
+                "beginIndex": 180,
+                "endIndex": 186,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Fellow"
+            },
+            {
+                "text": "He",
+                "beginIndex": 78,
+                "endIndex": 80,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-He_7"
+            },
+            {
+                "text": "St. Louis",
+                "beginIndex": 115,
+                "endIndex": 124,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-St._Louis"
+            },
+            {
+                "text": "Alexander S. Langsdorf",
+                "beginIndex": 157,
+                "endIndex": 179,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Alexander_Langsdorf,_Jr."
+            },
+            {
+                "text": "He",
+                "beginIndex": 0,
+                "endIndex": 2,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-He_7"
+            }
+        ]
+    },
+    {
+        "corpus": "In 1991 Linda Buck became an assistant professor of neurobiology at Harvard University where she expanded her knowledge of the nervous system.",
+        "tags": [
+            {
+                "text": "Linda Buck",
+                "beginIndex": 8,
+                "endIndex": 18,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Linda_B._Buck"
+            },
+            {
+                "text": "she",
+                "beginIndex": 93,
+                "endIndex": 96,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Linda_B._Buck"
+            },
+            {
+                "text": "assistant professor",
+                "beginIndex": 29,
+                "endIndex": 48,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Professor"
+            },
+            {
+                "text": "Harvard University",
+                "beginIndex": 68,
+                "endIndex": 86,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Harvard_University"
+            },
+            {
+                "text": "her",
+                "beginIndex": 106,
+                "endIndex": 109,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Linda_B._Buck"
+            }
+        ]
+    },
+    {
+        "corpus": "In 1865, Wilhelm R\u00f6ntgen tried to attend the University of Utrecht without having the necessary credentials required for a regular student. In 1901 R\u00f6ntgen was awarded the very first Nobel Prize in Physics.",
+        "tags": [
+            {
+                "text": "R\u00f6ntgen",
+                "beginIndex": 148,
+                "endIndex": 155,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Wilhelm_R\u00f6ntgen"
+            },
+            {
+                "text": "Wilhelm R\u00f6ntgen",
+                "beginIndex": 9,
+                "endIndex": 24,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Wilhelm_R\u00f6ntgen"
+            },
+            {
+                "text": "student",
+                "beginIndex": 131,
+                "endIndex": 138,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Student"
+            },
+            {
+                "text": "University of Utrecht",
+                "beginIndex": 45,
+                "endIndex": 66,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Utrecht_University"
+            }
+        ]
+    },
+    {
+        "corpus": "Levi-Montalcini lost her assistant position in the anatomy department after a 1938 law barring Jews from university positions was passed.",
+        "tags": [
+            {
+                "text": "assistant",
+                "beginIndex": 25,
+                "endIndex": 34,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Research_assistant"
+            },
+            {
+                "text": "Levi-Montalcini",
+                "beginIndex": 0,
+                "endIndex": 15,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Rita_Levi-Montalcini"
+            },
+            {
+                "text": "anatomy department",
+                "beginIndex": 51,
+                "endIndex": 69,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Anatomy_Department"
+            },
+            {
+                "text": "her",
+                "beginIndex": 21,
+                "endIndex": 24,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Rita_Levi-Montalcini"
+            }
+        ]
+    },
+    {
+        "corpus": "Ciechanover is a member of the Israel Academy of Sciences and Humanities, the Pontifical Academy of Sciences, and is a foreign associate of the United States National Academy of Sciences.",
+        "tags": [
+            {
+                "text": "Pontifical Academy of Sciences",
+                "beginIndex": 78,
+                "endIndex": 108,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Pontifical_Academy_of_Sciences"
+            },
+            {
+                "text": "Israel Academy of Sciences and Humanities",
+                "beginIndex": 31,
+                "endIndex": 72,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Israel_Academy_of_Sciences_and_Humanities"
+            },
+            {
+                "text": "foreign associate",
+                "beginIndex": 119,
+                "endIndex": 136,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Foreign_Associate"
+            },
+            {
+                "text": "Ciechanover",
+                "beginIndex": 0,
+                "endIndex": 11,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Aaron_Ciechanover"
+            },
+            {
+                "text": "member",
+                "beginIndex": 17,
+                "endIndex": 23,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Member"
+            },
+            {
+                "text": "United States National Academy of Sciences",
+                "beginIndex": 144,
+                "endIndex": 186,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-National_Academy_of_Sciences"
+            }
+        ]
+    },
+    {
+        "corpus": "Hans Geiger had been appointed director of the new Laboratory for Radioactivity there in 1912. At the PTR, Bothe was an assistant to Geiger from 1913 to 1920, a scientific member of Geiger's staff from 1920 to 1927, and from 1927 to 1930 he succeeded Geiger as director of the Laboratory for Radioactivity.",
+        "tags": [
+            {
+                "text": "Geiger's staff",
+                "beginIndex": 182,
+                "endIndex": 196,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Geiger's_staff"
+            },
+            {
+                "text": "Laboratory for Radioactivity",
+                "beginIndex": 277,
+                "endIndex": 305,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Laboratory_for_Radioactivity"
+            },
+            {
+                "text": "director",
+                "beginIndex": 31,
+                "endIndex": 39,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Director_(business)"
+            },
+            {
+                "text": "Geiger",
+                "beginIndex": 133,
+                "endIndex": 139,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Hans_Geiger"
+            },
+            {
+                "text": "Hans Geiger",
+                "beginIndex": 0,
+                "endIndex": 11,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Hans_Geiger"
+            },
+            {
+                "text": "Laboratory for Radioactivity",
+                "beginIndex": 51,
+                "endIndex": 79,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Laboratory_for_Radioactivity"
+            },
+            {
+                "text": "PTR",
+                "beginIndex": 102,
+                "endIndex": 105,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-PTR"
+            },
+            {
+                "text": "Bothe",
+                "beginIndex": 107,
+                "endIndex": 112,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Walther_Bothe"
+            },
+            {
+                "text": "he",
+                "beginIndex": 238,
+                "endIndex": 240,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Walther_Bothe"
+            },
+            {
+                "text": "scientific member",
+                "beginIndex": 161,
+                "endIndex": 178,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-scientific_member"
+            },
+            {
+                "text": "director",
+                "beginIndex": 261,
+                "endIndex": 269,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Director_(business)"
+            },
+            {
+                "text": "assistant",
+                "beginIndex": 120,
+                "endIndex": 129,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Research_assistant"
+            },
+            {
+                "text": "Geiger",
+                "beginIndex": 251,
+                "endIndex": 257,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Hans_Geiger"
+            }
+        ]
+    },
+    {
+        "corpus": "In 1969 Mario became an Assistant Professor in the Department of Biochemistry at Harvard Medical School. Mario was promoted to Associate Professor in 1971.",
+        "tags": [
+            {
+                "text": "Assistant Professor",
+                "beginIndex": 24,
+                "endIndex": 43,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Professor"
+            },
+            {
+                "text": "Associate Professor",
+                "beginIndex": 127,
+                "endIndex": 146,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Professor"
+            },
+            {
+                "text": "Department of Biochemistry",
+                "beginIndex": 51,
+                "endIndex": 77,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Department_of_Biochemistry"
+            },
+            {
+                "text": "Mario",
+                "beginIndex": 8,
+                "endIndex": 13,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Mario"
+            },
+            {
+                "text": "Harvard Medical School",
+                "beginIndex": 81,
+                "endIndex": 103,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Harvard_Medical_School"
+            },
+            {
+                "text": "Mario",
+                "beginIndex": 105,
+                "endIndex": 110,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Mario"
+            }
+        ]
+    },
+    {
+        "corpus": "Pauli was born in Vienna to a chemist Wolfgang Joseph Pauli and his wife Bertha Camilla Sch\u00fctz. His middle name was given in honor of his godfather, physicist Ernst Mach.",
+        "tags": [
+            {
+                "text": "his",
+                "beginIndex": 134,
+                "endIndex": 137,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Pauli"
+            },
+            {
+                "text": "chemist",
+                "beginIndex": 30,
+                "endIndex": 37,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Chemist"
+            },
+            {
+                "text": "physicist ",
+                "beginIndex": 149,
+                "endIndex": 158,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Physicist"
+            },
+            {
+                "text": "Vienna",
+                "beginIndex": 18,
+                "endIndex": 24,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Vienna"
+            },
+            {
+                "text": "Bertha Camilla Sch\u00fctz",
+                "beginIndex": 73,
+                "endIndex": 94,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Bertha_Camilla_Sch\u00fctz"
+            },
+            {
+                "text": "Ernst Mach",
+                "beginIndex": 159,
+                "endIndex": 169,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Ernst_Mach"
+            },
+            {
+                "text": "His",
+                "beginIndex": 96,
+                "endIndex": 99,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Pauli"
+            },
+            {
+                "text": "Pauli",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Wolfgang_Pauli"
+            },
+            {
+                "text": "his",
+                "beginIndex": 64,
+                "endIndex": 67,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Wolfgang_Joseph_Pauli"
+            },
+            {
+                "text": "Wolfgang Joseph Pauli",
+                "beginIndex": 38,
+                "endIndex": 59,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Wolfgang_Joseph_Pauli"
+            }
+        ]
+    },
+    {
+        "corpus": "Throughout this time this person also worked with Marguerite Vogt. In 1962, Renato Dulbecco moved to the Salk Institute and then in 1972 to The Imperial Cancer Research Fund in London.",
+        "tags": [
+            {
+                "text": "The Imperial Cancer Research Fund",
+                "beginIndex": 140,
+                "endIndex": 173,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Cancer_Research_UK"
+            },
+            {
+                "text": "Renato Dulbecco",
+                "beginIndex": 76,
+                "endIndex": 91,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Renato_Dulbecco"
+            },
+            {
+                "text": "Salk Institute",
+                "beginIndex": 105,
+                "endIndex": 119,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Salk_Institute_for_Biological_Studies"
+            },
+            {
+                "text": "London",
+                "beginIndex": 177,
+                "endIndex": 183,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-London"
+            },
+            {
+                "text": "person",
+                "beginIndex": 26,
+                "endIndex": 32,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Person"
+            },
+            {
+                "text": "Marguerite Vogt",
+                "beginIndex": 50,
+                "endIndex": 65,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Marguerite_Vogt"
+            }
+        ]
+    },
+    {
+        "corpus": "After the armistice between France and Germany in the summer of 1940, Walter Bothe received orders to inspect the cyclotron Fr\u00e9d\u00e9ric Joliot-Curie had built in Paris. While it had been built, it was not yet operational.",
+        "tags": [
+            {
+                "text": "France",
+                "beginIndex": 28,
+                "endIndex": 34,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-France"
+            },
+            {
+                "text": "Paris",
+                "beginIndex": 159,
+                "endIndex": 164,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Paris"
+            },
+            {
+                "text": "Germany",
+                "beginIndex": 39,
+                "endIndex": 46,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Germany"
+            },
+            {
+                "text": "Fr\u00e9d\u00e9ric Joliot-Curie",
+                "beginIndex": 124,
+                "endIndex": 145,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Fr\u00e9d\u00e9ric_Joliot-Curie"
+            },
+            {
+                "text": "Walter Bothe",
+                "beginIndex": 70,
+                "endIndex": 82,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Walter_Bothe"
+            }
+        ]
+    },
+    {
+        "corpus": "In 1982, Lessing tried to publish two novels under a pseudonym, Jane Somers, to show the difficulty new authors faced in trying to have their works in print. The novels were declined by Lessing's UK publisher, but were later accepted by another English publisher, Michael Joseph, and in the US by Alfred A. Knopf.",
+        "tags": [
+            {
+                "text": "Lessing",
+                "beginIndex": 9,
+                "endIndex": 16,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Doris_Lessing"
+            },
+            {
+                "text": "UK publisher",
+                "beginIndex": 196,
+                "endIndex": 208,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-UK_Publisher"
+            },
+            {
+                "text": "Lessing",
+                "beginIndex": 186,
+                "endIndex": 193,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Doris_Lessing"
+            },
+            {
+                "text": "US",
+                "beginIndex": 291,
+                "endIndex": 293,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-United_States"
+            },
+            {
+                "text": "Michael Joseph",
+                "beginIndex": 264,
+                "endIndex": 278,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Michael_Joseph_(publisher)"
+            },
+            {
+                "text": "Alfred A. Knopf",
+                "beginIndex": 297,
+                "endIndex": 312,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Alfred_A._Knopf"
+            },
+            {
+                "text": "Jane Somers",
+                "beginIndex": 64,
+                "endIndex": 75,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Doris_Lessing"
+            }
+        ]
+    },
+    {
+        "corpus": "Wiesel taught Hebrew and worked as a choirmaster before becoming a professional journalist.",
+        "tags": [
+            {
+                "text": "choirmaster",
+                "beginIndex": 37,
+                "endIndex": 48,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Kapellmeister"
+            },
+            {
+                "text": "Wiesel",
+                "beginIndex": 0,
+                "endIndex": 6,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Elie_Wiesel"
+            },
+            {
+                "text": "journalist",
+                "beginIndex": 80,
+                "endIndex": 90,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Journalist"
+            }
+        ]
+    },
+    {
+        "corpus": "Tonegawa was born in Nagoya, Japan and attended the Hibiya High School in Tokyo.",
+        "tags": [
+            {
+                "text": "Hibiya High School",
+                "beginIndex": 52,
+                "endIndex": 70,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Hibiya_High_School"
+            },
+            {
+                "text": "Tokyo",
+                "beginIndex": 74,
+                "endIndex": 79,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Tokyo"
+            },
+            {
+                "text": "Nagoya",
+                "beginIndex": 21,
+                "endIndex": 27,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Nagoya"
+            },
+            {
+                "text": "Tonegawa",
+                "beginIndex": 0,
+                "endIndex": 8,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Susumu_Tonegawa"
+            },
+            {
+                "text": "Japan",
+                "beginIndex": 29,
+                "endIndex": 34,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Japan"
+            }
+        ]
+    },
+    {
+        "corpus": "The poet was born in Paris as the only child of Jean-Baptiste Sartre, an officer of the French Navy, and Anne-Marie Schweitzer.",
+        "tags": [
+            {
+                "text": "Anne-Marie Schweitzer",
+                "beginIndex": 105,
+                "endIndex": 126,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Anne-Marie_Schweitzer"
+            },
+            {
+                "text": "Jean-Baptiste Sartre",
+                "beginIndex": 48,
+                "endIndex": 68,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Jean-Baptiste_Sartre"
+            },
+            {
+                "text": "Paris",
+                "beginIndex": 21,
+                "endIndex": 26,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Paris"
+            },
+            {
+                "text": "officer",
+                "beginIndex": 73,
+                "endIndex": 80,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Officer"
+            },
+            {
+                "text": "poet",
+                "beginIndex": 4,
+                "endIndex": 8,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Poet"
+            },
+            {
+                "text": "French Navy",
+                "beginIndex": 88,
+                "endIndex": 99,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-French_Navy"
+            }
+        ]
+    },
+    {
+        "corpus": "Tonegawa received his doctorate from the University of California in San Diego where he worked with Dr Masaki Hayashi.",
+        "tags": [
+            {
+                "text": "his",
+                "beginIndex": 18,
+                "endIndex": 21,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Susumu_Tonegawa"
+            },
+            {
+                "text": "University of California",
+                "beginIndex": 41,
+                "endIndex": 65,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_California,_San_Diego"
+            },
+            {
+                "text": "Tonegawa",
+                "beginIndex": 0,
+                "endIndex": 8,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Susumu_Tonegawa"
+            },
+            {
+                "text": "San Diego",
+                "beginIndex": 69,
+                "endIndex": 78,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-San_Diego"
+            },
+            {
+                "text": "Masaki Hayashi",
+                "beginIndex": 103,
+                "endIndex": 117,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Masaki_Hayashi"
+            },
+            {
+                "text": "he",
+                "beginIndex": 85,
+                "endIndex": 87,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Susumu_Tonegawa"
+            }
+        ]
+    },
+    {
+        "corpus": "Zewail has been nominated and will participate in President Barack Obama's Presidential Council of Advisors on Science and Technology.",
+        "tags": [
+            {
+                "text": "Barack Obama",
+                "beginIndex": 60,
+                "endIndex": 72,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Barack_Obama"
+            },
+            {
+                "text": "Presidential Council of Advisors on Science and Technology",
+                "beginIndex": 75,
+                "endIndex": 133,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Presidential_Council_of_Advisors_on_Science_and_Technology"
+            },
+            {
+                "text": "Zewail",
+                "beginIndex": 0,
+                "endIndex": 6,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Ahmed_Zewail"
+            },
+            {
+                "text": "President",
+                "beginIndex": 50,
+                "endIndex": 59,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-President"
+            }
+        ]
+    },
+    {
+        "corpus": "In 1971, he became professor at the Coll\u00e8ge de France. He was then director of the \u00c9cole Sup\u00e9rieure de Physique et de Chimie Industrielles de la Ville de Paris, a post he held from 1976 until his retirement in 2002.",
+        "tags": [
+            {
+                "text": "\u00c9cole Sup\u00e9rieure de Physique et de Chimie Industrielles",
+                "beginIndex": 83,
+                "endIndex": 138,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-ESPCI_ParisTech"
+            },
+            {
+                "text": "Paris",
+                "beginIndex": 154,
+                "endIndex": 159,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Paris"
+            },
+            {
+                "text": "He",
+                "beginIndex": 55,
+                "endIndex": 57,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-He_5"
+            },
+            {
+                "text": "he",
+                "beginIndex": 168,
+                "endIndex": 170,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-He_5"
+            },
+            {
+                "text": "professor",
+                "beginIndex": 19,
+                "endIndex": 28,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Professor"
+            },
+            {
+                "text": "he",
+                "beginIndex": 9,
+                "endIndex": 11,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-He_5"
+            },
+            {
+                "text": "Coll\u00e8ge de France",
+                "beginIndex": 36,
+                "endIndex": 53,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Coll\u00e8ge_de_France"
+            },
+            {
+                "text": "director",
+                "beginIndex": 67,
+                "endIndex": 75,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Director_(business)"
+            },
+            {
+                "text": "his",
+                "beginIndex": 192,
+                "endIndex": 195,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-His_3"
+            }
+        ]
+    },
+    {
+        "corpus": "In 1940, Dario Fo moved to Milan to study at the Brera Academy, however he joined the fascist army of Mussolini's Repubblica Sociale Italiana.",
+        "tags": [
+            {
+                "text": "Dario Fo",
+                "beginIndex": 9,
+                "endIndex": 17,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Dario_Fo"
+            },
+            {
+                "text": "Repubblica Sociale Italiana",
+                "beginIndex": 114,
+                "endIndex": 141,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Italian_Social_Republic"
+            },
+            {
+                "text": "Mussolini",
+                "beginIndex": 102,
+                "endIndex": 111,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Benito_Mussolini"
+            },
+            {
+                "text": "he",
+                "beginIndex": 72,
+                "endIndex": 74,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Dario_Fo"
+            },
+            {
+                "text": "Brera Academy",
+                "beginIndex": 49,
+                "endIndex": 62,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Brera_Academy"
+            },
+            {
+                "text": "Milan",
+                "beginIndex": 27,
+                "endIndex": 32,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Milan"
+            }
+        ]
+    },
+    {
+        "corpus": "The novelist spent some time in London, where in 1931 he published Proust, his critical study of French author Marcel Proust.",
+        "tags": [
+            {
+                "text": "Marcel Proust",
+                "beginIndex": 111,
+                "endIndex": 124,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Marcel_Proust"
+            },
+            {
+                "text": "author",
+                "beginIndex": 104,
+                "endIndex": 110,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Author"
+            },
+            {
+                "text": "novelist",
+                "beginIndex": 4,
+                "endIndex": 12,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Novelist"
+            },
+            {
+                "text": "London",
+                "beginIndex": 32,
+                "endIndex": 38,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-London"
+            },
+            {
+                "text": "his",
+                "beginIndex": 75,
+                "endIndex": 78,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-His_2"
+            },
+            {
+                "text": "French",
+                "beginIndex": 97,
+                "endIndex": 103,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-French_people"
+            },
+            {
+                "text": "he",
+                "beginIndex": 54,
+                "endIndex": 56,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-He_4"
+            }
+        ]
+    },
+    {
+        "corpus": "Carlo Rubbia studied physics at the University of Pisa and Scuola Normale in Pisa. Rubbia graduated on cosmic ray experiments in 1957 with Marcello Conversi. Rubbia then went to the United States, where he spent about one and a half years at Columbia University performing experiments on the decay and the nuclear capture of muons.",
+        "tags": [
+            {
+                "text": "United States",
+                "beginIndex": 182,
+                "endIndex": 195,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-United_States"
+            },
+            {
+                "text": "University of Pisa",
+                "beginIndex": 36,
+                "endIndex": 54,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_Pisa"
+            },
+            {
+                "text": "Scuola Normale",
+                "beginIndex": 59,
+                "endIndex": 73,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Scuola_Normale_Superiore_di_Pisa"
+            },
+            {
+                "text": "Rubbia",
+                "beginIndex": 158,
+                "endIndex": 164,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Carlo_Rubbia"
+            },
+            {
+                "text": "he",
+                "beginIndex": 203,
+                "endIndex": 205,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Carlo_Rubbia"
+            },
+            {
+                "text": "Pisa",
+                "beginIndex": 77,
+                "endIndex": 81,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Pisa"
+            },
+            {
+                "text": "Columbia University",
+                "beginIndex": 242,
+                "endIndex": 261,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Columbia_University"
+            },
+            {
+                "text": "Marcello Conversi",
+                "beginIndex": 139,
+                "endIndex": 156,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Marcello_Conversi"
+            },
+            {
+                "text": "Rubbia",
+                "beginIndex": 83,
+                "endIndex": 89,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Carlo_Rubbia"
+            },
+            {
+                "text": "Carlo Rubbia",
+                "beginIndex": 0,
+                "endIndex": 12,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Carlo_Rubbia"
+            }
+        ]
+    },
+    {
+        "corpus": "After the war, the woman became a voluntary associate professor of Physics at the University of Chicago and a senior physicist at the nearby Argonne National Laboratory.",
+        "tags": [
+            {
+                "text": "Argonne National Laboratory",
+                "beginIndex": 141,
+                "endIndex": 168,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Argonne_National_Laboratory"
+            },
+            {
+                "text": "University of Chicago",
+                "beginIndex": 82,
+                "endIndex": 103,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_Chicago"
+            },
+            {
+                "text": "associate professor",
+                "beginIndex": 44,
+                "endIndex": 63,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Professor"
+            },
+            {
+                "text": "physicist",
+                "beginIndex": 117,
+                "endIndex": 126,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Physicist"
+            },
+            {
+                "text": "woman",
+                "beginIndex": 19,
+                "endIndex": 24,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Woman_1"
+            }
+        ]
+    },
+    {
+        "corpus": "James Tobin married Elizabeth Fay Ringo, a former M.I.T. student of Paul Samuelson, on September 14, 1946.",
+        "tags": [
+            {
+                "text": "student",
+                "beginIndex": 57,
+                "endIndex": 64,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Student"
+            },
+            {
+                "text": "M.I.T.",
+                "beginIndex": 50,
+                "endIndex": 56,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Massachusetts_Institute_of_Technology"
+            },
+            {
+                "text": "Elizabeth Fay Ringo",
+                "beginIndex": 20,
+                "endIndex": 39,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Elizabeth_Fay_Ringo"
+            },
+            {
+                "text": "Paul Samuelson",
+                "beginIndex": 68,
+                "endIndex": 82,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Paul_Samuelson"
+            },
+            {
+                "text": "James Tobin",
+                "beginIndex": 0,
+                "endIndex": 11,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-James_Tobin"
+            }
+        ]
+    },
+    {
+        "corpus": "Pauli spent a year at the University of G\u00f6ttingen as the assistant to Max Born, and the following year at the Institute for Theoretical Physics in Copenhagen, which later became the Niels Bohr Institute in 1965. From 1923 to 1928, he was a lecturer at the University of Hamburg.",
+        "tags": [
+            {
+                "text": "assistant",
+                "beginIndex": 57,
+                "endIndex": 66,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Research_assistant"
+            },
+            {
+                "text": "Niels Bohr Institute",
+                "beginIndex": 182,
+                "endIndex": 202,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Niels_Bohr_Institute"
+            },
+            {
+                "text": "University of Hamburg",
+                "beginIndex": 256,
+                "endIndex": 277,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_Hamburg"
+            },
+            {
+                "text": "Copenhagen",
+                "beginIndex": 147,
+                "endIndex": 157,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Copenhagen"
+            },
+            {
+                "text": "Pauli",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Wolfgang_Pauli"
+            },
+            {
+                "text": "Institute for Theoretical Physics",
+                "beginIndex": 110,
+                "endIndex": 143,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Institute_for_Theoretical_Physics"
+            },
+            {
+                "text": "Max Born",
+                "beginIndex": 70,
+                "endIndex": 78,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Max_Born"
+            },
+            {
+                "text": "he",
+                "beginIndex": 231,
+                "endIndex": 233,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Wolfgang_Pauli"
+            },
+            {
+                "text": "University of G\u00f6ttingen",
+                "beginIndex": 26,
+                "endIndex": 49,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_G\u00f6ttingen"
+            },
+            {
+                "text": "lecturer",
+                "beginIndex": 240,
+                "endIndex": 248,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Lecturer"
+            }
+        ]
+    },
+    {
+        "corpus": "She received her PhD in 1975 and interned at the U.S. National Institutes of Health before returning to the Pasteur Institute.",
+        "tags": [
+            {
+                "text": "U.S. National Institutes of Health",
+                "beginIndex": 49,
+                "endIndex": 83,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-National_Institutes_of_Health"
+            },
+            {
+                "text": "She",
+                "beginIndex": 0,
+                "endIndex": 3,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-She_5"
+            },
+            {
+                "text": "Pasteur Institute",
+                "beginIndex": 108,
+                "endIndex": 125,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Pasteur_Institute"
+            },
+            {
+                "text": "her",
+                "beginIndex": 13,
+                "endIndex": 16,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Her_3"
+            }
+        ]
+    },
+    {
+        "corpus": "Zsigmondy was born in Vienna, Austrian Empire, to Hungarian parents Irma Szakm\u00e1ry, a poet born in Martonv\u00e1s\u00e1r, and Adolf Zsigmondy Sr., a scientist from Bratislava who invented several surgical instruments for use in dentistry.",
+        "tags": [
+            {
+                "text": "Bratislava",
+                "beginIndex": 153,
+                "endIndex": 163,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Bratislava"
+            },
+            {
+                "text": "Hungarian",
+                "beginIndex": 50,
+                "endIndex": 59,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Hungarians"
+            },
+            {
+                "text": "poet",
+                "beginIndex": 85,
+                "endIndex": 89,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Poet"
+            },
+            {
+                "text": "Irma Szakm\u00e1ry",
+                "beginIndex": 68,
+                "endIndex": 81,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Irma_Szakm\u00e1ry"
+            },
+            {
+                "text": "Zsigmondy",
+                "beginIndex": 0,
+                "endIndex": 9,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Richard_Adolf_Zsigmondy"
+            },
+            {
+                "text": "scientist",
+                "beginIndex": 138,
+                "endIndex": 147,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Scientist"
+            },
+            {
+                "text": "Martonv\u00e1s\u00e1r",
+                "beginIndex": 98,
+                "endIndex": 109,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Martonv\u00e1s\u00e1r"
+            },
+            {
+                "text": "Austrian Empire",
+                "beginIndex": 30,
+                "endIndex": 45,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Austrian_Empire"
+            },
+            {
+                "text": "Vienna",
+                "beginIndex": 22,
+                "endIndex": 28,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Vienna"
+            },
+            {
+                "text": "Adolf Zsigmondy Sr.",
+                "beginIndex": 115,
+                "endIndex": 134,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Adolf_Zsigmondy_Sr."
+            }
+        ]
+    },
+    {
+        "corpus": "Lutuli accepted the post of principal and only teacher at a primary school in rural Blaauwbosch, Newcastle, Natal. Here Lutuli was confirmed in the Methodist Church and became a lay preacher.",
+        "tags": [
+            {
+                "text": "Lutuli",
+                "beginIndex": 120,
+                "endIndex": 126,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Albert_Lutuli"
+            },
+            {
+                "text": "Methodist Church",
+                "beginIndex": 148,
+                "endIndex": 164,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-United_Methodist_Church"
+            },
+            {
+                "text": "Natal",
+                "beginIndex": 108,
+                "endIndex": 113,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-KwaZulu-Natal"
+            },
+            {
+                "text": "Newcastle",
+                "beginIndex": 97,
+                "endIndex": 106,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Newcastle,_KwaZulu-Natal"
+            },
+            {
+                "text": "principal",
+                "beginIndex": 28,
+                "endIndex": 37,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Principal_(academia)"
+            },
+            {
+                "text": "Lutuli",
+                "beginIndex": 0,
+                "endIndex": 6,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Albert_Lutuli"
+            },
+            {
+                "text": "Blaauwbosch",
+                "beginIndex": 84,
+                "endIndex": 95,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Blaauwbosch"
+            },
+            {
+                "text": "primary school",
+                "beginIndex": 60,
+                "endIndex": 74,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Primary_school"
+            },
+            {
+                "text": "teacher",
+                "beginIndex": 47,
+                "endIndex": 54,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Teacher"
+            },
+            {
+                "text": "preacher",
+                "beginIndex": 182,
+                "endIndex": 190,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Preacher"
+            }
+        ]
+    },
+    {
+        "corpus": "Fo was born at Leggiuno Sangiano, in Lombardy's Province of Varese, near the eastern shore of Lago Maggiore. His younger brother Fulvio would become a theatre administrator, their younger sister Bianca Fo Garambois, a writer.",
+        "tags": [
+            {
+                "text": "writer",
+                "beginIndex": 218,
+                "endIndex": 224,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Writer"
+            },
+            {
+                "text": "Leggiuno Sangiano",
+                "beginIndex": 15,
+                "endIndex": 32,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Leggiuno"
+            },
+            {
+                "text": "Fulvio",
+                "beginIndex": 129,
+                "endIndex": 135,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Fulvio"
+            },
+            {
+                "text": "Lago Maggiore",
+                "beginIndex": 94,
+                "endIndex": 107,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Lake_Maggiore"
+            },
+            {
+                "text": "Fo",
+                "beginIndex": 0,
+                "endIndex": 2,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Dario_Fo"
+            },
+            {
+                "text": "His",
+                "beginIndex": 109,
+                "endIndex": 112,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Dario_Fo"
+            },
+            {
+                "text": "Province of Varese",
+                "beginIndex": 48,
+                "endIndex": 66,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Province_of_Varese"
+            },
+            {
+                "text": "Bianca Fo Garambois",
+                "beginIndex": 195,
+                "endIndex": 214,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Bianca_Fo_Garambois"
+            },
+            {
+                "text": "theatre administrator",
+                "beginIndex": 151,
+                "endIndex": 172,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Theatre_Administrator"
+            },
+            {
+                "text": "Lombardy",
+                "beginIndex": 37,
+                "endIndex": 45,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Lombardy"
+            }
+        ]
+    },
+    {
+        "corpus": "In 1930, Beckett returned to Trinity College as a lecturer, but he resigned in 1931 collecting a brief academic career.",
+        "tags": [
+            {
+                "text": "Trinity College",
+                "beginIndex": 29,
+                "endIndex": 44,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Trinity_College,_Dublin"
+            },
+            {
+                "text": "lecturer",
+                "beginIndex": 50,
+                "endIndex": 58,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Lecturer"
+            },
+            {
+                "text": "he",
+                "beginIndex": 64,
+                "endIndex": 66,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Samuel_Beckett"
+            },
+            {
+                "text": "Beckett",
+                "beginIndex": 9,
+                "endIndex": 16,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Samuel_Beckett"
+            }
+        ]
+    },
+    {
+        "corpus": "She married James Sirleaf when she was 17 years old, and then traveled with him to the United States in 1961 to continue her studies and earned an associate degree in accounting at Madison Business College, in Madison, Wisconsin.",
+        "tags": [
+            {
+                "text": "him",
+                "beginIndex": 76,
+                "endIndex": 79,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-James_Sirleaf"
+            },
+            {
+                "text": "Madison Business College",
+                "beginIndex": 181,
+                "endIndex": 205,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Madison_Business_College"
+            },
+            {
+                "text": "her",
+                "beginIndex": 121,
+                "endIndex": 124,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Her_2"
+            },
+            {
+                "text": "Madison, Wisconsin",
+                "beginIndex": 210,
+                "endIndex": 228,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Madison,_Wisconsin"
+            },
+            {
+                "text": "She",
+                "beginIndex": 0,
+                "endIndex": 3,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-She_4"
+            },
+            {
+                "text": "United States",
+                "beginIndex": 87,
+                "endIndex": 100,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-United_States"
+            },
+            {
+                "text": "she",
+                "beginIndex": 31,
+                "endIndex": 34,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-She_4"
+            },
+            {
+                "text": "James Sirleaf",
+                "beginIndex": 12,
+                "endIndex": 25,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-James_Sirleaf"
+            }
+        ]
+    },
+    {
+        "corpus": "Zsigmondy left Schott Glass in 1900, but remained in Jena as private lecturer to conduct his research. Together with the optical instrument manufacturer Zeiss, he developed the slit ultramicroscope.",
+        "tags": [
+            {
+                "text": "he",
+                "beginIndex": 160,
+                "endIndex": 162,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Richard_Adolf_Zsigmondy"
+            },
+            {
+                "text": "his",
+                "beginIndex": 89,
+                "endIndex": 92,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Richard_Adolf_Zsigmondy"
+            },
+            {
+                "text": "Zsigmondy",
+                "beginIndex": 0,
+                "endIndex": 9,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Richard_Adolf_Zsigmondy"
+            },
+            {
+                "text": "Jena",
+                "beginIndex": 53,
+                "endIndex": 57,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Jena"
+            },
+            {
+                "text": "Schott Glass",
+                "beginIndex": 15,
+                "endIndex": 27,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Schott_AG"
+            },
+            {
+                "text": "Zeiss",
+                "beginIndex": 153,
+                "endIndex": 158,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Carl_Zeiss_AG"
+            },
+            {
+                "text": "lecturer ",
+                "beginIndex": 69,
+                "endIndex": 77,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Lecturer"
+            }
+        ]
+    },
+    {
+        "corpus": "On 30 August 2013, Rubbia was appointed to the Senate of Italy as a Senator for Life by President Giorgio Napolitano.",
+        "tags": [
+            {
+                "text": "Rubbia",
+                "beginIndex": 19,
+                "endIndex": 25,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Rubbia"
+            },
+            {
+                "text": "Senate of Italy",
+                "beginIndex": 47,
+                "endIndex": 62,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Senate_of_the_Republic_(Italy)"
+            },
+            {
+                "text": "President",
+                "beginIndex": 88,
+                "endIndex": 97,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-President"
+            },
+            {
+                "text": "Senator for Life",
+                "beginIndex": 68,
+                "endIndex": 84,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Senator_for_Life"
+            },
+            {
+                "text": "Giorgio Napolitano",
+                "beginIndex": 98,
+                "endIndex": 116,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Giorgio_Napolitano"
+            }
+        ]
+    },
+    {
+        "corpus": "In December 1941, Goeppert Mayer took up her first paid professional position, teaching science part-time at Sarah Lawrence College and in 1960, Maria Goeppert was appointed full professor of physics at the University of California at San Diego.",
+        "tags": [
+            {
+                "text": "Goeppert Mayer",
+                "beginIndex": 18,
+                "endIndex": 32,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Maria_Goeppert-Mayer"
+            },
+            {
+                "text": "Maria Goeppert",
+                "beginIndex": 145,
+                "endIndex": 159,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Maria_Goeppert-Mayer"
+            },
+            {
+                "text": "full professor",
+                "beginIndex": 174,
+                "endIndex": 188,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Professor"
+            },
+            {
+                "text": "San Diego",
+                "beginIndex": 235,
+                "endIndex": 244,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-San_Diego"
+            },
+            {
+                "text": "Sarah Lawrence College",
+                "beginIndex": 109,
+                "endIndex": 131,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Sarah_Lawrence_College"
+            },
+            {
+                "text": "University of California",
+                "beginIndex": 207,
+                "endIndex": 231,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-University_of_California,_San_Diego"
+            },
+            {
+                "text": "her",
+                "beginIndex": 41,
+                "endIndex": 44,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Maria_Goeppert-Mayer"
+            }
+        ]
+    },
+    {
+        "corpus": "Elie Wiesel was born in Sighet, Transylvania, Maramure\u0219, Romania, in the Carpathian Mountains. His parents were Sarah Feig and Shlomo Wiesel.",
+        "tags": [
+            {
+                "text": "Shlomo Wiesel",
+                "beginIndex": 127,
+                "endIndex": 140,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Shlomo_Wiesel"
+            },
+            {
+                "text": "Sarah Feig",
+                "beginIndex": 112,
+                "endIndex": 122,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Sarah_Feig"
+            },
+            {
+                "text": "Elie Wiesel",
+                "beginIndex": 0,
+                "endIndex": 11,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Elie_Wiesel"
+            },
+            {
+                "text": "Romania",
+                "beginIndex": 57,
+                "endIndex": 64,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Romania"
+            },
+            {
+                "text": "His",
+                "beginIndex": 95,
+                "endIndex": 98,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Elie_Wiesel"
+            },
+            {
+                "text": "Maramure\u0219",
+                "beginIndex": 46,
+                "endIndex": 55,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Maramure\u0219"
+            },
+            {
+                "text": "Transylvania",
+                "beginIndex": 32,
+                "endIndex": 44,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Transylvania"
+            },
+            {
+                "text": "Carpathian Mountains",
+                "beginIndex": 73,
+                "endIndex": 93,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Carpathian_Mountains"
+            },
+            {
+                "text": "Sighet",
+                "beginIndex": 24,
+                "endIndex": 30,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Sighetu_Marma\u021biei"
+            }
+        ]
+    },
+    {
+        "corpus": "A man became a researcher at Harvard University in Applied Physics.",
+        "tags": [
+            {
+                "text": "Harvard University",
+                "beginIndex": 29,
+                "endIndex": 47,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Harvard_University"
+            },
+            {
+                "text": "researcher",
+                "beginIndex": 15,
+                "endIndex": 25,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Research"
+            },
+            {
+                "text": "man",
+                "beginIndex": 2,
+                "endIndex": 5,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Man_3"
+            }
+        ]
+    },
+    {
+        "corpus": "In 1952, Martti Ahtisaari moved to Oulu with his family to seek employment. Then he continued his education in high school, graduating in 1952. He also joined the local YMCA.",
+        "tags": [
+            {
+                "text": "Martti Ahtisaari",
+                "beginIndex": 9,
+                "endIndex": 25,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Martti_Ahtisaari"
+            },
+            {
+                "text": "family",
+                "beginIndex": 49,
+                "endIndex": 55,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Family_3"
+            },
+            {
+                "text": "high school",
+                "beginIndex": 111,
+                "endIndex": 122,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-High_School"
+            },
+            {
+                "text": "He",
+                "beginIndex": 144,
+                "endIndex": 146,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Martti_Ahtisaari"
+            },
+            {
+                "text": "his",
+                "beginIndex": 45,
+                "endIndex": 48,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Martti_Ahtisaari"
+            },
+            {
+                "text": "he",
+                "beginIndex": 81,
+                "endIndex": 83,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Martti_Ahtisaari"
+            },
+            {
+                "text": "his",
+                "beginIndex": 94,
+                "endIndex": 97,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Martti_Ahtisaari"
+            },
+            {
+                "text": "Oulu",
+                "beginIndex": 35,
+                "endIndex": 39,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Oulu"
+            },
+            {
+                "text": "YMCA",
+                "beginIndex": 169,
+                "endIndex": 173,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-YMCA"
+            }
+        ]
+    },
+    {
+        "corpus": "As a Christian minister, the activist's main influence was Jesus Christ and the Christian gospels, which he would almost always quote in his religious meetings, speeches at church, and in public discourses.",
+        "tags": [
+            {
+                "text": "he",
+                "beginIndex": 105,
+                "endIndex": 107,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-He_3"
+            },
+            {
+                "text": "activist",
+                "beginIndex": 29,
+                "endIndex": 37,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Activist"
+            },
+            {
+                "text": "Christian minister",
+                "beginIndex": 5,
+                "endIndex": 23,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Minister_(Christianity)"
+            },
+            {
+                "text": "Jesus Christ",
+                "beginIndex": 59,
+                "endIndex": 71,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Jesus"
+            },
+            {
+                "text": "his",
+                "beginIndex": 137,
+                "endIndex": 140,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-His_1"
+            },
+            {
+                "text": "church",
+                "beginIndex": 173,
+                "endIndex": 179,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Church_(building)"
+            }
+        ]
+    },
+    {
+        "corpus": "Between 1987 and 1989, Yamanaka was a resident in orthopedic surgery at the National Osaka Hospital. His first operation was to remove a benign tumor from his friend Shuichi Hirata, a task he could not complete after one hour.",
+        "tags": [
+            {
+                "text": "Shuichi Hirata",
+                "beginIndex": 166,
+                "endIndex": 180,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Shuichi_Hirata"
+            },
+            {
+                "text": "Yamanaka",
+                "beginIndex": 23,
+                "endIndex": 31,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Shinya_Yamanaka"
+            },
+            {
+                "text": "he",
+                "beginIndex": 189,
+                "endIndex": 191,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Shinya_Yamanaka"
+            },
+            {
+                "text": "His",
+                "beginIndex": 101,
+                "endIndex": 104,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Shinya_Yamanaka"
+            },
+            {
+                "text": "resident",
+                "beginIndex": 38,
+                "endIndex": 46,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Residency_(medicine)"
+            },
+            {
+                "text": "National Osaka Hospital",
+                "beginIndex": 76,
+                "endIndex": 99,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-National_Osaka_Hospital"
+            },
+            {
+                "text": "his",
+                "beginIndex": 155,
+                "endIndex": 158,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Shinya_Yamanaka"
+            }
+        ]
+    },
+    {
+        "corpus": "Quasimodo was born in Modica, Sicily to Gaetano Quasimodo and Clotilde Ragusa. In 1908 his family moved to Messina, as his father had been sent there to help the population struck by a devastating earthquake.",
+        "tags": [
+            {
+                "text": "family",
+                "beginIndex": 91,
+                "endIndex": 97,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Family_1"
+            },
+            {
+                "text": "Quasimodo",
+                "beginIndex": 0,
+                "endIndex": 9,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Salvatore_Quasimodo"
+            },
+            {
+                "text": "Clotilde Ragusa",
+                "beginIndex": 62,
+                "endIndex": 77,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Clotilde_Ragusa"
+            },
+            {
+                "text": "his",
+                "beginIndex": 87,
+                "endIndex": 90,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Salvatore_Quasimodo"
+            },
+            {
+                "text": "father",
+                "beginIndex": 123,
+                "endIndex": 129,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Gaetano_Quasimodo"
+            },
+            {
+                "text": "his",
+                "beginIndex": 119,
+                "endIndex": 122,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Salvatore_Quasimodo"
+            },
+            {
+                "text": "Sicily",
+                "beginIndex": 30,
+                "endIndex": 36,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Sicily"
+            },
+            {
+                "text": "Messina",
+                "beginIndex": 107,
+                "endIndex": 114,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Messina"
+            },
+            {
+                "text": "Gaetano Quasimodo",
+                "beginIndex": 40,
+                "endIndex": 57,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Gaetano_Quasimodo"
+            },
+            {
+                "text": "Modica",
+                "beginIndex": 22,
+                "endIndex": 28,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Modica"
+            }
+        ]
+    },
+    {
+        "corpus": "An international lobbied for his release, which was granted in 1990 amid escalating civil strife. Mandela joined negotiations with Nationalist President F. W. de Klerk to abolish apartheid and establish multiracial elections in 1994, in which he led the ANC to victory and became South Africa's first black president.",
+        "tags": [
+            {
+                "text": "President",
+                "beginIndex": 143,
+                "endIndex": 152,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-President"
+            },
+            {
+                "text": "his",
+                "beginIndex": 29,
+                "endIndex": 32,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-His_5"
+            },
+            {
+                "text": "South Africa",
+                "beginIndex": 280,
+                "endIndex": 292,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-South_Africa"
+            },
+            {
+                "text": "ANC",
+                "beginIndex": 254,
+                "endIndex": 257,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-African_National_Congress"
+            },
+            {
+                "text": "he",
+                "beginIndex": 243,
+                "endIndex": 245,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Nelson_Mandela"
+            },
+            {
+                "text": "Mandela",
+                "beginIndex": 98,
+                "endIndex": 105,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Mandela"
+            },
+            {
+                "text": "F. W. de Klerk",
+                "beginIndex": 153,
+                "endIndex": 167,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-F._W._De_Klerk"
+            },
+            {
+                "text": "president",
+                "beginIndex": 307,
+                "endIndex": 316,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-President"
+            }
+        ]
+    },
+    {
+        "corpus": "Albert Modiano (1912\u201377, born in Paris), was of Italian Jewish origin; on his paternal side he was descended from a Sephardic family of Thessaloniki, Greece. His mother, Louisa Colpijn (1918-2015), was an actress also known as Louisa Colpeyn.",
+        "tags": [
+            {
+                "text": "His",
+                "beginIndex": 158,
+                "endIndex": 161,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Albert_Modiano"
+            },
+            {
+                "text": "Thessaloniki, Greece",
+                "beginIndex": 136,
+                "endIndex": 156,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Thessaloniki"
+            },
+            {
+                "text": "Louisa Colpijn",
+                "beginIndex": 170,
+                "endIndex": 184,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Louisa_Colpijn"
+            },
+            {
+                "text": "Italian",
+                "beginIndex": 48,
+                "endIndex": 55,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Italians"
+            },
+            {
+                "text": "he",
+                "beginIndex": 92,
+                "endIndex": 94,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Albert_Modiano"
+            },
+            {
+                "text": "Louisa Colpeyn",
+                "beginIndex": 227,
+                "endIndex": 241,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Louisa_Colpeyn"
+            },
+            {
+                "text": "Sephardic family",
+                "beginIndex": 116,
+                "endIndex": 132,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Sephardi_Jews"
+            },
+            {
+                "text": "his",
+                "beginIndex": 74,
+                "endIndex": 77,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Albert_Modiano"
+            },
+            {
+                "text": "Albert Modiano",
+                "beginIndex": 0,
+                "endIndex": 14,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Albert_Modiano"
+            },
+            {
+                "text": "Jewish",
+                "beginIndex": 56,
+                "endIndex": 62,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Jews"
+            },
+            {
+                "text": "actress",
+                "beginIndex": 205,
+                "endIndex": 212,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Actor"
+            },
+            {
+                "text": "Paris",
+                "beginIndex": 33,
+                "endIndex": 38,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Paris"
+            }
+        ]
+    },
+    {
+        "corpus": "From 1963 until 1965, Akira Suzuki worked as a postdoctoral student with Herbert Charles Brown at Purdue University and after returning to the University of Hokkaid\u014d he became a professor.",
+        "tags": [
+            {
+                "text": "Akira Suzuki",
+                "beginIndex": 22,
+                "endIndex": 34,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Akira_Suzuki_(chemist)"
+            },
+            {
+                "text": "Herbert Charles Brown",
+                "beginIndex": 73,
+                "endIndex": 94,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Herbert_C._Brown"
+            },
+            {
+                "text": "postdoctoral student",
+                "beginIndex": 47,
+                "endIndex": 67,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Postdoctoral_researcher"
+            },
+            {
+                "text": "University of Hokkaid\u014d",
+                "beginIndex": 143,
+                "endIndex": 165,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Hokkaido_University"
+            },
+            {
+                "text": "he",
+                "beginIndex": 166,
+                "endIndex": 168,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Akira_Suzuki_(chemist)"
+            },
+            {
+                "text": "professor",
+                "beginIndex": 178,
+                "endIndex": 187,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Professor"
+            },
+            {
+                "text": "Purdue University",
+                "beginIndex": 98,
+                "endIndex": 115,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Purdue_University"
+            }
+        ]
+    },
+    {
+        "corpus": "In 1973, David Gross, working with his first graduate student, Frank Wilczek, at Princeton University, discovered asymptotic freedom, which holds that the closer quarks are to each other, the less the strong interaction (or color charge) is between them.",
+        "tags": [
+            {
+                "text": "Frank Wilczek",
+                "beginIndex": 63,
+                "endIndex": 76,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Frank_Wilczek"
+            },
+            {
+                "text": "graduate student",
+                "beginIndex": 45,
+                "endIndex": 61,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Graduate_Student"
+            },
+            {
+                "text": "Princeton University",
+                "beginIndex": 81,
+                "endIndex": 101,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-Princeton_University"
+            },
+            {
+                "text": "David Gross",
+                "beginIndex": 9,
+                "endIndex": 20,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-David_Gross"
+            },
+            {
+                "text": "his",
+                "beginIndex": 35,
+                "endIndex": 38,
+                "uri": "http://www.ontologydesignpatterns.org/data/oke-challenge/task-1/sentence-David_Gross"
+            }
+        ]
+    }
+]

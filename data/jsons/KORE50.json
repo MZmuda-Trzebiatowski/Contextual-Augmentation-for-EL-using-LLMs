@@ -1,0 +1,1105 @@
+[
+    {
+        "corpus": "David and Victoria named their children Brooklyn, Romeo, Cruz, and Harper Seven.",
+        "tags": [
+            {
+                "text": "David",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "https://en.wikipedia.org/wiki/David_Beckham"
+            },
+            {
+                "text": "Victoria",
+                "beginIndex": 10,
+                "endIndex": 18,
+                "uri": "https://en.wikipedia.org/wiki/Victoria_Beckham"
+            }
+        ]
+    },
+    {
+        "corpus": "David and Victoria added spice to their marriage.",
+        "tags": [
+            {
+                "text": "David",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "https://en.wikipedia.org/wiki/David_Beckham"
+            },
+            {
+                "text": "Victoria",
+                "beginIndex": 10,
+                "endIndex": 18,
+                "uri": "https://en.wikipedia.org/wiki/Victoria_Beckham"
+            }
+        ]
+    },
+    {
+        "corpus": "Tiger was lost in the woods when he got divorced from Elin.",
+        "tags": [
+            {
+                "text": "Tiger",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "https://en.wikipedia.org/wiki/Tiger_Woods"
+            },
+            {
+                "text": "Elin",
+                "beginIndex": 54,
+                "endIndex": 58,
+                "uri": "https://en.wikipedia.org/wiki/Elin_Nordegren"
+            }
+        ]
+    },
+    {
+        "corpus": "Tiger lost the US Open.",
+        "tags": [
+            {
+                "text": "Tiger",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "https://en.wikipedia.org/wiki/Tiger_Woods"
+            },
+            {
+                "text": "US Open",
+                "beginIndex": 15,
+                "endIndex": 22,
+                "uri": "https://en.wikipedia.org/wiki/U.S._Open_(golf)"
+            }
+        ]
+    },
+    {
+        "corpus": "Madonna played Eva and was seen with Carlos.",
+        "tags": [
+            {
+                "text": "Madonna",
+                "beginIndex": 0,
+                "endIndex": 7,
+                "uri": "https://en.wikipedia.org/wiki/Madonna_(entertainer)"
+            },
+            {
+                "text": "Eva",
+                "beginIndex": 15,
+                "endIndex": 18,
+                "uri": "https://en.wikipedia.org/wiki/Eva_Perón"
+            },
+            {
+                "text": "Carlos",
+                "beginIndex": 37,
+                "endIndex": 43,
+                "uri": "https://en.wikipedia.org/wiki/Carlos_Leon"
+            }
+        ]
+    },
+    {
+        "corpus": "In this musical, Madonna played the role of the First Lady.",
+        "tags": [
+            {
+                "text": "Madonna",
+                "beginIndex": 17,
+                "endIndex": 24,
+                "uri": "https://en.wikipedia.org/wiki/Madonna_(entertainer)"
+            },
+            {
+                "text": "First Lady",
+                "beginIndex": 48,
+                "endIndex": 58,
+                "uri": "https://en.wikipedia.org/wiki/First_Lady_of_Argentina"
+            }
+        ]
+    },
+    {
+        "corpus": "Angelina, her father Jon, and her partner Brad never played together in the same movie.",
+        "tags": [
+            {
+                "text": "Angelina",
+                "beginIndex": 0,
+                "endIndex": 8,
+                "uri": "https://en.wikipedia.org/wiki/Angelina_Jolie"
+            },
+            {
+                "text": "Jon",
+                "beginIndex": 21,
+                "endIndex": 24,
+                "uri": "https://en.wikipedia.org/wiki/Jon_Voight"
+            },
+            {
+                "text": "Brad",
+                "beginIndex": 42,
+                "endIndex": 46,
+                "uri": "https://en.wikipedia.org/wiki/Brad_Pitt"
+            }
+        ]
+    },
+    {
+        "corpus": "Heidi and her husband Seal live in Vegas.",
+        "tags": [
+            {
+                "text": "Heidi",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "https://en.wikipedia.org/wiki/Heidi_Klum"
+            },
+            {
+                "text": "Seal",
+                "beginIndex": 22,
+                "endIndex": 26,
+                "uri": "https://en.wikipedia.org/wiki/Seal_(musician)"
+            },
+            {
+                "text": "Vegas",
+                "beginIndex": 35,
+                "endIndex": 40,
+                "uri": "https://en.wikipedia.org/wiki/Las_Vegas,_Nevada"
+            }
+        ]
+    },
+    {
+        "corpus": "Paris and Kim are both wealthy It Girls who had sex tapes on the Internet.",
+        "tags": [
+            {
+                "text": "Paris",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "https://en.wikipedia.org/wiki/Paris_Hilton"
+            },
+            {
+                "text": "Kim",
+                "beginIndex": 10,
+                "endIndex": 13,
+                "uri": "https://en.wikipedia.org/wiki/Kim_Kardashian"
+            }
+        ]
+    },
+    {
+        "corpus": "Justin, Stefani, and Kate are among the most popular people on both MTV and Twitter.",
+        "tags": [
+            {
+                "text": "Justin",
+                "beginIndex": 0,
+                "endIndex": 6,
+                "uri": "https://en.wikipedia.org/wiki/Justin_Bieber"
+            },
+            {
+                "text": "Stefani",
+                "beginIndex": 8,
+                "endIndex": 15,
+                "uri": "https://en.wikipedia.org/wiki/Lady_gaga"
+            },
+            {
+                "text": "Kate",
+                "beginIndex": 21,
+                "endIndex": 25,
+                "uri": "https://en.wikipedia.org/wiki/Kate_Perry"
+            },
+            {
+                "text": "MTV",
+                "beginIndex": 68,
+                "endIndex": 71,
+                "uri": "https://en.wikipedia.org/wiki/MTV"
+            },
+            {
+                "text": "Twitter",
+                "beginIndex": 76,
+                "endIndex": 83,
+                "uri": "https://en.wikipedia.org/wiki/Twitter"
+            }
+        ]
+    },
+    {
+        "corpus": "Dylan performed Hurricane about the black fighter Carter, from his album Desire.",
+        "tags": [
+            {
+                "text": "Dylan",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "https://en.wikipedia.org/wiki/Bob_Dylan"
+            },
+            {
+                "text": "Hurricane",
+                "beginIndex": 16,
+                "endIndex": 25,
+                "uri": "https://en.wikipedia.org/wiki/Hurricane_(song)"
+            },
+            {
+                "text": "Carter",
+                "beginIndex": 50,
+                "endIndex": 56,
+                "uri": "https://en.wikipedia.org/wiki/Rubin_Carter"
+            },
+            {
+                "text": "Desire",
+                "beginIndex": 73,
+                "endIndex": 79,
+                "uri": "https://en.wikipedia.org/wiki/Desire_(Bob_Dylan_album)"
+            }
+        ]
+    },
+    {
+        "corpus": "Desire contains a duet with Harris in the song Joey.",
+        "tags": [
+            {
+                "text": "Desire",
+                "beginIndex": 0,
+                "endIndex": 6,
+                "uri": "https://en.wikipedia.org/wiki/Desire_(Bob_Dylan_album)"
+            },
+            {
+                "text": "Harris",
+                "beginIndex": 28,
+                "endIndex": 34,
+                "uri": "https://en.wikipedia.org/wiki/Emmylou_Harris"
+            },
+            {
+                "text": "Joey",
+                "beginIndex": 47,
+                "endIndex": 51,
+                "uri": "https://en.wikipedia.org/wiki/Joey_(Bob_Dylan_song)"
+            }
+        ]
+    },
+    {
+        "corpus": "Three of the greatest guitarists started their career in a single band : Clapton, Beck, and Page.",
+        "tags": [
+            {
+                "text": "Clapton",
+                "beginIndex": 73,
+                "endIndex": 80,
+                "uri": "https://en.wikipedia.org/wiki/Eric_Clapton"
+            },
+            {
+                "text": "Beck",
+                "beginIndex": 82,
+                "endIndex": 86,
+                "uri": "https://en.wikipedia.org/wiki/Jeff_Beck"
+            },
+            {
+                "text": "Page",
+                "beginIndex": 92,
+                "endIndex": 96,
+                "uri": "https://en.wikipedia.org/wiki/Jimmy_Page"
+            }
+        ]
+    },
+    {
+        "corpus": "Allen founded the EMP in Seattle, which featured exhibitions about Hendrix and Dylan, but also about various science fiction movies.",
+        "tags": [
+            {
+                "text": "Allen",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "https://en.wikipedia.org/wiki/Paul_Allen"
+            },
+            {
+                "text": "EMP",
+                "beginIndex": 18,
+                "endIndex": 21,
+                "uri": "https://en.wikipedia.org/wiki/EMP_Museum"
+            },
+            {
+                "text": "Seattle",
+                "beginIndex": 25,
+                "endIndex": 32,
+                "uri": "https://en.wikipedia.org/wiki/Seattle"
+            },
+            {
+                "text": "Hendrix",
+                "beginIndex": 67,
+                "endIndex": 74,
+                "uri": "https://en.wikipedia.org/wiki/Jimi_Hendrix"
+            },
+            {
+                "text": "Dylan",
+                "beginIndex": 79,
+                "endIndex": 84,
+                "uri": "https://en.wikipedia.org/wiki/Bob_Dylan"
+            }
+        ]
+    },
+    {
+        "corpus": "Despite featuring some of the most promininent musicians of their decade --- like Sinatra, Dylan, Joel, and Santana --- Columbia was aquired by Sony in the 1980s.",
+        "tags": [
+            {
+                "text": "Sinatra",
+                "beginIndex": 82,
+                "endIndex": 89,
+                "uri": "https://en.wikipedia.org/wiki/Frank_Sinatra"
+            },
+            {
+                "text": "Dylan",
+                "beginIndex": 91,
+                "endIndex": 96,
+                "uri": "https://en.wikipedia.org/wiki/Bob_Dylan"
+            },
+            {
+                "text": "Joel",
+                "beginIndex": 98,
+                "endIndex": 102,
+                "uri": "https://en.wikipedia.org/wiki/Billy_Joel"
+            },
+            {
+                "text": "Santana",
+                "beginIndex": 108,
+                "endIndex": 115,
+                "uri": "https://en.wikipedia.org/wiki/Carlos_Santana"
+            },
+            {
+                "text": "Columbia",
+                "beginIndex": 120,
+                "endIndex": 128,
+                "uri": "https://en.wikipedia.org/wiki/Columbia_Records"
+            },
+            {
+                "text": "Sony",
+                "beginIndex": 144,
+                "endIndex": 148,
+                "uri": "https://en.wikipedia.org/wiki/Sony_Music_Entertainment"
+            }
+        ]
+    },
+    {
+        "corpus": "After unsuccessful years, aging country star Cash made a grandiose comeback with his American Recordings, recorded at his home with the help of Rubin.",
+        "tags": [
+            {
+                "text": "Cash",
+                "beginIndex": 45,
+                "endIndex": 49,
+                "uri": "https://en.wikipedia.org/wiki/Johnny_Cash"
+            },
+            {
+                "text": "American Recordings",
+                "beginIndex": 85,
+                "endIndex": 104,
+                "uri": "https://en.wikipedia.org/wiki/American_Recordings_(album)"
+            },
+            {
+                "text": "Rubin",
+                "beginIndex": 144,
+                "endIndex": 149,
+                "uri": "https://en.wikipedia.org/wiki/Rick_Rubin"
+            }
+        ]
+    },
+    {
+        "corpus": "The group formed by Homme, Grohl, and Jones was supposed to be named Caligula, but the name was already taken.",
+        "tags": [
+            {
+                "text": "Homme",
+                "beginIndex": 20,
+                "endIndex": 25,
+                "uri": "https://en.wikipedia.org/wiki/Josh_Homme"
+            },
+            {
+                "text": "Grohl",
+                "beginIndex": 27,
+                "endIndex": 32,
+                "uri": "https://en.wikipedia.org/wiki/Dave_Grohl"
+            },
+            {
+                "text": "Jones",
+                "beginIndex": 38,
+                "endIndex": 43,
+                "uri": "https://en.wikipedia.org/wiki/John_Paul_Jones_(musician)"
+            }
+        ]
+    },
+    {
+        "corpus": "Jobs and Baez dated in the late 1970s, and she performed at his Stanford memorial.",
+        "tags": [
+            {
+                "text": "Jobs",
+                "beginIndex": 0,
+                "endIndex": 4,
+                "uri": "https://en.wikipedia.org/wiki/Steve_Jobs"
+            },
+            {
+                "text": "Baez",
+                "beginIndex": 9,
+                "endIndex": 13,
+                "uri": "https://en.wikipedia.org/wiki/Joan_Baez"
+            },
+            {
+                "text": "Stanford",
+                "beginIndex": 64,
+                "endIndex": 72,
+                "uri": "https://en.wikipedia.org/wiki/Stanford_University"
+            }
+        ]
+    },
+    {
+        "corpus": "The Isle of Wight festival in 1970 was the biggest at its time, surpassing Woodstock with acts like Davis, Chicago, and Mitchell.",
+        "tags": [
+            {
+                "text": "Isle of Wight festival",
+                "beginIndex": 4,
+                "endIndex": 26,
+                "uri": "https://en.wikipedia.org/wiki/Isle_of_wight_festival"
+            },
+            {
+                "text": "Woodstock",
+                "beginIndex": 75,
+                "endIndex": 84,
+                "uri": "https://en.wikipedia.org/wiki/Woodstock_Festival"
+            },
+            {
+                "text": "Davis",
+                "beginIndex": 100,
+                "endIndex": 105,
+                "uri": "https://en.wikipedia.org/wiki/Miles_davis"
+            },
+            {
+                "text": "Chicago",
+                "beginIndex": 107,
+                "endIndex": 114,
+                "uri": "https://en.wikipedia.org/wiki/Chicago_(band)"
+            },
+            {
+                "text": "Mitchell",
+                "beginIndex": 120,
+                "endIndex": 128,
+                "uri": "https://en.wikipedia.org/wiki/Joni_Mitchell"
+            }
+        ]
+    },
+    {
+        "corpus": "Eric preferred to play Blues instead of Rock, so he joined Mayall 's band.",
+        "tags": [
+            {
+                "text": "Eric",
+                "beginIndex": 0,
+                "endIndex": 4,
+                "uri": "https://en.wikipedia.org/wiki/Eric_Clapton"
+            },
+            {
+                "text": "Blues",
+                "beginIndex": 23,
+                "endIndex": 28,
+                "uri": "https://en.wikipedia.org/wiki/Blues"
+            },
+            {
+                "text": "Rock",
+                "beginIndex": 40,
+                "endIndex": 44,
+                "uri": "https://en.wikipedia.org/wiki/Rock_music"
+            },
+            {
+                "text": "Mayall",
+                "beginIndex": 59,
+                "endIndex": 65,
+                "uri": "https://en.wikipedia.org/wiki/John_Mayall"
+            }
+        ]
+    },
+    {
+        "corpus": "After the death of Steve, the former CEO of Apple, his commencement speech at Stanford was watched thousands of times.",
+        "tags": [
+            {
+                "text": "Steve",
+                "beginIndex": 19,
+                "endIndex": 24,
+                "uri": "https://en.wikipedia.org/wiki/Steve_Jobs"
+            },
+            {
+                "text": "Apple",
+                "beginIndex": 44,
+                "endIndex": 49,
+                "uri": "https://en.wikipedia.org/wiki/Apple_Inc."
+            },
+            {
+                "text": "Stanford",
+                "beginIndex": 78,
+                "endIndex": 86,
+                "uri": "https://en.wikipedia.org/wiki/Stanford_University"
+            }
+        ]
+    },
+    {
+        "corpus": "In 1980, Steve dropped out of Stanford to join Microsoft, the company behind the Windows operating system.",
+        "tags": [
+            {
+                "text": "Steve",
+                "beginIndex": 9,
+                "endIndex": 14,
+                "uri": "https://en.wikipedia.org/wiki/Steve_Ballmer"
+            },
+            {
+                "text": "Stanford",
+                "beginIndex": 30,
+                "endIndex": 38,
+                "uri": "https://en.wikipedia.org/wiki/Stanford_University"
+            },
+            {
+                "text": "Microsoft",
+                "beginIndex": 47,
+                "endIndex": 56,
+                "uri": "https://en.wikipedia.org/wiki/Microsoft"
+            },
+            {
+                "text": "Windows",
+                "beginIndex": 81,
+                "endIndex": 88,
+                "uri": "https://en.wikipedia.org/wiki/Microsoft_Windows"
+            }
+        ]
+    },
+    {
+        "corpus": "Cairo was the code name for a project at Microsoft from 1991 to 1996. Its charter was to build technologies for a next generation operating system that would fulfill the vision of Bill.",
+        "tags": [
+            {
+                "text": "Cairo",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "https://en.wikipedia.org/wiki/Cairo_(operating_system)"
+            },
+            {
+                "text": "Microsoft",
+                "beginIndex": 41,
+                "endIndex": 50,
+                "uri": "https://en.wikipedia.org/wiki/Microsoft"
+            },
+            {
+                "text": "Bill",
+                "beginIndex": 180,
+                "endIndex": 184,
+                "uri": "https://en.wikipedia.org/wiki/Bill_Gates"
+            }
+        ]
+    },
+    {
+        "corpus": "Steve, Bill, Sergey, and Larry have drawn a great deal of admiration these days for their pioneering successes that changed the world we live in.",
+        "tags": [
+            {
+                "text": "Steve",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "https://en.wikipedia.org/wiki/Steve_Jobs"
+            },
+            {
+                "text": "Bill",
+                "beginIndex": 7,
+                "endIndex": 11,
+                "uri": "https://en.wikipedia.org/wiki/Bill_Gates"
+            },
+            {
+                "text": "Sergey",
+                "beginIndex": 13,
+                "endIndex": 19,
+                "uri": "https://en.wikipedia.org/wiki/Sergey_Brin"
+            },
+            {
+                "text": "Larry",
+                "beginIndex": 25,
+                "endIndex": 30,
+                "uri": "https://en.wikipedia.org/wiki/Larry_Page"
+            }
+        ]
+    },
+    {
+        "corpus": "Karl and Theo made their extreme fortunes selling low-price groceries.",
+        "tags": [
+            {
+                "text": "Karl",
+                "beginIndex": 0,
+                "endIndex": 4,
+                "uri": "https://en.wikipedia.org/wiki/Karl_Albrecht"
+            },
+            {
+                "text": "Theo",
+                "beginIndex": 9,
+                "endIndex": 13,
+                "uri": "https://en.wikipedia.org/wiki/Theo_Albrecht"
+            }
+        ]
+    },
+    {
+        "corpus": "While Apple is an electronics company, Mango is a clothing one and Orange is a communication one.",
+        "tags": [
+            {
+                "text": "Apple",
+                "beginIndex": 6,
+                "endIndex": 11,
+                "uri": "https://en.wikipedia.org/wiki/Apple_Inc."
+            },
+            {
+                "text": "Mango",
+                "beginIndex": 39,
+                "endIndex": 44,
+                "uri": "https://en.wikipedia.org/wiki/Mango_(clothing)"
+            },
+            {
+                "text": "Orange",
+                "beginIndex": 67,
+                "endIndex": 73,
+                "uri": "https://en.wikipedia.org/wiki/Orange_(telecommunications)"
+            }
+        ]
+    },
+    {
+        "corpus": "Sam, the co-founder of Equity International, was given the nickname of \" the grave dancer \" because of his ability to buy businesses that others thought were dead.",
+        "tags": [
+            {
+                "text": "Sam",
+                "beginIndex": 0,
+                "endIndex": 3,
+                "uri": "https://en.wikipedia.org/wiki/Sam_Zell"
+            },
+            {
+                "text": "Equity International",
+                "beginIndex": 23,
+                "endIndex": 43,
+                "uri": "https://en.wikipedia.org/wiki/Equity_International"
+            }
+        ]
+    },
+    {
+        "corpus": "Pixar produced Cars, and John directed it.",
+        "tags": [
+            {
+                "text": "Pixar",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "https://en.wikipedia.org/wiki/Pixar"
+            },
+            {
+                "text": "Cars",
+                "beginIndex": 15,
+                "endIndex": 19,
+                "uri": "https://en.wikipedia.org/wiki/Cars_(film)"
+            },
+            {
+                "text": "John",
+                "beginIndex": 25,
+                "endIndex": 29,
+                "uri": "https://en.wikipedia.org/wiki/John_Lasseter"
+            }
+        ]
+    },
+    {
+        "corpus": "Mars, Galaxy, and Bounty are all chocolate.",
+        "tags": [
+            {
+                "text": "Mars",
+                "beginIndex": 0,
+                "endIndex": 4,
+                "uri": "https://en.wikipedia.org/wiki/Mars_bar"
+            },
+            {
+                "text": "Galaxy",
+                "beginIndex": 6,
+                "endIndex": 12,
+                "uri": "https://en.wikipedia.org/wiki/Galaxy_(chocolate)"
+            },
+            {
+                "text": "Bounty",
+                "beginIndex": 18,
+                "endIndex": 24,
+                "uri": "https://en.wikipedia.org/wiki/Bounty_(chocolate_bar)"
+            }
+        ]
+    },
+    {
+        "corpus": "Bosch and Sharp are both home appliances producing companies.",
+        "tags": [
+            {
+                "text": "Bosch",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "https://en.wikipedia.org/wiki/Robert_Bosch_GmbH"
+            },
+            {
+                "text": "Sharp",
+                "beginIndex": 10,
+                "endIndex": 15,
+                "uri": "https://en.wikipedia.org/wiki/Sharp_Corporation"
+            }
+        ]
+    },
+    {
+        "corpus": "City won 3:2 against the Spurs.",
+        "tags": [
+            {
+                "text": "City",
+                "beginIndex": 0,
+                "endIndex": 4,
+                "uri": "https://en.wikipedia.org/wiki/Manchester_City_F.C."
+            },
+            {
+                "text": "Spurs",
+                "beginIndex": 25,
+                "endIndex": 30,
+                "uri": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C."
+            }
+        ]
+    },
+    {
+        "corpus": "The Gunners now play their home matches at the Emirates.",
+        "tags": [
+            {
+                "text": "Gunners",
+                "beginIndex": 4,
+                "endIndex": 11,
+                "uri": "https://en.wikipedia.org/wiki/Arsenal_F.C."
+            },
+            {
+                "text": "Emirates",
+                "beginIndex": 47,
+                "endIndex": 55,
+                "uri": "https://en.wikipedia.org/wiki/Emirates_Stadium"
+            }
+        ]
+    },
+    {
+        "corpus": "Atletico has beaten its archrival Real.",
+        "tags": [
+            {
+                "text": "Atletico",
+                "beginIndex": 0,
+                "endIndex": 8,
+                "uri": "https://en.wikipedia.org/wiki/Atlético_Madrid"
+            },
+            {
+                "text": "Real",
+                "beginIndex": 34,
+                "endIndex": 38,
+                "uri": "https://en.wikipedia.org/wiki/Real_Madrid_C.F."
+            }
+        ]
+    },
+    {
+        "corpus": "Müller scored a hattrick against England.",
+        "tags": [
+            {
+                "text": "Müller",
+                "beginIndex": 0,
+                "endIndex": 6,
+                "uri": "https://en.wikipedia.org/wiki/Thomas_Müller_(footballer)"
+            },
+            {
+                "text": "England",
+                "beginIndex": 33,
+                "endIndex": 40,
+                "uri": "https://en.wikipedia.org/wiki/England_national_football_team"
+            }
+        ]
+    },
+    {
+        "corpus": "Thomas and Mario are strikers playing in Munich.",
+        "tags": [
+            {
+                "text": "Thomas",
+                "beginIndex": 0,
+                "endIndex": 6,
+                "uri": "https://en.wikipedia.org/wiki/Thomas_Müller_(footballer)"
+            },
+            {
+                "text": "Mario",
+                "beginIndex": 11,
+                "endIndex": 16,
+                "uri": "https://en.wikipedia.org/wiki/Mario_Gomez"
+            },
+            {
+                "text": "Munich",
+                "beginIndex": 41,
+                "endIndex": 47,
+                "uri": "https://en.wikipedia.org/wiki/FC_Bayern_Munich"
+            }
+        ]
+    },
+    {
+        "corpus": "Haug congratulated Red Bull.",
+        "tags": [
+            {
+                "text": "Haug",
+                "beginIndex": 0,
+                "endIndex": 4,
+                "uri": "https://en.wikipedia.org/wiki/Norbert_Haug"
+            },
+            {
+                "text": "Red Bull",
+                "beginIndex": 19,
+                "endIndex": 27,
+                "uri": "https://en.wikipedia.org/wiki/FC_Red_Bull_Salzburg"
+            }
+        ]
+    },
+    {
+        "corpus": "Völler will never forget the match against Oranje in San Siro.",
+        "tags": [
+            {
+                "text": "Völler",
+                "beginIndex": 0,
+                "endIndex": 6,
+                "uri": "https://en.wikipedia.org/wiki/Rudi_Völler"
+            },
+            {
+                "text": "Oranje",
+                "beginIndex": 43,
+                "endIndex": 49,
+                "uri": "https://en.wikipedia.org/wiki/Netherlands_national_football_team"
+            },
+            {
+                "text": "San Siro",
+                "beginIndex": 53,
+                "endIndex": 61,
+                "uri": "https://en.wikipedia.org/wiki/San_Siro"
+            }
+        ]
+    },
+    {
+        "corpus": "Landgraf and Meijer played at the Tivoli.",
+        "tags": [
+            {
+                "text": "Landgraf",
+                "beginIndex": 0,
+                "endIndex": 8,
+                "uri": "https://en.wikipedia.org/wiki/Willi_Landgraf"
+            },
+            {
+                "text": "Meijer",
+                "beginIndex": 13,
+                "endIndex": 19,
+                "uri": "https://en.wikipedia.org/wiki/Erik_Meijer_(footballer)"
+            },
+            {
+                "text": "Tivoli",
+                "beginIndex": 34,
+                "endIndex": 40,
+                "uri": "https://en.wikipedia.org/wiki/New_Tivoli"
+            }
+        ]
+    },
+    {
+        "corpus": "Yabo plays for Aachen.",
+        "tags": [
+            {
+                "text": "Yabo",
+                "beginIndex": 0,
+                "endIndex": 4,
+                "uri": "https://en.wikipedia.org/wiki/Reinhold_Yabo"
+            },
+            {
+                "text": "Aachen",
+                "beginIndex": 15,
+                "endIndex": 21,
+                "uri": "https://en.wikipedia.org/wiki/Alemannia_Aachen"
+            }
+        ]
+    },
+    {
+        "corpus": "Hertha won against Dortmund.",
+        "tags": [
+            {
+                "text": "Hertha",
+                "beginIndex": 0,
+                "endIndex": 6,
+                "uri": "https://en.wikipedia.org/wiki/Hertha_BSC"
+            },
+            {
+                "text": "Dortmund",
+                "beginIndex": 19,
+                "endIndex": 27,
+                "uri": "https://en.wikipedia.org/wiki/Borussia_Dortmund"
+            }
+        ]
+    },
+    {
+        "corpus": "Nixon resigned after Watergate despite his success in the Ping-Pong Diplomacy with China.",
+        "tags": [
+            {
+                "text": "Nixon",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "https://en.wikipedia.org/wiki/Richard_Nixon"
+            },
+            {
+                "text": "Watergate",
+                "beginIndex": 21,
+                "endIndex": 30,
+                "uri": "https://en.wikipedia.org/wiki/Watergate_scandal"
+            },
+            {
+                "text": "Ping-Pong Diplomacy",
+                "beginIndex": 58,
+                "endIndex": 77,
+                "uri": "https://en.wikipedia.org/wiki/Ping_Pong_Diplomacy"
+            },
+            {
+                "text": "China",
+                "beginIndex": 83,
+                "endIndex": 88,
+                "uri": "https://en.wikipedia.org/wiki/People's_Republic_of_China"
+            }
+        ]
+    },
+    {
+        "corpus": "The Sun and The Times reported that Greece will have to leave the Euro soon.",
+        "tags": [
+            {
+                "text": "The Sun",
+                "beginIndex": 0,
+                "endIndex": 7,
+                "uri": "https://en.wikipedia.org/wiki/The_Sun_(United_Kingdom)"
+            },
+            {
+                "text": "The Times",
+                "beginIndex": 12,
+                "endIndex": 21,
+                "uri": "https://en.wikipedia.org/wiki/The_Times"
+            },
+            {
+                "text": "Greece",
+                "beginIndex": 36,
+                "endIndex": 42,
+                "uri": "https://en.wikipedia.org/wiki/Greece"
+            },
+            {
+                "text": "Euro",
+                "beginIndex": 66,
+                "endIndex": 70,
+                "uri": "https://en.wikipedia.org/wiki/Eurozone"
+            }
+        ]
+    },
+    {
+        "corpus": "The Enola Gay bombed Hiroshima at the end of Second World War.﻿",
+        "tags": [
+            {
+                "text": "Enola Gay",
+                "beginIndex": 4,
+                "endIndex": 13,
+                "uri": "https://en.wikipedia.org/wiki/Enola_Gay"
+            },
+            {
+                "text": "Hiroshima",
+                "beginIndex": 21,
+                "endIndex": 30,
+                "uri": "https://en.wikipedia.org/wiki/Hiroshima"
+            },
+            {
+                "text": "Second World War",
+                "beginIndex": 45,
+                "endIndex": 61,
+                "uri": "https://en.wikipedia.org/wiki/World_War_II"
+            }
+        ]
+    },
+    {
+        "corpus": "The RAF was a terrorist group led by Baader and Meinhof that killed Schleyer.﻿",
+        "tags": [
+            {
+                "text": "RAF",
+                "beginIndex": 4,
+                "endIndex": 7,
+                "uri": "https://en.wikipedia.org/wiki/Red_Army_Faction"
+            },
+            {
+                "text": "Baader",
+                "beginIndex": 37,
+                "endIndex": 43,
+                "uri": "https://en.wikipedia.org/wiki/Andreas_Baader"
+            },
+            {
+                "text": "Meinhof",
+                "beginIndex": 48,
+                "endIndex": 55,
+                "uri": "https://en.wikipedia.org/wiki/Ulrike_Meinhof"
+            },
+            {
+                "text": "Schleyer",
+                "beginIndex": 68,
+                "endIndex": 76,
+                "uri": "https://en.wikipedia.org/wiki/Hanns-Martin_Schleyer"
+            }
+        ]
+    },
+    {
+        "corpus": "Onassis married Kennedy on October 20, 1968.",
+        "tags": [
+            {
+                "text": "Onassis",
+                "beginIndex": 0,
+                "endIndex": 7,
+                "uri": "https://en.wikipedia.org/wiki/Jacqueline_Kennedy_Onassis"
+            },
+            {
+                "text": "Kennedy",
+                "beginIndex": 16,
+                "endIndex": 23,
+                "uri": "https://en.wikipedia.org/wiki/John_F._Kennedy"
+            }
+        ]
+    },
+    {
+        "corpus": "Armstrong was the first man on the Moon.",
+        "tags": [
+            {
+                "text": "Armstrong",
+                "beginIndex": 0,
+                "endIndex": 9,
+                "uri": "https://en.wikipedia.org/wiki/Neil_Armstrong"
+            },
+            {
+                "text": "Moon",
+                "beginIndex": 35,
+                "endIndex": 39,
+                "uri": "https://en.wikipedia.org/wiki/Moon"
+            }
+        ]
+    },
+    {
+        "corpus": "Erich was born in Neunkirchen.",
+        "tags": [
+            {
+                "text": "Erich",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "https://en.wikipedia.org/wiki/Erich_Honecker"
+            },
+            {
+                "text": "Neunkirchen",
+                "beginIndex": 18,
+                "endIndex": 29,
+                "uri": "https://en.wikipedia.org/wiki/Neunkirchen,_Saarland"
+            }
+        ]
+    },
+    {
+        "corpus": "Macedonia is a province of Greece.",
+        "tags": [
+            {
+                "text": "Macedonia",
+                "beginIndex": 0,
+                "endIndex": 9,
+                "uri": "https://en.wikipedia.org/wiki/Macedonia_(Greece)"
+            },
+            {
+                "text": "Greece",
+                "beginIndex": 27,
+                "endIndex": 33,
+                "uri": "https://en.wikipedia.org/wiki/Greece"
+            }
+        ]
+    },
+    {
+        "corpus": "Obama welcomed Merkel upon her arrival at JFK.",
+        "tags": [
+            {
+                "text": "Obama",
+                "beginIndex": 0,
+                "endIndex": 5,
+                "uri": "https://en.wikipedia.org/wiki/Barack_Obama"
+            },
+            {
+                "text": "Merkel",
+                "beginIndex": 15,
+                "endIndex": 21,
+                "uri": "https://en.wikipedia.org/wiki/Angela_Merkel"
+            },
+            {
+                "text": "JFK",
+                "beginIndex": 42,
+                "endIndex": 45,
+                "uri": "https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport"
+            }
+        ]
+    }
+]
