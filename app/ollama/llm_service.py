@@ -1,28 +1,53 @@
-import re
+from abc import ABC, abstractmethod
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from typing import Callable, Optional
+
 import ollama
+from tqdm import tqdm
+
 from app.ollama.models import ELTagExtend, ELTagList
+from app.prompts.simple_ollamagpt import ner_prompt, linking_prompt
 
 
-class OllamaGPT:
+class OllamaGPT(ABC):
+    """Base class for Ollama-based LLM services."""
+    
     def __init__(self, name: str) -> None:
         self.name = name
         ollama.pull(name)
+    
+    @abstractmethod
+    def run_ner(self, text: str) -> str:
+        """Perform Named Entity Recognition on text."""
+        pass
+    
+    @abstractmethod
+    def run_linking(self, nerful_text: str) -> list[ELTagExtend]:
+        """Perform Entity Linking on NER-tagged text."""
+        pass
+    
+    @abstractmethod
+    def run_batch(
+        self,
+        texts: list[str],
+        max_workers: int = 4,
+        show_progress: bool = True
+    ) -> list[dict]:
+        """Run batch processing on multiple texts."""
+        pass
+
+
+class SimpleOllamaGPT(OllamaGPT):
+    """Simple Ollama-based LLM service for NER and Entity Linking."""
+    
+    def __init__(self, name: str) -> None:
+        super().__init__(name)
 
     def run_linking(self, nerful_text: str) -> list[ELTagExtend]:
         """
         Run entity linking on NER tagged text (see :meth:`OllamaGPT.run_ner`)
         """
-        json_struct = "{text:<tagged_text_AS_IS>, uri:<wikipedia url linking tagged text to the most probable entity given the sentence context>}"
-        tag_correct = '{tags: [{text: "Angelina", uri:"https://en.wikipedia.org/wiki/Angelina_Jolie"}, {text: "Jon", uri: "https://en.wikipedia.org/wiki/Jon_Voight"}, {text: "Brad", uri: "https://en.wikipedia.org/wiki/Brad_Pitt"}]}'
-        message = f"""
-                Keeping in mind the entire context of the sentence, for each entity tagged with [START_ENT] and [END_ENT] tags in this sentence:
-                '{nerful_text}'
-                Generate a tag json object of the following structure:
-                {json_struct}
-                Return a json object with a list of these tags as the 'tags' key.
-                Examples:
-                - 'Angelina, her father Jon, and her partner Brad never played together in the same movie.' -> {tag_correct}
-                """
+        message = linking_prompt.get_prompt(nerful_text)
 
         response = ollama.chat(
             model=self.name,
@@ -60,17 +85,7 @@ class OllamaGPT:
         Expand string with entity tags via the llm
         e.g 'Alice has a dog' -> '[START_ENT]Alice[END_ENT] has a [START_ENT]dog[END_ENT]'
         """
-        message = f"""
-                For the given sentence:
-                '{text}'
-                Generate text with named entities surrounded by [START_ENT] and [END_ENT] tags.
-                Tag ONLY entities likely to represent people, companies, brands, organizations, news outlets etc.
-                Exclude common words from tags: e.g. 'The white house ...' -> 'The [START_ENT]white house[END_ENT] ...' not '[START_ENT]The white house[END_ENT] ...'
-                Return ONLY the same text with the proper tags. e.g 'The white house ...' -> 'The [START_ENT]white house[END_ENT] ...' not 'Here is the tagged text: [START_ENT]The white house[END_ENT] ...'
-                Examples:
-                - 'Alice has a dog' -> '[START_ENT]Alice[END_ENT] has a [START_ENT]dog[END_ENT]'
-                - 'Angelina, her father Jon, and her partner Brad never played together in the same movie.' -> '[START_ENT]Angelina[END_ENT], her father [START_ENT]Jon[END_ENT], and her partner [START_ENT]Brad[END_ENT] never played together in the same movie.'
-                """
+        message = ner_prompt.get_prompt(text)
         response = ollama.chat(model=self.name, messages=[
             {
                 'role': 'user',
@@ -78,3 +93,78 @@ class OllamaGPT:
             },
         ])
         return response['message']['content'].split("</think>")[-1]
+
+    def run_ner_and_linking(self, text: str) -> list[ELTagExtend]:
+        """
+        Run NER followed by entity linking on a text.
+        
+        Args:
+            text: Input text to process
+            
+        Returns:
+            List of ELTagExtend objects with entity info and Wikipedia URIs
+        """
+        ner_output = self.run_ner(text)
+        return self.run_linking(ner_output)
+
+    def run_batch(
+        self,
+        texts: list[str],
+        max_workers: int = 4,
+        progress_callback: Optional[Callable[[int, int], None]] = None,
+        show_progress: bool = True
+    ) -> list[dict]:
+        """
+        Run NER and entity linking on a batch of texts using concurrent processing.
+        
+        Args:
+            texts: List of input texts to process
+            max_workers: Maximum number of concurrent workers (default: 4)
+            progress_callback: Optional callback function(current, total) for progress updates
+            show_progress: Whether to show a progress bar (default: True)
+            
+        Returns:
+            List of dicts with keys:
+                - text: Original input text
+                - ner_output: NER tagged text
+                - entities: List of ELTagExtend objects
+                - error: Error message if processing failed, None otherwise
+        """
+        results = [None] * len(texts)
+        
+        def process_single(idx_text: tuple[int, str]) -> tuple[int, dict]:
+            idx, text = idx_text
+            try:
+                ner_output = self.run_ner(text)
+                entities = self.run_linking(ner_output)
+                return idx, {
+                    "text": text,
+                    "ner_output": ner_output,
+                    "entities": entities,
+                    "error": None
+                }
+            except Exception as e:
+                return idx, {
+                    "text": text,
+                    "ner_output": None,
+                    "entities": [],
+                    "error": str(e)
+                }
+        
+        indexed_texts = list(enumerate(texts))
+        
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            futures = {executor.submit(process_single, item): item for item in indexed_texts}
+            
+            iterator = as_completed(futures)
+            if show_progress:
+                iterator = tqdm(iterator, total=len(texts), desc="Processing texts")
+            
+            for future in iterator:
+                idx, result = future.result()
+                results[idx] = result
+                if progress_callback:
+                    completed = sum(1 for r in results if r is not None)
+                    progress_callback(completed, len(texts))
+        
+        return results
