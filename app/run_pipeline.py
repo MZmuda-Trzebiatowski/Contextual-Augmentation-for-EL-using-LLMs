@@ -91,27 +91,28 @@ def append_metrics_to_csv(
     results_dir: Path
 ):
     """
-    Zapisuje/Dopisuje metryki do pliku CSV specyficznego dla danego modelu.
-    Plik będzie miał nazwę np. 'flan-t5-large_results.csv'
+    Zapisuje metryki do pliku CSV o nazwie: model_name_dataset_name_results.csv
     """
     safe_model_name = model_name.replace(":", "_").replace("/", "_")
-    csv_path = results_dir / f"{safe_model_name}_results.csv"
+    
+    # ZMIANA: Nazwa pliku zawiera teraz Model ORAZ Dataset
+    csv_filename = f"{safe_model_name}_{dataset_name}_results.csv"
+    csv_path = results_dir / csv_filename
     
     file_exists = csv_path.exists()
     
     with open(csv_path, mode='a', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
-
+        
+        # Jeśli plik nie istnieje, dodaj nagłówek
         if not file_exists:
-            writer.writerow(["Dataset", "Model", "Precision", "Recall", "F1", "Timestamp"])
+            writer.writerow(["Timestamp", "Precision", "Recall", "F1"])
         
         writer.writerow([
-            dataset_name,
-            model_name,
+            datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             f"{metrics['precision']:.4f}",
             f"{metrics['recall']:.4f}",
-            f"{metrics['f1']:.4f}",
-            datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            f"{metrics['f1']:.4f}"
         ])
     
     print(f"Metrics appended to: {csv_path}")
