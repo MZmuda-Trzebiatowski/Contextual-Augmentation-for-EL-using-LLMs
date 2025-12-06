@@ -2,7 +2,7 @@
   "metadata": {
     "dataset": "KORE50",
     "model": "gemma3:4b",
-    "timestamp": "2025-12-05T01:24:19.457578",
+    "timestamp": "2025-12-06T16:15:02.256949",
     "total_samples": 49,
     "successful": 49,
     "failed": 0
@@ -135,7 +135,7 @@
           },
           {
             "text": "Elin",
-            "uri": "https://en.wikipedia.org/wiki/Elin_Ekman",
+            "uri": "https://en.wikipedia.org/wiki/Elin_Nordegraf",
             "beginIndex": 54,
             "endIndex": 58
           }
@@ -289,7 +289,7 @@
           },
           {
             "text": "Jon",
-            "uri": "https://en.wikipedia.org/wiki/Jon_Avitzur",
+            "uri": "https://en.wikipedia.org/wiki/Jon_Voight",
             "beginIndex": 21,
             "endIndex": 24
           },
@@ -332,7 +332,7 @@
         "entities": [
           {
             "text": "Heidi",
-            "uri": "https://en.wikipedia.org/wiki/Heidi_Klerr",
+            "uri": "https://en.wikipedia.org/wiki/Heidi",
             "beginIndex": 0,
             "endIndex": 5
           },
@@ -497,7 +497,7 @@
           },
           {
             "text": "Carter",
-            "uri": "https://en.wikipedia.org/wiki/Carter_(surname)",
+            "uri": "https://en.wikipedia.org/wiki/Carter_(given_name)",
             "beginIndex": 50,
             "endIndex": 56
           }
@@ -613,13 +613,13 @@
         "entities": [
           {
             "text": "Allen",
-            "uri": "https://en.wikipedia.org/wiki/Allen_Ginsberg",
+            "uri": "https://en.wikipedia.org/wiki/Allen_Klein",
             "beginIndex": 0,
             "endIndex": 5
           },
           {
             "text": "EMP",
-            "uri": "https://en.wikipedia.org/wiki/Experience_Music_Pr%C3%B9ject",
+            "uri": "https://en.wikipedia.org/wiki/EMP_(music_venue)",
             "beginIndex": 18,
             "endIndex": 21
           },
@@ -691,6 +691,24 @@
         "ner_output": null,
         "entities": [
           {
+            "text": "Sinatra",
+            "uri": "https://en.wikipedia.org/wiki/Frank_Sinatra",
+            "beginIndex": 82,
+            "endIndex": 89
+          },
+          {
+            "text": "Dylan",
+            "uri": "https://en.wikipedia.org/wiki/Bob_Dylan",
+            "beginIndex": 91,
+            "endIndex": 96
+          },
+          {
+            "text": "Joel",
+            "uri": "https://en.wikipedia.org/wiki/Billy_Joel",
+            "beginIndex": 98,
+            "endIndex": 102
+          },
+          {
             "text": "Santana",
             "uri": "https://en.wikipedia.org/wiki/Santana_(band)",
             "beginIndex": 108,
@@ -734,14 +752,8 @@
         "ner_output": null,
         "entities": [
           {
-            "text": "Cash",
-            "uri": "https://en.wikipedia.org/wiki/Johnny_Cash",
-            "beginIndex": 45,
-            "endIndex": 49
-          },
-          {
             "text": "Rubin",
-            "uri": "https://en.wikipedia.org/wiki/Irving_Rubin",
+            "uri": "https://en.wikipedia.org/wiki/Rubin_(record_producer)",
             "beginIndex": 144,
             "endIndex": 149
           }
@@ -790,7 +802,7 @@
           },
           {
             "text": "Jones",
-            "uri": "https://en.wikipedia.org/wiki/Jones_(given_name)",
+            "uri": "https://en.wikipedia.org/wiki/Jones_(band)",
             "beginIndex": 38,
             "endIndex": 43
           }
@@ -839,7 +851,7 @@
           },
           {
             "text": "Stanford",
-            "uri": "https://en.wikipedia.org/wiki/Stanford_(California)",
+            "uri": "https://en.wikipedia.org/wiki/Stanford_(Stanford_University)",
             "beginIndex": 64,
             "endIndex": 72
           }
@@ -955,7 +967,7 @@
         "entities": [
           {
             "text": "Eric",
-            "uri": "https://en.wikipedia.org/wiki/Eric",
+            "uri": "https://en.wikipedia.org/wiki/Eric_(given_name)",
             "beginIndex": 0,
             "endIndex": 4
           },
@@ -964,6 +976,12 @@
             "uri": "https://en.wikipedia.org/wiki/Blues_(music)",
             "beginIndex": 23,
             "endIndex": 28
+          },
+          {
+            "text": "Rock",
+            "uri": "https://en.wikipedia.org/wiki/Rock_(music)",
+            "beginIndex": 40,
+            "endIndex": 44
           }
         ],
         "error": null
@@ -1071,7 +1089,7 @@
           },
           {
             "text": "Windows",
-            "uri": "https://en.wikipedia.org/wiki/Windows_operating_system",
+            "uri": "https://en.wikipedia.org/wiki/Windows_(operating_system)",
             "beginIndex": 81,
             "endIndex": 88
           }
@@ -1267,7 +1285,7 @@
           },
           {
             "text": "Orange",
-            "uri": "https://en.wikipedia.org/wiki/Orange_com",
+            "uri": "https://en.wikipedia.org/wiki/Orange_(communications_company)",
             "beginIndex": 67,
             "endIndex": 73
           }
@@ -1298,7 +1316,7 @@
         "entities": [
           {
             "text": "Sam",
-            "uri": "https://en.wikipedia.org/wiki/Sam_Goldman",
+            "uri": "https://en.wikipedia.org/wiki/Sam_Z Cowan",
             "beginIndex": 0,
             "endIndex": 3
           },
@@ -1353,7 +1371,7 @@
           },
           {
             "text": "John",
-            "uri": "https://en.wikipedia.org/wiki/John_Lackland",
+            "uri": "https://en.wikipedia.org/wiki/John_Lassiter",
             "beginIndex": 25,
             "endIndex": 29
           }
@@ -1402,7 +1420,7 @@
           },
           {
             "text": "Bounty",
-            "uri": "https://en.wikipedia.org/wiki/Bounty_(chocolate_bar)",
+            "uri": "https://en.wikipedia.org/wiki/Bounty_(chocolate)",
             "beginIndex": 18,
             "endIndex": 24
           }
@@ -1433,7 +1451,7 @@
         "entities": [
           {
             "text": "Bosch",
-            "uri": "https://en.wikipedia.org/wiki/Robert_Bosch",
+            "uri": "https://en.wikipedia.org/wiki/Bosch_Group",
             "beginIndex": 0,
             "endIndex": 5
           },
@@ -1578,6 +1596,12 @@
             "uri": "https://en.wikipedia.org/wiki/Thomas_Mueller_(footballer)",
             "beginIndex": 0,
             "endIndex": 6
+          },
+          {
+            "text": "England",
+            "uri": "https://en.wikipedia.org/wiki/England",
+            "beginIndex": 33,
+            "endIndex": 40
           }
         ],
         "error": null
@@ -1655,7 +1679,7 @@
         "entities": [
           {
             "text": "Haug",
-            "uri": "https://en.wikipedia.org/wiki/Haug_Group",
+            "uri": "https://en.wikipedia.org/wiki/Haug",
             "beginIndex": 0,
             "endIndex": 4
           },
@@ -1698,19 +1722,19 @@
         "entities": [
           {
             "text": "Völler",
-            "uri": "https://en.wikipedia.org/wiki/Walter_Zenga",
+            "uri": "https://en.wikipedia.org/wiki/Franz_V%C3%B6ller",
             "beginIndex": 0,
             "endIndex": 6
           },
           {
             "text": "Oranje",
-            "uri": "https://en.wikipedia.org/wiki/Netherlands_national_football_team",
+            "uri": "https://en.wikipedia.org/wiki/Dutch_national_football_team",
             "beginIndex": 43,
             "endIndex": 49
           },
           {
             "text": "San Siro",
-            "uri": "https://en.wikipedia.org/wiki/Stadio_Giuseppe_Meazza",
+            "uri": "https://en.wikipedia.org/wiki/San_Siro",
             "beginIndex": 53,
             "endIndex": 61
           }
@@ -1747,7 +1771,7 @@
         "entities": [
           {
             "text": "Landgraf",
-            "uri": "https://en.wikipedia.org/wiki/Landgraf",
+            "uri": "https://en.wikipedia.org/wiki/Landgraf_(surname)",
             "beginIndex": 0,
             "endIndex": 8
           },
@@ -1759,7 +1783,7 @@
           },
           {
             "text": "Tivoli",
-            "uri": "https://en.wikipedia.org/wiki/Tivoli_(concert_venue)",
+            "uri": "https://en.wikipedia.org/wiki/Tivoli_(opera_house)",
             "beginIndex": 34,
             "endIndex": 40
           }
@@ -1827,13 +1851,13 @@
         "entities": [
           {
             "text": "Hertha",
-            "uri": "https://en.wikipedia.org/wiki/Hertha_BSC",
+            "uri": "https://en.wikipedia.org/wiki/Hertha_Berlin",
             "beginIndex": 0,
             "endIndex": 6
           },
           {
             "text": "Dortmund",
-            "uri": "https://en.wikipedia.org/wiki/Dortmund",
+            "uri": "https://en.wikipedia.org/wiki/Borussia_Dortmund",
             "beginIndex": 19,
             "endIndex": 27
           }
@@ -1931,13 +1955,13 @@
         "entities": [
           {
             "text": "The Sun",
-            "uri": "https://en.wikipedia.org/wiki/The_Sun",
+            "uri": "https://en.wikipedia.org/wiki/The_Sun_(newspaper)",
             "beginIndex": 0,
             "endIndex": 7
           },
           {
             "text": "The Times",
-            "uri": "https://en.wikipedia.org/wiki/The_Times_(newspaper)",
+            "uri": "https://en.wikipedia.org/wiki/The_Times",
             "beginIndex": 12,
             "endIndex": 21
           },
@@ -1992,7 +2016,7 @@
           },
           {
             "text": "Second World War",
-            "uri": "https://en.wikipedia.org/wiki/Second_World_War",
+            "uri": "https://en.wikipedia.org/wiki/World_War_II",
             "beginIndex": 45,
             "endIndex": 61
           }
@@ -2040,8 +2064,20 @@
             "endIndex": 7
           },
           {
+            "text": "Baader",
+            "uri": "https://en.wikipedia.org/wiki/Red_Army_Faction",
+            "beginIndex": 37,
+            "endIndex": 43
+          },
+          {
+            "text": "Meinhof",
+            "uri": "https://en.wikipedia.org/wiki/Andreas_Meinhof",
+            "beginIndex": 48,
+            "endIndex": 55
+          },
+          {
             "text": "Schleyer",
-            "uri": "https://en.wikipedia.org/wiki/Friedrich_Walter_Schleyer",
+            "uri": "https://en.wikipedia.org/wiki/Julius_Schleyer",
             "beginIndex": 68,
             "endIndex": 76
           }
@@ -2072,7 +2108,7 @@
         "entities": [
           {
             "text": "Onassis",
-            "uri": "https://en.wikipedia.org/wiki/Aristotle_Onassis",
+            "uri": "https://en.wikipedia.org/wiki/Onassis",
             "beginIndex": 0,
             "endIndex": 7
           },
@@ -2152,7 +2188,7 @@
         "entities": [
           {
             "text": "Erich",
-            "uri": "https://en.wikipedia.org/wiki/Erich_Friedrich_Kraus",
+            "uri": "https://en.wikipedia.org/wiki/Erich_Preuss",
             "beginIndex": 0,
             "endIndex": 5
           },
@@ -2238,7 +2274,7 @@
           },
           {
             "text": "JFK",
-            "uri": "https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport",
+            "uri": "https://en.wikipedia.org/wiki/John_F._Kennedy_Airport",
             "beginIndex": 42,
             "endIndex": 45
           }
