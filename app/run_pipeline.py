@@ -90,12 +90,8 @@ def append_metrics_to_csv(
     model_name: str,
     results_dir: Path
 ):
-    """
-    Zapisuje metryki do pliku CSV o nazwie: model_name_dataset_name_results.csv
-    """
     safe_model_name = model_name.replace(":", "_").replace("/", "_")
-    
-    # ZMIANA: Nazwa pliku zawiera teraz Model ORAZ Dataset
+
     csv_filename = f"{safe_model_name}_{dataset_name}_results.csv"
     csv_path = results_dir / csv_filename
     
@@ -103,8 +99,7 @@ def append_metrics_to_csv(
     
     with open(csv_path, mode='a', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
-        
-        # Jeśli plik nie istnieje, dodaj nagłówek
+
         if not file_exists:
             writer.writerow(["Timestamp", "Precision", "Recall", "F1"])
         
@@ -116,7 +111,7 @@ def append_metrics_to_csv(
         ])
     
     print(f"Metrics appended to: {csv_path}")
-    print(f"  -> F1: {metrics['f1']:.4f} | P: {metrics['precision']:.4f} | R: {metrics['recall']:.4f}")
+    print(f"  -> F1: {metrics['f1']:.4f} | P: {metrics['precision']:.4f} | R: {metrics['recall']:.4f}") 
 
 def main():
     parser = argparse.ArgumentParser(

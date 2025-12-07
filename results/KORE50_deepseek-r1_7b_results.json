@@ -1,0 +1,2158 @@
+{
+  "metadata": {
+    "dataset": "KORE50",
+    "model": "deepseek-r1:7b",
+    "timestamp": "2025-12-06T21:53:34.381408",
+    "total_samples": 49,
+    "successful": 49,
+    "failed": 0
+  },
+  "results": [
+    {
+      "id": "KORE50_0",
+      "corpus": "David and Victoria named their children Brooklyn, Romeo, Cruz, and Harper Seven.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "David",
+          "uri": "https://en.wikipedia.org/wiki/David_Beckham",
+          "beginIndex": 0,
+          "endIndex": 5
+        },
+        {
+          "text": "Victoria",
+          "uri": "https://en.wikipedia.org/wiki/Victoria_Beckham",
+          "beginIndex": 10,
+          "endIndex": 18
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "David",
+            "uri": "https://en.wikipedia.org/wiki/David_Beckham",
+            "beginIndex": 0,
+            "endIndex": 5
+          },
+          {
+            "text": "Victoria",
+            "uri": "https://en.wikipedia.org/wiki/Victoria_Beckham",
+            "beginIndex": 10,
+            "endIndex": 18
+          },
+          {
+            "text": "Brooklyn",
+            "uri": "https://en.wikipedia.org/wiki/Brooklyn_Images_Photography_Ltd.",
+            "beginIndex": 40,
+            "endIndex": 48
+          },
+          {
+            "text": "Romeo",
+            "uri": "https://en.wikipedia.org/wiki/Romeo_Miller",
+            "beginIndex": 50,
+            "endIndex": 55
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_1",
+      "corpus": "David and Victoria added spice to their marriage.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "David",
+          "uri": "https://en.wikipedia.org/wiki/David_Beckham",
+          "beginIndex": 0,
+          "endIndex": 5
+        },
+        {
+          "text": "Victoria",
+          "uri": "https://en.wikipedia.org/wiki/Victoria_Beckham",
+          "beginIndex": 10,
+          "endIndex": 18
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "David",
+            "uri": "https://en.wikipedia.org/wiki/David",
+            "beginIndex": 0,
+            "endIndex": 5
+          },
+          {
+            "text": "Victoria",
+            "uri": "https://en.wikipedia.org/wiki/Victoria",
+            "beginIndex": 10,
+            "endIndex": 18
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_2",
+      "corpus": "Tiger was lost in the woods when he got divorced from Elin.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Tiger",
+          "uri": "https://en.wikipedia.org/wiki/Tiger_Woods",
+          "beginIndex": 0,
+          "endIndex": 5
+        },
+        {
+          "text": "Elin",
+          "uri": "https://en.wikipedia.org/wiki/Elin_Nordegren",
+          "beginIndex": 54,
+          "endIndex": 58
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Tiger",
+            "uri": "",
+            "beginIndex": 0,
+            "endIndex": 5
+          },
+          {
+            "text": "Elin",
+            "uri": "https://en.wikipedia.org/wiki/Elin_Wold",
+            "beginIndex": 54,
+            "endIndex": 58
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_3",
+      "corpus": "Tiger lost the US Open.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Tiger",
+          "uri": "https://en.wikipedia.org/wiki/Tiger_Woods",
+          "beginIndex": 0,
+          "endIndex": 5
+        },
+        {
+          "text": "US Open",
+          "uri": "https://en.wikipedia.org/wiki/U.S._Open_(golf)",
+          "beginIndex": 15,
+          "endIndex": 22
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Tiger",
+            "uri": "https://en.wikipedia.org/wiki/Tiger_Woods",
+            "beginIndex": 0,
+            "endIndex": 5
+          },
+          {
+            "text": "US Open",
+            "uri": "https://en.wikipedia.org/wiki/US_Open_(tennis)",
+            "beginIndex": 15,
+            "endIndex": 22
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_4",
+      "corpus": "Madonna played Eva and was seen with Carlos.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Madonna",
+          "uri": "https://en.wikipedia.org/wiki/Madonna_(entertainer)",
+          "beginIndex": 0,
+          "endIndex": 7
+        },
+        {
+          "text": "Eva",
+          "uri": "https://en.wikipedia.org/wiki/Eva_Perón",
+          "beginIndex": 15,
+          "endIndex": 18
+        },
+        {
+          "text": "Carlos",
+          "uri": "https://en.wikipedia.org/wiki/Carlos_Leon",
+          "beginIndex": 37,
+          "endIndex": 43
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Madonna",
+            "uri": "https://en.wikipedia.org/wiki/Madonna",
+            "beginIndex": 0,
+            "endIndex": 7
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_5",
+      "corpus": "In this musical, Madonna played the role of the First Lady.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Madonna",
+          "uri": "https://en.wikipedia.org/wiki/Madonna_(entertainer)",
+          "beginIndex": 17,
+          "endIndex": 24
+        },
+        {
+          "text": "First Lady",
+          "uri": "https://en.wikipedia.org/wiki/First_Lady_of_Argentina",
+          "beginIndex": 48,
+          "endIndex": 58
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Madonna",
+            "uri": "https://en.wikipedia.org/wiki/Madonna",
+            "beginIndex": 17,
+            "endIndex": 24
+          },
+          {
+            "text": "First Lady",
+            "uri": "https://en.wikipedia.org/wiki/FirstLady",
+            "beginIndex": 48,
+            "endIndex": 58
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_6",
+      "corpus": "Angelina, her father Jon, and her partner Brad never played together in the same movie.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Angelina",
+          "uri": "https://en.wikipedia.org/wiki/Angelina_Jolie",
+          "beginIndex": 0,
+          "endIndex": 8
+        },
+        {
+          "text": "Jon",
+          "uri": "https://en.wikipedia.org/wiki/Jon_Voight",
+          "beginIndex": 21,
+          "endIndex": 24
+        },
+        {
+          "text": "Brad",
+          "uri": "https://en.wikipedia.org/wiki/Brad_Pitt",
+          "beginIndex": 42,
+          "endIndex": 46
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Angelina",
+            "uri": "https://en.wikipedia.org/wiki/Angelina_Jolie",
+            "beginIndex": 0,
+            "endIndex": 8
+          },
+          {
+            "text": "Jon",
+            "uri": "https://en.wikipedia.org/wiki/Jon_George_Michael_Keating",
+            "beginIndex": 21,
+            "endIndex": 24
+          },
+          {
+            "text": "Brad",
+            "uri": "https://en.wikipedia.org/wiki/Brad_Pitt",
+            "beginIndex": 42,
+            "endIndex": 46
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_7",
+      "corpus": "Heidi and her husband Seal live in Vegas.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Heidi",
+          "uri": "https://en.wikipedia.org/wiki/Heidi_Klum",
+          "beginIndex": 0,
+          "endIndex": 5
+        },
+        {
+          "text": "Seal",
+          "uri": "https://en.wikipedia.org/wiki/Seal_(musician)",
+          "beginIndex": 22,
+          "endIndex": 26
+        },
+        {
+          "text": "Vegas",
+          "uri": "https://en.wikipedia.org/wiki/Las_Vegas,_Nevada",
+          "beginIndex": 35,
+          "endIndex": 40
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Heidi",
+            "uri": "https://en.wikipedia.org/wiki/Heidi_(actress)",
+            "beginIndex": 0,
+            "endIndex": 5
+          },
+          {
+            "text": "her husband",
+            "uri": "https://en.wikipedia.org/wiki/Racer_X",
+            "beginIndex": 10,
+            "endIndex": 21
+          },
+          {
+            "text": "Seal",
+            "uri": "https://en.wikipedia.org/wiki/Vegas,_Nevada",
+            "beginIndex": 22,
+            "endIndex": 26
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_8",
+      "corpus": "Paris and Kim are both wealthy It Girls who had sex tapes on the Internet.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Paris",
+          "uri": "https://en.wikipedia.org/wiki/Paris_Hilton",
+          "beginIndex": 0,
+          "endIndex": 5
+        },
+        {
+          "text": "Kim",
+          "uri": "https://en.wikipedia.org/wiki/Kim_Kardashian",
+          "beginIndex": 10,
+          "endIndex": 13
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Paris",
+            "uri": "https://en.wikipedia.org/wiki/Paris_Hilton",
+            "beginIndex": 0,
+            "endIndex": 5
+          },
+          {
+            "text": "Kim",
+            "uri": "https://en.wikipedia.org/wiki/Kim_Kardashian",
+            "beginIndex": 10,
+            "endIndex": 13
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_9",
+      "corpus": "Justin, Stefani, and Kate are among the most popular people on both MTV and Twitter.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Justin",
+          "uri": "https://en.wikipedia.org/wiki/Justin_Bieber",
+          "beginIndex": 0,
+          "endIndex": 6
+        },
+        {
+          "text": "Stefani",
+          "uri": "https://en.wikipedia.org/wiki/Lady_gaga",
+          "beginIndex": 8,
+          "endIndex": 15
+        },
+        {
+          "text": "Kate",
+          "uri": "https://en.wikipedia.org/wiki/Kate_Perry",
+          "beginIndex": 21,
+          "endIndex": 25
+        },
+        {
+          "text": "MTV",
+          "uri": "https://en.wikipedia.org/wiki/MTV",
+          "beginIndex": 68,
+          "endIndex": 71
+        },
+        {
+          "text": "Twitter",
+          "uri": "https://en.wikipedia.org/wiki/Twitter",
+          "beginIndex": 76,
+          "endIndex": 83
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_10",
+      "corpus": "Dylan performed Hurricane about the black fighter Carter, from his album Desire.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Dylan",
+          "uri": "https://en.wikipedia.org/wiki/Bob_Dylan",
+          "beginIndex": 0,
+          "endIndex": 5
+        },
+        {
+          "text": "Hurricane",
+          "uri": "https://en.wikipedia.org/wiki/Hurricane_(song)",
+          "beginIndex": 16,
+          "endIndex": 25
+        },
+        {
+          "text": "Carter",
+          "uri": "https://en.wikipedia.org/wiki/Rubin_Carter",
+          "beginIndex": 50,
+          "endIndex": 56
+        },
+        {
+          "text": "Desire",
+          "uri": "https://en.wikipedia.org/wiki/Desire_(Bob_Dylan_album)",
+          "beginIndex": 73,
+          "endIndex": 79
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Dylan",
+            "uri": "https://en.wikipedia.org/wiki/Dylan_(surname)",
+            "beginIndex": 0,
+            "endIndex": 5
+          },
+          {
+            "text": "Hurricane",
+            "uri": "https://en.wikipedia.org/wiki/Hurricane_(Dylan singular)",
+            "beginIndex": 16,
+            "endIndex": 25
+          },
+          {
+            "text": "Carter",
+            "uri": "https://en.wikipedia.org/wiki/Carter_Rodgers",
+            "beginIndex": 50,
+            "endIndex": 56
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_11",
+      "corpus": "Desire contains a duet with Harris in the song Joey.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Desire",
+          "uri": "https://en.wikipedia.org/wiki/Desire_(Bob_Dylan_album)",
+          "beginIndex": 0,
+          "endIndex": 6
+        },
+        {
+          "text": "Harris",
+          "uri": "https://en.wikipedia.org/wiki/Emmylou_Harris",
+          "beginIndex": 28,
+          "endIndex": 34
+        },
+        {
+          "text": "Joey",
+          "uri": "https://en.wikipedia.org/wiki/Joey_(Bob_Dylan_song)",
+          "beginIndex": 47,
+          "endIndex": 51
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Harris",
+            "uri": "https://en.wikipedia.org/wiki/Here_Comes_the_Sun",
+            "beginIndex": 28,
+            "endIndex": 34
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_12",
+      "corpus": "Three of the greatest guitarists started their career in a single band : Clapton, Beck, and Page.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Clapton",
+          "uri": "https://en.wikipedia.org/wiki/Eric_Clapton",
+          "beginIndex": 73,
+          "endIndex": 80
+        },
+        {
+          "text": "Beck",
+          "uri": "https://en.wikipedia.org/wiki/Jeff_Beck",
+          "beginIndex": 82,
+          "endIndex": 86
+        },
+        {
+          "text": "Page",
+          "uri": "https://en.wikipedia.org/wiki/Jimmy_Page",
+          "beginIndex": 92,
+          "endIndex": 96
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Clapton",
+            "uri": "https://en.wikipedia.org/wiki/Eric_Clapton",
+            "beginIndex": 73,
+            "endIndex": 80
+          },
+          {
+            "text": "Beck",
+            "uri": "https://en.wikipedia.org/wiki/Gregory_Alan_Beck",
+            "beginIndex": 82,
+            "endIndex": 86
+          },
+          {
+            "text": "Page",
+            "uri": "https://en.wikipedia.org/wiki/Freddie_Mercury",
+            "beginIndex": 92,
+            "endIndex": 96
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_13",
+      "corpus": "Allen founded the EMP in Seattle, which featured exhibitions about Hendrix and Dylan, but also about various science fiction movies.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Allen",
+          "uri": "https://en.wikipedia.org/wiki/Paul_Allen",
+          "beginIndex": 0,
+          "endIndex": 5
+        },
+        {
+          "text": "EMP",
+          "uri": "https://en.wikipedia.org/wiki/EMP_Museum",
+          "beginIndex": 18,
+          "endIndex": 21
+        },
+        {
+          "text": "Seattle",
+          "uri": "https://en.wikipedia.org/wiki/Seattle",
+          "beginIndex": 25,
+          "endIndex": 32
+        },
+        {
+          "text": "Hendrix",
+          "uri": "https://en.wikipedia.org/wiki/Jimi_Hendrix",
+          "beginIndex": 67,
+          "endIndex": 74
+        },
+        {
+          "text": "Dylan",
+          "uri": "https://en.wikipedia.org/wiki/Bob_Dylan",
+          "beginIndex": 79,
+          "endIndex": 84
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Allen",
+            "uri": "https://en.wikipedia.org/wiki/Allen_EMTP",
+            "beginIndex": 0,
+            "endIndex": 5
+          },
+          {
+            "text": "the EMP",
+            "uri": "https://en.wikipedia.org/wiki/Emerald_Moon_Planetarium",
+            "beginIndex": 14,
+            "endIndex": 21
+          },
+          {
+            "text": "Seattle",
+            "uri": "https://en.wikipedia.org/wiki/Sattle_Phot图表",
+            "beginIndex": 25,
+            "endIndex": 32
+          },
+          {
+            "text": "Hendrix",
+            "uri": "https://en.wikipedia.org/wiki/Jimi_Hendrix",
+            "beginIndex": 67,
+            "endIndex": 74
+          },
+          {
+            "text": "Dylan",
+            "uri": "https://en.wikipedia.org/wiki/Bob_Dylan",
+            "beginIndex": 79,
+            "endIndex": 84
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_14",
+      "corpus": "Despite featuring some of the most promininent musicians of their decade --- like Sinatra, Dylan, Joel, and Santana --- Columbia was aquired by Sony in the 1980s.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Sinatra",
+          "uri": "https://en.wikipedia.org/wiki/Frank_Sinatra",
+          "beginIndex": 82,
+          "endIndex": 89
+        },
+        {
+          "text": "Dylan",
+          "uri": "https://en.wikipedia.org/wiki/Bob_Dylan",
+          "beginIndex": 91,
+          "endIndex": 96
+        },
+        {
+          "text": "Joel",
+          "uri": "https://en.wikipedia.org/wiki/Billy_Joel",
+          "beginIndex": 98,
+          "endIndex": 102
+        },
+        {
+          "text": "Santana",
+          "uri": "https://en.wikipedia.org/wiki/Carlos_Santana",
+          "beginIndex": 108,
+          "endIndex": 115
+        },
+        {
+          "text": "Columbia",
+          "uri": "https://en.wikipedia.org/wiki/Columbia_Records",
+          "beginIndex": 120,
+          "endIndex": 128
+        },
+        {
+          "text": "Sony",
+          "uri": "https://en.wikipedia.org/wiki/Sony_Music_Entertainment",
+          "beginIndex": 144,
+          "endIndex": 148
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": " Sinatra",
+            "uri": "https://en.wikipedia.org/wiki/Jonny_Cash",
+            "beginIndex": 81,
+            "endIndex": 89
+          },
+          {
+            "text": " Dylan",
+            "uri": "https://en.wikipedia.org/wiki/Bob_Dylan",
+            "beginIndex": 90,
+            "endIndex": 96
+          },
+          {
+            "text": " Joel",
+            "uri": "https://en.wikipedia.org/wiki/Joel_OutKast",
+            "beginIndex": 97,
+            "endIndex": 102
+          },
+          {
+            "text": " Santana",
+            "uri": "https://en.wikipedia.org/wiki/Fred_Algain%C3%A9_Santana",
+            "beginIndex": 107,
+            "endIndex": 115
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_15",
+      "corpus": "After unsuccessful years, aging country star Cash made a grandiose comeback with his American Recordings, recorded at his home with the help of Rubin.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Cash",
+          "uri": "https://en.wikipedia.org/wiki/Johnny_Cash",
+          "beginIndex": 45,
+          "endIndex": 49
+        },
+        {
+          "text": "American Recordings",
+          "uri": "https://en.wikipedia.org/wiki/American_Recordings_(album)",
+          "beginIndex": 85,
+          "endIndex": 104
+        },
+        {
+          "text": "Rubin",
+          "uri": "https://en.wikipedia.org/wiki/Rick_Rubin",
+          "beginIndex": 144,
+          "endIndex": 149
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Cash",
+            "uri": "https://en.wikipedia.org/wiki/Country_star",
+            "beginIndex": 45,
+            "endIndex": 49
+          },
+          {
+            "text": "Rubin",
+            "uri": "https://en.wikipedia.org/wiki/Rubin_(surname)",
+            "beginIndex": 144,
+            "endIndex": 149
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_16",
+      "corpus": "The group formed by Homme, Grohl, and Jones was supposed to be named Caligula, but the name was already taken.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Homme",
+          "uri": "https://en.wikipedia.org/wiki/Josh_Homme",
+          "beginIndex": 20,
+          "endIndex": 25
+        },
+        {
+          "text": "Grohl",
+          "uri": "https://en.wikipedia.org/wiki/Dave_Grohl",
+          "beginIndex": 27,
+          "endIndex": 32
+        },
+        {
+          "text": "Jones",
+          "uri": "https://en.wikipedia.org/wiki/John_Paul_Jones_(musician)",
+          "beginIndex": 38,
+          "endIndex": 43
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Homme",
+            "uri": "https://en.wikipedia.org/wiki/Homme_(band)",
+            "beginIndex": 20,
+            "endIndex": 25
+          },
+          {
+            "text": "Grohl",
+            "uri": "https://en.wikipedia.org/wiki/Simon_Grohl",
+            "beginIndex": 27,
+            "endIndex": 32
+          },
+          {
+            "text": "Jones",
+            "uri": "https://en.wikipedia.org/wiki/Jones_(surname)",
+            "beginIndex": 38,
+            "endIndex": 43
+          },
+          {
+            "text": "Caligula",
+            "uri": "https://en.wikipedia.org/wiki/Julius_Caligula",
+            "beginIndex": 69,
+            "endIndex": 77
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_17",
+      "corpus": "Jobs and Baez dated in the late 1970s, and she performed at his Stanford memorial.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Jobs",
+          "uri": "https://en.wikipedia.org/wiki/Steve_Jobs",
+          "beginIndex": 0,
+          "endIndex": 4
+        },
+        {
+          "text": "Baez",
+          "uri": "https://en.wikipedia.org/wiki/Joan_Baez",
+          "beginIndex": 9,
+          "endIndex": 13
+        },
+        {
+          "text": "Stanford",
+          "uri": "https://en.wikipedia.org/wiki/Stanford_University",
+          "beginIndex": 64,
+          "endIndex": 72
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Stanford",
+            "uri": "https://en.wikipedia.org/wiki/Stanford_University",
+            "beginIndex": 64,
+            "endIndex": 72
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_18",
+      "corpus": "The Isle of Wight festival in 1970 was the biggest at its time, surpassing Woodstock with acts like Davis, Chicago, and Mitchell.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Isle of Wight festival",
+          "uri": "https://en.wikipedia.org/wiki/Isle_of_wight_festival",
+          "beginIndex": 4,
+          "endIndex": 26
+        },
+        {
+          "text": "Woodstock",
+          "uri": "https://en.wikipedia.org/wiki/Woodstock_Festival",
+          "beginIndex": 75,
+          "endIndex": 84
+        },
+        {
+          "text": "Davis",
+          "uri": "https://en.wikipedia.org/wiki/Miles_davis",
+          "beginIndex": 100,
+          "endIndex": 105
+        },
+        {
+          "text": "Chicago",
+          "uri": "https://en.wikipedia.org/wiki/Chicago_(band)",
+          "beginIndex": 107,
+          "endIndex": 114
+        },
+        {
+          "text": "Mitchell",
+          "uri": "https://en.wikipedia.org/wiki/Joni_Mitchell",
+          "beginIndex": 120,
+          "endIndex": 128
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Isle of Wight festival",
+            "uri": "https://en.wikipedia.org/wiki/Isle_of_Wight_festival",
+            "beginIndex": 4,
+            "endIndex": 26
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_19",
+      "corpus": "Eric preferred to play Blues instead of Rock, so he joined Mayall 's band.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Eric",
+          "uri": "https://en.wikipedia.org/wiki/Eric_Clapton",
+          "beginIndex": 0,
+          "endIndex": 4
+        },
+        {
+          "text": "Blues",
+          "uri": "https://en.wikipedia.org/wiki/Blues",
+          "beginIndex": 23,
+          "endIndex": 28
+        },
+        {
+          "text": "Rock",
+          "uri": "https://en.wikipedia.org/wiki/Rock_music",
+          "beginIndex": 40,
+          "endIndex": 44
+        },
+        {
+          "text": "Mayall",
+          "uri": "https://en.wikipedia.org/wiki/John_Mayall",
+          "beginIndex": 59,
+          "endIndex": 65
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Eric",
+            "uri": "https://en.wikipedia.org/wiki/Eric",
+            "beginIndex": 0,
+            "endIndex": 4
+          },
+          {
+            "text": "Mayall",
+            "uri": "https://en.wikipedia.org/wiki/Mayall",
+            "beginIndex": 59,
+            "endIndex": 65
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_20",
+      "corpus": "After the death of Steve, the former CEO of Apple, his commencement speech at Stanford was watched thousands of times.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Steve",
+          "uri": "https://en.wikipedia.org/wiki/Steve_Jobs",
+          "beginIndex": 19,
+          "endIndex": 24
+        },
+        {
+          "text": "Apple",
+          "uri": "https://en.wikipedia.org/wiki/Apple_Inc.",
+          "beginIndex": 44,
+          "endIndex": 49
+        },
+        {
+          "text": "Stanford",
+          "uri": "https://en.wikipedia.org/wiki/Stanford_University",
+          "beginIndex": 78,
+          "endIndex": 86
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Steve",
+            "uri": "https://en.wikipedia.org/wiki/Steve_Jobs",
+            "beginIndex": 19,
+            "endIndex": 24
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_21",
+      "corpus": "In 1980, Steve dropped out of Stanford to join Microsoft, the company behind the Windows operating system.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Steve",
+          "uri": "https://en.wikipedia.org/wiki/Steve_Ballmer",
+          "beginIndex": 9,
+          "endIndex": 14
+        },
+        {
+          "text": "Stanford",
+          "uri": "https://en.wikipedia.org/wiki/Stanford_University",
+          "beginIndex": 30,
+          "endIndex": 38
+        },
+        {
+          "text": "Microsoft",
+          "uri": "https://en.wikipedia.org/wiki/Microsoft",
+          "beginIndex": 47,
+          "endIndex": 56
+        },
+        {
+          "text": "Windows",
+          "uri": "https://en.wikipedia.org/wiki/Microsoft_Windows",
+          "beginIndex": 81,
+          "endIndex": 88
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Steve",
+            "uri": "https://en.wikipedia.org/wiki/Steve",
+            "beginIndex": 9,
+            "endIndex": 14
+          },
+          {
+            "text": "Stanford",
+            "uri": "https://en.wikipedia.org/wiki/Stanford_University",
+            "beginIndex": 30,
+            "endIndex": 38
+          },
+          {
+            "text": "Microsoft",
+            "uri": "https://en.wikipedia.org/wiki/Microsoft",
+            "beginIndex": 47,
+            "endIndex": 56
+          },
+          {
+            "text": "Windows",
+            "uri": "https://en.wikipedia.org/wiki/Windows_(operating_system)",
+            "beginIndex": 81,
+            "endIndex": 88
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_22",
+      "corpus": "Cairo was the code name for a project at Microsoft from 1991 to 1996. Its charter was to build technologies for a next generation operating system that would fulfill the vision of Bill.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Cairo",
+          "uri": "https://en.wikipedia.org/wiki/Cairo_(operating_system)",
+          "beginIndex": 0,
+          "endIndex": 5
+        },
+        {
+          "text": "Microsoft",
+          "uri": "https://en.wikipedia.org/wiki/Microsoft",
+          "beginIndex": 41,
+          "endIndex": 50
+        },
+        {
+          "text": "Bill",
+          "uri": "https://en.wikipedia.org/wiki/Bill_Gates",
+          "beginIndex": 180,
+          "endIndex": 184
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Microsoft",
+            "uri": "https://en.wikipedia.org/wiki/Microsoft",
+            "beginIndex": 41,
+            "endIndex": 50
+          },
+          {
+            "text": "Bill",
+            "uri": "https://en.wikipedia.org/wiki/Bill_Gates",
+            "beginIndex": 180,
+            "endIndex": 184
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_23",
+      "corpus": "Steve, Bill, Sergey, and Larry have drawn a great deal of admiration these days for their pioneering successes that changed the world we live in.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Steve",
+          "uri": "https://en.wikipedia.org/wiki/Steve_Jobs",
+          "beginIndex": 0,
+          "endIndex": 5
+        },
+        {
+          "text": "Bill",
+          "uri": "https://en.wikipedia.org/wiki/Bill_Gates",
+          "beginIndex": 7,
+          "endIndex": 11
+        },
+        {
+          "text": "Sergey",
+          "uri": "https://en.wikipedia.org/wiki/Sergey_Brin",
+          "beginIndex": 13,
+          "endIndex": 19
+        },
+        {
+          "text": "Larry",
+          "uri": "https://en.wikipedia.org/wiki/Larry_Page",
+          "beginIndex": 25,
+          "endIndex": 30
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Steve",
+            "uri": "https://en.wikipedia.org/wiki/Steve_Jobs",
+            "beginIndex": 0,
+            "endIndex": 5
+          },
+          {
+            "text": "Bill",
+            "uri": "https://en.wikipedia.org/wiki/Steve_Jobs",
+            "beginIndex": 7,
+            "endIndex": 11
+          },
+          {
+            "text": "Sergey",
+            "uri": "https://en.wikipedia.org/wiki/Sergey_Brin",
+            "beginIndex": 13,
+            "endIndex": 19
+          },
+          {
+            "text": "Larry",
+            "uri": "https://en.wikipedia.org/wiki/Larry_Page",
+            "beginIndex": 25,
+            "endIndex": 30
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_24",
+      "corpus": "Karl and Theo made their extreme fortunes selling low-price groceries.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Karl",
+          "uri": "https://en.wikipedia.org/wiki/Karl_Albrecht",
+          "beginIndex": 0,
+          "endIndex": 4
+        },
+        {
+          "text": "Theo",
+          "uri": "https://en.wikipedia.org/wiki/Theo_Albrecht",
+          "beginIndex": 9,
+          "endIndex": 13
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Karl",
+            "uri": "",
+            "beginIndex": 0,
+            "endIndex": 4
+          },
+          {
+            "text": "Theo",
+            "uri": "",
+            "beginIndex": 9,
+            "endIndex": 13
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_25",
+      "corpus": "While Apple is an electronics company, Mango is a clothing one and Orange is a communication one.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Apple",
+          "uri": "https://en.wikipedia.org/wiki/Apple_Inc.",
+          "beginIndex": 6,
+          "endIndex": 11
+        },
+        {
+          "text": "Mango",
+          "uri": "https://en.wikipedia.org/wiki/Mango_(clothing)",
+          "beginIndex": 39,
+          "endIndex": 44
+        },
+        {
+          "text": "Orange",
+          "uri": "https://en.wikipedia.org/wiki/Orange_(telecommunications)",
+          "beginIndex": 67,
+          "endIndex": 73
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Apple",
+            "uri": "https://en.wikipedia.org/wiki/Apple_Inc.",
+            "beginIndex": 6,
+            "endIndex": 11
+          },
+          {
+            "text": "Mango",
+            "uri": "https://en.wikipedia.org/wiki/Mango_(clothing)",
+            "beginIndex": 39,
+            "endIndex": 44
+          },
+          {
+            "text": "Orange",
+            "uri": "https://en.wikipedia.org/wiki/Orange_(telecommunications)",
+            "beginIndex": 67,
+            "endIndex": 73
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_26",
+      "corpus": "Sam, the co-founder of Equity International, was given the nickname of \" the grave dancer \" because of his ability to buy businesses that others thought were dead.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Sam",
+          "uri": "https://en.wikipedia.org/wiki/Sam_Zell",
+          "beginIndex": 0,
+          "endIndex": 3
+        },
+        {
+          "text": "Equity International",
+          "uri": "https://en.wikipedia.org/wiki/Equity_International",
+          "beginIndex": 23,
+          "endIndex": 43
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Sam",
+            "uri": "",
+            "beginIndex": 0,
+            "endIndex": 3
+          },
+          {
+            "text": "Equity International",
+            "uri": "https://en.wikipedia.org/wiki/Equity_International",
+            "beginIndex": 23,
+            "endIndex": 43
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_27",
+      "corpus": "Pixar produced Cars, and John directed it.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Pixar",
+          "uri": "https://en.wikipedia.org/wiki/Pixar",
+          "beginIndex": 0,
+          "endIndex": 5
+        },
+        {
+          "text": "Cars",
+          "uri": "https://en.wikipedia.org/wiki/Cars_(film)",
+          "beginIndex": 15,
+          "endIndex": 19
+        },
+        {
+          "text": "John",
+          "uri": "https://en.wikipedia.org/wiki/John_Lasseter",
+          "beginIndex": 25,
+          "endIndex": 29
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Pixar",
+            "uri": "https://en.wikipedia.org/wiki/Pixar",
+            "beginIndex": 0,
+            "endIndex": 5
+          },
+          {
+            "text": "John",
+            "uri": "https://en.wikipedia.org/wiki/John_Doe",
+            "beginIndex": 25,
+            "endIndex": 29
+          },
+          {
+            "text": "Cars",
+            "uri": "https://en.wikipedia.org/wiki/Cars_(2003_film)",
+            "beginIndex": 15,
+            "endIndex": 19
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_28",
+      "corpus": "Mars, Galaxy, and Bounty are all chocolate.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Mars",
+          "uri": "https://en.wikipedia.org/wiki/Mars_bar",
+          "beginIndex": 0,
+          "endIndex": 4
+        },
+        {
+          "text": "Galaxy",
+          "uri": "https://en.wikipedia.org/wiki/Galaxy_(chocolate)",
+          "beginIndex": 6,
+          "endIndex": 12
+        },
+        {
+          "text": "Bounty",
+          "uri": "https://en.wikipedia.org/wiki/Bounty_(chocolate_bar)",
+          "beginIndex": 18,
+          "endIndex": 24
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Mars",
+            "uri": "https://en.wikipedia.org/wiki/Mars_(chocolate)",
+            "beginIndex": 0,
+            "endIndex": 4
+          },
+          {
+            "text": "Galaxy",
+            "uri": "https://en.wikipedia.org/wiki/Mars_(chocolate)",
+            "beginIndex": 6,
+            "endIndex": 12
+          },
+          {
+            "text": "Bounty",
+            "uri": "https://en.wikipedia.org/wiki/Mars_(chocolate)",
+            "beginIndex": 18,
+            "endIndex": 24
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_29",
+      "corpus": "Bosch and Sharp are both home appliances producing companies.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Bosch",
+          "uri": "https://en.wikipedia.org/wiki/Robert_Bosch_GmbH",
+          "beginIndex": 0,
+          "endIndex": 5
+        },
+        {
+          "text": "Sharp",
+          "uri": "https://en.wikipedia.org/wiki/Sharp_Corporation",
+          "beginIndex": 10,
+          "endIndex": 15
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Bosch",
+            "uri": "https://en.wikipedia.org/wiki/Bosch",
+            "beginIndex": 0,
+            "endIndex": 5
+          },
+          {
+            "text": "Sharp",
+            "uri": "https://en.wikipedia.org/wiki/Sharp",
+            "beginIndex": 10,
+            "endIndex": 15
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_30",
+      "corpus": "City won 3:2 against the Spurs.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "City",
+          "uri": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
+          "beginIndex": 0,
+          "endIndex": 4
+        },
+        {
+          "text": "Spurs",
+          "uri": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
+          "beginIndex": 25,
+          "endIndex": 30
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_31",
+      "corpus": "The Gunners now play their home matches at the Emirates.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Gunners",
+          "uri": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
+          "beginIndex": 4,
+          "endIndex": 11
+        },
+        {
+          "text": "Emirates",
+          "uri": "https://en.wikipedia.org/wiki/Emirates_Stadium",
+          "beginIndex": 47,
+          "endIndex": 55
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Gunners",
+            "uri": "https://en.wikipedia.org/wiki/Gunners_Jan_Toronto",
+            "beginIndex": 4,
+            "endIndex": 11
+          },
+          {
+            "text": "Emirates",
+            "uri": "https://en.wikipedia.org/wiki/Emirates_(airline)",
+            "beginIndex": 47,
+            "endIndex": 55
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_32",
+      "corpus": "Atletico has beaten its archrival Real.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Atletico",
+          "uri": "https://en.wikipedia.org/wiki/Atlético_Madrid",
+          "beginIndex": 0,
+          "endIndex": 8
+        },
+        {
+          "text": "Real",
+          "uri": "https://en.wikipedia.org/wiki/Real_Madrid_C.F.",
+          "beginIndex": 34,
+          "endIndex": 38
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Atletico",
+            "uri": "https://en.wikipedia.org/wiki/Atletico_Mexico",
+            "beginIndex": 0,
+            "endIndex": 8
+          },
+          {
+            "text": "Real",
+            "uri": "https://en.wikipedia.org/wiki/Real_Madrid",
+            "beginIndex": 34,
+            "endIndex": 38
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_33",
+      "corpus": "Müller scored a hattrick against England.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Müller",
+          "uri": "https://en.wikipedia.org/wiki/Thomas_Müller_(footballer)",
+          "beginIndex": 0,
+          "endIndex": 6
+        },
+        {
+          "text": "England",
+          "uri": "https://en.wikipedia.org/wiki/England_national_football_team",
+          "beginIndex": 33,
+          "endIndex": 40
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Müller",
+            "uri": "",
+            "beginIndex": 0,
+            "endIndex": 6
+          },
+          {
+            "text": "England",
+            "uri": "https://en.wikipedia.org/wiki/England",
+            "beginIndex": 33,
+            "endIndex": 40
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_34",
+      "corpus": "Thomas and Mario are strikers playing in Munich.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Thomas",
+          "uri": "https://en.wikipedia.org/wiki/Thomas_Müller_(footballer)",
+          "beginIndex": 0,
+          "endIndex": 6
+        },
+        {
+          "text": "Mario",
+          "uri": "https://en.wikipedia.org/wiki/Mario_Gomez",
+          "beginIndex": 11,
+          "endIndex": 16
+        },
+        {
+          "text": "Munich",
+          "uri": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
+          "beginIndex": 41,
+          "endIndex": 47
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Thomas",
+            "uri": "https://en.wikipedia.org/wiki/Thomas",
+            "beginIndex": 0,
+            "endIndex": 6
+          },
+          {
+            "text": "Mario",
+            "uri": "https://en.wikipedia.org/wiki/Mario",
+            "beginIndex": 11,
+            "endIndex": 16
+          },
+          {
+            "text": "Munich",
+            "uri": "https://en.wikipedia.org/wiki/Munich",
+            "beginIndex": 41,
+            "endIndex": 47
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_35",
+      "corpus": "Haug congratulated Red Bull.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Haug",
+          "uri": "https://en.wikipedia.org/wiki/Norbert_Haug",
+          "beginIndex": 0,
+          "endIndex": 4
+        },
+        {
+          "text": "Red Bull",
+          "uri": "https://en.wikipedia.org/wiki/FC_Red_Bull_Salzburg",
+          "beginIndex": 19,
+          "endIndex": 27
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Haug",
+            "uri": "https://en.wikipedia.org/wiki/Olav_Haug",
+            "beginIndex": 0,
+            "endIndex": 4
+          },
+          {
+            "text": "Red Bull",
+            "uri": "https://en.wikipedia.org/wiki/Red_Bull",
+            "beginIndex": 19,
+            "endIndex": 27
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_36",
+      "corpus": "Völler will never forget the match against Oranje in San Siro.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Völler",
+          "uri": "https://en.wikipedia.org/wiki/Rudi_Völler",
+          "beginIndex": 0,
+          "endIndex": 6
+        },
+        {
+          "text": "Oranje",
+          "uri": "https://en.wikipedia.org/wiki/Netherlands_national_football_team",
+          "beginIndex": 43,
+          "endIndex": 49
+        },
+        {
+          "text": "San Siro",
+          "uri": "https://en.wikipedia.org/wiki/San_Siro",
+          "beginIndex": 53,
+          "endIndex": 61
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Oranje",
+            "uri": "https://en.wikipedia.org/wiki/FC_Orangje",
+            "beginIndex": 43,
+            "endIndex": 49
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_37",
+      "corpus": "Landgraf and Meijer played at the Tivoli.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Landgraf",
+          "uri": "https://en.wikipedia.org/wiki/Willi_Landgraf",
+          "beginIndex": 0,
+          "endIndex": 8
+        },
+        {
+          "text": "Meijer",
+          "uri": "https://en.wikipedia.org/wiki/Erik_Meijer_(footballer)",
+          "beginIndex": 13,
+          "endIndex": 19
+        },
+        {
+          "text": "Tivoli",
+          "uri": "https://en.wikipedia.org/wiki/New_Tivoli",
+          "beginIndex": 34,
+          "endIndex": 40
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Landgraf",
+            "uri": "",
+            "beginIndex": 0,
+            "endIndex": 8
+          },
+          {
+            "text": "Meijer",
+            "uri": "",
+            "beginIndex": 13,
+            "endIndex": 19
+          },
+          {
+            "text": "Tivoli",
+            "uri": "https://en.wikipedia.org/wiki/Tivoli",
+            "beginIndex": 34,
+            "endIndex": 40
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_38",
+      "corpus": "Yabo plays for Aachen.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Yabo",
+          "uri": "https://en.wikipedia.org/wiki/Reinhold_Yabo",
+          "beginIndex": 0,
+          "endIndex": 4
+        },
+        {
+          "text": "Aachen",
+          "uri": "https://en.wikipedia.org/wiki/Alemannia_Aachen",
+          "beginIndex": 15,
+          "endIndex": 21
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Yabo",
+            "uri": "",
+            "beginIndex": 0,
+            "endIndex": 4
+          },
+          {
+            "text": "Aachen",
+            "uri": "https://en.wikipedia.org/wiki/Aachen",
+            "beginIndex": 15,
+            "endIndex": 21
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_39",
+      "corpus": "Hertha won against Dortmund.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Hertha",
+          "uri": "https://en.wikipedia.org/wiki/Hertha_BSC",
+          "beginIndex": 0,
+          "endIndex": 6
+        },
+        {
+          "text": "Dortmund",
+          "uri": "https://en.wikipedia.org/wiki/Borussia_Dortmund",
+          "beginIndex": 19,
+          "endIndex": 27
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Hertha",
+            "uri": "https://en.wikipedia.org/wiki/Hertha_Berlin",
+            "beginIndex": 0,
+            "endIndex": 6
+          },
+          {
+            "text": "Dortmund",
+            "uri": "https://en.wikipedia.org/wiki/Dortmund_(football_club)",
+            "beginIndex": 19,
+            "endIndex": 27
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_40",
+      "corpus": "Nixon resigned after Watergate despite his success in the Ping-Pong Diplomacy with China.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Nixon",
+          "uri": "https://en.wikipedia.org/wiki/Richard_Nixon",
+          "beginIndex": 0,
+          "endIndex": 5
+        },
+        {
+          "text": "Watergate",
+          "uri": "https://en.wikipedia.org/wiki/Watergate_scandal",
+          "beginIndex": 21,
+          "endIndex": 30
+        },
+        {
+          "text": "Ping-Pong Diplomacy",
+          "uri": "https://en.wikipedia.org/wiki/Ping_Pong_Diplomacy",
+          "beginIndex": 58,
+          "endIndex": 77
+        },
+        {
+          "text": "China",
+          "uri": "https://en.wikipedia.org/wiki/People's_Republic_of_China",
+          "beginIndex": 83,
+          "endIndex": 88
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Nixon",
+            "uri": "https://en.wikipedia.org/wiki/Richard_Nixon",
+            "beginIndex": 0,
+            "endIndex": 5
+          },
+          {
+            "text": "Watergate",
+            "uri": "https://en.wikipedia.org/wiki/Watergate",
+            "beginIndex": 21,
+            "endIndex": 30
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_41",
+      "corpus": "The Sun and The Times reported that Greece will have to leave the Euro soon.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "The Sun",
+          "uri": "https://en.wikipedia.org/wiki/The_Sun_(United_Kingdom)",
+          "beginIndex": 0,
+          "endIndex": 7
+        },
+        {
+          "text": "The Times",
+          "uri": "https://en.wikipedia.org/wiki/The_Times",
+          "beginIndex": 12,
+          "endIndex": 21
+        },
+        {
+          "text": "Greece",
+          "uri": "https://en.wikipedia.org/wiki/Greece",
+          "beginIndex": 36,
+          "endIndex": 42
+        },
+        {
+          "text": "Euro",
+          "uri": "https://en.wikipedia.org/wiki/Eurozone",
+          "beginIndex": 66,
+          "endIndex": 70
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "The Times",
+            "uri": "https://en.wikipedia.org/wiki/The_Times",
+            "beginIndex": 12,
+            "endIndex": 21
+          },
+          {
+            "text": "Greece",
+            "uri": "https://en.wikipedia.org/wiki/Greece",
+            "beginIndex": 36,
+            "endIndex": 42
+          },
+          {
+            "text": "Euro",
+            "uri": "https://en.wikipedia.org/wiki/Euro",
+            "beginIndex": 66,
+            "endIndex": 70
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_42",
+      "corpus": "The Enola Gay bombed Hiroshima at the end of Second World War.﻿",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Enola Gay",
+          "uri": "https://en.wikipedia.org/wiki/Enola_Gay",
+          "beginIndex": 4,
+          "endIndex": 13
+        },
+        {
+          "text": "Hiroshima",
+          "uri": "https://en.wikipedia.org/wiki/Hiroshima",
+          "beginIndex": 21,
+          "endIndex": 30
+        },
+        {
+          "text": "Second World War",
+          "uri": "https://en.wikipedia.org/wiki/World_War_II",
+          "beginIndex": 45,
+          "endIndex": 61
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Enola Gay",
+            "uri": "https://en.wikipedia.org/wiki/World_War_II_B-29_Superfortress#The_Gay",
+            "beginIndex": 4,
+            "endIndex": 13
+          },
+          {
+            "text": "Hiroshima",
+            "uri": "https://en.wikipedia.org/wiki/Hiroshima",
+            "beginIndex": 21,
+            "endIndex": 30
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_43",
+      "corpus": "The RAF was a terrorist group led by Baader and Meinhof that killed Schleyer.﻿",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "RAF",
+          "uri": "https://en.wikipedia.org/wiki/Red_Army_Faction",
+          "beginIndex": 4,
+          "endIndex": 7
+        },
+        {
+          "text": "Baader",
+          "uri": "https://en.wikipedia.org/wiki/Andreas_Baader",
+          "beginIndex": 37,
+          "endIndex": 43
+        },
+        {
+          "text": "Meinhof",
+          "uri": "https://en.wikipedia.org/wiki/Ulrike_Meinhof",
+          "beginIndex": 48,
+          "endIndex": 55
+        },
+        {
+          "text": "Schleyer",
+          "uri": "https://en.wikipedia.org/wiki/Hanns-Martin_Schleyer",
+          "beginIndex": 68,
+          "endIndex": 76
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_44",
+      "corpus": "Onassis married Kennedy on October 20, 1968.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Onassis",
+          "uri": "https://en.wikipedia.org/wiki/Jacqueline_Kennedy_Onassis",
+          "beginIndex": 0,
+          "endIndex": 7
+        },
+        {
+          "text": "Kennedy",
+          "uri": "https://en.wikipedia.org/wiki/John_F._Kennedy",
+          "beginIndex": 16,
+          "endIndex": 23
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Onassis",
+            "uri": "https://en.wikipedia.org/wiki/Onassis_(Cyprus)",
+            "beginIndex": 0,
+            "endIndex": 7
+          },
+          {
+            "text": "Kennedy",
+            "uri": "https://en.wikipedia.org/wiki/John_F._Kennedy",
+            "beginIndex": 16,
+            "endIndex": 23
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_45",
+      "corpus": "Armstrong was the first man on the Moon.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Armstrong",
+          "uri": "https://en.wikipedia.org/wiki/Neil_Armstrong",
+          "beginIndex": 0,
+          "endIndex": 9
+        },
+        {
+          "text": "Moon",
+          "uri": "https://en.wikipedia.org/wiki/Moon",
+          "beginIndex": 35,
+          "endIndex": 39
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Armstrong",
+            "uri": "https://en.wikipedia.org/wiki/Neil_Armstrong",
+            "beginIndex": 0,
+            "endIndex": 9
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_46",
+      "corpus": "Erich was born in Neunkirchen.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Erich",
+          "uri": "https://en.wikipedia.org/wiki/Erich_Honecker",
+          "beginIndex": 0,
+          "endIndex": 5
+        },
+        {
+          "text": "Neunkirchen",
+          "uri": "https://en.wikipedia.org/wiki/Neunkirchen,_Saarland",
+          "beginIndex": 18,
+          "endIndex": 29
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Erich",
+            "uri": "https://en.wikipedia.org/wiki/Erich",
+            "beginIndex": 0,
+            "endIndex": 5
+          },
+          {
+            "text": "Neunkirchen",
+            "uri": "https://en.wikipedia.org/wiki/Neunkirchen",
+            "beginIndex": 18,
+            "endIndex": 29
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_47",
+      "corpus": "Macedonia is a province of Greece.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Macedonia",
+          "uri": "https://en.wikipedia.org/wiki/Macedonia_(Greece)",
+          "beginIndex": 0,
+          "endIndex": 9
+        },
+        {
+          "text": "Greece",
+          "uri": "https://en.wikipedia.org/wiki/Greece",
+          "beginIndex": 27,
+          "endIndex": 33
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Macedonia",
+            "uri": "https://en.wikipedia.org/wiki/Macedonia",
+            "beginIndex": 0,
+            "endIndex": 9
+          },
+          {
+            "text": "Greece",
+            "uri": "https://en.wikipedia.org/wiki/Greece",
+            "beginIndex": 27,
+            "endIndex": 33
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "id": "KORE50_48",
+      "corpus": "Obama welcomed Merkel upon her arrival at JFK.",
+      "source_file": "KORE50.json",
+      "ground_truth": [
+        {
+          "text": "Obama",
+          "uri": "https://en.wikipedia.org/wiki/Barack_Obama",
+          "beginIndex": 0,
+          "endIndex": 5
+        },
+        {
+          "text": "Merkel",
+          "uri": "https://en.wikipedia.org/wiki/Angela_Merkel",
+          "beginIndex": 15,
+          "endIndex": 21
+        },
+        {
+          "text": "JFK",
+          "uri": "https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport",
+          "beginIndex": 42,
+          "endIndex": 45
+        }
+      ],
+      "predicted": {
+        "ner_output": null,
+        "entities": [
+          {
+            "text": "Obama",
+            "uri": "https://en.wikipedia.org/wiki/Barack_Obaa",
+            "beginIndex": 0,
+            "endIndex": 5
+          },
+          {
+            "text": "Merkel",
+            "uri": "https://en.wikipedia.org/wiki/Julia_M\"uller",
+            "beginIndex": 15,
+            "endIndex": 21
+          },
+          {
+            "text": "JFK",
+            "uri": "https://en.wikipedia.org/wiki/John_F._Kennedy",
+            "beginIndex": 42,
+            "endIndex": 45
+          }
+        ],
+        "error": null
+      }
+    }
+  ]
+}
