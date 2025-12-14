@@ -1,7 +1,55 @@
 import json
 import re
 from typing import List, Dict, Any
+import requests
+from functools import cache
+import os
+from tqdm import tqdm
 
+API = "https://en.wikipedia.org/w/api.php"
+
+HEADERS = {
+    "User-Agent": "redirect-checker/1.0 (swsn)"
+}
+
+CACHE_FILE = "./wiki_search_cache.json"
+
+@cache
+def closest_existing_title(title):
+    title = title.split("/")[-1].replace("_", " ")
+
+    cache = {}
+    if os.path.exists(CACHE_FILE):
+        with open(CACHE_FILE,"r") as f:
+            cache = json.loads(f.read())
+    
+    if title in cache:
+        return cache[title]
+
+    params = {
+        "action": "query",
+        "list": "search",
+        "srsearch": title,
+        "srlimit": 1,
+        "format": "json"
+    }
+
+    r = requests.get(API, params=params, headers=HEADERS, timeout=10)
+    r.raise_for_status()
+    data = r.json()
+
+    if "query" not in data:
+        return ""
+    results = data["query"]["search"]
+    if not results:
+        return ""
+
+    cache[title] = results[0]["title"]
+
+    with open(CACHE_FILE,"w+") as f:
+            f.write(json.dumps(cache,indent=4))
+            
+    return cache[title]
 
 # --- 1. Helper Function: URI Normalization (UPDATED for DBpedia/Wikipedia) ---
 def normalize_uri(uri: str) -> str:
@@ -40,12 +88,16 @@ def compute_entity_linking_metrics(data: List[Dict[str, Any]]) -> Dict[str, floa
     global_fp = 0
     global_fn = 0
 
-    for doc in data:
+    for doc in tqdm(data):
         # Extract entities, handling cases where 'predicted' or 'entities' might be None
         ground_truth = doc.get("ground_truth", [])
         predicted_data = doc.get("predicted", {})
         predicted = predicted_data.get("entities", []) if predicted_data else []
 
+        gt_urls = [gt["uri"] for gt in ground_truth]
+        pred_urls = [p["uri"] for p in predicted]
+
+        resolved = {k: closest_existing_title(k) for k in gt_urls+pred_urls}
         # Track matched indices to prevent double-counting
         matched_gt_indices = set()
         matched_pred_indices = set()
@@ -55,14 +107,14 @@ def compute_entity_linking_metrics(data: List[Dict[str, Any]]) -> Dict[str, floa
             for i_gt, gt_entity in enumerate(ground_truth):
                 if i_gt in matched_gt_indices:
                     continue
-
+                
+                pb,pe = pred_entity.get("beginIndex"), pred_entity.get("endIndex")
+                gtb,gte = gt_entity.get("beginIndex"), gt_entity.get("endIndex")
                 # Exact Span Match
-                span_match = pred_entity.get("beginIndex") == gt_entity.get("beginIndex") and pred_entity.get("endIndex") == gt_entity.get(
-                    "endIndex"
-                )
+                span_match =  not (pb >= gte or pe <= gtb)
 
                 # Normalized URI Match (using the updated function)
-                uri_match = normalize_uri(pred_entity.get("uri", "")) == normalize_uri(gt_entity.get("uri", ""))
+                uri_match = resolved.get(pred_entity.get("uri", ""),"Not").strip().lower() == resolved.get(gt_entity.get("uri", ""),"same").strip().lower()
 
                 if span_match and uri_match:
                     global_tp += 1
@@ -137,14 +189,14 @@ def load_json_and_evaluate(file_path: str) -> Dict[str, Any]:
         return {"error": f"An unexpected error occurred: {e}"}
 
 
-model = "deepseek-r1_7b"
+model = "llama3.2_3b"
 
 for file in [
-    f"./results/KORE50_{model}_results.json",
-    f"./results/MSNBCt_{model}_results.json",
-    f"./results/RSS-500_{model}_results.json",
+    #f"./results/KORE50_{model}_results.json",
+    #f"./results/MSNBCt_{model}_results.json",
+    #f"./results/RSS-500_{model}_results.json",
     f"./results/Reuters-128_{model}_results.json",
-    f"./results/evaluation-dataset-task1_{model}_results.json",
+    #f"./results/evaluation-dataset-task1_{model}_results.json",
 ]:
     final_results = load_json_and_evaluate(file)
     print(json.dumps(final_results, indent=4))
