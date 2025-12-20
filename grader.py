@@ -9,7 +9,7 @@ from tqdm import tqdm
 API = "https://en.wikipedia.org/w/api.php"
 
 HEADERS = {
-    "User-Agent": "redirect-checker/1.0 (swsn)"
+"User-Agent": "redirect-checker/1.0 (swsn)"
 }
 
 CACHE_FILE = "./wiki_search_cache.json"
@@ -189,14 +189,14 @@ def load_json_and_evaluate(file_path: str) -> Dict[str, Any]:
         return {"error": f"An unexpected error occurred: {e}"}
 
 
-model = "llama3.2_3b"
+model = "gemma3_4b"
 
 for file in [
-    #f"./results/KORE50_{model}_results.json",
+    f"./results/KORE50_{model}_results.json",
     #f"./results/MSNBCt_{model}_results.json",
-    #f"./results/RSS-500_{model}_results.json",
+    f"./results/RSS-500_{model}_results.json",
     f"./results/Reuters-128_{model}_results.json",
-    #f"./results/evaluation-dataset-task1_{model}_results.json",
+    f"./results/evaluation-dataset-task1_{model}_results.json",
 ]:
     final_results = load_json_and_evaluate(file)
     print(json.dumps(final_results, indent=4))
