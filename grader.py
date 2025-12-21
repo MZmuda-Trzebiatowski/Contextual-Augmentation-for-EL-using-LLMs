@@ -193,7 +193,7 @@ model = "gemma3_4b"
 
 for file in [
     f"./results/KORE50_{model}_results.json",
-    #f"./results/MSNBCt_{model}_results.json",
+    f"./results/MSNBCt_{model}_results.json",
     f"./results/RSS-500_{model}_results.json",
     f"./results/Reuters-128_{model}_results.json",
     f"./results/evaluation-dataset-task1_{model}_results.json",

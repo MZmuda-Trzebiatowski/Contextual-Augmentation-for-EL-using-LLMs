@@ -66,6 +66,7 @@ class EnhancedOllamaGPT(OllamaGPT):
             model=self.name,
             messages=[{"role": "system", "content": combined_system_prompt}, {"role": "user", "content": combined_user_prompt(text)}],
             format=ELTagList.model_json_schema(),
+            options={"num_predict": 1000},
         )
 
         if response is None:
