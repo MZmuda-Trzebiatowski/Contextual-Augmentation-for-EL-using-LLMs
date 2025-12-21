@@ -2,7 +2,7 @@
   "metadata": {
     "dataset": "KORE50",
     "model": "llama3.2:3b",
-    "timestamp": "2025-12-07T13:46:19.896808",
+    "timestamp": "2025-12-21T14:49:33.211419",
     "total_samples": 49,
     "successful": 49,
     "failed": 0
@@ -27,31 +27,43 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'David and Victoria named their children Brooklyn, Romeo, Cruz, and Harper Seven.'\n\nHere is the text with named entities surrounded by [START_ENT] and [END_ENT] tags:\n\n'David and Victoria named their children [START_ENT]Brooklyn[END_ENT], [START_ENT]Romeo[END_ENT], [START_ENT]Cruz[END_ENT], and [START_ENT]Harper Seven[END_ENT].'",
         "entities": [
           {
+            "text": "David",
+            "uri": "https://en.wikipedia.org/wiki/David",
+            "beginIndex": 25,
+            "endIndex": 30
+          },
+          {
+            "text": "Victoria",
+            "uri": "https://en.wikipedia.org/wiki/Victoria,_Duchess_of_Sussex",
+            "beginIndex": 35,
+            "endIndex": 43
+          },
+          {
             "text": "Brooklyn",
-            "uri": "https://en.wikipedia.org/wiki/Brooklyn_Demieille_Freeman",
-            "beginIndex": 40,
-            "endIndex": 48
+            "uri": "https://en.wikipedia.org/wiki/Brooklyn",
+            "beginIndex": 65,
+            "endIndex": 73
           },
           {
             "text": "Romeo",
-            "uri": "https://en.wikipedia.org/wiki/Romeo_Atkins",
-            "beginIndex": 50,
-            "endIndex": 55
+            "uri": "https://en.wikipedia.org/wiki/Romeo_(given_name)",
+            "beginIndex": 75,
+            "endIndex": 80
           },
           {
             "text": "Cruz",
-            "uri": "https://en.wikipedia.org/wiki/David_Beckham#Children",
-            "beginIndex": 57,
-            "endIndex": 61
+            "uri": "https://en.wikipedia.org/wiki/Cruz",
+            "beginIndex": 82,
+            "endIndex": 86
           },
           {
             "text": "Harper Seven",
-            "uri": "https://en.wikipedia.org/wiki/David_Beckham#Children",
-            "beginIndex": 67,
-            "endIndex": 79
+            "uri": "https://en.wikipedia.org/wiki/Harper_seven",
+            "beginIndex": 92,
+            "endIndex": 104
           }
         ],
         "error": null
@@ -76,19 +88,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "'David and Victoria added spice to their marriage.' \nbecomes: 'David and Victoria added spice to their [START_ENT]marriage[END_ENT].'",
         "entities": [
           {
-            "text": "David",
-            "uri": "https://en.wikipedia.org/wiki/David_(various_disambiguations)",
-            "beginIndex": 0,
-            "endIndex": 5
+            "text": "David and Victoria added spice to their marriage.",
+            "uri": "https://en.wikipedia.org/wiki/Marriage",
+            "beginIndex": 1,
+            "endIndex": 50
           },
           {
             "text": "Victoria",
-            "uri": "https://en.wikipedia.org/wiki/Victoria",
-            "beginIndex": 10,
-            "endIndex": 18
+            "uri": "https://en.wikipedia.org/wiki/Victoria_Beckham",
+            "beginIndex": 73,
+            "endIndex": 81
           }
         ],
         "error": null
@@ -113,19 +125,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence: 'Tiger was lost in the woods when he got divorced from Elin.' \nbecomes:\n'Tiger was lost in the [START_ENT]woods[END_ENT] when he got divorced from [START.Ent]Elin[END.Ent]'",
         "entities": [
           {
             "text": "Tiger",
-            "uri": "https://en.wikipedia.org/wiki/Tiger_(character)",
-            "beginIndex": 0,
-            "endIndex": 5
+            "uri": "https://en.wikipedia.org/wiki/Tiger_Woods",
+            "beginIndex": 25,
+            "endIndex": 30
+          },
+          {
+            "text": "woods",
+            "uri": "https://en.wikipedia.org/wiki/Wood",
+            "beginIndex": 47,
+            "endIndex": 52
           },
           {
             "text": "Elin",
-            "uri": "https://en.wikipedia.org/wiki/Elin_(Swedish_singer)",
-            "beginIndex": 54,
-            "endIndex": 58
+            "uri": "https://en.wikipedia.org/wiki/Elin",
+            "beginIndex": 79,
+            "endIndex": 83
           }
         ],
         "error": null
@@ -150,19 +168,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "'Tiger lost the [START_ENT]US Open[END_ENT].'",
         "entities": [
           {
-            "text": "US Open",
-            "uri": "https://en.wikipedia.org/wiki/US_Open",
-            "beginIndex": 15,
-            "endIndex": 22
+            "text": "Tiger",
+            "uri": "https://en.wikipedia.org/wiki/Tiger_(animal)",
+            "beginIndex": 1,
+            "endIndex": 6
           },
           {
-            "text": "Tiger",
-            "uri": "https://en.wikipedia.org/wiki/Tiger_(athlete)",
-            "beginIndex": 0,
-            "endIndex": 5
+            "text": "us open",
+            "uri": "https://en.wikipedia.org/wiki/U.S._Open",
+            "beginIndex": 16,
+            "endIndex": 23
+          },
+          {
+            "text": "golf",
+            "uri": "https://en.wikipedia.org/wiki/Golf",
+            "beginIndex": 261,
+            "endIndex": 265
           }
         ],
         "error": null
@@ -193,25 +217,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[MADONNA] played [START_ENT]Eva[END_ENT] and was seen with [CARLOS].",
         "entities": [
           {
-            "text": "Madonna",
+            "text": "MADONNA",
             "uri": "https://en.wikipedia.org/wiki/Madonna",
-            "beginIndex": 0,
-            "endIndex": 7
+            "beginIndex": 1,
+            "endIndex": 8
           },
           {
-            "text": "Eva",
+            "text": "eva",
             "uri": "https://en.wikipedia.org/wiki/Eva_(given_name)",
-            "beginIndex": 15,
-            "endIndex": 18
+            "beginIndex": 17,
+            "endIndex": 20
           },
           {
             "text": "Carlos",
-            "uri": "https://en.wikipedia.org/wiki/Carlos_Sanchez_Casado",
-            "beginIndex": 37,
-            "endIndex": 43
+            "uri": "https://en.wikipedia.org/wiki/Carlos_Sanchez",
+            "beginIndex": 708,
+            "endIndex": 714
           }
         ],
         "error": null
@@ -236,25 +260,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "In this musical, [START_ENT]Madonna[END_ENT] played the role of the [START_ENT]First Lady[END_ENT].",
         "entities": [
           {
-            "text": "Madonna",
+            "text": "madonna",
             "uri": "https://en.wikipedia.org/wiki/Madonna",
             "beginIndex": 17,
             "endIndex": 24
           },
           {
-            "text": "First Lady",
-            "uri": "https://en.wikipedia.org/wiki/First_Lady_of_the_United_States",
-            "beginIndex": 48,
-            "endIndex": 58
-          },
-          {
-            "text": "role",
-            "uri": "N/A",
-            "beginIndex": 36,
-            "endIndex": 40
+            "text": "first lady",
+            "uri": "https://en.wikipedia.org/wiki/First_lady",
+            "beginIndex": 830,
+            "endIndex": 840
           }
         ],
         "error": null
@@ -285,7 +303,7 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[START_ENT]Angelina[END_ENT], her father [START_ENT]Jon[END_ENT], and her partner [START_ENT]Brad[END_ENT] never played together in the same [START_ENT]movie[END_ENT].",
         "entities": [
           {
             "text": "Angelina",
@@ -295,9 +313,15 @@
           },
           {
             "text": "Jon",
-            "uri": "https://en.wikipedia.org/wiki/John_Violence",
-            "beginIndex": 21,
-            "endIndex": 24
+            "uri": "https://en.wikipedia.org/wiki/Jon_Voight",
+            "beginIndex": 778,
+            "endIndex": 781
+          },
+          {
+            "text": "Brad",
+            "uri": "https://en.wikipedia.org/wiki/Brad_Pitt",
+            "beginIndex": 1467,
+            "endIndex": 1471
           }
         ],
         "error": null
@@ -328,25 +352,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "Heidi and her husband Seal live in [START_ENT)Vegas[END_ENT].",
         "entities": [
           {
-            "text": "Heidi",
-            "uri": "https://en.wikipedia.org/wiki/Heidi_Kiesler",
-            "beginIndex": 0,
-            "endIndex": 5
-          },
-          {
-            "text": "Seal",
-            "uri": "https://en.wikipedia.org/wiki/Tariq_Wright",
-            "beginIndex": 22,
-            "endIndex": 26
-          },
-          {
             "text": "Vegas",
-            "uri": "https://en.wikipedia.org/wiki/Vegas_(song)",
-            "beginIndex": 35,
-            "endIndex": 40
+            "uri": "https://en.wikipedia.org/wiki/Las_Vegas",
+            "beginIndex": 46,
+            "endIndex": 51
           }
         ],
         "error": null
@@ -371,19 +383,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'Paris and Kim are both wealthy It Girls who had sex tapes on the Internet.'\n\nbecomes:\n\n'[START_ENT]Kim[END.Ent]' and '[START_ENT]Paris[END_ENT]' are both wealthy [START_ENT]It Girls[END_ENT] who had sex tapes on the [START_ENT]Internet[END_ENT].'",
         "entities": [
           {
-            "text": "Paris",
-            "uri": "https://en.wikipedia.org/wiki/Paris_Hilton",
-            "beginIndex": 0,
-            "endIndex": 5
+            "text": "Paris and Kim are both wealthy It Girls who had sex tapes on the Internet.",
+            "uri": "https://en.wikipedia.org/wiki/Kim_Kardashian",
+            "beginIndex": 25,
+            "endIndex": 99
           },
           {
             "text": "Kim",
             "uri": "https://en.wikipedia.org/wiki/Kim_Kardashian",
-            "beginIndex": 10,
-            "endIndex": 13
+            "beginIndex": 113,
+            "endIndex": 116
+          },
+          {
+            "text": "Paris",
+            "uri": "https://en.wikipedia.org/wiki/Paris_Hilton",
+            "beginIndex": 123,
+            "endIndex": 128
           }
         ],
         "error": null
@@ -426,25 +444,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence: \n'Justin, Stefani, and Kate are among the most popular people on both MTV and Twitter.' \n\nHere is the tagged text: \n'Justin, Stefani, and Kate are among the most popular [START_ENT]people[END_ENT] on both [START_ENT]MTV[END_ENT] and [START_ENT]Twitter[END_ENT].'",
         "entities": [
           {
-            "text": "Justin",
-            "uri": "https://en.wikipedia.org/wiki/Justin_Timberlake",
-            "beginIndex": 0,
-            "endIndex": 6
-          },
-          {
-            "text": "Stefani",
-            "uri": "https://en.wikipedia.org/wiki/Bruno_Mars",
-            "beginIndex": 8,
-            "endIndex": 15
-          },
-          {
-            "text": "Kate",
-            "uri": "https://en.wikipedia.org/wiki/Cate_Bolson",
-            "beginIndex": 21,
-            "endIndex": 25
+            "text": "Justin, Stefani, and Kate are among the most popular people on both MTV and Twitter.",
+            "uri": "https://en.wikipedia.org/wiki/QA",
+            "beginIndex": 26,
+            "endIndex": 110
           }
         ],
         "error": null
@@ -481,25 +487,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[Dylan performed Hurricane about the black fighter [START_ENT]Carter[END_ENT], from his album [START_ENT]Desire[END_ENT].]",
         "entities": [
           {
-            "text": "Dylan",
-            "uri": "https://en.wikipedia.org/wiki/Dylan_(musician)",
-            "beginIndex": 0,
-            "endIndex": 5
-          },
-          {
-            "text": "Hurricane",
-            "uri": "https://en.wikipedia.org/wiki/Hurricane_(song)",
-            "beginIndex": 16,
-            "endIndex": 25
-          },
-          {
-            "text": "Carter",
-            "uri": "https://en.wikipedia.org/wiki/Johnny_Carter",
-            "beginIndex": 50,
-            "endIndex": 56
+            "text": "about the black fighter",
+            "uri": "",
+            "beginIndex": 27,
+            "endIndex": 50
           }
         ],
         "error": null
@@ -530,19 +524,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence: 'Desire contains a duet with Harris in the song Joey.' \nHere is the tagged text:\n'Desire [START_ENT]contains a duet with [START_ENT]Harris[END_ENT] in the song [START_ENT]Joey[END_ENT]'",
         "entities": [
           {
             "text": "Desire",
-            "uri": "https://en.wikipedia.org/wiki/Desire_(American_singer)",
-            "beginIndex": 0,
-            "endIndex": 6
+            "uri": "https://en.wikipedia.org/wiki/Emmylou_Harris_singles_discography",
+            "beginIndex": 25,
+            "endIndex": 31
           },
           {
             "text": "Harris",
-            "uri": "https://en.wikipedia.org/wiki/Harris_(singer)",
-            "beginIndex": 28,
-            "endIndex": 34
+            "uri": "https://en.wikipedia.org/wiki/Emmylou_Harris_albums_discography",
+            "beginIndex": 53,
+            "endIndex": 59
+          },
+          {
+            "text": "Joey",
+            "uri": "https://en.wikipedia.org/wiki/Joey",
+            "beginIndex": 72,
+            "endIndex": 76
           }
         ],
         "error": null
@@ -573,25 +573,31 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "Here is the text with named entities surrounded by [START_ENT] and [END_ENT] tags:\n\nFor the given sentence: \n'Three of the greatest [START_ENT]guitarists[END_ENT] started their career in a single band : [START_ENT]Clapton[END_ENT], [START_ENT]Beck[END_ENT], and [START_ENT]Page[END_ENT].'",
         "entities": [
           {
-            "text": "Clapton",
-            "uri": "https://en.wikipedia.org/wiki/Eric_Clapton",
-            "beginIndex": 73,
-            "endIndex": 80
+            "text": "guitarists",
+            "uri": "https://en.wikipedia.org/wiki/Guitarist",
+            "beginIndex": 947,
+            "endIndex": 957
+          },
+          {
+            "text": "Slash",
+            "uri": "https://en.wikipedia.org/wiki/Slash_(musician)",
+            "beginIndex": 1077,
+            "endIndex": 1082
           },
           {
             "text": "Beck",
-            "uri": "https://en.wikipedia.org/wiki/John_Beck",
-            "beginIndex": 82,
-            "endIndex": 86
+            "uri": "https://en.wikipedia.org/wiki/Beck",
+            "beginIndex": 2605,
+            "endIndex": 2609
           },
           {
             "text": "Page",
-            "uri": "https://en.wikipedia.org/wiki/Jimmy_Page",
-            "beginIndex": 92,
-            "endIndex": 96
+            "uri": "https://en.wikipedia.org/wiki/Page",
+            "beginIndex": 3306,
+            "endIndex": 3310
           }
         ],
         "error": null
@@ -634,31 +640,37 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'Allen founded the EMP in Seattle, which featured exhibitions about Hendrix and Dylan, but also about various science fiction movies.'\n\nHere is the text with named entities tagged:\n\n Allen [START_ENT]founded[END_ENT] the [START_ENT]EMP[END_ENT] in [START_ENT]Seattle[END_ENT], which featured exhibitions about [START_ENT]Hendrix[END_ENT] and [START_ENT]Dylan[END_ENT], but also about various science fiction movies.",
         "entities": [
           {
+            "text": "Allen",
+            "uri": "https://en.wikipedia.org/wiki/Allen_(name)",
+            "beginIndex": 25,
+            "endIndex": 30
+          },
+          {
             "text": "EMP",
-            "uri": "https://en.wikipedia.org/wiki/Experience_Museum_of_Pacific",
-            "beginIndex": 18,
-            "endIndex": 21
+            "uri": "https://en.wikipedia.org/wiki/Electromagnetic_pulse",
+            "beginIndex": 43,
+            "endIndex": 46
           },
           {
             "text": "Seattle",
             "uri": "https://en.wikipedia.org/wiki/Seattle",
-            "beginIndex": 25,
-            "endIndex": 32
+            "beginIndex": 50,
+            "endIndex": 57
           },
           {
             "text": "Hendrix",
-            "uri": "https://en.wikipedia.org/wiki/Jimmy_Hendrix",
-            "beginIndex": 67,
-            "endIndex": 74
+            "uri": "https://en.wikipedia.org/wiki/Jimi_Hendrix",
+            "beginIndex": 92,
+            "endIndex": 99
           },
           {
             "text": "Dylan",
             "uri": "https://en.wikipedia.org/wiki/Bob_Dylan",
-            "beginIndex": 79,
-            "endIndex": 84
+            "beginIndex": 104,
+            "endIndex": 109
           }
         ],
         "error": null
@@ -707,33 +719,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Sinatra",
-            "uri": "https://en.wikipedia.org/wiki/Frank_Sinatra",
-            "beginIndex": 82,
-            "endIndex": 89
-          },
-          {
-            "text": "Dylan",
-            "uri": "https://en.wikipedia.org/wiki/Bob_Dylan",
-            "beginIndex": 91,
-            "endIndex": 96
-          },
-          {
-            "text": "Joel",
-            "uri": "https://en.wikipedia.org/wiki/Billy_Joel",
-            "beginIndex": 98,
-            "endIndex": 102
-          },
-          {
-            "text": "Santana",
-            "uri": "https://en.wikipedia.org/wiki/Carlos_Santana",
-            "beginIndex": 108,
-            "endIndex": 115
-          }
-        ],
+        "ner_output": "[START_ENT]Sinatra[END_ENT], [START_ENT]Dylan[END_ENT], [START_ENT]Joel[END_ENT], [START_ENT]Santana[END_ENT], Columbia, [START_ENT]Sony[END_ENT], [START_ENT]1980s[END_ENT]",
+        "entities": [],
         "error": null
       }
     },
@@ -762,21 +749,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Cash",
-            "uri": "https://en.wikipedia.org/wiki/Elvis_Presley",
-            "beginIndex": 45,
-            "endIndex": 49
-          },
-          {
-            "text": "American Recordings",
-            "uri": "https://en.wikipedia.org/wiki/American_Recordings_(label)",
-            "beginIndex": 85,
-            "endIndex": 104
-          }
-        ],
+        "ner_output": "After unsuccessful years, aging country star [START_ENT]Cash[END_ENT] made a grandiose comeback with his [START_ENT]American Recordings[END_ENT], recorded at his home with the help of [START_ENT]Rubin[END_ENT].",
+        "entities": [],
         "error": null
       }
     },
@@ -805,31 +779,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'The group formed by [START_ENT]Homme[END_ENT], [START.Enterg Grohl[END_ENT], and [START_ENT]Jones[END_ENT] was supposed to be named [START_ENT]Caligula[END_ENT], but the name was already taken.'\n' [START_ENT]Angelina Jolie[END_ENT]'",
         "entities": [
           {
-            "text": "Homme",
-            "uri": "https://en.wikipedia.org/wiki/Homme_(musician)",
-            "beginIndex": 20,
-            "endIndex": 25
+            "text": "The group formed by homme",
+            "uri": "https://en.wikipedia.org/wiki/Homme",
+            "beginIndex": 25,
+            "endIndex": 50
           },
           {
-            "text": "Grohl",
-            "uri": "https://en.wikipedia.org/wiki/David_Grohl",
-            "beginIndex": 27,
-            "endIndex": 32
+            "text": "Enterg Grohl",
+            "uri": "https://en.wikipedia.org/wiki/Josh_Homme",
+            "beginIndex": 749,
+            "endIndex": 761
           },
           {
-            "text": "Jones",
-            "uri": "https://en.wikipedia.org/wiki/Taylor_Jones",
-            "beginIndex": 38,
-            "endIndex": 43
-          },
-          {
-            "text": "Caligula",
-            "uri": "https://en.wikipedia.org/wiki/Caligula_(Roman_Emperor)",
-            "beginIndex": 69,
-            "endIndex": 77
+            "text": "jones",
+            "uri": "https://en.wikipedia.org/wiki/Jon_Jones",
+            "beginIndex": 767,
+            "endIndex": 772
           }
         ],
         "error": null
@@ -860,19 +828,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "Jobs and Baez dated in the late 1970s, and she performed at his Stanford memorial.",
         "entities": [
           {
-            "text": "Jobs",
-            "uri": "https://en.wikipedia.org/wiki/Steve_Jobs",
-            "beginIndex": 0,
-            "endIndex": 4
-          },
-          {
             "text": "Baez",
-            "uri": "https://en.wikipedia.org/wiki/Janis_Baez",
+            "uri": "https://en.wikipedia.org/wiki/Pat_McCann",
             "beginIndex": 9,
             "endIndex": 13
+          },
+          {
+            "text": "Stanford",
+            "uri": "https://en.wikipedia.org/wiki/Stanford_University",
+            "beginIndex": 64,
+            "endIndex": 72
           }
         ],
         "error": null
@@ -915,37 +883,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'The Isle of Wight festival in 1970 was the biggest at its time, surpassing Woodstock with acts like Davis, Chicago, and Mitchell.'\n\nbecomes:\n\nFor the given sentence: [START_ENT]Isle of Wight[END_ENT] festival in 1970 was the biggest at its time, surpassing [START_ENT]Woodstock[END.Ent] with acts like [START_ENT]Davis[END_Ent], [START_ENT]Chicago[END_Ent], and [START_ENT]Mitchell[END_ENT].",
         "entities": [
           {
-            "text": "Isle of Wight festival",
+            "text": "The Isle of Wight festival",
             "uri": "https://en.wikipedia.org/wiki/Isle_of_Wight_Festival",
-            "beginIndex": 4,
-            "endIndex": 26
+            "beginIndex": 25,
+            "endIndex": 51
           },
           {
-            "text": "Woodstock",
-            "uri": "https://en.wikipedia.org/wiki/Woodstock_(music_festival)",
-            "beginIndex": 75,
-            "endIndex": 84
-          },
-          {
-            "text": "Davis",
-            "uri": "https://en.wikipedia.org/wiki/Bono_(Irish_musician)",
+            "text": "Woodstock with acts like Davis, Chicago, and Mitchell",
+            "uri": "https://en.wikipedia.org/wiki/Woodstock_(1969_festival)",
             "beginIndex": 100,
-            "endIndex": 105
-          },
-          {
-            "text": "Chicago",
-            "uri": "https://en.wikipedia.org/wiki/Chicago_(American_band)",
-            "beginIndex": 107,
-            "endIndex": 114
-          },
-          {
-            "text": "Mitchell",
-            "uri": "https://en.wikipedia.org/wiki/Celine_Dion",
-            "beginIndex": 120,
-            "endIndex": 128
+            "endIndex": 153
           }
         ],
         "error": null
@@ -982,31 +932,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'Eric preferred to play Blues instead of Rock, so he joined Mayall 's band.'\n\nHere is the text with named entities surrounded by [START_ENT] and [END_ENT] tags:\n'Eric preferred to play [START_ENT]Blues[END_ENT] instead of [START_ENT]Rock[END_ENT], so he joined [START_ENT]Mayall[END_ENT]'s [START_ENT]band[END_ENT].",
         "entities": [
           {
-            "text": "Eric",
-            "uri": "https://en.wikipedia.org/wiki/Eric_Clayton",
-            "beginIndex": 0,
-            "endIndex": 4
-          },
-          {
-            "text": "Blues",
-            "uri": "https://en.wikipedia.org/wiki/Blues_(music)",
-            "beginIndex": 23,
-            "endIndex": 28
-          },
-          {
-            "text": "Rock",
-            "uri": "https://en.wikipedia.org/wiki/Rock_music",
-            "beginIndex": 40,
-            "endIndex": 44
-          },
-          {
-            "text": "Mayall",
-            "uri": "https://en.wikipedia.org/wiki/Canned_Legs",
-            "beginIndex": 59,
-            "endIndex": 65
+            "text": "Eric preferred to play Blues instead of Rock, so he joined Mayall ",
+            "uri": "https://en.wikipedia.org/wiki/Mayall%27s_Candy",
+            "beginIndex": 25,
+            "endIndex": 91
           }
         ],
         "error": null
@@ -1037,27 +969,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Steve",
-            "uri": "https://en.wikipedia.org/wiki/Steve_Jobs",
-            "beginIndex": 19,
-            "endIndex": 24
-          },
-          {
-            "text": "Apple",
-            "uri": "https://en.wikipedia.org/wiki/Apple_Inc.",
-            "beginIndex": 44,
-            "endIndex": 49
-          },
-          {
-            "text": "Stanford",
-            "uri": "https://en.wikipedia.org/wiki/Stanford_University",
-            "beginIndex": 78,
-            "endIndex": 86
-          }
-        ],
+        "ner_output": "After the death of [START_ENT]Steve[END_ENT], the former CEO of [START_ENT]Apple[END_ENT], his commencement speech at [START_ENT]Stanford[END_ENT] was watched thousands of times.",
+        "entities": [],
         "error": null
       }
     },
@@ -1092,31 +1005,31 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "In 1980, [START_ENT]Steve[END_ENT] dropped out of [START_ENT]Stanford[END_ENT] to join [START_ENT]Microsoft[END_ENT], the company behind the [START_ENT]Windows[END_ENT] operating system.",
         "entities": [
           {
-            "text": "Steve",
-            "uri": "https://en.wikipedia.org/wiki/Steve_Jobs",
+            "text": "steve",
+            "uri": "https://en.wikipedia.org/wiki/Steve_(disambiguation)",
             "beginIndex": 9,
             "endIndex": 14
           },
           {
-            "text": "Microsoft",
-            "uri": "https://en.wikipedia.org/wiki/Microsoft",
-            "beginIndex": 47,
-            "endIndex": 56
-          },
-          {
-            "text": "Stanford",
+            "text": "stanford",
             "uri": "https://en.wikipedia.org/wiki/Stanford_University",
-            "beginIndex": 30,
-            "endIndex": 38
+            "beginIndex": 713,
+            "endIndex": 721
           },
           {
-            "text": "Windows",
-            "uri": "https://en.wikipedia.org/wiki/Windows_(operating_system)",
-            "beginIndex": 81,
-            "endIndex": 88
+            "text": "microsoft",
+            "uri": "https://en.wikipedia.org/wiki/Microsoft",
+            "beginIndex": 1534,
+            "endIndex": 1543
+          },
+          {
+            "text": "windows",
+            "uri": "https://en.wikipedia.org/wiki/Microsoft_Windows",
+            "beginIndex": 1628,
+            "endIndex": 1635
           }
         ],
         "error": null
@@ -1147,25 +1060,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'Cairo was the code name for a project at [START_ENT]Microsoft[END_ENT] from 1991 to 1996. Its charter was to build technologies for a next generation operating system that would fulfill the vision of [START_ENT]Bill[END_ENT].'",
         "entities": [
           {
             "text": "Cairo",
-            "uri": "https://en.wikipedia.org/wiki/Cairo_(project)",
-            "beginIndex": 0,
-            "endIndex": 5
-          },
-          {
-            "text": "Microsoft",
             "uri": "https://en.wikipedia.org/wiki/Microsoft",
-            "beginIndex": 41,
-            "endIndex": 50
+            "beginIndex": 25,
+            "endIndex": 30
           },
           {
-            "text": "Bill",
-            "uri": "https://en.wikipedia.org/wiki/William_Henry_Gates",
-            "beginIndex": 180,
-            "endIndex": 184
+            "text": "microsoft",
+            "uri": "https://en.wikipedia.org/wiki/Microsoft",
+            "beginIndex": 66,
+            "endIndex": 75
           }
         ],
         "error": null
@@ -1202,19 +1109,31 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence: \n'Steve, Bill, Sergey, and Larry have drawn a great deal of admiration these days for their pioneering successes that changed the world we live in.'\n\nHere is the text with named entities surrounded by [START_ENT] and [END_ENT] tags:\n\n'[START_ENT]Steve[END_ENT], [START_ENT]Bill[END_ENT], [START_ENT]Sergey[END_ENT], and [START_ENT]Larry[END_ENT]' have drawn a great deal of admiration these days for their pioneering successes that changed the world we live in.",
         "entities": [
           {
             "text": "Steve",
             "uri": "https://en.wikipedia.org/wiki/Steve_Jobs",
-            "beginIndex": 0,
-            "endIndex": 5
+            "beginIndex": 26,
+            "endIndex": 31
           },
           {
             "text": "Bill",
-            "uri": "https://en.wikipedia.org/wiki/Bill_Gates",
-            "beginIndex": 7,
-            "endIndex": 11
+            "uri": "https://en.wikipedia.org/wiki/Bill_Cosby",
+            "beginIndex": 33,
+            "endIndex": 37
+          },
+          {
+            "text": "Sergey",
+            "uri": "https://en.wikipedia.org/wiki/Sergey_Brin",
+            "beginIndex": 39,
+            "endIndex": 45
+          },
+          {
+            "text": "Larry",
+            "uri": "https://en.wikipedia.org/wiki/Larry_Ellison",
+            "beginIndex": 51,
+            "endIndex": 56
           }
         ],
         "error": null
@@ -1239,19 +1158,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For Karl and Theo made their extreme fortunes selling low-price groceries.",
         "entities": [
           {
             "text": "Karl",
-            "uri": "https://en.wikipedia.org/wiki/Karl_Schulze_(American_businessman)",
-            "beginIndex": 0,
-            "endIndex": 4
+            "uri": "https://en.wikipedia.org/wiki/Karl_Liebknecht",
+            "beginIndex": 4,
+            "endIndex": 8
           },
           {
             "text": "Theo",
-            "uri": "https://en.wikipedia.org/wiki/Theo_Koenig",
-            "beginIndex": 9,
-            "endIndex": 13
+            "uri": "https://en.wikipedia.org/wiki/Theodore_K%C3%A4rler",
+            "beginIndex": 13,
+            "endIndex": 17
           }
         ],
         "error": null
@@ -1282,25 +1201,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "While [START_ENT]Apple[END_ENT] is an electronics company, [START_ENT]Mango[END_ENT] is a clothing one and [START_ENT]Orange[END_ENT] is a communication one.",
         "entities": [
           {
-            "text": "Apple",
-            "uri": "https://en.wikipedia.org/wiki/Apple_Inc.",
+            "text": "apple",
+            "uri": "https://en.wikipedia.org/wiki/Apple_(computer)",
             "beginIndex": 6,
             "endIndex": 11
           },
           {
-            "text": "Mango",
-            "uri": "https://en.wikipedia.org/wiki/Mango_(clothing)",
-            "beginIndex": 39,
-            "endIndex": 44
+            "text": "mango",
+            "uri": "https://en.wikipedia.org/wiki/Mangifera_indica",
+            "beginIndex": 715,
+            "endIndex": 720
           },
           {
-            "text": "Orange",
-            "uri": "https://en.wikipedia.org/wiki/Orange_(communications)",
-            "beginIndex": 67,
-            "endIndex": 73
+            "text": "orange",
+            "uri": "https://en.wikipedia.org/wiki/Orange_(fruit)",
+            "beginIndex": 1449,
+            "endIndex": 1455
           }
         ],
         "error": null
@@ -1325,19 +1244,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[START_ENT]Equity International[END_ENT], [START_ENT]Sam[END_ENT] was given the nickname of \" [START_ENT]the grave dancer[END_ENT] \" because of his ability to buy businesses that others thought were dead.",
         "entities": [
+          {
+            "text": "equity international",
+            "uri": "https://en.wikipedia.org/wiki/Private_Equity_International",
+            "beginIndex": 0,
+            "endIndex": 20
+          },
           {
             "text": "Sam",
             "uri": "https://en.wikipedia.org/wiki/Sam_Zell",
-            "beginIndex": 0,
-            "endIndex": 3
+            "beginIndex": 735,
+            "endIndex": 738
           },
           {
-            "text": "Equity International",
-            "uri": "https://en.wikipedia.org/wiki/Equity_International",
-            "beginIndex": 23,
-            "endIndex": 43
+            "text": "the grave dancer",
+            "uri": "https://en.wikipedia.org/wiki/Dancing_on_the_Grave",
+            "beginIndex": 1505,
+            "endIndex": 1521
           }
         ],
         "error": null
@@ -1368,25 +1293,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "'Pixar produced Cars, and John directed it.' \n\nbecomes:\n'[START_ENT]Pixar[END_ENT] produced [START_ENT]Cars[END_ENT], and [START_ENT]John[END_ENT] directed it.'",
         "entities": [
           {
             "text": "Pixar",
-            "uri": "https://en.wikipedia.org/wiki/Pixar_(animation_studio)",
-            "beginIndex": 0,
-            "endIndex": 5
+            "uri": "https://en.wikipedia.org/wiki/Pixar",
+            "beginIndex": 1,
+            "endIndex": 6
           },
           {
             "text": "Cars",
-            "uri": "https://en.wikipedia.org/wiki/Cars_(2006_film)",
-            "beginIndex": 15,
-            "endIndex": 19
+            "uri": "https://en.wikipedia.org/wiki/Cars_(film)",
+            "beginIndex": 16,
+            "endIndex": 20
           },
           {
             "text": "John",
-            "uri": "https://en.wikipedia.org/wiki/John_Lasseter",
-            "beginIndex": 25,
-            "endIndex": 29
+            "uri": "https://en.wikipedia.org/wiki/John",
+            "beginIndex": 26,
+            "endIndex": 30
           }
         ],
         "error": null
@@ -1417,25 +1342,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[Mars, Galaxy, and Bounty are all chocolate.]",
         "entities": [
           {
             "text": "Mars",
-            "uri": "https://en.wikipedia.org/wiki/Mars_( planet)",
-            "beginIndex": 0,
-            "endIndex": 4
+            "uri": "https://en.wikipedia.org/wiki/Mars_(planet)",
+            "beginIndex": 1,
+            "endIndex": 5
           },
           {
             "text": "Galaxy",
             "uri": "https://en.wikipedia.org/wiki/Galaxy",
-            "beginIndex": 6,
-            "endIndex": 12
+            "beginIndex": 7,
+            "endIndex": 13
           },
           {
             "text": "Bounty",
-            "uri": "https://en.wikipedia.org/wiki/Bounty_bar",
-            "beginIndex": 18,
-            "endIndex": 24
+            "uri": "https://en.wikipedia.org/wiki/Bounty_(chocolate)",
+            "beginIndex": 19,
+            "endIndex": 25
           }
         ],
         "error": null
@@ -1460,19 +1385,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[BOSCH AND SHARP ARE BOTH HOME APPLIANCE PRODUCING COMPANIES.]",
         "entities": [
           {
-            "text": "Bosch",
-            "uri": "https://en.wikipedia.org/wiki/Bosch",
+            "text": "[BOSCH AND SHARP ARE BOTH HOME APPLIANCE PRODUCING COMPANIES.]",
+            "uri": "https://en.wikipedia.org/wiki/Bosch_(company)",
             "beginIndex": 0,
-            "endIndex": 5
-          },
-          {
-            "text": "Sharp",
-            "uri": "https://en.wikipedia.org/wiki/Sharp_Corporation",
-            "beginIndex": 10,
-            "endIndex": 15
+            "endIndex": 62
           }
         ],
         "error": null
@@ -1497,21 +1416,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "City",
-            "uri": "https://en.wikipedia.org/wiki/City_(general)",
-            "beginIndex": 0,
-            "endIndex": 4
-          },
-          {
-            "text": "Spurs",
-            "uri": "https://en.wikipedia.org/wiki/Spurs",
-            "beginIndex": 25,
-            "endIndex": 30
-          }
-        ],
+        "ner_output": "City won 3:2 against [START_ENT]Spurs[END_ENT].",
+        "entities": [],
         "error": null
       }
     },
@@ -1534,19 +1440,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'The Gunners now play their home matches at the Emirates.' \n\nHere is the result:\n\n[START_ENT]Arsenal FC[END_ENT] now play their home matches at [START_ENT]Emirates Stadium[END_ENT].",
         "entities": [
           {
-            "text": "Gunners",
+            "text": "The Gunners now play their home matches at the Emirates.",
             "uri": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
-            "beginIndex": 4,
-            "endIndex": 11
-          },
-          {
-            "text": "Emirates",
-            "uri": "https://en.wikipedia.org/wiki/Emeralds",
-            "beginIndex": 47,
-            "endIndex": 55
+            "beginIndex": 25,
+            "endIndex": 81
           }
         ],
         "error": null
@@ -1571,19 +1471,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "Atletico has beaten its archrival [START_ENT]Real Madrid[END_ENT].",
         "entities": [
           {
             "text": "Atletico",
-            "uri": "https://en.wikipedia.org/wiki/Atletico",
+            "uri": "https://en.wikipedia.org/wiki/Atlético_Madrid",
             "beginIndex": 0,
             "endIndex": 8
-          },
-          {
-            "text": "Real",
-            "uri": "https://en.wikipedia.org/wiki/Real_(disambiguation)",
-            "beginIndex": 34,
-            "endIndex": 38
           }
         ],
         "error": null
@@ -1608,19 +1502,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[Müller scored a hattrick against [START_ENT]England[END_ENT]].",
         "entities": [
           {
-            "text": "Müller",
-            "uri": "https://en.wikipedia.org/wiki/Franko_M%C3%BCller",
-            "beginIndex": 0,
-            "endIndex": 6
-          },
-          {
-            "text": "England",
-            "uri": "https://en.wikipedia.org/wiki/England_(football)_team",
-            "beginIndex": 33,
-            "endIndex": 40
+            "text": "Müller scored a hattrick against england",
+            "uri": "https://en.wikipedia.org/wiki/England",
+            "beginIndex": 1,
+            "endIndex": 41
           }
         ],
         "error": null
@@ -1651,19 +1539,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'Thomas and Mario are strikers playing in Munich.'\n\nThe tagged text is: \n'Tommaso, his teammate [START_ENT]Mario[END_ENT], are strikers playing in [START_ENT]Munich[END_ENT].'",
         "entities": [
           {
-            "text": "Thomas",
-            "uri": "https://en.wikipedia.org/wiki/Thomas_Schweinsteiger",
-            "beginIndex": 0,
-            "endIndex": 6
-          },
-          {
-            "text": "Mario",
-            "uri": "https://en.wikipedia.org/wiki/Mario_Baldozzi",
-            "beginIndex": 11,
-            "endIndex": 16
+            "text": "are strikers playing in munich",
+            "uri": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
+            "beginIndex": 42,
+            "endIndex": 72
           }
         ],
         "error": null
@@ -1688,19 +1570,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[Haug] congratulated [Red Bull].",
         "entities": [
           {
-            "text": "Haug",
-            "uri": "https://en.wikipedia.org/wiki/Michael_Haug",
+            "text": "[Haug]",
+            "uri": "https://en.wikipedia.org/wiki/Haug_(footballer)",
             "beginIndex": 0,
-            "endIndex": 4
+            "endIndex": 6
           },
           {
-            "text": "Red Bull",
+            "text": "[Red Bull]",
             "uri": "https://en.wikipedia.org/wiki/Red_Bull_(beverages)",
-            "beginIndex": 19,
-            "endIndex": 27
+            "beginIndex": 21,
+            "endIndex": 31
           }
         ],
         "error": null
@@ -1731,27 +1613,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Völler",
-            "uri": "https://en.wikipedia.org/wiki/Thomas_Voller",
-            "beginIndex": 0,
-            "endIndex": 6
-          },
-          {
-            "text": "Oranje",
-            "uri": "https://en.wikipedia.org/wiki/Netherlands_national_football_team",
-            "beginIndex": 43,
-            "endIndex": 49
-          },
-          {
-            "text": "San Siro",
-            "uri": "https://en.wikipedia.org/wiki/San_Siro_Stadium",
-            "beginIndex": 53,
-            "endIndex": 61
-          }
-        ],
+        "ner_output": "[Völler will never forget the match against [START_ENT]Oranje[END_ENT] in [START_ENT]San Siro[END_ENT].]",
+        "entities": [],
         "error": null
       }
     },
@@ -1780,25 +1643,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "'Landgraf and Meijer played at the [START_ENT]Tivoli[END_ENT].'",
         "entities": [
           {
             "text": "Landgraf",
-            "uri": "https://en.wikipedia.org/wiki/Landgraf_(Dutch_politician)",
-            "beginIndex": 0,
-            "endIndex": 8
+            "uri": "https://en.wikipedia.org/wiki/KGM_Tivoli",
+            "beginIndex": 1,
+            "endIndex": 9
           },
           {
             "text": "Meijer",
-            "uri": "https://en.wikipedia.org/wiki/Meijer_(Dutch_businessman)",
-            "beginIndex": 13,
-            "endIndex": 19
-          },
-          {
-            "text": "Tivoli",
-            "uri": "https://en.wikipedia.org/wiki/Tivoli",
-            "beginIndex": 34,
-            "endIndex": 40
+            "uri": "https://en.wikipedia.org/wiki/Meijer_(disambiguation)",
+            "beginIndex": 14,
+            "endIndex": 20
           }
         ],
         "error": null
@@ -1823,15 +1680,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Aachen",
-            "uri": "https://en.wikipedia.org/wiki/Aachen",
-            "beginIndex": 15,
-            "endIndex": 21
-          }
-        ],
+        "ner_output": "'Yabo plays for [START_ENT]Aachen[END.Ent]'",
+        "entities": [],
         "error": null
       }
     },
@@ -1854,16 +1704,16 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "Hertha won against [START_ENT]Dortmund[END_ENT].",
         "entities": [
           {
             "text": "Hertha",
-            "uri": "https://en.wikipedia.org/wiki/Hertha_Berlin",
+            "uri": "https://en.wikipedia.org/wiki/Borussia_Dortmund",
             "beginIndex": 0,
             "endIndex": 6
           },
           {
-            "text": "Dortmund",
+            "text": "dortmund",
             "uri": "https://en.wikipedia.org/wiki/Dortmund",
             "beginIndex": 19,
             "endIndex": 27
@@ -1903,27 +1753,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Nixon",
-            "uri": "https://en.wikipedia.org/wiki/Richard_Nixon",
-            "beginIndex": 0,
-            "endIndex": 5
-          },
-          {
-            "text": "Watergate",
-            "uri": "https://en.wikipedia.org/wiki/Watergate_scandal",
-            "beginIndex": 21,
-            "endIndex": 30
-          },
-          {
-            "text": "China",
-            "uri": "https://en.wikipedia.org/wiki/China",
-            "beginIndex": 83,
-            "endIndex": 88
-          }
-        ],
+        "ner_output": "[Nixon resigned after Watergate despite his success in the Ping-Pong Diplomacy with China.]",
+        "entities": [],
         "error": null
       }
     },
@@ -1958,25 +1789,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'The Sun and The Times reported that Greece will have to leave the Euro soon.'\n\nHere is the text with named entities surrounded by [START_ENT] and [END_ENT] tags:\n\n'[START_ENT]The Sun[END_ENT]' and '[START_ENT]The Times[END_ENT]' reported that '[START_ENT]Greece[END_ENT]' will have to leave the '[START_ENT]Euro[END_ENT]' soon.",
         "entities": [
           {
             "text": "The Sun",
-            "uri": "https://en.wikipedia.org/wiki/The_Sun_(newspaper)",
-            "beginIndex": 0,
-            "endIndex": 7
+            "uri": "https://en.wikipedia.org/wiki/Sun",
+            "beginIndex": 25,
+            "endIndex": 32
           },
           {
-            "text": "Greece",
-            "uri": "https://en.wikipedia.org/wiki/Greece",
-            "beginIndex": 36,
-            "endIndex": 42
-          },
-          {
-            "text": "Euro",
-            "uri": "https://en.wikipedia.org/wiki/Eurozone",
-            "beginIndex": 66,
-            "endIndex": 70
+            "text": "The Times",
+            "uri": "https://en.wikipedia.org/wiki/The_Times",
+            "beginIndex": 37,
+            "endIndex": 46
           }
         ],
         "error": null
@@ -2007,25 +1832,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'The Enola Gay bombed Hiroshima at the end of Second World War.' \n\nbecomes: \n '[START_ENT]Enola Gay[END_ENT] bombed [START_ENT]Hiroshima[END_ENT]'",
         "entities": [
           {
-            "text": "Enola Gay",
+            "text": "The Enola Gay",
             "uri": "https://en.wikipedia.org/wiki/Enola_Gay",
-            "beginIndex": 4,
-            "endIndex": 13
+            "beginIndex": 25,
+            "endIndex": 38
           },
           {
             "text": "Hiroshima",
             "uri": "https://en.wikipedia.org/wiki/Hiroshima",
-            "beginIndex": 21,
-            "endIndex": 30
-          },
-          {
-            "text": "Second World War",
-            "uri": "https://en.wikipedia.org/wiki/World_War_II",
-            "beginIndex": 45,
-            "endIndex": 61
+            "beginIndex": 46,
+            "endIndex": 55
           }
         ],
         "error": null
@@ -2062,25 +1881,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'The RAF was a terrorist group led by Baader and Meinhof that killed Schleyer.'\n[START_ENT]RAF[END_ENT] was a [START_ENT]terrorist group[END_ENT] led by [START_ENT]Baader and Meinhof[END_ENT] that killed [START_ENT]Schleyer[END_ENT].",
         "entities": [
           {
-            "text": "RAF",
-            "uri": "https://en.wikipedia.org/wiki/Real_Academy_of_France",
-            "beginIndex": 4,
-            "endIndex": 7
-          },
-          {
-            "text": "Baader and Meinhof",
-            "uri": "https://en.wikipedia.org/wiki/Baader%E2%80%93Meinhof_Corpus",
-            "beginIndex": 37,
-            "endIndex": 55
-          },
-          {
-            "text": "Schleyer",
-            "uri": "https://en.wikipedia.org/wiki/Hannelore_Baier",
-            "beginIndex": 68,
-            "endIndex": 76
+            "text": "The RAF was a terrorist group led by Baader and Meinhof that killed Schleyer.",
+            "uri": "https://en.wikipedia.org/wiki/Royal_Air_Force",
+            "beginIndex": 25,
+            "endIndex": 102
           }
         ],
         "error": null
@@ -2105,21 +1912,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Onassis",
-            "uri": "https://en.wikipedia.org/wiki/Arnold_Schoenberg",
-            "beginIndex": 0,
-            "endIndex": 7
-          },
-          {
-            "text": "Kennedy",
-            "uri": "https://en.wikipedia.org/wiki/JFK",
-            "beginIndex": 16,
-            "endIndex": 23
-          }
-        ],
+        "ner_output": "Onassis married Kennedy on October 20, 1968.",
+        "entities": [],
         "error": null
       }
     },
@@ -2142,21 +1936,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Moon",
-            "uri": "https://en.wikipedia.org/wiki/Moon",
-            "beginIndex": 35,
-            "endIndex": 39
-          },
-          {
-            "text": "Armstrong",
-            "uri": "https://en.wikipedia.org/wiki/Neville_Armstrong",
-            "beginIndex": 0,
-            "endIndex": 9
-          }
-        ],
+        "ner_output": "[START_ENT]Armstrong[END_ENT] was the first man on [START_ENT]Moon[END_ENT].",
+        "entities": [],
         "error": null
       }
     },
@@ -2179,19 +1960,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[Erich was born in [START_ENT]Neunkirchen[END_ENT]].",
         "entities": [
           {
-            "text": "Erich",
-            "uri": "https://en.wikipedia.org/wiki/Erich_Braun",
-            "beginIndex": 0,
-            "endIndex": 5
-          },
-          {
-            "text": "Neunkirchen",
-            "uri": "https://en.wikipedia.org/wiki/Neunkirchen_(Saar)",
-            "beginIndex": 18,
-            "endIndex": 29
+            "text": "Erich was born in Neunkirchen",
+            "uri": "https://en.wikipedia.org/wiki/Neunkirchen,_Saarland",
+            "beginIndex": 1,
+            "endIndex": 30
           }
         ],
         "error": null
@@ -2216,21 +1991,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Macedonia",
-            "uri": "https://en.wikipedia.org/wiki/Macedonia_(ancient_region)",
-            "beginIndex": 0,
-            "endIndex": 9
-          },
-          {
-            "text": "Greece",
-            "uri": "https://en.wikipedia.org/wiki/Greece",
-            "beginIndex": 27,
-            "endIndex": 33
-          }
-        ],
+        "ner_output": "[Macedonia is a province of [START_ENT]Greece[END.Ent]]",
+        "entities": [],
         "error": null
       }
     },
@@ -2259,19 +2021,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "'Obama welcomed Merkel upon her arrival at JFK.' \nbecomes:\n'Obama welcomed [START_ENT]Merkel[END_ENT] upon her arrival at [START_ENT]JFK[END_ENT].'",
         "entities": [
           {
             "text": "Obama",
-            "uri": "https://en.wikipedia.org/wiki/Barack_Obama",
-            "beginIndex": 0,
-            "endIndex": 5
+            "uri": "https://en.wikipedia.org/wiki/Barrack_Obama",
+            "beginIndex": 1,
+            "endIndex": 6
           },
           {
             "text": "Merkel",
             "uri": "https://en.wikipedia.org/wiki/Angela_Merkel",
-            "beginIndex": 15,
-            "endIndex": 21
+            "beginIndex": 16,
+            "endIndex": 22
+          },
+          {
+            "text": "jfk",
+            "uri": "https://en.wikipedia.org/wiki/John_F._Kennedy",
+            "beginIndex": 43,
+            "endIndex": 46
           }
         ],
         "error": null

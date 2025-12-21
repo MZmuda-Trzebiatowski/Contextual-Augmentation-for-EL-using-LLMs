@@ -2,10 +2,10 @@
   "metadata": {
     "dataset": "evaluation-dataset-task1",
     "model": "llama3.2:3b",
-    "timestamp": "2025-12-07T14:11:49.610344",
+    "timestamp": "2025-12-21T15:57:40.108338",
     "total_samples": 101,
-    "successful": 101,
-    "failed": 0
+    "successful": 100,
+    "failed": 1
   },
   "results": [
     {
@@ -87,37 +87,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[Mario Capecchi was born in the city of Verona as the only child of Luciano Capecchi, an airman, and Lucy Ramberg, an American-born daughter of Impressionist painter Lucy Dodd Ramberg and German archaeologist Walter Ramberg.]",
         "entities": [
           {
             "text": "Mario Capecchi",
-            "uri": "https://en.wikipedia.org/wiki/Mario_Capecchi",
-            "beginIndex": 0,
-            "endIndex": 14
-          },
-          {
-            "text": "Verona",
-            "uri": "https://en.wikipedia.org/wiki/Verona",
-            "beginIndex": 39,
-            "endIndex": 45
+            "uri": "https://en.wikipedia.org/wiki/Mario_Capecchi_(biologist)",
+            "beginIndex": 1,
+            "endIndex": 15
           },
           {
             "text": "Luciano Capecchi",
             "uri": "https://en.wikipedia.org/wiki/Luciano_Capecchi",
-            "beginIndex": 67,
-            "endIndex": 83
-          },
-          {
-            "text": "Lucy Ramberg",
-            "uri": "https://en.wikipedia.org/wiki/Lucy_Ramberg_(artist)",
-            "beginIndex": 100,
-            "endIndex": 112
+            "beginIndex": 68,
+            "endIndex": 84
           },
           {
             "text": "Walter Ramberg",
             "uri": "https://en.wikipedia.org/wiki/Walter_Ramberg",
-            "beginIndex": 208,
-            "endIndex": 222
+            "beginIndex": 209,
+            "endIndex": 223
           }
         ],
         "error": null
@@ -148,21 +136,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Swiss Federal Institute of Technology",
-            "uri": "https://en.wikipedia.org/wiki/Swiss_Federal_Institute_of_Technology",
-            "beginIndex": 84,
-            "endIndex": 121
-          },
-          {
-            "text": "Zurich",
-            "uri": "https://en.wikipedia.org/wiki/Zurich",
-            "beginIndex": 125,
-            "endIndex": 131
-          }
-        ],
+        "ner_output": "[START_ENT]John[END_ENT] started with high expectations and enthusiasm to study chemistry at the famous [START_ENT]Swiss Federal Institute of Technology[END_ENT] in [START_ENT]Zurich[END.Ent]",
+        "entities": [],
         "error": null
       }
     },
@@ -197,31 +172,31 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[Mandela] served 27 years in prison, initially on [Robben Island], and later in [Pollsmoor Prison] and [Victor Verster Prison].",
         "entities": [
           {
-            "text": "Mandela",
+            "text": "[Mandela]",
             "uri": "https://en.wikipedia.org/wiki/Nelson_Mandela",
             "beginIndex": 0,
-            "endIndex": 7
+            "endIndex": 9
           },
           {
-            "text": "Robben Island",
+            "text": "[Robben Island]",
             "uri": "https://en.wikipedia.org/wiki/Robben_Island",
-            "beginIndex": 48,
-            "endIndex": 61
+            "beginIndex": 50,
+            "endIndex": 65
           },
           {
-            "text": "Pollsmoor Prison",
+            "text": "[Pollsmoor Prison]",
             "uri": "https://en.wikipedia.org/wiki/Pollsmoor_Prison",
-            "beginIndex": 76,
-            "endIndex": 92
+            "beginIndex": 80,
+            "endIndex": 98
           },
           {
-            "text": "Victor Verster Prison",
+            "text": "[Victor Verster Prison]",
             "uri": "https://en.wikipedia.org/wiki/Victor_Verster_Prison",
-            "beginIndex": 97,
-            "endIndex": 118
+            "beginIndex": 103,
+            "endIndex": 126
           }
         ],
         "error": null
@@ -264,19 +239,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "Here is the tagged text:\n\nIn 2001 he became a professor of physics at [START_ENT]University of Manchester[END_ENT], and was appointed director of the [START_ENT]Manchester Centre for Mesoscience and Nanotechnology[END_ENT] in 2002.",
         "entities": [
           {
-            "text": "University of Manchester",
+            "text": "university of manchester",
             "uri": "https://en.wikipedia.org/wiki/University_of_Manchester",
-            "beginIndex": 48,
-            "endIndex": 72
+            "beginIndex": 70,
+            "endIndex": 94
           },
           {
-            "text": "Manchester Centre for Mesoscience and Nanotechnology",
+            "text": "Manchester centre for mesoscience and nanotechnology",
             "uri": "https://en.wikipedia.org/wiki/Manchester_Centre_for_Mesoscience_and_Nanotechnology",
-            "beginIndex": 108,
-            "endIndex": 160
+            "beginIndex": 1177,
+            "endIndex": 1229
           }
         ],
         "error": null
@@ -313,19 +288,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'Gordimer studied for a year at the University of the Witwatersrand, where she mixed for the first time with fellow professionals across the colour bar.'\nHere is the text with named entities surrounded by [START_ENT] and [END_ENT] tags:\n\n[Gordimer[END_ENT] studied for a year at the [START_ENT]University of the Witwatersrand[END_ENT], where she mixed for the first time with fellow professionals across the [START_ENT]colour bar[END_ENT].",
         "entities": [
           {
             "text": "Gordimer",
-            "uri": "https://en.wikipedia.org/wiki/Gordimer",
-            "beginIndex": 0,
-            "endIndex": 8
+            "uri": "https://en.wikipedia.org/wiki/Gordimer_Cheekley",
+            "beginIndex": 25,
+            "endIndex": 33
           },
           {
-            "text": "University of the Witwatersrand",
+            "text": "university of the witwatersrand",
             "uri": "https://en.wikipedia.org/wiki/University_of_the_Witwatersrand",
-            "beginIndex": 35,
-            "endIndex": 66
+            "beginIndex": 60,
+            "endIndex": 91
+          },
+          {
+            "text": "colour bar",
+            "uri": "https://en.wikipedia.org/wiki/Racial_segregation_in_the_United_Kingdom",
+            "beginIndex": 165,
+            "endIndex": 175
           }
         ],
         "error": null
@@ -410,37 +391,37 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'Prelog attended elementary school in Sarajevo, but in 1915, moved to Zagreb where he graduated from elementary school. At first, Prelog attended gymnasium in Zagreb, but soon afterwards, his father got a job in Osijek.'\n\nbecomes: \n[START_ENT]Prelog[END_ENT] attended [START_ENT]elementary school[END_ENT] in [START_ENT]Sarajevo[END_ENT], but in 1915, moved to [START_ENT]Zagreb[END_ENT] where he graduated from [START_ENT]elementary school[END ENT]. At first, [START_ENT]Prelog[END.Ent] attended [START_ENT]gymnasium[END_ENT] in [START_ENT]Zagreb[END_ENT], but soon afterwards, his father got a job in [START_ENT]Osijek[END_ENT].",
         "entities": [
           {
             "text": "Prelog",
-            "uri": "https://en.wikipedia.org/wiki/Prelog",
-            "beginIndex": 0,
-            "endIndex": 6
+            "uri": "https://en.wikipedia.org/wiki/Vladimir_Prelog",
+            "beginIndex": 25,
+            "endIndex": 31
+          },
+          {
+            "text": "elementary school",
+            "uri": "https://en.wikipedia.org/wiki/Primary_school",
+            "beginIndex": 41,
+            "endIndex": 58
           },
           {
             "text": "Sarajevo",
             "uri": "https://en.wikipedia.org/wiki/Sarajevo",
-            "beginIndex": 37,
-            "endIndex": 45
+            "beginIndex": 62,
+            "endIndex": 70
           },
           {
             "text": "Zagreb",
             "uri": "https://en.wikipedia.org/wiki/Zagreb",
-            "beginIndex": 69,
-            "endIndex": 75
-          },
-          {
-            "text": "gymnasium",
-            "uri": "https://en.wikipedia.org/wiki/Gymnasium",
-            "beginIndex": 145,
-            "endIndex": 154
+            "beginIndex": 94,
+            "endIndex": 100
           },
           {
             "text": "Osijek",
             "uri": "https://en.wikipedia.org/wiki/Osijek",
-            "beginIndex": 211,
-            "endIndex": 217
+            "beginIndex": 236,
+            "endIndex": 242
           }
         ],
         "error": null
@@ -483,19 +464,31 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'Johns Hopkins University, led by Goeppert Mayer, was prevented from taking John on as a faculty member, but she was given a job as an assistant and published a landmark paper on double beta decay in 1935 at Harvard University.'\n\n[START_ENT]Johns Hopkins University[END_ENT], [START_ENT]Goeppert Mayer[END_ENT], John, Harvard University[END_ENT]",
         "entities": [
           {
             "text": "Johns Hopkins University",
             "uri": "https://en.wikipedia.org/wiki/Johns_Hopkins_University",
-            "beginIndex": 40,
-            "endIndex": 64
+            "beginIndex": 25,
+            "endIndex": 49
           },
           {
             "text": "Goeppert Mayer",
-            "uri": "https://en.wikipedia.org/wiki/Goeppert_Mayer",
-            "beginIndex": 77,
-            "endIndex": 91
+            "uri": "https://en.wikipedia.org/wiki/Maria_Goeppert_Mayer",
+            "beginIndex": 58,
+            "endIndex": 72
+          },
+          {
+            "text": "John",
+            "uri": "https://en.wikipedia.org/wiki/John",
+            "beginIndex": 100,
+            "endIndex": 104
+          },
+          {
+            "text": "Harvard University",
+            "uri": "https://en.wikipedia.org/wiki/Harvard_University",
+            "beginIndex": 232,
+            "endIndex": 250
           }
         ],
         "error": null
@@ -538,25 +531,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'Appointed Professor at the University of Rome, man's seminars there included Harlequin and the commedia dell'arte.'\n\nHere is the text with named entities surrounded by [START_ENT] and [END_ENT] tags: \n[START_ENT]University of Rome[END_ENT], [START_ENT]Harlequin[END_ENT]'",
         "entities": [
           {
-            "text": "University of Rome",
-            "uri": "https://en.wikipedia.org/wiki/University_of_Rome",
-            "beginIndex": 27,
-            "endIndex": 45
+            "text": "university of rome",
+            "uri": "https://en.wikipedia.org/wiki/Sapienza_University_of_Rome",
+            "beginIndex": 52,
+            "endIndex": 70
           },
           {
             "text": "Harlequin",
-            "uri": "https://en.wikipedia.org/wiki/Harlequin",
-            "beginIndex": 77,
-            "endIndex": 86
-          },
-          {
-            "text": "commedia dell'arte",
-            "uri": "https://en.wikipedia.org/wiki/Commedia dell%27arte",
-            "beginIndex": 95,
-            "endIndex": 113
+            "uri": "https://en.wikipedia.org/wiki/Harlequin_(disambiguation)",
+            "beginIndex": 102,
+            "endIndex": 111
           }
         ],
         "error": null
@@ -617,7 +604,7 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "Born on 22 April 1909 at Turin [START_ENT]Rita Levi-Montalcini[END_ENT] were the youngest of four children. Her parents were [START_ENT]Adamo Levi[END_ENT], a painter, and [START_ENT]Adele Montalcini[END_ENT], an electrical engineer and mathematician.",
         "entities": [
           {
             "text": "Rita Levi-Montalcini",
@@ -626,22 +613,16 @@
             "endIndex": 51
           },
           {
-            "text": "Turin",
-            "uri": "https://en.wikipedia.org/wiki/Turin",
-            "beginIndex": 25,
-            "endIndex": 30
-          },
-          {
             "text": "Adamo Levi",
-            "uri": "https://en.wikipedia.org/wiki/Adam_Levi_(mathematician)",
-            "beginIndex": 138,
-            "endIndex": 148
+            "uri": "https://en.wikipedia.org/wiki/Christine_Adamo",
+            "beginIndex": 889,
+            "endIndex": 899
           },
           {
             "text": "Adele Montalcini",
-            "uri": "https://en.wikipedia.org/wiki/Adele_Montalcini",
-            "beginIndex": 105,
-            "endIndex": 121
+            "uri": "https://en.wikipedia.org/wiki/Paola_Levi-Montalcini",
+            "beginIndex": 1779,
+            "endIndex": 1795
           }
         ],
         "error": null
@@ -696,31 +677,31 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'Neruda derived his pen name from the Czech poet Jan Neruda and became known as a poet when he was 10 years old.'\n\nHere is the text with named entities tagged: \n[Neruda] [START_ENT]derived[END_ENT] his [START_ENT]pen name[END.Ent] from the [START_ENT]Czech poet[END_ENT] [START_ENT]Jan Neruda[END_ENT] and became known as a [START_ENT]poet[END Ent] when he was 10 years old.",
         "entities": [
           {
-            "text": "Czech",
-            "uri": "https://en.wikipedia.org/wiki/Czech",
-            "beginIndex": 37,
-            "endIndex": 42
+            "text": "Neruda",
+            "uri": "https://en.wikipedia.org/wiki/Pablo_Neruda",
+            "beginIndex": 25,
+            "endIndex": 31
+          },
+          {
+            "text": "pen name",
+            "uri": "https://en.wikipedia.org/wiki/Surname",
+            "beginIndex": 44,
+            "endIndex": 52
+          },
+          {
+            "text": "Czech poet",
+            "uri": "https://en.wikipedia.org/wiki/Czechs",
+            "beginIndex": 62,
+            "endIndex": 72
           },
           {
             "text": "poet",
-            "uri": "https://en.wikipedia.org/wiki/Category:Poets",
-            "beginIndex": 43,
-            "endIndex": 47
-          },
-          {
-            "text": "Jan Neruda",
-            "uri": "https://en.wikipedia.org/wiki/Jan_Neruda_(poet)",
-            "beginIndex": 48,
-            "endIndex": 58
-          },
-          {
-            "text": "Neruda",
-            "uri": "https://en.wikipedia.org/wiki/Rafael_Cedeno_Martinez",
-            "beginIndex": 0,
-            "endIndex": 6
+            "uri": "https://en.wikipedia.org/wiki/Writer",
+            "beginIndex": 106,
+            "endIndex": 110
           }
         ],
         "error": null
@@ -787,33 +768,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "World War II",
-            "uri": "https://en.wikipedia.org/wiki/World_War_II",
-            "beginIndex": 6,
-            "endIndex": 18
-          },
-          {
-            "text": "Germany",
-            "uri": "https://en.wikipedia.org/wiki/Germany",
-            "beginIndex": 60,
-            "endIndex": 67
-          },
-          {
-            "text": "Richard Kuhn",
-            "uri": "https://en.wikipedia.org/wiki/Richard_Kuhn_(physicist)",
-            "beginIndex": 71,
-            "endIndex": 83
-          },
-          {
-            "text": "Lavoslav Ružička",
-            "uri": "https://en.wikipedia.org/wiki/Lavoslav_R%C4%9Fi%C4%8Dka",
-            "beginIndex": 121,
-            "endIndex": 137
-          }
-        ],
+        "ner_output": "Here is the tagged text:\n\nAfter World War II broke out, in 1941 Prelog was invited in Germany by [START_ENT]Richard Kuhn[END.Ent] as lecturer, and shortly afterwards, Lavoslav Ružička, invited Prelog to visit him on his way to [START_ENT]Germany[END_Ent].",
+        "entities": [],
         "error": null
       }
     },
@@ -878,51 +834,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Thomas Eliot",
-            "uri": "https://en.wikipedia.org/wiki/Thomas_Eliot_(poet)",
-            "beginIndex": 0,
-            "endIndex": 12
-          },
-          {
-            "text": "Institute for Advanced Study",
-            "uri": "https://en.wikipedia.org/wiki/Institute_for_Advanced_Study",
-            "beginIndex": 41,
-            "endIndex": 69
-          },
-          {
-            "text": "Frank Aydelotte",
-            "uri": "https://en.wikipedia.org/wiki/Frank_Aydelotte",
-            "beginIndex": 82,
-            "endIndex": 97
-          },
-          {
-            "text": "Eliot family",
-            "uri": "https://en.wikipedia.org/wiki/Eliot_family_(American)",
-            "beginIndex": 123,
-            "endIndex": 135
-          },
-          {
-            "text": "Boston Brahmin",
-            "uri": "https://en.wikipedia.org/wiki/Boston_Brahmins",
-            "beginIndex": 139,
-            "endIndex": 153
-          },
-          {
-            "text": "England",
-            "uri": "https://en.wikipedia.org/wiki/England",
-            "beginIndex": 175,
-            "endIndex": 182
-          },
-          {
-            "text": "New England",
-            "uri": "https://en.wikipedia.org/wiki/New_England_(region)",
-            "beginIndex": 187,
-            "endIndex": 198
-          }
-        ],
+        "ner_output": "For the given sentence:\n'Thomas Eliot was invited to study at the [START_ENT]Institute for Advanced Study[END_ENT] by [START_ENT]Frank Aydelotte[END_ENT]. [START_ENT]Eliot[END Ent] was born into the [START_ENT]Eliot family[END_ENT], a [START_ENT]Boston Brahmin family[END_ENT] with roots in [START_ENT]England[END_ENT] and [START_ENT]New England[End Ent].'\n \n'Frank Aydelotte'",
+        "entities": [],
         "error": null
       }
     },
@@ -981,27 +894,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "James Tobin",
-            "uri": "https://en.wikipedia.org/wiki/James_Tobin",
-            "beginIndex": 8,
-            "endIndex": 19
-          },
-          {
-            "text": "Yale University",
-            "uri": "https://en.wikipedia.org/wiki/Yale_University",
-            "beginIndex": 29,
-            "endIndex": 44
-          },
-          {
-            "text": "Cowles Foundation",
-            "uri": "https://en.wikipedia.org/wiki/Cowles_Foundation",
-            "beginIndex": 115,
-            "endIndex": 132
-          }
-        ],
+        "ner_output": "In 1950 [START_ENT]James Tobin[END_ENT] moved to [START_ENT]Yale University[END_ENT], where he remained for the rest of his career. [START_ENT]James Tobin[END_ENT] joined [START_ENT]The Cowles Foundation[END_ENT], which moved to [START_ENT]Yale[END_ENT] in 1955, also serving as its president between 1955–1961 and 1964-1965.",
+        "entities": [],
         "error": null
       }
     },
@@ -1036,25 +930,31 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For Toni Morrison went to Howard University graduating in 1953 with a B.A. in English; she went on to earn a Master of Arts from Cornell University in 1955.\n\n[START_ENT]Toni Morrison[END_ENT] [START_ENT]went[END_ENT] to [START_ENT]Howard University[END_ENT]; [START_ENT]she[END_ENT] [START_ENT]went[END_ENT] on to [START_ENT]earn[END_ENT] a [START_ENT]Master of Arts[END_ENT] from [START_ENT]Cornell University[END_ENT] in 1955.",
         "entities": [
           {
             "text": "Toni Morrison",
             "uri": "https://en.wikipedia.org/wiki/Toni_Morrison",
-            "beginIndex": 8,
-            "endIndex": 21
+            "beginIndex": 4,
+            "endIndex": 17
           },
           {
             "text": "Howard University",
             "uri": "https://en.wikipedia.org/wiki/Howard_University",
-            "beginIndex": 30,
-            "endIndex": 47
+            "beginIndex": 26,
+            "endIndex": 43
           },
           {
-            "text": "Cornell University",
-            "uri": "https://en.wikipedia.org/wiki/Cornell_University",
-            "beginIndex": 133,
-            "endIndex": 151
+            "text": "She",
+            "uri": "https://en.wikipedia.org/wiki/She",
+            "beginIndex": 87,
+            "endIndex": 90
+          },
+          {
+            "text": "Earn a Master of Arts from Cornell University in 1955.",
+            "uri": "https://en.wikipedia.org/wiki/Master_of_Arts",
+            "beginIndex": 102,
+            "endIndex": 156
           }
         ],
         "error": null
@@ -1121,57 +1021,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Beckett",
-            "uri": "https://en.wikipedia.org/wiki/Samuel_Beckett",
-            "beginIndex": 0,
-            "endIndex": 7
-          },
-          {
-            "text": "Trinity College, Dublin",
-            "uri": "https://en.wikipedia.org/wiki/Trinity_College,_Dublin",
-            "beginIndex": 48,
-            "endIndex": 71
-          },
-          {
-            "text": "BA",
-            "uri": "https://en.wikipedia.org/wiki/Bachelor_of_Arts",
-            "beginIndex": 116,
-            "endIndex": 118
-          },
-          {
-            "text": "Campbell College in Belfast",
-            "uri": "https://en.wikipedia.org/wiki/CampbellCollege,_Belfast",
-            "beginIndex": 150,
-            "endIndex": 177
-          },
-          {
-            "text": "École Normale Supérieure in Paris",
-            "uri": "https://en.wikipedia.org/wiki/École_Normale_Sup%C3%A9rieure_in_Paris",
-            "beginIndex": 224,
-            "endIndex": 257
-          },
-          {
-            "text": "French",
-            "uri": "https://en.wikipedia.org/wiki/French_language",
-            "beginIndex": 16,
-            "endIndex": 22
-          },
-          {
-            "text": "Italian",
-            "uri": "https://en.wikipedia.org/wiki/Italian_language",
-            "beginIndex": 24,
-            "endIndex": 31
-          },
-          {
-            "text": "English",
-            "uri": "https://en.wikipedia.org/wiki/English_language",
-            "beginIndex": 37,
-            "endIndex": 44
-          }
-        ],
+        "ner_output": "Beckett studied French, Italian, and English at [START_ENT]Trinity College, Dublin[END_ENT] from 1923 to 1927. Beckett graduated with a BA and, after teaching briefly at [START_ENT]Campbell College[END_ENT] in [START_ENT]Belfast[END_ENT], took up the post of lecteur d'anglais in [START_ENT]École Normale Supérieure[END_ENT] in [START_ENT]Paris[END_ENT].",
+        "entities": [],
         "error": null
       }
     },
@@ -1242,33 +1093,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Magdalene College",
-            "uri": "https://en.wikipedia.org/wiki/Magdalene_College,_Cambridge",
-            "beginIndex": 22,
-            "endIndex": 39
-          },
-          {
-            "text": "Cavendish Laboratory",
-            "uri": "https://en.wikipedia.org/wiki/Cavendish_Laboratory",
-            "beginIndex": 89,
-            "endIndex": 109
-          },
-          {
-            "text": "Professor Rutherford",
-            "uri": "https://en.wikipedia.org/wiki/Ernest_Rutherford",
-            "beginIndex": 144,
-            "endIndex": 164
-          },
-          {
-            "text": "King's College, Cambridge",
-            "uri": "https://en.wikipedia.org/wiki/King%27s_College,_Cambridge",
-            "beginIndex": 196,
-            "endIndex": 221
-          }
-        ],
+        "ner_output": "[START_ENT]Magdalene College[END_ENT], [START_ENT]Cavendish Laboratory[END_ENT], [START_ENT]King's College, Cambridge[END_ENT]",
+        "entities": [],
         "error": null
       }
     },
@@ -1303,25 +1129,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[Rita Levi-Montalcini had been the oldest living Nobel laureate and was the first ever to reach a 100th birthday. ] \nOn 22 April 2009, [START_ENT]Rita Levi-Montalcini[END_ENT] was feted with a 100th birthday party at [START_ENT]Rome's city hall[END_ENT].",
         "entities": [
           {
             "text": "Rita Levi-Montalcini",
             "uri": "https://en.wikipedia.org/wiki/Rita_Levi-Montalcini",
-            "beginIndex": 0,
-            "endIndex": 20
+            "beginIndex": 1,
+            "endIndex": 21
           },
           {
-            "text": "Nobel laureate",
-            "uri": "https://en.wikipedia.org/wiki/Nobel_Prize",
-            "beginIndex": 48,
-            "endIndex": 62
-          },
-          {
-            "text": "Rome",
+            "text": "rome",
             "uri": "https://en.wikipedia.org/wiki/Rome",
-            "beginIndex": 193,
-            "endIndex": 197
+            "beginIndex": 981,
+            "endIndex": 985
           }
         ],
         "error": null
@@ -1364,19 +1184,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence: \n'She was appointed as Senator for Life in Italy by the President Carlo Azeglio Ciampi.'\nbecomes:\n'[START_ENT]Carlo Azeglio Ciampi[END_ENT]'",
         "entities": [
           {
-            "text": "Italy",
-            "uri": "https://en.wikipedia.org/wiki/Italy",
-            "beginIndex": 41,
-            "endIndex": 46
+            "text": "Senator for Life in Italy",
+            "uri": "https://en.wikipedia.org/wiki/Senators_for_life_in_Italy",
+            "beginIndex": 47,
+            "endIndex": 72
           },
           {
             "text": "Carlo Azeglio Ciampi",
             "uri": "https://en.wikipedia.org/wiki/Carlo_Azeglio_Ciampi",
-            "beginIndex": 64,
-            "endIndex": 84
+            "beginIndex": 90,
+            "endIndex": 110
           }
         ],
         "error": null
@@ -1425,31 +1245,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "In 2009, Wiesel [START_ENT]criticized[END_ENT] the [START_ENT)Vatican[END_ENT] for lifting the excommunication of controversial bishop [START_ENT]Richard Williamson[END_ENT], a member of the [START_ENT>Society of Saint Pius X[END_ENT].",
         "entities": [
           {
             "text": "Wiesel",
-            "uri": "https://en.wikipedia.org/wiki/Eli_Wiesel",
+            "uri": "https://en.wikipedia.org/wiki/Capote_(novel)",
             "beginIndex": 9,
             "endIndex": 15
           },
           {
             "text": "Vatican",
             "uri": "https://en.wikipedia.org/wiki/Vatican_City",
-            "beginIndex": 31,
-            "endIndex": 38
-          },
-          {
-            "text": "Richard Williamson",
-            "uri": "https://en.wikipedia.org/wiki/Richard_Williamson_(bishop)",
-            "beginIndex": 95,
-            "endIndex": 113
-          },
-          {
-            "text": "Society of Saint Pius X",
-            "uri": "https://en.wikipedia.org/wiki/Society_of_Saint_Pius_X",
-            "beginIndex": 131,
-            "endIndex": 154
+            "beginIndex": 794,
+            "endIndex": 801
           }
         ],
         "error": null
@@ -1516,45 +1324,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Dulbecco",
-            "uri": "https://en.wikipedia.org/wiki/Dulbecco",
-            "beginIndex": 0,
-            "endIndex": 8
-          },
-          {
-            "text": "Catanzaro",
-            "uri": "https://en.wikipedia.org/wiki/Catanzaro",
-            "beginIndex": 21,
-            "endIndex": 30
-          },
-          {
-            "text": "Italy",
-            "uri": "https://en.wikipedia.org/wiki/Italy",
-            "beginIndex": 41,
-            "endIndex": 46
-          },
-          {
-            "text": "Liguria",
-            "uri": "https://en.wikipedia.org/wiki/Liguria",
-            "beginIndex": 88,
-            "endIndex": 95
-          },
-          {
-            "text": "Imperia",
-            "uri": "https://en.wikipedia.org/wiki/Imperia",
-            "beginIndex": 117,
-            "endIndex": 124
-          },
-          {
-            "text": "University of Turin",
-            "uri": "https://en.wikipedia.org/wiki/University_of_Turin",
-            "beginIndex": 187,
-            "endIndex": 206
-          }
-        ],
+        "ner_output": "[Dulbecco was born in [START_ENT]Catanzaro[END_ENT] (Southern [START_ENT]Italy[END_ENT]), but spent his childhood and grew up in [START_ENT)Liguria[END_ENT], in the coastal city [START_ENT]Imperia[END_ENT]. [START_ENT]Dulbecco[END_ENT] graduated from high school at 16, then moved to the [START_ENT]University of Turin[END_ENT].]",
+        "entities": [],
         "error": null
       }
     },
@@ -1619,37 +1390,43 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'A man from Japan received his bachelor's degree from [START_ENT]Kyoto University[END_ENT] in 1963. Such a man did post-doctoral work at the [START_ENT]Salk Institute[END_ENT] in [START_ENT]San Diego[END_ENT], in the laboratory of [START.Ent]Renato Dulbecco[END.Ent], then worked at the [START_Ent]Basel Institute for Immunology[END_Ent] in [START_Ent]Basel[END_Ent], Switzerland.'",
         "entities": [
           {
             "text": "Kyoto University",
             "uri": "https://en.wikipedia.org/wiki/Kyoto_University",
-            "beginIndex": 53,
-            "endIndex": 69
+            "beginIndex": 78,
+            "endIndex": 94
           },
           {
             "text": "Salk Institute",
-            "uri": "https://en.wikipedia.org/wiki/Salk_Institute",
-            "beginIndex": 120,
-            "endIndex": 134
+            "uri": "https://en.wikipedia.org/wiki/Salk_Institute_for_Biological_Studies",
+            "beginIndex": 1024,
+            "endIndex": 1038
           },
           {
-            "text": "Basel Institute for Immunology",
-            "uri": "https://en.wikipedia.org/wiki/Basel_Institute_for_Immunology",
-            "beginIndex": 205,
-            "endIndex": 235
-          },
-          {
-            "text": "Japan",
-            "uri": "https://en.wikipedia.org/wiki/Japan",
-            "beginIndex": 11,
-            "endIndex": 16
+            "text": "San Diego",
+            "uri": "https://en.wikipedia.org/wiki/San_Diego",
+            "beginIndex": 1792,
+            "endIndex": 1801
           },
           {
             "text": "Renato Dulbecco",
             "uri": "https://en.wikipedia.org/wiki/Renato_Dulbecco",
-            "beginIndex": 169,
-            "endIndex": 184
+            "beginIndex": 2664,
+            "endIndex": 2679
+          },
+          {
+            "text": "Basel Institute for Immunology",
+            "uri": "https://en.wikipedia.org/wiki/Basel_Institute_for_Immunology",
+            "beginIndex": 2720,
+            "endIndex": 2750
+          },
+          {
+            "text": "Basel",
+            "uri": "https://en.wikipedia.org/wiki/Basel,",
+            "beginIndex": 2774,
+            "endIndex": 2779
           }
         ],
         "error": null
@@ -1686,25 +1463,37 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence: 'The woman was awarded the Nobel Prize in Physics in 1963, which she shared with J. Hans D. Jensen and Eugene Wigner.'\n\nHere is the output:\n'For the given [START_ENT]sentence[END_ENT]: '[START_ENT]'The [START_ENT]woman[END_ENT]' was awarded the [START_ENT]Nobel Prize[END_ENT] in [START_ENT]Physics[END_ENT]' in 1963, which she shared with [START_ENT]J. Hans D. Jensen[END_ENT]' and [START_ENT]Eugene Wigner[END_ENT].'\"",
         "entities": [
           {
-            "text": "Nobel Prize in Physics",
-            "uri": "https://en.wikipedia.org/wiki/Nobel_Prices_by_field",
-            "beginIndex": 26,
-            "endIndex": 48
+            "text": "the woman",
+            "uri": "https://en.wikipedia.org/wiki/Woman",
+            "beginIndex": 25,
+            "endIndex": 34
+          },
+          {
+            "text": "nobel prize",
+            "uri": "https://en.wikipedia.org/wiki/Nobel_Prize_in_Physics",
+            "beginIndex": 51,
+            "endIndex": 62
+          },
+          {
+            "text": "physics",
+            "uri": "https://en.wikipedia.org/wiki/Physics",
+            "beginIndex": 66,
+            "endIndex": 73
           },
           {
             "text": "J. Hans D. Jensen",
-            "uri": "https://en.wikipedia.org/wiki/J._%C3%9Ensen",
-            "beginIndex": 80,
-            "endIndex": 97
+            "uri": "https://en.wikipedia.org/wiki/J._Hans_D._Jensen",
+            "beginIndex": 105,
+            "endIndex": 122
           },
           {
             "text": "Eugene Wigner",
             "uri": "https://en.wikipedia.org/wiki/Eugene_Wigner",
-            "beginIndex": 102,
-            "endIndex": 115
+            "beginIndex": 127,
+            "endIndex": 140
           }
         ],
         "error": null
@@ -1771,43 +1560,31 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "Here is the tagged text:\n\n'After working as a assistant at [START_ENT]Harvard[END_ENT] from 1909 to 1910, Eliot moved to [START_ENT]Paris[END_ENT], where from 1910 to 1911, he studied philosophy at the [START_ENT]Sorbonne[END.Ent]. [START_ENT]Eliot[END_Ent] attended lectures by [START_ENT]Henri Bergson[END_Ent] and read poetry with [START_ENT]Alain-Fournier[END.Ent].'",
         "entities": [
           {
-            "text": "Harvard",
-            "uri": "https://en.wikipedia.org/wiki/Harvard University",
-            "beginIndex": 32,
-            "endIndex": 39
-          },
-          {
-            "text": "Paris",
-            "uri": "https://en.wikipedia.org/wiki/Paris",
-            "beginIndex": 74,
-            "endIndex": 79
+            "text": "Eliot",
+            "uri": "https://en.wikipedia.org/wiki/T.S._Eliot",
+            "beginIndex": 881,
+            "endIndex": 886
           },
           {
             "text": "Sorbonne",
             "uri": "https://en.wikipedia.org/wiki/Sorbonne",
-            "beginIndex": 135,
-            "endIndex": 143
+            "beginIndex": 1700,
+            "endIndex": 1708
           },
           {
             "text": "Henri Bergson",
             "uri": "https://en.wikipedia.org/wiki/Henri_Bergson",
-            "beginIndex": 172,
-            "endIndex": 185
+            "beginIndex": 1755,
+            "endIndex": 1768
           },
           {
             "text": "Alain-Fournier",
             "uri": "https://en.wikipedia.org/wiki/Alain_Fournier",
-            "beginIndex": 207,
-            "endIndex": 221
-          },
-          {
-            "text": "Eliot",
-            "uri": "https://en.wikipedia.org/wiki/Eliot_(surname)",
-            "beginIndex": 59,
-            "endIndex": 64
+            "beginIndex": 1799,
+            "endIndex": 1813
           }
         ],
         "error": null
@@ -1880,25 +1657,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "In September 1946, [START_ENT]Levi-Montalcini[END_ENT] accepted an invitation to [START_ENT]Washington University[END_ENT] in St. Louis, under the supervision of [START.Ent]Professor Viktor Hamburger[END_ENT]. Although the initial invitation was for one semester, after she repeated the exciting results from her home laboratory, [START_Ent]Hamburger[END_ent] offered her a research associate position.",
         "entities": [
           {
-            "text": "Levi-Montalcini",
-            "uri": "https://en.wikipedia.org/wiki/Cecilia_Mejani",
+            "text": "levi-montalcini",
+            "uri": "https://en.wikipedia.org/wiki/Rita_Levi-Montalcini",
             "beginIndex": 19,
             "endIndex": 34
           },
           {
-            "text": "Washington University in St. Louis",
+            "text": "washington university",
             "uri": "https://en.wikipedia.org/wiki/Washington_University_in_St._Louis",
-            "beginIndex": 61,
-            "endIndex": 95
-          },
-          {
-            "text": "Viktor Hamburger",
-            "uri": "https://en.wikipedia.org/wiki/Viktor_Hamburger_(biologist)",
-            "beginIndex": 132,
-            "endIndex": 148
+            "beginIndex": 839,
+            "endIndex": 860
           }
         ],
         "error": null
@@ -1941,27 +1712,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Ghana",
-            "uri": "https://en.wikipedia.org/wiki/Ghana",
-            "beginIndex": 21,
-            "endIndex": 26
-          },
-          {
-            "text": "RCA",
-            "uri": "https://en.wikipedia.org/wiki/RCA%28Radio%29",
-            "beginIndex": 38,
-            "endIndex": 41
-          },
-          {
-            "text": "United States",
-            "uri": "https://en.wikipedia.org/wiki/United_States",
-            "beginIndex": 79,
-            "endIndex": 92
-          }
-        ],
+        "ner_output": "Here is the text with named entities tagged:\n\nIn 1946 a woman from [START_ENT]Ghana[END_ENT] working at [START_ENT]RCA[END_ENT] sent a friend money to return to the [START_ENT]United States[END_ENT].",
+        "entities": [],
         "error": null
       }
     },
@@ -2008,25 +1760,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "Here is the tagged text:\nIn 1953, he moved to [START_ENT]Trinity College, Cambridge[END_ENT], where he earned a second B.A. in [START_ENT]Economics[END_ENT] in 1955 with a first class topping the list. He was elected President of the [START_ENT]Cambridge Majlis[END_ENT].",
         "entities": [
           {
-            "text": "Cambridge",
-            "uri": "https://en.wikipedia.org/wiki/Cambridge_(city)",
-            "beginIndex": 38,
-            "endIndex": 47
-          },
-          {
-            "text": "Trinity College, Cambridge",
+            "text": "trinity college, cambridge",
             "uri": "https://en.wikipedia.org/wiki/Trinity_College,_Cambridge",
-            "beginIndex": 21,
-            "endIndex": 47
+            "beginIndex": 46,
+            "endIndex": 72
           },
           {
-            "text": "Economics",
+            "text": "economics",
             "uri": "https://en.wikipedia.org/wiki/Economics",
-            "beginIndex": 82,
-            "endIndex": 91
+            "beginIndex": 1119,
+            "endIndex": 1128
+          },
+          {
+            "text": "cambridge majlis",
+            "uri": "https://en.wikipedia.org/wiki/Cambridge_Majlis",
+            "beginIndex": 2001,
+            "endIndex": 2017
           }
         ],
         "error": null
@@ -2069,13 +1821,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For Shuji Nakamura graduated from [START_ENT]University of Tokushima[END_ENT] in 1977 with a B.Eng. degree in electronic engineering, and obtained an M.Eng. degree in the same subject two years later, after which he joined [START_ENT]Nichia Corporation[END_ENT], also based in [START_ENT]Tokushima[END_ENT].",
         "entities": [
           {
             "text": "Shuji Nakamura",
             "uri": "https://en.wikipedia.org/wiki/Shuji_Nakamura",
-            "beginIndex": 0,
-            "endIndex": 14
+            "beginIndex": 4,
+            "endIndex": 18
           },
           {
             "text": "University of Tokushima",
@@ -2085,9 +1837,15 @@
           },
           {
             "text": "Nichia Corporation",
-            "uri": "https://en.wikipedia.org/wiki/Nichia_Corporation",
-            "beginIndex": 207,
-            "endIndex": 225
+            "uri": "https://en.wikipedia.org/wiki/Nichia",
+            "beginIndex": 1012,
+            "endIndex": 1030
+          },
+          {
+            "text": "Tokushima",
+            "uri": "https://en.wikipedia.org/wiki/Tokushima_Prefecture",
+            "beginIndex": 1758,
+            "endIndex": 1767
           }
         ],
         "error": null
@@ -2118,13 +1876,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "One of them was an eminent scholar at Berkeley.",
         "entities": [
           {
             "text": "Berkeley",
-            "uri": "https://en.wikipedia.org/wiki/University_of_California,_Berkeley",
-            "beginIndex": 42,
-            "endIndex": 50
+            "uri": "https://en.wikipedia.org/wiki/Berkeley_(University_of_California)",
+            "beginIndex": 38,
+            "endIndex": 46
           }
         ],
         "error": null
@@ -2185,55 +1943,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence: \n[Fert graduated in 1962 from the École Normale Supérieure in Paris. He received his Ph.D. (doctorat de troisième cycle) in 1963 and his Sc.D. (doctorat des sciences), both from the Orsay Faculty of Sciences of the University of Paris.]\n\n[START_ENT]École Normale Supérieure[END_ENT] graduated in 1962 from [START_ENT]Paris[END.Ent], [START_ENT]Fert[END_ENT] received his Ph.D. (doctorat de troisième cycle) in 1963 and his Sc.D. (doctorat des sciences), both from [START_ENT]Orsay Faculty of Sciences[END_ENT] of [START_ENT]University of Paris[END_ENT].",
         "entities": [
           {
-            "text": "Fert",
-            "uri": "https://en.wikipedia.org/wiki/Ferdi_Knudsen",
-            "beginIndex": 0,
-            "endIndex": 4
-          },
-          {
-            "text": "École Normale Supérieure",
-            "uri": "https://en.wikipedia.org/wiki/École_Normale_Supérieure",
-            "beginIndex": 32,
-            "endIndex": 56
-          },
-          {
-            "text": "Paris",
+            "text": "paris",
             "uri": "https://en.wikipedia.org/wiki/Paris",
-            "beginIndex": 60,
-            "endIndex": 65
-          },
-          {
-            "text": "Ph.D.",
-            "uri": "https://en.wikipedia.org/wiki/Doctorate",
-            "beginIndex": 83,
-            "endIndex": 88
-          },
-          {
-            "text": "doctorat de troisième cycle",
-            "uri": "https://en.wikipedia.org/wiki/Degree_of_philosophy",
-            "beginIndex": 90,
-            "endIndex": 117
-          },
-          {
-            "text": "Sc.D.",
-            "uri": "https://en.wikipedia.org/wiki/Degree_of_science",
-            "beginIndex": 135,
-            "endIndex": 140
+            "beginIndex": 86,
+            "endIndex": 91
           },
           {
             "text": "Orsay Faculty of Sciences",
-            "uri": "https://en.wikipedia.org/wiki/University_of_Paris_Sorbonne_Caseuse",
-            "beginIndex": 180,
-            "endIndex": 205
+            "uri": "https://en.wikipedia.org/wiki/Paris-Saclay_Faculty_of_Sciences",
+            "beginIndex": 206,
+            "endIndex": 231
           },
           {
             "text": "University of Paris",
             "uri": "https://en.wikipedia.org/wiki/University_of_Paris",
-            "beginIndex": 213,
-            "endIndex": 232
+            "beginIndex": 239,
+            "endIndex": 258
           }
         ],
         "error": null
@@ -2342,43 +2070,31 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "During his lifetime, Neruda occupied many diplomatic positions and served a term as a Senator for the [START_ENT]Chilean Communist Party[END_ENT]. When President [START_ENT]González Videla[END_ENT] outlawed communism in Chile in 1948, a warrant was issued for Neruda's arrest. Friends hide him for months in the basement of a house in the port city of [START_ENT]Valparaíso[END_ENT]. Later, Neruda escaped through a mountain pass near [START_ENT]Maihue Lake[END_ENT] into [START_ENT]Argentina[END_ENT].",
         "entities": [
           {
-            "text": "Neruda",
-            "uri": "https://en.wikipedia.org/wiki/Pablo_Neruda",
-            "beginIndex": 21,
-            "endIndex": 27
-          },
-          {
-            "text": "González Videla",
-            "uri": "https://en.wikipedia.org/wiki/Roberto_González_Videla",
-            "beginIndex": 142,
-            "endIndex": 157
-          },
-          {
-            "text": "Chilean Communist Party",
+            "text": "chilean communist party",
             "uri": "https://en.wikipedia.org/wiki/Communist_Party_of_Chile",
             "beginIndex": 102,
             "endIndex": 125
           },
           {
-            "text": "Valparaíso",
-            "uri": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
-            "beginIndex": 312,
-            "endIndex": 322
+            "text": "valparaíso",
+            "uri": "https://en.wikipedia.org/wiki/Valparaíso",
+            "beginIndex": 2103,
+            "endIndex": 2113
           },
           {
-            "text": "Maihue Lake",
+            "text": "maihue lake",
             "uri": "https://en.wikipedia.org/wiki/Maihue_Lake",
-            "beginIndex": 375,
-            "endIndex": 386
+            "beginIndex": 2992,
+            "endIndex": 3003
           },
           {
-            "text": "Argentina",
+            "text": "argentina",
             "uri": "https://en.wikipedia.org/wiki/Argentina",
-            "beginIndex": 392,
-            "endIndex": 401
+            "beginIndex": 3747,
+            "endIndex": 3756
           }
         ],
         "error": null
@@ -2403,21 +2119,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Nelson Mandela",
-            "uri": "https://en.wikipedia.org/wiki/Nelson_Mandela",
-            "beginIndex": 0,
-            "endIndex": 14
-          },
-          {
-            "text": "All In Conference",
-            "uri": "https://en.wikipedia.org/wiki/All_In_Conference",
-            "beginIndex": 58,
-            "endIndex": 75
-          }
-        ],
+        "ner_output": "For the given sentence:\n'Nelson Mandela publicly launched Umkhonto we Sizwe at the All In Conference, where delegates from several movements had convened to discuss cooperation.'\n\nHere is the text with named entities surrounded by [START_ENT] and [END_ENT] tags.\n\n[Nelson Mandela] publicly launched [START_ENT]Umkhonto we Sizwe[END_ENT] at [START_ENT]The All In Conference[END_ENT], where delegates from several movements had convened to discuss cooperation.",
+        "entities": [],
         "error": null
       }
     },
@@ -2446,33 +2149,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Munro",
-            "uri": "https://en.wikipedia.org/wiki/Margaret_Lawrence",
-            "beginIndex": 0,
-            "endIndex": 5
-          },
-          {
-            "text": "University of Western Ontario",
-            "uri": "https://en.wikipedia.org/wiki/University_of_Western_On%C3%tario",
-            "beginIndex": 146,
-            "endIndex": 175
-          },
-          {
-            "text": "English",
-            "uri": "https://en.wikipedia.org/wiki/English_language",
-            "beginIndex": 116,
-            "endIndex": 123
-          },
-          {
-            "text": "journalism",
-            "uri": "https://en.wikipedia.org/wiki/Journalism",
-            "beginIndex": 128,
-            "endIndex": 138
-          }
-        ],
+        "ner_output": "For the given sentence:\n'Munro began writing as a teenager, publishing her first story, \"[START_ENT]The Dimensions of a Shadow[/ENT]\"', in 1950 while studying at [START_ENT]University of Western Ontario[/ENT]'.\n\n\n[Munro began writing as a teenager, publishing her first story, \"[START_ENT]The Dimensions of a Shadow[/ENT]\", in 1950 while studying at [START_ENT]University of Western Ontario[/ENT].\"",
+        "entities": [],
         "error": null
       }
     },
@@ -2519,21 +2197,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "African National Congress",
-            "uri": "https://en.wikipedia.org/wiki/African_National_Congress",
-            "beginIndex": 26,
-            "endIndex": 51
-          },
-          {
-            "text": "Lutuli",
-            "uri": "https://en.wikipedia.org/wiki/Lyall_Bramwell_Lutuli",
-            "beginIndex": 8,
-            "endIndex": 14
-          }
-        ],
+        "ner_output": "In 1944 [START_ENT]Lutuli[END_ENT] joined the [START_ENT]African National Congress[END_ENT]. In 1945 he was elected to the Committee of the [START_ENT]KwaZulu Provincial Division[END_ENT] of the [START_ENT]African National Congress[END_ENT] and in 1951 to the presidency of the [START_ENT]Division[END_ENT].",
+        "entities": [],
         "error": null
       }
     },
@@ -2568,25 +2233,31 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'The [START_ENT]man[END_ENT] served on various committees and spent time at the [START_ENT]Royal Aircraft Establishment[END_ENT] in Farnborough, where he made a major contribution to the design of the Mark XIV bomb sight which allowed bombs to be released without a level bombing run beforehand.'\n\n'Angelina, her father [START_ENT]Jon[END_ENT], and her partner Brad never played together in the same movie.'",
         "entities": [
           {
-            "text": "Royal Aircraft Establishment",
+            "text": "The man",
+            "uri": "https://en.wikipedia.org/wiki/Man_(disambiguation)",
+            "beginIndex": 25,
+            "endIndex": 32
+          },
+          {
+            "text": "royal aircraft establishment",
             "uri": "https://en.wikipedia.org/wiki/Royal_Aircraft_Establishment",
-            "beginIndex": 59,
-            "endIndex": 87
+            "beginIndex": 799,
+            "endIndex": 827
           },
           {
-            "text": "Farnborough",
-            "uri": "https://en.wikipedia.org/wiki/Farnborough,_Hampshire",
-            "beginIndex": 91,
-            "endIndex": 102
+            "text": "Jon",
+            "uri": "https://en.wikipedia.org/wiki/Jon_Voight",
+            "beginIndex": 1900,
+            "endIndex": 1903
           },
           {
-            "text": "Mark XIV bomb sight",
-            "uri": "https://en.wikipedia.org/wiki/Mark_XIV_bomb_sight",
-            "beginIndex": 160,
-            "endIndex": 179
+            "text": "Brad",
+            "uri": "https://en.wikipedia.org/wiki/Brad_Pitt",
+            "beginIndex": 2589,
+            "endIndex": 2593
           }
         ],
         "error": null
@@ -2623,19 +2294,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[START_ENT]William Golding[END_ENT] was appointed Knight Bachelor by [START_ENT]Queen Elizabeth II[END_ENT] in 1988.",
         "entities": [
           {
-            "text": "William Golding",
-            "uri": "https://en.wikipedia.org/wiki/William_Golding",
+            "text": "william golding",
+            "uri": "https://en.wikipedia.org/wiki/Lord_of_the_Flies",
             "beginIndex": 0,
             "endIndex": 15
           },
           {
-            "text": "Queen Elizabeth II",
-            "uri": "https://en.wikipedia.org/wiki/Elimae_Patrick_Hughes_(1926-2002)",
-            "beginIndex": 53,
-            "endIndex": 71
+            "text": "queen elizabeth ii",
+            "uri": "https://en.wikipedia.org/wiki/Elizabeth_II",
+            "beginIndex": 858,
+            "endIndex": 876
           }
         ],
         "error": null
@@ -2702,49 +2373,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "Michael was born April 26, 1932, in [START_ENT]Blackpool, Lancashire, England[END.Ent], He immigrated to [START_ENT]Canada[END Ent]. Michael married Helen Wood Christie on August 6, 1960, on Vancouver Island.",
         "entities": [
           {
-            "text": "Michael",
-            "uri": "https://en.wikipedia.org/wiki/Michael_Cain",
-            "beginIndex": 0,
-            "endIndex": 7
-          },
-          {
-            "text": "Blackpool",
+            "text": "Blackpool, Lancashire, England",
             "uri": "https://en.wikipedia.org/wiki/Blackpool",
             "beginIndex": 36,
-            "endIndex": 45
-          },
-          {
-            "text": "Lancashire",
-            "uri": "https://en.wikipedia.org/wiki/Lancashire",
-            "beginIndex": 47,
-            "endIndex": 57
-          },
-          {
-            "text": "England",
-            "uri": "https://en.wikipedia.org/wiki/England",
-            "beginIndex": 59,
             "endIndex": 66
           },
           {
             "text": "Canada",
             "uri": "https://en.wikipedia.org/wiki/Canada",
-            "beginIndex": 85,
-            "endIndex": 91
-          },
-          {
-            "text": "Vancouver Island",
-            "uri": "https://en.wikipedia.org/wiki/Vancouver_Island",
-            "beginIndex": 197,
-            "endIndex": 213
-          },
-          {
-            "text": "Helen Wood Christie",
-            "uri": "https://en.wikipedia.org/wiki/Helena_Cain",
-            "beginIndex": 155,
-            "endIndex": 174
+            "beginIndex": 94,
+            "endIndex": 100
           }
         ],
         "error": null
@@ -2793,19 +2434,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'Goeppert Mayer married Joseph Edward Mayer, and moved to the [START_ENT]United States[END_ENT], where Goeppert Mayer was an associate professor at [START_ENT]Johns Hopkins University[END_ENT].'",
         "entities": [
           {
-            "text": "Goeppert Mayer",
-            "uri": "https://en.wikipedia.org/wiki/Goeppert_Mayer",
-            "beginIndex": 0,
-            "endIndex": 14
+            "text": "united states",
+            "uri": "https://en.wikipedia.org/wiki/United_States",
+            "beginIndex": 86,
+            "endIndex": 99
           },
           {
-            "text": "Joseph Edward Mayer",
-            "uri": "https://en.wikipedia.org/wiki/Joseph_Edward_Mayer",
-            "beginIndex": 23,
-            "endIndex": 42
+            "text": "johns hopkins university",
+            "uri": "https://en.wikipedia.org/wiki/Johns_Hopkins_University",
+            "beginIndex": 1159,
+            "endIndex": 1183
           }
         ],
         "error": null
@@ -2860,31 +2501,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[Mario Capecchi[END_ENT] was a Fellow of the [START_ENT]Society of Fellows[END_ENT] at Harvard University from 1967 to 1969. In 1973 [START_ENT]Capecchi[END_ENT] joined the faculty at the [START_ENT]University of Utah[END_ENT].]",
         "entities": [
           {
-            "text": "Mario Capecchi",
-            "uri": "https://en.wikipedia.org/wiki/Mario_Capecchi",
-            "beginIndex": 0,
-            "endIndex": 14
-          },
-          {
-            "text": "Society of Fellows",
-            "uri": "https://en.wikipedia.org/wiki/Society_of_Fellows_(Harvard)",
-            "beginIndex": 35,
-            "endIndex": 53
-          },
-          {
-            "text": "Harvard University",
-            "uri": "https://en.wikipedia.org/wiki/Harvard_University",
-            "beginIndex": 57,
-            "endIndex": 75
-          },
-          {
-            "text": "University of Utah",
-            "uri": "https://en.wikipedia.org/wiki/University_of_Utah",
-            "beginIndex": 138,
-            "endIndex": 156
+            "text": "Mario Capecchi was a Fellow of the society of fellows",
+            "uri": "https://en.wikipedia.org/wiki/Harvard_Society_of_Fellows",
+            "beginIndex": 1,
+            "endIndex": 54
           }
         ],
         "error": null
@@ -2927,21 +2550,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Institute of Industrial Chemistry",
-            "uri": "https://en.wikipedia.org/wiki/Institute_of_Industrial_Chemistry",
-            "beginIndex": 67,
-            "endIndex": 100
-          },
-          {
-            "text": "Polytechnic Institute of Turin",
-            "uri": "https://en.wikipedia.org/wiki/Polytechnic_Institute_of_Turin",
-            "beginIndex": 108,
-            "endIndex": 138
-          }
-        ],
+        "ner_output": "For the given sentence:\n'From 1936 to 1938 he moved as a full professor and director of the Institute of Industrial Chemistry at the Polytechnic Institute of Turin.'\n\nHe moved as a full professor and director of [START_ENT]Institute of Industrial Chemistry[END_ENT] at [START_ENT]Polytechnic Institute of Turin[END Ent].",
+        "entities": [],
         "error": null
       }
     },
@@ -2982,31 +2592,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[Eliot] attended [Milton Academy in Massachusetts] for a preparatory year, where he met [Scofield Thayer].",
         "entities": [
           {
-            "text": "Eliot",
-            "uri": "https://en.wikipedia.org/wiki/Eliot",
+            "text": "[Eliot]",
+            "uri": "https://en.wikipedia.org/wiki/Elijah_Courtney",
             "beginIndex": 0,
-            "endIndex": 5
+            "endIndex": 7
           },
           {
-            "text": "Scofield Thayer",
-            "uri": "https://en.wikipedia.org/wiki/Scofield_Thayer",
-            "beginIndex": 84,
-            "endIndex": 99
-          },
-          {
-            "text": "Milton Academy",
+            "text": "[Milton Academy in Massachusetts]",
             "uri": "https://en.wikipedia.org/wiki/Milton_Academy_(Massachusetts)",
-            "beginIndex": 15,
-            "endIndex": 29
+            "beginIndex": 17,
+            "endIndex": 50
           },
           {
-            "text": "Massachusetts",
-            "uri": "https://en.wikipedia.org/wiki/Massachusetts",
-            "beginIndex": 33,
-            "endIndex": 46
+            "text": "[Scofield Thayer]",
+            "uri": "https://en.wikipedia.org/wiki/Scofield_Thayer",
+            "beginIndex": 88,
+            "endIndex": 105
           }
         ],
         "error": null
@@ -3055,25 +2659,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'During the early 2007 selection process for the Kadima candidate for President, Prime Minister Ehud Olmert reportedly offered Wiesel the nomination, but Wiesel was not very interested.'\n\nHere is the tagged text:\n\n[START_ENT]Kadima[END_ENT] [START_ENT]early 2007[END_ENT] selection process for the [START_ENT]Kadima[END_ENT] candidate for President, Prime Minister [START_ENT]Ehud Olmert[END_ENT] reportedly offered [START_ENT]Wiesel[END_ENT] the nomination, but [START_ENT]Wiesel[END_ENT] was not very interested.",
         "entities": [
           {
             "text": "Kadima",
             "uri": "https://en.wikipedia.org/wiki/Kadima",
-            "beginIndex": 48,
-            "endIndex": 54
+            "beginIndex": 73,
+            "endIndex": 79
           },
           {
             "text": "Ehud Olmert",
             "uri": "https://en.wikipedia.org/wiki/Ehud_Olmert",
-            "beginIndex": 95,
-            "endIndex": 106
+            "beginIndex": 120,
+            "endIndex": 131
           },
           {
             "text": "Wiesel",
-            "uri": "https://en.wikipedia.org/wiki/Wiesel",
-            "beginIndex": 126,
-            "endIndex": 132
+            "uri": "https://en.wikipedia.org/wiki/Elie_Wiesel",
+            "beginIndex": 151,
+            "endIndex": 157
           }
         ],
         "error": null
@@ -3146,43 +2750,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[Nicolaas Bloembergen received his Ph.D. degree from [START_ENT]University of Leiden[END_ENT] under [START.Ent]Cor Gorter[END Ent] in 1948; while pursuing his PhD at [START_ENT]Harvard[END_ENT], [START_ent]Nicolaas Bloembergen[END ENT] also worked part-time as a graduate research assistant for [START_ENT]Edward Mills Purcell[END_ENT] at the [START.Ent]MIT Radiation Laboratory[END Ent].",
         "entities": [
           {
-            "text": "Nicolaas Bloembergen",
+            "text": "[START_ent]Nicolaas Bloembergen[END ENT]",
             "uri": "https://en.wikipedia.org/wiki/Nicolaas_Bloembergen",
-            "beginIndex": 0,
-            "endIndex": 20
-          },
-          {
-            "text": "University of Leiden",
-            "uri": "https://en.wikipedia.org/wiki/University_of_Leiden",
-            "beginIndex": 52,
-            "endIndex": 72
-          },
-          {
-            "text": "Cor Gorter",
-            "uri": "https://en.wikipedia.org/wiki/Cor_Gorter",
-            "beginIndex": 79,
-            "endIndex": 89
-          },
-          {
-            "text": "Harvard",
-            "uri": "https://en.wikipedia.org/wiki/Harvard_University",
-            "beginIndex": 125,
-            "endIndex": 132
-          },
-          {
-            "text": "Edward Mills Purcell",
-            "uri": "https://en.wikipedia.org/wiki/Edward_Mills_Purcell",
-            "beginIndex": 214,
-            "endIndex": 234
-          },
-          {
-            "text": "MIT Radiation Laboratory",
-            "uri": "https://en.wikipedia.org/wiki/MIT_Radiation_Laboratory",
-            "beginIndex": 242,
-            "endIndex": 266
+            "beginIndex": 1781,
+            "endIndex": 1821
           }
         ],
         "error": null
@@ -3225,31 +2799,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For Hulse was born in [START_ENT]New York City[END_ENT] and attended [START_ENT]Bronx High School of Science[END.Ent] and the [START_ENT]Cooper Union[END.Ent] before moving to [START_ENT]University of Massachusetts Amherst[END_ENT].",
         "entities": [
           {
-            "text": "New York City",
-            "uri": "https://en.wikipedia.org/wiki/New_York_City",
-            "beginIndex": 18,
-            "endIndex": 31
+            "text": "Hulse",
+            "uri": "https://en.wikipedia.org/wiki/Hulse",
+            "beginIndex": 4,
+            "endIndex": 9
           },
           {
-            "text": "Bronx High School of Science",
+            "text": "bronx high school of science",
             "uri": "https://en.wikipedia.org/wiki/Bronx_High_School_of_Science",
-            "beginIndex": 45,
-            "endIndex": 73
+            "beginIndex": 903,
+            "endIndex": 931
           },
           {
-            "text": "Cooper Union",
-            "uri": "https://en.wikipedia.org/wiki/Cooper_Union",
-            "beginIndex": 82,
-            "endIndex": 94
-          },
-          {
-            "text": "University of Massachusetts Amherst",
-            "uri": "https://en.wikipedia.org/wiki/University_of_Massachusetts_Amherst",
-            "beginIndex": 112,
-            "endIndex": 147
+            "text": "cooper union",
+            "uri": "https://en.wikipedia.org/wiki/Columbia_University",
+            "beginIndex": 940,
+            "endIndex": 952
           }
         ],
         "error": null
@@ -3328,37 +2896,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For William Golding was born in Newquay, Cornwall where he spent many childhood holidays. He grew up in Marlborough, Wiltshire, where his father was a science master at Marlborough Grammar School.\n\n[START_ENT]Newquay[END_ENT], [START_ENT]Cornwall[END_ENT], [START_ENT]Marlborough[END.Ent], [START_ENT]Wiltshire[END_ENT], [START_ENT]Marlborough Grammar School[END_ENT].",
         "entities": [
           {
-            "text": "William Golding",
-            "uri": "https://en.wikipedia.org/wiki/William_Golding",
-            "beginIndex": 0,
-            "endIndex": 15
-          },
-          {
-            "text": "Newquay",
+            "text": "newquay",
             "uri": "https://en.wikipedia.org/wiki/Newquay",
-            "beginIndex": 28,
-            "endIndex": 35
+            "beginIndex": 32,
+            "endIndex": 39
           },
           {
-            "text": "Cornwall",
+            "text": "cornwall",
             "uri": "https://en.wikipedia.org/wiki/Cornwall",
-            "beginIndex": 37,
-            "endIndex": 45
+            "beginIndex": 41,
+            "endIndex": 49
           },
           {
-            "text": "Marlborough",
+            "text": "marlborough, wiltshire",
             "uri": "https://en.wikipedia.org/wiki/Marlborough,_Wiltshire",
-            "beginIndex": 100,
-            "endIndex": 111
-          },
-          {
-            "text": "Wiltshire",
-            "uri": "https://en.wikipedia.org/wiki/Wiltshire",
-            "beginIndex": 113,
-            "endIndex": 122
+            "beginIndex": 104,
+            "endIndex": 126
           }
         ],
         "error": null
@@ -3425,49 +2981,31 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For Giulio Natta was born in [START_ENT]Imperia, Italy[END_ENT]. He earned his degree in chemical engineering from the [START_ENT]Politecnico di Milano[END_ENT] university in [START_ENT]Milan[END_ENT] in 1924. Natta won a Nobel Prize in Chemistry in 1963 with [START_ENT]Karl Ziegler[END_ENT] for work on high polymers.",
         "entities": [
           {
             "text": "Giulio Natta",
             "uri": "https://en.wikipedia.org/wiki/Giulio_Natta",
-            "beginIndex": 0,
-            "endIndex": 12
-          },
-          {
-            "text": "Imperia",
-            "uri": "https://en.wikipedia.org/wiki/Imperia",
-            "beginIndex": 25,
-            "endIndex": 32
-          },
-          {
-            "text": "Italy",
-            "uri": "https://en.wikipedia.org/wiki/Italy",
-            "beginIndex": 34,
-            "endIndex": 39
+            "beginIndex": 4,
+            "endIndex": 16
           },
           {
             "text": "Politecnico di Milano",
-            "uri": "https://en.wikipedia.org/wiki/Politecnico_di_Milano",
-            "beginIndex": 95,
-            "endIndex": 116
+            "uri": "https://en.wikipedia.org/wiki/Polytechnic_University_of_Milan",
+            "beginIndex": 768,
+            "endIndex": 789
           },
           {
             "text": "Milan",
             "uri": "https://en.wikipedia.org/wiki/Milan",
-            "beginIndex": 131,
-            "endIndex": 136
-          },
-          {
-            "text": "Nobel Prize in Chemistry",
-            "uri": "https://en.wikipedia.org/wiki/Nobel_Prize_in_Chemistry",
-            "beginIndex": 158,
-            "endIndex": 182
+            "beginIndex": 847,
+            "endIndex": 852
           },
           {
             "text": "Karl Ziegler",
             "uri": "https://en.wikipedia.org/wiki/Karl_Ziegler",
-            "beginIndex": 196,
-            "endIndex": 208
+            "beginIndex": 2373,
+            "endIndex": 2385
           }
         ],
         "error": null
@@ -3504,7 +3042,7 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "In recent years [START_ENT]Elizabeth Blackburn[END_ENT] and her colleagues have been investigating the effect of stress on telomerase and telomeres with particular emphasis on mindfulness meditation. She appeared in the 1995 science documentary [START_ENT]Death by Design/The Life and Times of Life and Times[END ENT] in the US.",
         "entities": [
           {
             "text": "Elizabeth Blackburn",
@@ -3513,22 +3051,10 @@
             "endIndex": 35
           },
           {
-            "text": "telomerase",
-            "uri": "https://en.wikipedia.org/wiki/Telomerase",
-            "beginIndex": 103,
-            "endIndex": 113
-          },
-          {
-            "text": "telomeres",
+            "text": "Telomere",
             "uri": "https://en.wikipedia.org/wiki/Telomere",
-            "beginIndex": 118,
-            "endIndex": 127
-          },
-          {
-            "text": "mindfulness meditation",
-            "uri": "https://en.wikipedia.org/wiki/Mindfulness_meditation",
-            "beginIndex": 156,
-            "endIndex": 178
+            "beginIndex": 241,
+            "endIndex": 249
           }
         ],
         "error": null
@@ -3577,27 +3103,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Quasimodo",
-            "uri": "https://en.wikipedia.org/wiki/Quasimodo",
-            "beginIndex": 19,
-            "endIndex": 28
-          },
-          {
-            "text": "Amalfi",
-            "uri": "https://en.wikipedia.org/wiki/Amalfi",
-            "beginIndex": 36,
-            "endIndex": 42
-          },
-          {
-            "text": "Naples",
-            "uri": "https://en.wikipedia.org/wiki/Naples",
-            "beginIndex": 153,
-            "endIndex": 159
-          }
-        ],
+        "ner_output": "In June 1968, when [START_ENT]Quasimodo[END_ENT] was in [START_ENT]Amalfi[END_Ent], for a discourse and he was struck by a cerebral hemorrhage. [START_ENT]The poet[END_ENT] died a few days later in the hospital in [START_ENT]Naples[END_ENT].",
+        "entities": [],
         "error": null
       }
     },
@@ -3626,19 +3133,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For Frank, after the war, he returned to [START_ENT]University of Bologna[END_ENT].",
         "entities": [
           {
-            "text": "University of Bologna",
+            "text": "university of bologna",
             "uri": "https://en.wikipedia.org/wiki/University_of_Bologna",
-            "beginIndex": 36,
-            "endIndex": 57
+            "beginIndex": 41,
+            "endIndex": 62
           },
           {
-            "text": "Frank",
-            "uri": "https://en.wikipedia.org/wiki/Frank_(given_name)",
-            "beginIndex": 14,
-            "endIndex": 19
+            "text": "bologna",
+            "uri": "https://en.wikipedia.org/wiki/Bologna",
+            "beginIndex": 108,
+            "endIndex": 115
           }
         ],
         "error": null
@@ -3681,7 +3188,7 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "After graduating in 1936, she went to work as Giuseppe Levi's assistant, but her academic career was cut short by Benito Mussolini.",
         "entities": [
           {
             "text": "Giuseppe Levi",
@@ -3778,33 +3285,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Sighet",
-            "uri": "https://en.wikipedia.org/wiki/Sighet_Marmatei",
-            "beginIndex": 34,
-            "endIndex": 40
-          },
-          {
-            "text": "Hungary",
-            "uri": "https://en.wikipedia.org/wiki/Hungary",
-            "beginIndex": 44,
-            "endIndex": 51
-          },
-          {
-            "text": "Vienna Award",
-            "uri": "https://en.wikipedia.org/wiki/Second_Vienna_Award",
-            "beginIndex": 73,
-            "endIndex": 85
-          },
-          {
-            "text": "Wiesel",
-            "uri": "https://en.wikipedia.org/wiki/Wiesel",
-            "beginIndex": 96,
-            "endIndex": 102
-          }
-        ],
+        "ner_output": "In 1940, [START_ENT]Romania[END_ENT] lost the town of Sighet to Hungary following the Second Vienna Award. In 1944, Wiesel, his family, and the rest of the town were placed in one of the two ghettos in Sighet. [START_ENT]Wiesel[END_ENT] and his family lived in the larger of the two, on Serpent Street.",
+        "entities": [],
         "error": null
       }
     },
@@ -3845,31 +3327,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "Here is the text with named entities surrounded by [START_ENT] and [END_ENT] tags:\n\nIn 1966, [START_ENT]Albert Lutuli[END_ENT] was visited by [START_ENT]United States Senator Robert F. Kennedy[END_ENT], who was visiting [START_ENT]South Africa[END_ENT] at the time.",
         "entities": [
           {
-            "text": "Albert Lutuli",
-            "uri": "https://en.wikipedia.org/wiki/Albert_Lutuli",
-            "beginIndex": 9,
-            "endIndex": 22
+            "text": "albert lutuli",
+            "uri": "https://en.wikipedia.org/wiki/Albert_Luthuli",
+            "beginIndex": 908,
+            "endIndex": 921
           },
           {
-            "text": "Robert F. Kennedy",
+            "text": "united states senator robert f. kennedy",
             "uri": "https://en.wikipedia.org/wiki/Robert_F._Kennedy",
-            "beginIndex": 60,
-            "endIndex": 77
+            "beginIndex": 1855,
+            "endIndex": 1894
           },
           {
-            "text": "United States",
-            "uri": "https://en.wikipedia.org/wiki/United_States",
-            "beginIndex": 38,
-            "endIndex": 51
-          },
-          {
-            "text": "South Africa",
+            "text": "south africa",
             "uri": "https://en.wikipedia.org/wiki/South_Africa",
-            "beginIndex": 96,
-            "endIndex": 108
+            "beginIndex": 2747,
+            "endIndex": 2759
           }
         ],
         "error": null
@@ -3906,37 +3382,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "During World War II, Imre was deported at the age of 14 with other Hungarian Jews to [START_ENT]Auschwitz concentration camp[END_ENT], and was later sent to [START_ENT]Buchenwald[END_ENT].",
         "entities": [
-          {
-            "text": "World War II",
-            "uri": "https://en.wikipedia.org/wiki/World_War_II",
-            "beginIndex": 7,
-            "endIndex": 19
-          },
-          {
-            "text": "Imre",
-            "uri": "https://en.wikipedia.org/wiki/Imre_L%C3%BC%C5%A1z",
-            "beginIndex": 21,
-            "endIndex": 25
-          },
-          {
-            "text": "Hungarian Jews",
-            "uri": "https://en.wikipedia.org/wiki/Hungarian_Jews",
-            "beginIndex": 67,
-            "endIndex": 81
-          },
           {
             "text": "Auschwitz concentration camp",
             "uri": "https://en.wikipedia.org/wiki/Auschwitz_concentration_camp",
-            "beginIndex": 89,
-            "endIndex": 117
-          },
-          {
-            "text": "Buchenwald",
-            "uri": "https://en.wikipedia.org/wiki/Buchenwald_concentration_camp",
-            "beginIndex": 141,
-            "endIndex": 151
+            "beginIndex": 85,
+            "endIndex": 113
           }
         ],
         "error": null
@@ -3967,25 +3419,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[A french was born in [START_ENT]Paris[END_ENT], [START_ENT]France[END_ENT], and was home-schooled to the age of 12.]",
         "entities": [
           {
-            "text": "french",
-            "uri": "https://en.wikipedia.org/wiki/French_people",
-            "beginIndex": 2,
-            "endIndex": 8
-          },
-          {
-            "text": "Paris",
+            "text": "A french was born in paris",
             "uri": "https://en.wikipedia.org/wiki/Paris",
-            "beginIndex": 21,
-            "endIndex": 26
+            "beginIndex": 1,
+            "endIndex": 27
           },
           {
-            "text": "France",
+            "text": "france",
             "uri": "https://en.wikipedia.org/wiki/France",
-            "beginIndex": 28,
-            "endIndex": 34
+            "beginIndex": 772,
+            "endIndex": 778
           }
         ],
         "error": null
@@ -4034,31 +3480,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "Here is the text with named entities tagged:\n\nFor the given sentence:\n'Martin Luther King then began doctoral studies in systematic theology at [START_ENT]Boston University[END_ENT] and received his Ph.D. degree on June 5, 1955, with a dissertation on \"[START_ENT]A Comparison of the Conceptions of God in the Thinking of [START_ENT]Paul Tillich[END_ENT] and [START_ENT]Henry Nelson Wieman[END_ENT].\"",
         "entities": [
           {
-            "text": "Martin Luther King",
-            "uri": "https://en.wikipedia.org/wiki/Martin_Luther_King",
-            "beginIndex": 0,
-            "endIndex": 18
-          },
-          {
-            "text": "Boston University",
+            "text": "boston university",
             "uri": "https://en.wikipedia.org/wiki/Boston_University",
-            "beginIndex": 73,
-            "endIndex": 90
+            "beginIndex": 144,
+            "endIndex": 161
           },
           {
             "text": "Paul Tillich",
             "uri": "https://en.wikipedia.org/wiki/Paul_Tillich",
-            "beginIndex": 220,
-            "endIndex": 232
+            "beginIndex": 1213,
+            "endIndex": 1225
           },
           {
             "text": "Henry Nelson Wieman",
             "uri": "https://en.wikipedia.org/wiki/Henry_Nelson_Wieman",
-            "beginIndex": 237,
-            "endIndex": 256
+            "beginIndex": 1984,
+            "endIndex": 2003
           }
         ],
         "error": null
@@ -4083,19 +3523,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For Neher and Sakmann were the first to record the currents of single ion channels on a live cell through their development of the patch-clamp technique.",
         "entities": [
           {
             "text": "Neher",
-            "uri": "https://en.wikipedia.org/wiki/Georg_Neher",
-            "beginIndex": 0,
-            "endIndex": 5
+            "uri": "https://en.wikipedia.org/wiki/Gerhard_Neher",
+            "beginIndex": 4,
+            "endIndex": 9
           },
           {
             "text": "Sakmann",
             "uri": "https://en.wikipedia.org/wiki/Peter_Sakmann",
-            "beginIndex": 10,
-            "endIndex": 17
+            "beginIndex": 14,
+            "endIndex": 21
           }
         ],
         "error": null
@@ -4132,33 +3572,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Mvezo",
-            "uri": "https://en.wikipedia.org/wiki/Mvezo",
-            "beginIndex": 52,
-            "endIndex": 57
-          },
-          {
-            "text": "Umtata",
-            "uri": "https://en.wikipedia.org/wiki/Umtata",
-            "beginIndex": 61,
-            "endIndex": 67
-          },
-          {
-            "text": "South Africa",
-            "uri": "https://en.wikipedia.org/wiki/South_Africa",
-            "beginIndex": 84,
-            "endIndex": 96
-          },
-          {
-            "text": "Cape Province",
-            "uri": "https://en.wikipedia.org/wiki/Cape_Province_(South_Africa)",
-            "beginIndex": 99,
-            "endIndex": 112
-          }
-        ],
+        "ner_output": "For the given sentence:\n'The girl was born on 18 July 1918 in the village of Mvezo in Umtata, then a part of South Africa's Cape Province.'\n\n[START_ENT]South Africa's[END_ENT]'s [START_ENT]Cape Province[END_ENT]",
+        "entities": [],
         "error": null
       }
     },
@@ -4187,25 +3602,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[START_ENT]Michael Smith[END_ENT] first attended [START_ENT]St. Nicholas Church of England School[END_ENT], a state-run elementary school. At the time, few children from state schools in [START_ENT]England[END_ENT] went on to further academic education.",
         "entities": [
           {
-            "text": "Michael Smith",
-            "uri": "https://en.wikipedia.org/wiki/Michael_Smith_(scientist)",
+            "text": "michael smith",
+            "uri": "https://en.wikipedia.org/wiki/Michael_Smith_(darts_player)",
             "beginIndex": 0,
             "endIndex": 13
           },
           {
-            "text": "St. Nicholas Church of England School",
-            "uri": "https://en.wikipedia.org/wiki/St._Nicholas'_Church_of_England_School",
-            "beginIndex": 29,
-            "endIndex": 66
+            "text": "st. nicholas church of england school",
+            "uri": "https://en.wikipedia.org/wiki/St_Nicholas'_Church,_Broadwey",
+            "beginIndex": 850,
+            "endIndex": 887
           },
           {
-            "text": "England",
+            "text": "england",
             "uri": "https://en.wikipedia.org/wiki/England",
-            "beginIndex": 147,
-            "endIndex": 154
+            "beginIndex": 1064,
+            "endIndex": 1071
           }
         ],
         "error": null
@@ -4248,19 +3663,49 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'After receiving his PhD, Mullis left science to write fiction, but quit and became a biochemist at a medical school in Kansas City.'\n\nbecomes: \n '[START_ENT]Mullis[END_ENT]' received his [START_ENT]PhD[END_ENT], left [START_ENT]science[END_ENT], to write [START_ENT]fiction[END_ENT], but quit and became a [START_ENT]biochemist[END_ENT] at a [START_ENT]medical school[END_ENT] in [START_ENT]Kansas City[END_ENT].'",
         "entities": [
           {
             "text": "Mullis",
-            "uri": "https://en.wikipedia.org/wiki/James_W._Mullis",
-            "beginIndex": 25,
-            "endIndex": 31
+            "uri": "https://en.wikipedia.org/wiki/Kary_Mullis",
+            "beginIndex": 50,
+            "endIndex": 56
           },
           {
-            "text": "Kansas City",
+            "text": "phd",
+            "uri": "https://en.wikipedia.org/wiki/Doctor_ofPhilosophy",
+            "beginIndex": 918,
+            "endIndex": 921
+          },
+          {
+            "text": "science",
+            "uri": "https://en.wikipedia.org/wiki/Science",
+            "beginIndex": 1688,
+            "endIndex": 1695
+          },
+          {
+            "text": "fiction",
+            "uri": "https://en.wikipedia.org/wiki/Fiction",
+            "beginIndex": 1834,
+            "endIndex": 1841
+          },
+          {
+            "text": "biochemist",
+            "uri": "https://en.wikipedia.org/wiki/Biochemist",
+            "beginIndex": 3213,
+            "endIndex": 3223
+          },
+          {
+            "text": "medical school",
+            "uri": "https://en.wikipedia.org/wiki/Medical_school",
+            "beginIndex": 4038,
+            "endIndex": 4052
+          },
+          {
+            "text": "kansas city",
             "uri": "https://en.wikipedia.org/wiki/Kansas_City,_Missouri",
-            "beginIndex": 119,
-            "endIndex": 130
+            "beginIndex": 5004,
+            "endIndex": 5015
           }
         ],
         "error": null
@@ -4303,25 +3748,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "Here is the tagged text:\n'Kroto was educated at [START_ENT]Bolton School[END_ENT] and went to [START_ENT]Sheffield University[END_ENT] in 1958. At [START.Ent]Sheffield[END_ENT], Kroto obtained a first class honours BSc degree in Chemistry and a PhD in Molecular Spectroscopy.'",
         "entities": [
           {
-            "text": "Kroto",
-            "uri": "https://en.wikipedia.org/wiki/Richard_Kroto",
-            "beginIndex": 0,
-            "endIndex": 5
-          },
-          {
-            "text": "Bolton School",
+            "text": "bolton school",
             "uri": "https://en.wikipedia.org/wiki/Bolton_School",
-            "beginIndex": 22,
-            "endIndex": 35
+            "beginIndex": 48,
+            "endIndex": 61
           },
           {
-            "text": "Sheffield University",
+            "text": "sheffield university",
             "uri": "https://en.wikipedia.org/wiki/University_of_Sheffield",
-            "beginIndex": 48,
-            "endIndex": 68
+            "beginIndex": 911,
+            "endIndex": 931
           }
         ],
         "error": null
@@ -4388,25 +3827,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'He was a boy scout, with the [START_ENT]Boy Scouts of America[END_ENT] and became an [START_ENT]Eagle Scout[END_ENT]. He attended [START_ENT]Washington University[END_ENT] in [START_ENT]St. Louis[END_ENT] for undergraduate studies as an [START_ENT]Alexander S. Langsdorf Fellow[END.Ent] and obtained three degrees, and also worked with [START_ENT]Apple[END_ENT]'",
         "entities": [
           {
-            "text": "Boy Scouts of America",
-            "uri": "https://en.wikipedia.org/wiki/Boy_Scouts_of_America",
-            "beginIndex": 29,
-            "endIndex": 50
+            "text": "boy scouts of america",
+            "uri": "https://en.wikipedia.org/wiki/Scouting_America",
+            "beginIndex": 54,
+            "endIndex": 75
           },
           {
-            "text": "Washington University in St. Louis",
+            "text": "eagle scout",
+            "uri": "https://en.wikipedia.org/wiki/Eagle_Scout",
+            "beginIndex": 1030,
+            "endIndex": 1041
+          },
+          {
+            "text": "washington university",
             "uri": "https://en.wikipedia.org/wiki/Washington_University_in_St._Louis",
-            "beginIndex": 90,
-            "endIndex": 124
-          },
-          {
-            "text": "Alexander S. Langsdorf Fellow",
-            "uri": "https://en.wikipedia.org/wiki/Alexander_S._Langsdorf_Fellowship",
-            "beginIndex": 157,
-            "endIndex": 186
+            "beginIndex": 1923,
+            "endIndex": 1944
           }
         ],
         "error": null
@@ -4449,19 +3888,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "In 1991 [START_ENT)Linda Buck[END_ENT] became an assistant professor of neurobiology at [START_ENT]Harvard University[END_ENT] where she expanded her knowledge of the nervous system.",
         "entities": [
           {
             "text": "Linda Buck",
             "uri": "https://en.wikipedia.org/wiki/Linda_Buck",
-            "beginIndex": 8,
-            "endIndex": 18
+            "beginIndex": 19,
+            "endIndex": 29
           },
           {
-            "text": "Harvard University",
+            "text": "harvard university",
             "uri": "https://en.wikipedia.org/wiki/Harvard_University",
-            "beginIndex": 68,
-            "endIndex": 86
+            "beginIndex": 79,
+            "endIndex": 97
           }
         ],
         "error": null
@@ -4498,19 +3937,31 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For 1865, [START_ENT]Wilhelm Röntgen[END_ENT] tried to attend the [START_ENT]University of Utrecht[END_ENT] without having the necessary credentials required for a regular student. In 1901 [START_ENT]Röntgen[END.Ent] was awarded the very first [START_ENT]Nobel Prize in Physics[END_ENT].",
         "entities": [
           {
-            "text": "Wilhelm Röntgen",
-            "uri": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen",
-            "beginIndex": 9,
-            "endIndex": 24
+            "text": "1865",
+            "uri": "https://en.wikipedia.org/wiki/1865",
+            "beginIndex": 4,
+            "endIndex": 8
           },
           {
-            "text": "University of Utrecht",
-            "uri": "https://en.wikipedia.org/wiki/University_of_Utrecht",
-            "beginIndex": 45,
-            "endIndex": 66
+            "text": "wilhelm röntgen",
+            "uri": "https://en.wikipedia.org/wiki/Wilhelm_Röntgen",
+            "beginIndex": 10,
+            "endIndex": 25
+          },
+          {
+            "text": "university of utrecht",
+            "uri": "https://en.wikipedia.org/wiki/Utrecht_University",
+            "beginIndex": 799,
+            "endIndex": 820
+          },
+          {
+            "text": "nobel prize in physics",
+            "uri": "https://en.wikipedia.org/wiki/Nobel_Prize_in_Physics",
+            "beginIndex": 1843,
+            "endIndex": 1865
           }
         ],
         "error": null
@@ -4547,19 +3998,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'Levi-Montalcini lost her assistant position in the anatomy department after a 1938 law barring Jews from university positions was passed.'\n\nHere is the text with named entities surrounded by [START_ENT] and [END_ENT] tags:\n\n'[START_ENT]Levi-Montalcini[END_ENT]' lost her assistant position in the [START_ENT]anatomy department[END_ENT] after a 1938 law barring Jews from university positions was passed.",
         "entities": [
           {
             "text": "Levi-Montalcini",
-            "uri": "https://en.wikipedia.org/wiki/Levi-Montalcini",
-            "beginIndex": 0,
-            "endIndex": 15
+            "uri": "https://en.wikipedia.org/wiki/Rita_Levi-Montalcini",
+            "beginIndex": 25,
+            "endIndex": 40
           },
           {
-            "text": "1938 law",
-            "uri": "https://en.wikipedia.org/wiki/Foreign_Jews_Ordinance",
-            "beginIndex": 78,
-            "endIndex": 86
+            "text": "anatomy department",
+            "uri": "https://en.wikipedia.org/wiki/Grey's_Anatomy",
+            "beginIndex": 76,
+            "endIndex": 94
           }
         ],
         "error": null
@@ -4608,31 +4059,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[Ciechanover is a member of the [START_ENT]Israel Academy of Sciences and Humanities[END_ENT], the [START_ENT]Pontifical Academy of Sciences[END_ENT], and is a foreign associate of the [START_ENT]United States National Academy of Sciences[END_ENT].]",
         "entities": [
           {
             "text": "Ciechanover",
-            "uri": "https://en.wikipedia.org/wiki/Ciechanower,_Israel",
-            "beginIndex": 0,
-            "endIndex": 11
+            "uri": "https://en.wikipedia.org/wiki/Ciechanover",
+            "beginIndex": 1,
+            "endIndex": 12
           },
           {
             "text": "Israel Academy of Sciences and Humanities",
             "uri": "https://en.wikipedia.org/wiki/Israel_Academy_of_Sciences_and_Humanities",
-            "beginIndex": 31,
-            "endIndex": 72
-          },
-          {
-            "text": "Pontifical Academy of Sciences",
-            "uri": "https://en.wikipedia.org/wiki/Pontifical_Academy_of_Sciences",
-            "beginIndex": 78,
-            "endIndex": 108
-          },
-          {
-            "text": "United States National Academy of Sciences",
-            "uri": "https://en.wikipedia.org/wiki/United_States_National_Academy_of_Sciences",
-            "beginIndex": 144,
-            "endIndex": 186
+            "beginIndex": 32,
+            "endIndex": 73
           }
         ],
         "error": null
@@ -4723,28 +4162,9 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Hans Geiger",
-            "uri": "https://en.wikipedia.org/wiki/Hans_Geiger",
-            "beginIndex": 0,
-            "endIndex": 11
-          },
-          {
-            "text": "Bothe",
-            "uri": "https://en.wikipedia.org/wiki/Heinrich_Bothe",
-            "beginIndex": 107,
-            "endIndex": 112
-          },
-          {
-            "text": "PTR",
-            "uri": "https://en.wikipedia.org/wiki/PTR_(radioactive_laboratory)",
-            "beginIndex": 102,
-            "endIndex": 105
-          }
-        ],
-        "error": null
+        "ner_output": "None",
+        "entities": [],
+        "error": "dictionary changed size during iteration"
       }
     },
     {
@@ -4790,25 +4210,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "In 1969 [START_ENT]Mario[END_ENT] became an Assistant Professor in the [START_ENT]Department of Biochemistry at [START_ENT]Harvard Medical School[END_ENT]. [START_ENT]Mario[END.Ent] was promoted to Associate Professor in 1971.",
         "entities": [
           {
             "text": "Mario",
-            "uri": "https://en.wikipedia.org/wiki/Mario_(chemist)",
+            "uri": "https://en.wikipedia.org/wiki/Mario_(franchise)",
             "beginIndex": 8,
             "endIndex": 13
           },
           {
-            "text": "Department of Biochemistry",
-            "uri": "https://en.wikipedia.org/wiki/Department_of_Biochemistry",
-            "beginIndex": 51,
-            "endIndex": 77
+            "text": "biochemistry",
+            "uri": "https://en.wikipedia.org/wiki/Biochemistry",
+            "beginIndex": 812,
+            "endIndex": 824
           },
           {
             "text": "Harvard Medical School",
-            "uri": "https://en.wikipedia.org/wiki/Harvard_Medical_School",
-            "beginIndex": 81,
-            "endIndex": 103
+            "uri": "https://en.wikipedia.org/wiki/List_of_Harvard_Medical_School_alumni",
+            "beginIndex": 828,
+            "endIndex": 850
           }
         ],
         "error": null
@@ -4881,31 +4301,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For Pauli was born in Vienna to a chemist [START_ENT]Wolfgang Joseph Pauli[END_ENT] and his wife [START_ENT]Bertha Camilla Schütz[END_ENT]. His middle name was given in honor of his godfather, physicist [START_ENT]Ernst Mach[END_ENT].",
         "entities": [
           {
             "text": "Pauli",
-            "uri": "https://en.wikipedia.org/wiki/Max_Born",
-            "beginIndex": 0,
-            "endIndex": 5
+            "uri": "https://en.wikipedia.org/wiki/Wolfgang_Pauli",
+            "beginIndex": 4,
+            "endIndex": 9
           },
           {
-            "text": "Wolfgang Joseph Pauli",
+            "text": "wolfgang joseph pauli",
             "uri": "https://en.wikipedia.org/wiki/Wolfgang_Joseph_Pauli",
-            "beginIndex": 38,
-            "endIndex": 59
+            "beginIndex": 42,
+            "endIndex": 63
           },
           {
-            "text": "Vienna",
-            "uri": "https://en.wikipedia.org/wiki/Vienna",
-            "beginIndex": 18,
-            "endIndex": 24
-          },
-          {
-            "text": "Ernst Mach",
+            "text": "ernst mach",
             "uri": "https://en.wikipedia.org/wiki/Ernst_Mach",
-            "beginIndex": 159,
-            "endIndex": 169
+            "beginIndex": 1522,
+            "endIndex": 1532
           }
         ],
         "error": null
@@ -4954,21 +4368,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Marguerite Vogt",
-            "uri": "https://en.wikipedia.org/wiki/Marguerite_Vogt",
-            "beginIndex": 50,
-            "endIndex": 65
-          },
-          {
-            "text": "Renato Dulbecco",
-            "uri": "https://en.wikipedia.org/wiki/Renato_Dulbecco",
-            "beginIndex": 76,
-            "endIndex": 91
-          }
-        ],
+        "ner_output": "Throughout this time this [START_ENT]person[END_ENT] also worked with [START_ENT]Marguerite Vogt[END_ENT]. In 1962, [START_ENT]Renato Dulbecco[END_ENT] moved to the [START_ENT]Salk Institute[END_ENT] and then in 1972 to [START_ENT]The Imperial Cancer Research Fund[END_ENT] in [START_ENT]London[END_ENT].",
+        "entities": [],
         "error": null
       }
     },
@@ -5009,39 +4410,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "France",
-            "uri": "https://en.wikipedia.org/wiki/France",
-            "beginIndex": 28,
-            "endIndex": 34
-          },
-          {
-            "text": "Germany",
-            "uri": "https://en.wikipedia.org/wiki/Germany",
-            "beginIndex": 39,
-            "endIndex": 46
-          },
-          {
-            "text": "Walter Bothe",
-            "uri": "https://en.wikipedia.org/wiki/Walter_Bothe",
-            "beginIndex": 70,
-            "endIndex": 82
-          },
-          {
-            "text": "Frédéric Joliot-Curie",
-            "uri": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A8que_Joliot-Curie",
-            "beginIndex": 124,
-            "endIndex": 145
-          },
-          {
-            "text": "Paris",
-            "uri": "https://en.wikipedia.org/wiki/Paris",
-            "beginIndex": 159,
-            "endIndex": 164
-          }
-        ],
+        "ner_output": "For the given sentence:\n'After the armistice between [START_ENT]France[END_ENT] and [START_ENT]Germany[END_ENT] in the summer of 1940, [START_ENT]Walter Bothe[END_ENT] received orders to inspect the cyclotron [START_ENT]Frédéric Joliot-Curie[END_ENT] had built in [START_ENT]Paris[END_ENT]. While it had been built, it was not yet operational.'",
+        "entities": [],
         "error": null
       }
     },
@@ -5094,39 +4464,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Lessing",
-            "uri": "https://en.wikipedia.org/wiki/Gretna_Montgomery_Lessing",
-            "beginIndex": 9,
-            "endIndex": 16
-          },
-          {
-            "text": "Jane Somers",
-            "uri": "https://en.wikipedia.org/wiki/Pseudonym",
-            "beginIndex": 64,
-            "endIndex": 75
-          },
-          {
-            "text": "UK",
-            "uri": "https://en.wikipedia.org/wiki/United_Kingdom",
-            "beginIndex": 196,
-            "endIndex": 198
-          },
-          {
-            "text": "Michael Joseph",
-            "uri": "https://en.wikipedia.org/wiki/Michael_Joseph_(publisher)",
-            "beginIndex": 264,
-            "endIndex": 278
-          },
-          {
-            "text": "Alfred A. Knopf",
-            "uri": "https://en.wikipedia.org/wiki/Alfred_A._Knopf",
-            "beginIndex": 297,
-            "endIndex": 312
-          }
-        ],
+        "ner_output": "For the given sentence:\n'In 1982, [START_ENT]Lessing[END_ENT] tried to publish two novels under a pseudonym, [START_ENT]Jane Somers[END.Ent], to show the difficulty new authors faced in trying to have their works in print. The novels were declined by [START_ENT]Lessing's UK publisher[END_ENT], but were later accepted by another English publisher, [START_ENT]Michael Joseph[END Ent], and in the US by [START_ENT]Alfred A. Knopf[END Ent].'\n\nNote: I've tagged Lessing as an entity more than once, since it refers to the same person.",
+        "entities": [],
         "error": null
       }
     },
@@ -5155,19 +4494,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[Wiesel taught Hebrew and worked as a choirmaster before becoming a professional journalist.]",
         "entities": [
           {
             "text": "Wiesel",
             "uri": "https://en.wikipedia.org/wiki/Elie_Wiesel",
-            "beginIndex": 0,
-            "endIndex": 6
-          },
-          {
-            "text": "Hebrew",
-            "uri": "https://en.wikipedia.org/wiki/Hebrew_language",
-            "beginIndex": 14,
-            "endIndex": 20
+            "beginIndex": 1,
+            "endIndex": 7
           }
         ],
         "error": null
@@ -5210,37 +4543,31 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For 'Tonegawa was born in Nagoya, Japan and attended the Hibiya High School in Tokyo.' \nThe [START_ENT]Nagoya[END_ENT], [START_ENT]Japan[END_ENT], and [START_ENT]Hibiya High School[END_ENT].",
         "entities": [
           {
             "text": "Tonegawa",
-            "uri": "https://en.wikipedia.org/wiki/Tonogawa",
-            "beginIndex": 0,
-            "endIndex": 8
+            "uri": "https://en.wikipedia.org/wiki/Takeo_Tenegawa",
+            "beginIndex": 5,
+            "endIndex": 13
           },
           {
             "text": "Nagoya",
             "uri": "https://en.wikipedia.org/wiki/Nagoya",
-            "beginIndex": 21,
-            "endIndex": 27
-          },
-          {
-            "text": "Japan",
-            "uri": "https://en.wikipedia.org/wiki/Japan",
-            "beginIndex": 29,
-            "endIndex": 34
+            "beginIndex": 26,
+            "endIndex": 32
           },
           {
             "text": "Hibiya High School",
             "uri": "https://en.wikipedia.org/wiki/Hibiya_High_School",
-            "beginIndex": 52,
-            "endIndex": 70
+            "beginIndex": 57,
+            "endIndex": 75
           },
           {
-            "text": "Tokyo",
-            "uri": "https://en.wikipedia.org/wiki/Tokyo",
-            "beginIndex": 74,
-            "endIndex": 79
+            "text": "Japan",
+            "uri": "https://en.wikipedia.org/wiki/Japan",
+            "beginIndex": 822,
+            "endIndex": 827
           }
         ],
         "error": null
@@ -5289,25 +4616,31 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'The [START_ENT]poet[END_ENT] was born in [START_ENT]Paris[END_ENT] as the only child of [START_ENT]Jean-Baptiste Sartre[END_ENT], an officer of the [START_ENT]French Navy[END_ENT], and [START_ENT]Anne-Marie Schweitzer[END_ENT].'",
         "entities": [
           {
             "text": "poet",
-            "uri": "https://en.wikipedia.org/wiki/Poetry",
-            "beginIndex": 4,
-            "endIndex": 8
+            "uri": "https://en.wikipedia.org/wiki/Poet",
+            "beginIndex": 29,
+            "endIndex": 33
           },
           {
             "text": "Paris",
             "uri": "https://en.wikipedia.org/wiki/Paris",
-            "beginIndex": 21,
-            "endIndex": 26
+            "beginIndex": 754,
+            "endIndex": 759
           },
           {
             "text": "Jean-Baptiste Sartre",
             "uri": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre",
-            "beginIndex": 48,
-            "endIndex": 68
+            "beginIndex": 1524,
+            "endIndex": 1544
+          },
+          {
+            "text": "French Navy",
+            "uri": "https://en.wikipedia.org/wiki/French_Navy",
+            "beginIndex": 2391,
+            "endIndex": 2402
           }
         ],
         "error": null
@@ -5356,19 +4689,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "Here is the text with named entities tagged:\n\n'Tonegawa received his doctorate from the [START_ENT]University of California in San Diego[END_ENT] where he worked with [START.Ent]Dr Masaki Hayashi[END_ENT].'",
         "entities": [
           {
             "text": "Tonegawa",
-            "uri": "https://en.wikipedia.org/wiki/Takeo_Tonogai",
-            "beginIndex": 0,
-            "endIndex": 8
+            "uri": "https://en.wikipedia.org/wiki/Tokyo_Tower_(disambiguation)",
+            "beginIndex": 47,
+            "endIndex": 55
           },
           {
-            "text": "University of California in San Diego",
+            "text": "university of california in san diego",
             "uri": "https://en.wikipedia.org/wiki/University_of_California,_San_Diego",
-            "beginIndex": 41,
-            "endIndex": 78
+            "beginIndex": 88,
+            "endIndex": 125
           }
         ],
         "error": null
@@ -5405,19 +4738,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For Zewail has been nominated and will participate in President Barack Obama's Presidential Council of Advisors on Science and Technology.",
         "entities": [
           {
             "text": "Zewail",
-            "uri": "https://en.wikipedia.org/wiki/Ahmed_Zewail",
-            "beginIndex": 0,
-            "endIndex": 6
-          },
-          {
-            "text": "Barack Obama",
-            "uri": "https://en.wikipedia.org/wiki/Barack_Obama",
-            "beginIndex": 60,
-            "endIndex": 72
+            "uri": "https://en.wikipedia.org/wiki/Mosibawwir_Saad_Zewail",
+            "beginIndex": 4,
+            "endIndex": 10
           }
         ],
         "error": null
@@ -5484,21 +4811,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "École Supérieure de Physique et de Chimie Industrielles de la Ville de Paris",
-            "uri": "https://en.wikipedia.org/wiki/École_Supérieure_de_Phyique_et_de_Chimie_Industrielle_de_la_Ville_de_Paris",
-            "beginIndex": 83,
-            "endIndex": 159
-          },
-          {
-            "text": "he",
-            "uri": "https://en.wikipedia.org/wiki/He",
-            "beginIndex": 168,
-            "endIndex": 170
-          }
-        ],
+        "ner_output": "In 1971, he became professor at [START_ENT]Collège de France[END_ENT]. He was then director of [START_ENT]École Supérieure de Physique et de Chimie Industrielles de la Ville de Paris[END_ENT], a post he held from 1976 until his retirement in 2002.",
+        "entities": [],
         "error": null
       }
     },
@@ -5545,31 +4859,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "In 1940, Dario Fo moved to Milan to study at the [START_ENT]Brera Academy[END_ENT], however he joined the [START_ENT]fascist army[END_ENT] of Mussolini's [START_ENT]Repubblica Sociale Italiana[END_ENT].",
         "entities": [
           {
-            "text": "Dario Fo",
-            "uri": "https://en.wikipedia.org/wiki/Dario_Fo",
-            "beginIndex": 9,
-            "endIndex": 17
-          },
-          {
-            "text": "Mussolini's Repubblica Sociale Italiana",
-            "uri": "https://en.wikipedia.org/wiki/Italian Social Republic",
-            "beginIndex": 102,
-            "endIndex": 141
-          },
-          {
-            "text": "Brera Academy",
+            "text": "brera academy",
             "uri": "https://en.wikipedia.org/wiki/Brera_Academy",
             "beginIndex": 49,
             "endIndex": 62
           },
           {
-            "text": "Milan",
-            "uri": "https://en.wikipedia.org/wiki/Milan",
-            "beginIndex": 27,
-            "endIndex": 32
+            "text": "fascist army",
+            "uri": "https://en.wikipedia.org/wiki/Fascism",
+            "beginIndex": 890,
+            "endIndex": 902
+          },
+          {
+            "text": "repubblica sociale italiana",
+            "uri": "https://en.wikipedia.org/wiki/Italian_Social_Republic",
+            "beginIndex": 1675,
+            "endIndex": 1702
           }
         ],
         "error": null
@@ -5624,19 +4932,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'The novelist spent some time in London, where in 1931 he published Proust, his critical study of French author Marcel Proust.'\n\nThe tagged text is:\n'He [START_ENT]Proust[END_ENT]' spent some time in [START_ENT)London[END_ENT], where in 1931 he published [START_ENT]Proust[END_ENT], his critical study of French author [START_ENT]Marcel Proust[END_ENT].'",
         "entities": [
+          {
+            "text": "proust",
+            "uri": "https://en.wikipedia.org/wiki/Marcel_Proust",
+            "beginIndex": 92,
+            "endIndex": 98
+          },
           {
             "text": "London",
             "uri": "https://en.wikipedia.org/wiki/London",
-            "beginIndex": 32,
-            "endIndex": 38
+            "beginIndex": 978,
+            "endIndex": 984
           },
           {
-            "text": "Marcel Proust",
+            "text": "marcel proust",
             "uri": "https://en.wikipedia.org/wiki/Marcel_Proust",
-            "beginIndex": 111,
-            "endIndex": 124
+            "beginIndex": 1820,
+            "endIndex": 1833
           }
         ],
         "error": null
@@ -5709,43 +5023,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence: 'Carlo Rubbia studied physics at the University of Pisa and Scuola Normale in Pisa. Rubbia graduated on cosmic ray experiments in 1957 with Marcello Conversi. Rubbia then went to the United States, where he spent about one and a half years at Columbia University performing experiments on the decay and the nuclear capture of muons.'\n\n[START_ENT]Columbia University[END_ENT], [START_ENT]United States[END_ENT], [START_ENT]University of Pisa[END_ENT], [START_ENT]Scuola Normale[END.Ent]",
         "entities": [
           {
-            "text": "Carlo Rubbia",
-            "uri": "https://en.wikipedia.org/wiki/Carlo_Rubbia",
-            "beginIndex": 0,
-            "endIndex": 12
-          },
-          {
-            "text": "University of Pisa",
-            "uri": "https://en.wikipedia.org/wiki/University_of_Pisa",
-            "beginIndex": 36,
-            "endIndex": 54
-          },
-          {
-            "text": "Scuola Normale in Pisa",
-            "uri": "https://en.wikipedia.org/wiki/Scuola_Normale_in_Pisa",
-            "beginIndex": 59,
-            "endIndex": 81
-          },
-          {
-            "text": "Marcello Conversi",
-            "uri": "https://en.wikipedia.org/wiki/Marcello_Conversi",
-            "beginIndex": 139,
-            "endIndex": 156
-          },
-          {
-            "text": "United States",
-            "uri": "https://en.wikipedia.org/wiki/United_States",
-            "beginIndex": 182,
-            "endIndex": 195
-          },
-          {
-            "text": "Columbia University",
+            "text": "columbia university",
             "uri": "https://en.wikipedia.org/wiki/Columbia_University",
-            "beginIndex": 242,
-            "endIndex": 261
+            "beginIndex": 267,
+            "endIndex": 286
+          },
+          {
+            "text": "united states",
+            "uri": "https://en.wikipedia.org/wiki/United_States",
+            "beginIndex": 1378,
+            "endIndex": 1391
+          },
+          {
+            "text": "university of pisa",
+            "uri": "https://en.wikipedia.org/wiki/University_of_Pisa",
+            "beginIndex": 2400,
+            "endIndex": 2418
           }
         ],
         "error": null
@@ -5788,33 +5084,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "war",
-            "uri": "https://en.wikipedia.org/wiki/World_War_I",
-            "beginIndex": 10,
-            "endIndex": 13
-          },
-          {
-            "text": "University of Chicago",
-            "uri": "https://en.wikipedia.org/wiki/University_of_Chicago",
-            "beginIndex": 82,
-            "endIndex": 103
-          },
-          {
-            "text": "Physics",
-            "uri": "https://en.wikipedia.org/wiki/Physics",
-            "beginIndex": 67,
-            "endIndex": 74
-          },
-          {
-            "text": "Argonne National Laboratory",
-            "uri": "https://en.wikipedia.org/wiki/Argonne_National_Laboratory",
-            "beginIndex": 141,
-            "endIndex": 168
-          }
-        ],
+        "ner_output": "Here is the text with named entities surrounded by [START_ENT] and [END_ENT] tags:\n\nAfter the war, the woman became a voluntary associate professor of Physics at the [START_ENT]University of Chicago[END_ENT] and a senior physicist at the nearby [START_ENT]Argonne National Laboratory[END_ENT].",
+        "entities": [],
         "error": null
       }
     },
@@ -5855,31 +5126,31 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For James Tobin married Elizabeth Fay Ringo, a former M.I.T. student of Paul Samuelson, on September 14, 1946.\n becomes \nFor [START_ENT]Tobin[END_ENT] married [START_ENT]Ringo[END_ENT], a former [START_ENT]M.I.T.[END_ENT] student of [START_ENT]Samuelson[END_ENT], on [START_ENT]September 14[END_ENT], 1946.",
         "entities": [
           {
             "text": "James Tobin",
-            "uri": "https://en.wikipedia.org/wiki/James_Tobin",
-            "beginIndex": 0,
-            "endIndex": 11
+            "uri": "https://en.wikipedia.org/wiki/Tobin_(given_name)",
+            "beginIndex": 4,
+            "endIndex": 15
           },
           {
             "text": "Elizabeth Fay Ringo",
-            "uri": "https://en.wikipedia.org/wiki/Eleanor_Ringo",
-            "beginIndex": 20,
-            "endIndex": 39
+            "uri": "https://en.wikipedia.org/wiki/Ringo_Starr",
+            "beginIndex": 24,
+            "endIndex": 43
           },
           {
             "text": "M.I.T.",
             "uri": "https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology",
-            "beginIndex": 50,
-            "endIndex": 56
+            "beginIndex": 54,
+            "endIndex": 60
           },
           {
             "text": "Paul Samuelson",
-            "uri": "https://en.wikipedia.org/wiki/Paul_Samuelson_(economist)",
-            "beginIndex": 68,
-            "endIndex": 82
+            "uri": "https://en.wikipedia.org/wiki/Paul_Samuelson",
+            "beginIndex": 72,
+            "endIndex": 86
           }
         ],
         "error": null
@@ -5952,39 +5223,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "University of Göttingen",
-            "uri": "https://en.wikipedia.org/wiki/University_of_Göttingen",
-            "beginIndex": 26,
-            "endIndex": 49
-          },
-          {
-            "text": "Max Born",
-            "uri": "https://en.wikipedia.org/wiki/Max_Born",
-            "beginIndex": 70,
-            "endIndex": 78
-          },
-          {
-            "text": "Institute for Theoretical Physics",
-            "uri": "https://en.wikipedia.org/wiki/Institute_for_Theoretical_Physics_(Copenhagen)",
-            "beginIndex": 110,
-            "endIndex": 143
-          },
-          {
-            "text": "Niels Bohr Institute",
-            "uri": "https://en.wikipedia.org/wiki/Niels_Bohr_Institute",
-            "beginIndex": 182,
-            "endIndex": 202
-          },
-          {
-            "text": "University of Hamburg",
-            "uri": "https://en.wikipedia.org/wiki/University_of_Hamburg",
-            "beginIndex": 256,
-            "endIndex": 277
-          }
-        ],
+        "ner_output": "For Pauli spent a year at [START_ENT]University of Göttingen[END_ENT] as the assistant to [START_ENT]Max Born[END_ENT], and the following year at [START_ENT]Institute for Theoretical Physics[END_ENT] in [START_ENT]Copenhagen[END_ENT], which later became the [START_ENT]Niels Bohr Institute[END_ENT] in 1965. From 1923 to 1928, he was a lecturer at [START_ENT]University of Hamburg[END_ENT].",
+        "entities": [],
         "error": null
       }
     },
@@ -6019,19 +5259,13 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'She received her PhD in 1975 and interned at the U.S. National Institutes of Health before returning to the Pasteur Institute.'\n\nHere is the text with named entities surrounded by [START_ENT] and [END_ENT] tags:\n\nShe received her PhD in 1975 and interned at the [START_ENT]U.S.[END_ENT] [START_ENT]National Institutes of Health[END_ENT] before returning to the [START_ENT]Pasteur Institute[END_ENT].",
         "entities": [
           {
-            "text": "U.S. National Institutes of Health",
-            "uri": "https://en.wikipedia.org/wiki/National_Institutes_of_Health",
-            "beginIndex": 49,
-            "endIndex": 83
-          },
-          {
-            "text": "Pasteur Institute",
-            "uri": "https://en.wikipedia.org/wiki/Pasteur_Institute",
-            "beginIndex": 108,
-            "endIndex": 125
+            "text": "She",
+            "uri": "https://en.wikipedia.org/wiki/She_(female_person)_",
+            "beginIndex": 25,
+            "endIndex": 28
           }
         ],
         "error": null
@@ -6104,43 +5338,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'Zsigmondy was born in Vienna, Austrian Empire, to Hungarian parents Irma Szakmáry, a poet born in Martonvásár, and Adolf Zsigmondy Sr., a scientist from Bratislava who invented several surgical instruments for use in dentistry.'\n\n[START_ENT]Zsigmondy[END_ENT] was born in [START_ENT]Vienna[END_ENT], [START_ENT]Austrian Empire[END_ENT], to Hungarian parents [START_ENT]Irma Szakmáry[END_ENT], a poet born in [START_ENT]Martonvásár[END_ENT], and [START_ENT]Adolf Zsigmondy Sr.[END_ENT], a scientist from [START_ENT]Bratislava[END_ENT] who invented several surgical instruments for use in dentistry.",
         "entities": [
           {
-            "text": "Zsigmondy",
-            "uri": "https://en.wikipedia.org/wiki/Alfréd_Zsigmondy",
-            "beginIndex": 0,
-            "endIndex": 9
-          },
-          {
-            "text": "Vienna",
+            "text": "vienna",
             "uri": "https://en.wikipedia.org/wiki/Vienna",
-            "beginIndex": 22,
-            "endIndex": 28
+            "beginIndex": 47,
+            "endIndex": 53
           },
           {
             "text": "Austrian Empire",
             "uri": "https://en.wikipedia.org/wiki/Austrian_Empire",
-            "beginIndex": 30,
-            "endIndex": 45
-          },
-          {
-            "text": "Irma Szakmáry",
-            "uri": "https://en.wikipedia.org/wiki/Irma_Szakmáry",
-            "beginIndex": 68,
-            "endIndex": 81
-          },
-          {
-            "text": "Martonvásár",
-            "uri": "https://en.wikipedia.org/wiki/Martonvásár",
-            "beginIndex": 98,
-            "endIndex": 109
-          },
-          {
-            "text": "Adolf Zsigmondy Sr.",
-            "uri": "https://en.wikipedia.org/wiki/Alfréd_Zsigmondy",
-            "beginIndex": 115,
-            "endIndex": 134
+            "beginIndex": 55,
+            "endIndex": 70
           }
         ],
         "error": null
@@ -6213,39 +5423,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Blaauwbosch",
-            "uri": "https://en.wikipedia.org/wiki/Blaauwbosch,_Newcastle",
-            "beginIndex": 84,
-            "endIndex": 95
-          },
-          {
-            "text": "Newcastle",
-            "uri": "https://en.wikipedia.org/wiki/Newcastle_(South_Africa)",
-            "beginIndex": 97,
-            "endIndex": 106
-          },
-          {
-            "text": "Natal",
-            "uri": "https://en.wikipedia.org/wiki/Natal_(province)",
-            "beginIndex": 108,
-            "endIndex": 113
-          },
-          {
-            "text": "Lutuli",
-            "uri": "https://en.wikipedia.org/wiki/Lydia_Mokoena",
-            "beginIndex": 120,
-            "endIndex": 126
-          },
-          {
-            "text": "Methodist Church",
-            "uri": "https://en.wikipedia.org/wiki/Methodism",
-            "beginIndex": 148,
-            "endIndex": 164
-          }
-        ],
+        "ner_output": "[Lutuli] accepted the post of principal and only teacher at a primary school in rural [Blaauwbosch], [Newcastle], [Natal]. Here [Lutuli] was confirmed in the [START_ENT]Methodist Church[END_ENT] and became a lay preacher.",
+        "entities": [],
         "error": null
       }
     },
@@ -6316,31 +5495,43 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "[START_ENT]Fo[END_ENT] was born at [START_ENT]Leggiuno Sangiano[END_ENT], in [START_ENT)Lombardy's Province of Varese[END_ENT], near the eastern shore of [START_ENT)Lago Maggiore[END_ENT]. His younger brother [START_ENT>Fulvio[END_ENT]> would become a theatre administrator, their younger sister [START_ENT>Bianca Fo Garambois[END_ENT]>, a writer.",
         "entities": [
           {
-            "text": "Fo",
-            "uri": "https://en.wikipedia.org/wiki/Fo_(musician)",
+            "text": "fo",
+            "uri": "https://en.wikipedia.org/wiki/Foo",
             "beginIndex": 0,
             "endIndex": 2
           },
           {
-            "text": "Leggiuno Sangiano",
-            "uri": "https://en.wikipedia.org/wiki/Leggiuno_Sangiano",
-            "beginIndex": 15,
-            "endIndex": 32
+            "text": "leggiuno sangiano",
+            "uri": "https://en.wikipedia.org/wiki/Sangiano",
+            "beginIndex": 676,
+            "endIndex": 693
           },
           {
             "text": "Lombardy's Province of Varese",
-            "uri": "https://en.wikipedia.org/wiki/Lombardy#Province_of_Varese",
-            "beginIndex": 37,
-            "endIndex": 66
+            "uri": "https://en.wikipedia.org/wiki/Province_of_Varese",
+            "beginIndex": 1372,
+            "endIndex": 1401
           },
           {
             "text": "Lago Maggiore",
             "uri": "https://en.wikipedia.org/wiki/Lago_Maggiore",
-            "beginIndex": 94,
-            "endIndex": 107
+            "beginIndex": 1440,
+            "endIndex": 1453
+          },
+          {
+            "text": "Fulvio",
+            "uri": "https://en.wikipedia.org/wiki/Fulvio",
+            "beginIndex": 1486,
+            "endIndex": 1492
+          },
+          {
+            "text": "Bianca Fo Garambois",
+            "uri": "https://en.wikipedia.org/wiki/Bianca_Fo_Garambois",
+            "beginIndex": 1564,
+            "endIndex": 1583
           }
         ],
         "error": null
@@ -6377,21 +5568,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Beckett",
-            "uri": "https://en.wikipedia.org/wiki/Samuel_Beckett",
-            "beginIndex": 9,
-            "endIndex": 16
-          },
-          {
-            "text": "Trinity College",
-            "uri": "https://en.wikipedia.org/wiki/Trinity_College_(Dublin)",
-            "beginIndex": 29,
-            "endIndex": 44
-          }
-        ],
+        "ner_output": "In 1930, [START_ENT]Beckett[END_ENT] returned to [START_ENT]Trinity College[END_ENT] as a lecturer, but he resigned in 1931 collecting a brief academic career.",
+        "entities": [],
         "error": null
       }
     },
@@ -6450,37 +5628,31 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'She married [START_ENT]James Sirleaf[END_ENT] when she was 17 years old, and then traveled with him to the [START_ENT]United States[END_ENT] in 1961 to continue her studies and earned an associate degree in accounting at [START_ENT]Madison Business College[END_ENT], in [START_ENT]Wisconsin[END_ENT].'",
         "entities": [
           {
-            "text": "She",
-            "uri": "https://en.wikipedia.org/wiki/Unknown_Female",
-            "beginIndex": 0,
-            "endIndex": 3
+            "text": "She married james sirleaf",
+            "uri": "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+            "beginIndex": 25,
+            "endIndex": 50
           },
           {
-            "text": "James Sirleaf",
-            "uri": "https://en.wikipedia.org/wiki/James_Sirleaf",
-            "beginIndex": 12,
-            "endIndex": 25
-          },
-          {
-            "text": "United States",
+            "text": "she was 17 years old, and then traveled with him to the united states",
             "uri": "https://en.wikipedia.org/wiki/United_States",
-            "beginIndex": 87,
-            "endIndex": 100
+            "beginIndex": 852,
+            "endIndex": 921
           },
           {
-            "text": "Madison Business College",
-            "uri": "https://en.wikipedia.org/wiki/Madison_Business_College_(Wisconsin)",
-            "beginIndex": 181,
-            "endIndex": 205
+            "text": "and earned an associate degree in accounting at madison business college",
+            "uri": "https://en.wikipedia.org/wiki/Madison_Business_College",
+            "beginIndex": 1961,
+            "endIndex": 2033
           },
           {
-            "text": "Madison",
-            "uri": "https://en.wikipedia.org/wiki/Madison,_Wisconsin",
-            "beginIndex": 210,
-            "endIndex": 217
+            "text": "in wisconsin",
+            "uri": "https://en.wikipedia.org/wiki/Wisconsin",
+            "beginIndex": 2963,
+            "endIndex": 2975
           }
         ],
         "error": null
@@ -6535,31 +5707,31 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "'Zsigmondy left Schott Glass in 1900, but remained in Jena as private lecturer to conduct his research. Together with the optical instrument manufacturer Zeiss, he developed the slit ultramicroscope.'",
         "entities": [
           {
             "text": "Zsigmondy",
-            "uri": "https://en.wikipedia.org/wiki/Emil_Zsigmondy",
-            "beginIndex": 0,
-            "endIndex": 9
+            "uri": "https://en.wikipedia.org/wiki/Fritz_Schwarzschild",
+            "beginIndex": 1,
+            "endIndex": 10
           },
           {
             "text": "Schott Glass",
             "uri": "https://en.wikipedia.org/wiki/Schott_Glass",
-            "beginIndex": 15,
-            "endIndex": 27
+            "beginIndex": 16,
+            "endIndex": 28
           },
           {
             "text": "Jena",
-            "uri": "https://en.wikipedia.org/wiki/Jena",
-            "beginIndex": 53,
-            "endIndex": 57
+            "uri": "https://en.wikipedia.org/wiki/Jena,_Germany",
+            "beginIndex": 54,
+            "endIndex": 58
           },
           {
             "text": "Zeiss",
-            "uri": "https://en.wikipedia.org/wiki/Optical_Instrument_Manufacturer_Zeiss",
-            "beginIndex": 153,
-            "endIndex": 158
+            "uri": "https://en.wikipedia.org/wiki/Optical_Instrument_Mfg._&_Optical_Parts_I_GMBH",
+            "beginIndex": 154,
+            "endIndex": 159
           }
         ],
         "error": null
@@ -6602,31 +5774,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "On 30 August 2013, Rubbia was appointed to the [START_ENT]Senate of Italy[END_ENT] as a Senator for Life by President [START_ENT]Giorgio Napolitano[END.Ent].",
         "entities": [
           {
             "text": "Rubbia",
-            "uri": "https://en.wikipedia.org/wiki/Carlo_Rubbia",
+            "uri": "https://en.wikipedia.org/wiki/Rubbia",
             "beginIndex": 19,
             "endIndex": 25
           },
           {
-            "text": "Italy",
-            "uri": "https://en.wikipedia.org/wiki/Italy",
-            "beginIndex": 57,
-            "endIndex": 62
-          },
-          {
-            "text": "Senate of Italy",
-            "uri": "https://en.wikipedia.org/wiki/Senate_of_Italy",
+            "text": "senate of italy",
+            "uri": "https://en.wikipedia.org/wiki/Senate_of_the_Republic_(Italy)",
             "beginIndex": 47,
             "endIndex": 62
           },
           {
-            "text": "President Giorgio Napolitano",
+            "text": "Giorgio Napolitano",
             "uri": "https://en.wikipedia.org/wiki/Giorgio_Napolitano",
-            "beginIndex": 88,
-            "endIndex": 116
+            "beginIndex": 1236,
+            "endIndex": 1254
           }
         ],
         "error": null
@@ -6681,21 +5847,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Goeppert Mayer",
-            "uri": "https://en.wikipedia.org/wiki/Goeppert_Mayer",
-            "beginIndex": 18,
-            "endIndex": 32
-          },
-          {
-            "text": "Maria Goeppert",
-            "uri": "https://en.wikipedia.org/wiki/Maria_Goeppert",
-            "beginIndex": 145,
-            "endIndex": 159
-          }
-        ],
+        "ner_output": "In December 1941, [START_ENT]Goeppert Mayer[END_ENT] took up her first paid professional position, teaching science part-time at [START_ENT]Sarah Lawrence College[END_ENT] and in 1960, [START_ENT]Maria Goeppert[END Ent] was appointed full professor of physics at the [START_ENT]University of California at San Diego[END_ENT].",
+        "entities": [],
         "error": null
       }
     },
@@ -6760,55 +5913,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "Here is the text with named entities tagged:\n\nFor the given sentence: \n'Elie Wiesel was born in Sighet, Transylvania, Maramureș, Romania, in the Carpathian Mountains. His parents were [START_ENT]Sarah Feig[END_ENT] and [START_ENT]Shlomo Wiesel[END_ENT].'\n\n'Elie Wiesel was born in [START_ENT]Sighet[END_ENT], [START_ENT]Transylvania[END_ENT], Maramureș, [START_ENT]Romania[END_ENT], in the [START_ENT]Carpathian Mountains[END_ENT]. His parents were [START.Ent]Sarah Feig[END_ENT] and [START_Ent]Shlomo Wiesel[END Ent].'",
         "entities": [
           {
             "text": "Elie Wiesel",
             "uri": "https://en.wikipedia.org/wiki/Elie_Wiesel",
-            "beginIndex": 0,
-            "endIndex": 11
+            "beginIndex": 72,
+            "endIndex": 83
           },
           {
             "text": "Sarah Feig",
-            "uri": "https://en.wikipedia.org/wiki/Sarah_Feig_(mother_of_Elie_Wiesel)",
-            "beginIndex": 112,
-            "endIndex": 122
+            "uri": "https://en.wikipedia.org/wiki/Sarah_Baker_(actress)",
+            "beginIndex": 184,
+            "endIndex": 194
           },
           {
             "text": "Shlomo Wiesel",
-            "uri": "https://en.wikipedia.org/wiki/Shlomo_Wiesel_(father_of_Elie_Wiesel)",
-            "beginIndex": 127,
-            "endIndex": 140
-          },
-          {
-            "text": "Sighet",
-            "uri": "https://en.wikipedia.org/wiki/Sighet",
-            "beginIndex": 24,
-            "endIndex": 30
-          },
-          {
-            "text": "Transylvania",
-            "uri": "https://en.wikipedia.org/wiki/Transylvania",
-            "beginIndex": 32,
-            "endIndex": 44
-          },
-          {
-            "text": "Maramureș",
-            "uri": "https://en.wikipedia.org/wiki/Maramureș_(county)",
-            "beginIndex": 46,
-            "endIndex": 55
-          },
-          {
-            "text": "Romania",
-            "uri": "https://en.wikipedia.org/wiki/Romania",
-            "beginIndex": 57,
-            "endIndex": 64
-          },
-          {
-            "text": "Carpathian Mountains",
-            "uri": "https://en.wikipedia.org/wiki/Carpathian_Mountains",
-            "beginIndex": 73,
-            "endIndex": 93
+            "uri": "https://en.wikipedia.org/wiki/Shlomo",
+            "beginIndex": 999,
+            "endIndex": 1012
           }
         ],
         "error": null
@@ -6839,19 +5962,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence: \n'A man became a researcher at Harvard University in Applied Physics.'\nbecomes:\n'[START_ENT]Harvard University[END_ENT]'",
         "entities": [
           {
             "text": "Harvard University",
             "uri": "https://en.wikipedia.org/wiki/Harvard_University",
-            "beginIndex": 29,
-            "endIndex": 47
+            "beginIndex": 55,
+            "endIndex": 73
           },
           {
             "text": "Applied Physics",
-            "uri": "https://en.wikipedia.org/wiki/Physics_at_Harvard_University",
-            "beginIndex": 51,
-            "endIndex": 66
+            "uri": "https://en.wikipedia.org/wiki/Applied_physics",
+            "beginIndex": 77,
+            "endIndex": 92
           }
         ],
         "error": null
@@ -6918,19 +6041,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "Here is the text with named entities tagged:\n\nIn 1952, [START_ENT]Martti Ahtisaari[END_ENT] moved to [START_ENT]Oulu[END_ENT] with his family to seek employment. Then he continued his education in high school, graduating in 1952. He also joined the local [START_ENT]YMCA[END_ENT].",
         "entities": [
           {
-            "text": "Martti Ahtisaari",
+            "text": "martti ahtisaari",
             "uri": "https://en.wikipedia.org/wiki/Martti_Ahtisaari",
-            "beginIndex": 9,
-            "endIndex": 25
+            "beginIndex": 55,
+            "endIndex": 71
           },
           {
-            "text": "Oulu",
+            "text": "oulu",
             "uri": "https://en.wikipedia.org/wiki/Oulu",
-            "beginIndex": 35,
-            "endIndex": 39
+            "beginIndex": 918,
+            "endIndex": 922
+          },
+          {
+            "text": "ymca",
+            "uri": "https://en.wikipedia.org/wiki/YMCA",
+            "beginIndex": 1757,
+            "endIndex": 1761
           }
         ],
         "error": null
@@ -6979,19 +6108,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "As a [START_ENT]Christian minister[END.Ent], the activist's main influence was [START_ENT]Jesus Christ[END_Ent] and the [START_ENT]Christian gospels[END Ent], which he would almost always quote in his religious meetings, speeches at [START_ENT]church[END.Ent], and in public discourses.",
         "entities": [
           {
+            "text": "Christian minister",
+            "uri": "https://en.wikipedia.org/wiki/Christian_minister",
+            "beginIndex": 5,
+            "endIndex": 23
+          },
+          {
             "text": "Jesus Christ",
-            "uri": "https://en.wikipedia.org/wiki/Jesus",
-            "beginIndex": 59,
-            "endIndex": 71
+            "uri": "https://en.wikipedia.org/wiki/Jesus_Christ",
+            "beginIndex": 68,
+            "endIndex": 80
           },
           {
             "text": "Christian gospels",
-            "uri": "https://en.wikipedia.org/wiki/Christian_gospels",
-            "beginIndex": 80,
-            "endIndex": 97
+            "uri": "https://en.wikipedia.org/wiki/Biblical_gospels",
+            "beginIndex": 98,
+            "endIndex": 115
           }
         ],
         "error": null
@@ -7046,27 +6181,8 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
-        "entities": [
-          {
-            "text": "Yamanaka",
-            "uri": "https://en.wikipedia.org/wiki/Yamanaka",
-            "beginIndex": 23,
-            "endIndex": 31
-          },
-          {
-            "text": "Shuichi Hirata",
-            "uri": "https://en.wikipedia.org/wiki/Shuichi_Hirata",
-            "beginIndex": 166,
-            "endIndex": 180
-          },
-          {
-            "text": "National Osaka Hospital",
-            "uri": "https://en.wikipedia.org/wiki/National_Osaka_Hospital",
-            "beginIndex": 76,
-            "endIndex": 99
-          }
-        ],
+        "ner_output": "For the given sentence:\n'Between 1987 and 1989, Yamanaka was a resident in orthopedic surgery at the National Osaka Hospital. His first operation was to remove a benign tumor from his friend Shuichi Hirata, a task he could not complete after one hour.'\n\nHere is the text with named entities surrounded by [START_ENT] and [END_ENT] tags:\n\nBetween 1987 and 1989, Yamanaka was a resident in orthopedic surgery at the [START_ENT]National Osaka Hospital[END.Ent]. His first operation was to remove a benign tumor from his friend [START_ENT]Shuichi Hirata[END_Ent], a task he could not complete after one hour.",
+        "entities": [],
         "error": null
       }
     },
@@ -7137,37 +6253,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'Quasimodo was born in Modica, Sicily to Gaetano Quasimodo and Clotilde Ragusa. In 1908 his family moved to Messina, as his father had been sent there to help the population struck by a devastating earthquake.'\n\n[START_ENT]Quasimodo[END_ENT], [START_ENT]Gaetano Quasimodo[END_ENT], [START_ENT]Clotilde Ragusa[END_ENT], [START_ENT]Messina[END_ENT], [START_ENT]Sicily[END_ENT], [START_ENT]Jon[END_ENT], [START_ENT]Earthquake[END_ENT]",
         "entities": [
           {
-            "text": "Quasimodo",
-            "uri": "https://en.wikipedia.org/wiki/Notre-Dame_de_paris#History",
-            "beginIndex": 0,
-            "endIndex": 9
-          },
-          {
-            "text": "Modica",
-            "uri": "https://en.wikipedia.org/wiki/Modica",
-            "beginIndex": 22,
-            "endIndex": 28
+            "text": "Quasimodo was born in Modica, Sicily to Gaetano Quasimodo and Clotilde Ragusa.",
+            "uri": "https://en.wikipedia.org/wiki/Quasimodo_(disambiguation)",
+            "beginIndex": 25,
+            "endIndex": 103
           },
           {
             "text": "Gaetano Quasimodo",
-            "uri": "https://en.wikipedia.org/wiki/Notre-Dame_de_paris#History",
-            "beginIndex": 40,
-            "endIndex": 57
+            "uri": "https://en.wikipedia.org/wiki/Gaetano_Fichera",
+            "beginIndex": 1179,
+            "endIndex": 1196
           },
           {
             "text": "Clotilde Ragusa",
-            "uri": "https://en.wikipedia.org/wiki/Ragusa_(Italian_family_name)",
-            "beginIndex": 62,
-            "endIndex": 77
-          },
-          {
-            "text": "Messina",
-            "uri": "https://en.wikipedia.org/wiki/Messina",
-            "beginIndex": 107,
-            "endIndex": 114
+            "uri": "https://en.wikipedia.org/wiki/List_of_people_from_Sicily",
+            "beginIndex": 2029,
+            "endIndex": 2044
           }
         ],
         "error": null
@@ -7228,25 +6332,19 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'An international lobbied for his release, which was granted in 1990 amid escalating civil strife. Mandela joined negotiations with [START_ENT]Nationalist President F. W. de Klerk[END.Ent] to abolish apartheid and establish multiracial elections in 1994, in which he led the [START_ENT]ANC[END_ENT] to victory and became South Africa's first black president.'\n\nbecomes\n'An international lobbied for his release, which was granted in 1990 amid escalating civil strife. Mandela joined negotiations with [START_ENT]Nationalist President F. W. de Klerk[END_ENT] to abolish apartheid and establish multiracial elections in 1994, in which he led the [START_ENT]ANC[END_ENT] to victory and became South Africa's first black president.'\n\n Note: I have excluded some proper nouns from the text as per your request.",
         "entities": [
           {
+            "text": "Mandela",
+            "uri": "https://en.wikipedia.org/wiki/Nelson_Mandela",
+            "beginIndex": 123,
+            "endIndex": 130
+          },
+          {
             "text": "ANC",
-            "uri": "https://en.wikipedia.org/wiki/African_National_Conditioning",
-            "beginIndex": 254,
-            "endIndex": 257
-          },
-          {
-            "text": "South Africa",
-            "uri": "https://en.wikipedia.org/wiki/South_Africa",
-            "beginIndex": 280,
-            "endIndex": 292
-          },
-          {
-            "text": "F. W. de Klerk",
-            "uri": "https://en.wikipedia.org/wiki/F._W._de_Klerk",
-            "beginIndex": 153,
-            "endIndex": 167
+            "uri": "https://en.wikipedia.org/wiki/African_National_Congress",
+            "beginIndex": 279,
+            "endIndex": 282
           }
         ],
         "error": null
@@ -7331,31 +6429,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For Albert Modiano (1912–77, born in Paris), was of Italian Jewish origin; on his paternal side he was descended from a Sephardic family of Thessaloniki, Greece. His mother, Louisa Colpijn (1918-2015), was an actress also known as Louisa Colpeyn.\n\n[START_ENT]Albert Modiano[END_ENT] ([START_ENT]1912–77[END_ENT], born in [START_ENT]Paris[END_ENT]), was of Italian Jewish origin; on his paternal side he was descended from a Sephardic family of [START_ENT]Thessaloniki, Greece[END_ENT]. His mother, [START_ENT]Louisa Colpijn[END_ENT] ([START.Ent]1918-2015[END.Ent]), was an actress also known as [START_ENT]Louisa Colpeyn[END_ENT].",
         "entities": [
           {
             "text": "Albert Modiano",
-            "uri": "https://en.wikipedia.org/wiki/Albert_Modiano",
-            "beginIndex": 0,
-            "endIndex": 14
+            "uri": "https://en.wikipedia.org/wiki/Patrick_Modiano",
+            "beginIndex": 4,
+            "endIndex": 18
           },
           {
             "text": "Thessaloniki",
-            "uri": "https://en.wikipedia.org/wiki/Thessaloniki",
-            "beginIndex": 136,
-            "endIndex": 148
+            "uri": "https://en.wikipedia.org/wiki/History_of_the_Jews_in_Thessaloniki",
+            "beginIndex": 140,
+            "endIndex": 152
           },
           {
             "text": "Paris",
             "uri": "https://en.wikipedia.org/wiki/Paris",
-            "beginIndex": 33,
-            "endIndex": 38
-          },
-          {
-            "text": "Louisa Colpijn",
-            "uri": "https://en.wikipedia.org/wiki/Louisa_Colpijn",
-            "beginIndex": 170,
-            "endIndex": 184
+            "beginIndex": 855,
+            "endIndex": 860
           }
         ],
         "error": null
@@ -7410,31 +6502,25 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "For the given sentence:\n'From 1963 until 1965, Akira Suzuki worked as a postdoctoral student with Herbert Charles Brown at Purdue University and after returning to the University of Hokkaidō he became a professor.'\n\n[START_ENT]Purdue University[END_ENT], [START_ENT]Hokkaidō[END_ENT], [START_ENT]Herbert Charles Brown[END_ENT], [START_ENT]Akira Suzuki[END_ENT].",
         "entities": [
           {
-            "text": "Akira Suzuki",
-            "uri": "https://en.wikipedia.org/wiki/Akira_Suzuki_(chemist)",
-            "beginIndex": 22,
-            "endIndex": 34
+            "text": "Purdue University",
+            "uri": "https://en.wikipedia.org/wiki/Purdue_University",
+            "beginIndex": 123,
+            "endIndex": 140
+          },
+          {
+            "text": "Hokkaido",
+            "uri": "https://en.wikipedia.org/wiki/Hokkaido",
+            "beginIndex": 1208,
+            "endIndex": 1216
           },
           {
             "text": "Herbert Charles Brown",
             "uri": "https://en.wikipedia.org/wiki/Herbert_C._Brown",
-            "beginIndex": 73,
-            "endIndex": 94
-          },
-          {
-            "text": "Purdue University",
-            "uri": "https://en.wikipedia.org/wiki/Purdue_University",
-            "beginIndex": 98,
-            "endIndex": 115
-          },
-          {
-            "text": "University of Hokkaidō",
-            "uri": "https://en.wikipedia.org/wiki/University_of_Hokkaid%C5%9F",
-            "beginIndex": 143,
-            "endIndex": 165
+            "beginIndex": 1943,
+            "endIndex": 1964
           }
         ],
         "error": null
@@ -7477,7 +6563,7 @@
         }
       ],
       "predicted": {
-        "ner_output": null,
+        "ner_output": "In 1973, David Gross, working with his first graduate student, Frank Wilczek, at Princeton University, discovered asymptotic freedom, which holds that the closer quarks are to each other, the less the strong interaction (or color charge) is between them.",
         "entities": [
           {
             "text": "David Gross",
@@ -7496,12 +6582,6 @@
             "uri": "https://en.wikipedia.org/wiki/Princeton_University",
             "beginIndex": 81,
             "endIndex": 101
-          },
-          {
-            "text": "quarks",
-            "uri": "https://en.wikipedia.org/wiki/Quark_(particle)",
-            "beginIndex": 162,
-            "endIndex": 168
           }
         ],
         "error": null
